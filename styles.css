@@ -1,0 +1,13 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    size: 40px;
+    background-color:floralwhite;
+}
+.a{
+font-size: 30px;
+flex: 1;
+flex-direction: unset;
+align-items: center;
+column-width: auto;
+border: 1px;
+}
