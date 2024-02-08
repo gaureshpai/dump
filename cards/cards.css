@@ -1,0 +1,55 @@
+        body {
+            background-color: #1a1a1a;
+            /* Change background color */
+            font-family: Arial, sans-serif;
+            /* Add font family */
+            text-align: center;
+            /* Center content horizontally */
+            padding-top: 50px;
+            /* Add top padding */
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: center;
+            /* Center items horizontally */
+            flex-wrap: wrap;
+            /* Allow items to wrap */
+            gap: 20px;
+            /* Add gap between cards */
+        }
+
+        .card {
+            margin-left: -50px;
+            width: 150px;
+            /* Increase card width */
+            height: 200px;
+            /* Increase card height */
+            padding: 20px;
+            /* Increase padding */
+            background-color: #ffffff;
+            /* White background color */
+            border-radius: 10px;
+            /* Add border radius */
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+            /* Add box shadow */
+            transition: transform 0.3s ease;
+            /* Add transition effect */
+            cursor: pointer;
+            /* Change cursor to pointer */
+        }
+
+        .card:nth-child(odd) {
+            background-color: #B881FF;
+            /* Change odd card background color */
+        }
+
+        .card:nth-child(even) {
+            background-color: #FF9940;
+            /* Change even card background color */
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            /* Move card up on hover */
+        }
