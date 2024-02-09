@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Survey Form</h1>
+    </header>
+
+    <div class="content">
+        <form>
+            <div class="marginfix1">
+                <strong>Personal Details</strong>
+            </div>
+            <table class="marginfix1">
+                <tr>
+                    <td class="marginfix2">Name:</td>
+                    <td class="marginfix3"><input type="text" placeholder="Enter your name" name="name" required></td>
+                </tr>
+                <tr>
+                    <td class="marginfix2">Address:</td>
+                    <td class="marginfix3"><input type="text" placeholder="Enter your address" name="address" required></td>
+                </tr>
+                <tr>
+                    <td class="marginfix2">Email:</td>
+                    <td class="marginfix3"><input type="email" placeholder="Enter your email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td class="marginfix2">Number:</td>
+                    <td class="marginfix3"><input type="number" placeholder="Enter your number" name="number" required></td>
+                </tr>
+            </table>
+            <div class="marginfix1">
+                Please select your gender:
+            </div>
+            <table class="marginfix1">
+                <tr>
+                    <td class="marginfix2"><input type="radio" name="gender" value="m">Male</td>
+                </tr>
+                <tr>
+                    <td class="marginfix2"><input type="radio" name="gender" value="f">Female</td>
+                </tr>
+                <tr>
+                    <td class="marginfix2"><input type="radio" name="gender" value="o">Prefer Not to Say</td>
+                </tr>
+            </table>
+            <hr class="headline">
+            <div class="marginfix1">
+                Additional Information
+            </div>
+            <table class="headline">
+                <tr>
+                    <td class="marginfix5">
+                        <textarea name="additionalInfo" placeholder="Enter additional information" required></textarea>
+                    </td>
+                </tr>
+            </table>
+            <table class="marginfix4">
+                <tr>
+                    <td>
+                        <input type="submit">
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <hr class="headline">
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Survey Form</p>
+    </footer>
+</body>
+
+</html>
