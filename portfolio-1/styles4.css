@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap);
+body{
+margin: auto;
+color: #000000;
+Margin-left: 20px;
+Margin-right:20px;
+}
+.header{
+}
+.face{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+.title{
+align-items: center;
+padding-top: 0%;
+padding: 10px;
+}
+.colar{
+color:rgb(63, 1, 1);
+margin-left:1px;
+}
+.qu{
+letter-spacing: 2;
+margin-left: 472px;
+}
+.headline{
+border:  rgb(20, 18, 17);
+border-style: ridge;
+}
+.marginfix{
+margin-top: 25px;
+display: table-cell;
+border: 2px solid black; /* Add border or other styling as needed */
+padding: 10px; 
+display: table;
+width: 100%;
+}
+.a1{
+flex: 1;
+font-size: 30px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+margin-top: 15px;
+margin-right: 20px;
+}
+.b1{
+flex: 1;
+text-align: center;
+   
+}
+.b2{
+flex: 1;
+font-size: 20px;
+margin-left: 20px;
+line-height:25px;
+}
+.THANKYOU{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+text-align: center;
+}
+.header1{
+    text-align: center;
+    }
+td{
+
+    text-align: left;
+    padding: 8px;
+}
+.name{
+
+    font-size: 20px;
+    display: block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: initial;
+    text-decoration: none;
+    color: black;
+}

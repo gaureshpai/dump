@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+body{
+font-family: "Montserrat", sans-serif;
+margin: auto;
+color: #000000;
+letter-spacing: 1px;
+max-width: 960px;
+    Margin-left:20px;
+    Margin-right:20px;
+}
+.header{
+    display: flex;
+}
+.face{
+    flex: 1;
+    margin-top: 20px;
+    object-fit: cover;
+    border-radius: 3%;
+}
+.title{
+    align-items: center;
+}
+.name{
+    color:grey;
+    margin-left: 465px;
+}
+.name1{
+    font-size: larger15px;
+    margin-left: 462px;
+}
+.qu{
+    letter-spacing: 2;
+    margin-left: 472px;
+}
+.headline{
+    border: 2px solid rgb(20, 18, 17);
+    width: 100%;
+    line-height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.marginfix{
+    margin-top: 25px;
+}
+.a1{
+flex: 1;
+font-size: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+margin-top: 15px;
+color: blueviolet;
+}
+.b1{
+    flex: 2;
+    font-size: 18px;
+    color: rgb(205, 10, 182);
+    font-style: bold;
+    margin-left: 20px;
+   line-height:25px;
+}
+.THANKYOU{
+    font-size: 20px;
+    flex: 1;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: purple;
+    margin-left: 300px;
+}

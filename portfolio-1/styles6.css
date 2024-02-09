@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+body{
+font-family: "Montserrat", sans-serif;
+margin: auto;
+color: #000000;
+Margin-left:20px;
+Margin-right:20px;
+}
+.header{
+    display: flex;
+    align-items: center;
+}
+.face{
+    flex: 1;
+    margin-top: 20px;
+    object-fit: cover;
+    border-radius: 3%;
+}
+.title{
+    align-items: center;
+    font-size: 45px;
+}
+.name{
+    margin-left: 4px;
+}
+.name1{
+    font-size: 45px;
+    margin-left: 462px;
+}
+.qu{
+    letter-spacing: 2;
+    margin-left: 472px;
+}
+.headline{
+    border: 2px solid rgb(20, 18, 17);
+}
+.marginfix{
+    margin-top: 12px;
+}
+.a1{
+flex: 1;
+font-size: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+margin-top: 10px;
+margin-right: 10px;
+}
+.b1{
+    flex: 1;
+    font-size: 18px;
+    font-style: bold;
+    margin-left: 20px;
+   line-height:25px;
+}
+.b2{
+    flex: 1;
+    font-size: 18px;
+    color: rgb(17, 17, 15);
+    margin-left: 10px;
+   line-height:25px;
+}
+.b3{
+    flex: 1;
+    font-size: 18px;
+    color: rgb(17, 17, 15);
+    margin-left: 10px;
+    margin-right:20px;
+   line-height:25px;
+}
+.b4{
+    flex: 1;
+    font-size: 18px;
+    color: rgb(17, 17, 15);
+    margin-left: 20px;
+    margin-right:20px;
+   line-height:25px;
+}
+.THANKYOU{
+    font-size: 20px;
+    margin-left: 299px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.names{
+    font-size: 24px;
+}
+.marginfix1{
+    margin-top: 30px;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.name{
+
+    font-size: 20px;
+    display: block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: initial;
+    text-decoration: none;
+    color: black;
+}
+.colar2{
+    
+    font-size: 20px;
+    display: block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: initial;
+    text-decoration: none;
+    color: black;
+}

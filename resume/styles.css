@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+body
+{
+font-family: "Montserrat",sans-serif;
+max-width: 50%;
+margin: auto;
+color: #333;
+}
+.header{
+    display: flex;
+    align-items: center;
+}
+.face{
+    width:150px;
+    height:150px;
+    object-fit:cover;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.title{
+    flex: 1;
+    margin-left:20px ;
+}
+.name{
+    color:grey;
+}
+.colar{
+    color:coral;
+}
+.qu{
+    letter-spacing: 2;
+}
+.hrline{
+    border: 1px solid coral;
+}
+.colar2{
+    color:coral;
+    min-width: 300px;
+    font-size: 22px;
+    display: block;
+}
+.marginfix{
+    margin-top: 25px;
+}
+.sname{
+    font-size: 20px;
+    line-height: 25px;
+}
+.stype{
+    font-weight: 300;
+    font-style: italic;
+    line-height: 25px;
+}
+.sdes{
+margin-top: 10px;
+}

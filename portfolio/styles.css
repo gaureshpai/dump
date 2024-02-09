@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+body{
+font-family: "Montserrat", sans-serif;
+margin: auto;
+color: #000000;
+Margin-left:20px;
+Margin-right:20px;
+}
+.header{
+    display: flex;
+    align-items: centre;
+}
+.face{
+
+    object-fit:cover;
+    margin-top: 20px;
+}
+.title{
+    flex:1;
+    margin: left 30px ;
+    max-width: max-content;
+}
+.name{
+    color:cornflowerblue;
+}
+.colar{
+    color:coral;
+}
+.qu{
+    letter-spacing: 2;
+}
+.hrline{
+    border: 1px solid coral;
+}
+.colar2{
+    color:rgb(180, 1, 132);
+    font-size: 20px;
+    display: block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: initial;
+}
+.marginfix{
+    margin-top: 30px;
+}
+.sname{
+    font-size: 20px;
+    line-height: 25px;
+}
+.stype{
+    font-weight: 300;
+    font-style: italic;
+    line-height: 25px;
+}
+.sdes{
+margin-top: 10px;
+}
+.THANKYOU{
+    font-size: 20px;
+    margin-left: 44%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: purple;
+}
+.border{
+width: auto;
+
+}
