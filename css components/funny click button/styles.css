@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    width: 350px;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    background-color: #00a3c4;
+    padding: 7px;
+    width: 120px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+}
+
+button:hover {
+    left: 54%;
+}
