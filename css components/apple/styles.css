@@ -1,0 +1,37 @@
+.apple {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5ecf4;
+}
+
+.ringo {
+    background-color: #a7d28d;
+    width: 150px;
+    height: 150px;
+    border-radius: 36% 36% 41% 41% / 42% 42% 75% 75%;
+    position: relative;
+}
+
+.leaf {
+    background-color: #47cf73;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px 3px;
+    position: relative;
+    left: 20px;
+    z-index: 3;
+    margin-bottom: -7px;
+}
+
+.top {
+    background-color: #f5ecf4;
+    width: 40px;
+    height: 20px;
+    border-radius: 100%;
+    margin: -6px;
+    z-index: 2;
+}
