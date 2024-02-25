@@ -1,0 +1,115 @@
+ /* Reset and General Styles */
+ body {
+     font-family: Arial, sans-serif;
+     background-color: #f4f4f4;
+     margin: 0;
+     padding: 0;
+ }
+
+ /* Header Styles */
+ .header {
+     background-color: #333;
+     color: #fff;
+     text-align: center;
+     padding: 20px 0;
+ }
+
+ /* Menu Styles */
+ .menu {
+     list-style-type: none;
+     text-align: center;
+     padding: 0;
+ }
+
+ .menu li {
+     display: inline;
+     margin: 0 10px;
+ }
+
+ .menu a {
+     text-decoration: none;
+     color: #333;
+     font-size: 18px;
+ }
+
+ .menu a:hover {
+     color: #8a2be2;
+ }
+
+ /* Content Styles */
+ .content {
+     max-width: 800px;
+     margin: 20px auto;
+     padding: 20px;
+     background-color: #fff;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+
+ /* Hidden Content Styles */
+ .hidden-content {
+     display: none;
+ }
+
+ .hidden-content:target {
+     display: block;
+ }
+
+ /* Information Table Styles */
+ .info {
+     margin-top: 30px;
+     border-collapse: collapse;
+     width: 100%;
+ }
+
+ .info td {
+     border: 1px solid #ddd;
+     padding: 10px;
+     font-size: 18px;
+     line-height: 1.6;
+     /* Adjust the line height */
+ }
+
+ .info .a1 {
+     font-weight: bold;
+     background-color: #f8f8f8;
+ }
+
+ /* Section Title Styles */
+ .section-title {
+     font-size: 24px;
+     font-weight: bold;
+     color: #333;
+     margin-bottom: 10px;
+     line-height: 1.6;
+     /* Adjust the line height */
+ }
+
+ /* School Name and Details Styles */
+ .school-name {
+     font-size: 20px;
+     font-weight: bold;
+     color: #333;
+     margin-bottom: 5px;
+     line-height: 1.6;
+     /* Adjust the line height */
+ }
+
+ .details {
+     font-size: 18px;
+     color: #666;
+     margin-bottom: 5px;
+     line-height: 1.6;
+     /* Adjust the line height */
+ }
+
+ /* Link Styles */
+ .link {
+     text-decoration: none;
+     color: #8a2be2;
+     line-height: 1.6;
+     /* Adjust the line height */
+ }
+
+ .link:hover {
+     text-decoration: underline;
+ }
