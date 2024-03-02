@@ -1,7 +1,6 @@
 from turtle import Turtle, Screen
 import datetime
 
-# get the current time and convert to the hand's angles
 wn = Screen()
 wn.title("Clock")
 wn.bgcolor("saddlebrown")
