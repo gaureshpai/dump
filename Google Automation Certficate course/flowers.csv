@@ -1,0 +1,6 @@
+name,color,type
+carnation,pink,annual
+daffodil,yellow,perennial
+iris,blue,perennial
+poinsettia,red,perennial
+sunflower,yellow,annual

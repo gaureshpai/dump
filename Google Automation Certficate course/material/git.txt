@@ -1,0 +1,397 @@
+Study guide: Git
+In any Git project, there are three sections: 
+the Git directory,
+the working tree,
+and the staging area. 
+This study guide provides some basic concepts and commands that can help you get 
+started with Git as well as guidelines to help you write an effective commit message.
+
+Git config command
+The Git config command is used to set the values to identify who made changes to Git repositories.
+ To set the values of user.email and user.name to your email and name, type: 
+
+: ~$ git config  - -global user.email “me@example.com”
+
+: ~$ git config  - -global user.name “My name”
+
+Git init command
+: ~/checks$ git init
+
+The Git init command can create a new empty repository in a current directory or re-initialize an existing one. 
+
+Git ls -la command
+: ~/checks$ ls -la
+
+The Git ls - la command checks that an identified directory exists.
+
+: ~/checks$ ls -l .git/
+
+The ls-l.git command checks inside the directory to see the different things that it contains.
+This is called the Git directory. The Git directory is a database for your Git project that stores the changes and the change history.
+
+Git add command
+:~/checks$ git add disk_usage.py
+
+Using the Git add command allows Git to track your file and uses the selected file as a parameter when adding it to the staging area.
+The staging area is a file maintained by Git that contains all the information about what files and changes are going to go into your next commit.
+
+Git status command
+:~/checks$ git status
+
+The Git status command is used to get some information about the current working tree and pending changes.
+
+Git commit command
+:~/checks$ git commit
+
+The .git commit command is run to remove changes made from the staging area to the .git directory.
+When this command is run, it tells Git to save changes. 
+A text editor is opened that allows a commit message to be entered.
+
+Guidelines for writing commit messages
+A commit message is generally broken into two sections: a short summary and a description of the changes.
+When the git commit command is run, Git will open a text editor to write your commit message.
+A good commit message includes the following:
+
+Summary: The first line contains the summary, formatted as a header, containing 50 characters or less. 
+
+Description: The description is usually kept under 72 characters and provides detailed information about the change. 
+It can include references to bugs or issues that will be fixed with the change.
+It also can include links to more information when relevant. 
+
+..............................................................................................................................
+
+Commit: A command to make edits to multiple files and treat that collection of edits as a single change
+
+Commit files: A stage where the changes made to files are safely stored in a snapshot in the Git directory
+
+Commit message: A summary and description with contextual information on the parts of the code or configuration of the commit change
+
+Diff: A command to find the differences between two files
+
+DNS zone file: A configuration file that specifies the mappings between IP addresses and host names in your network
+
+Git: A free open source version control system available for installation on Unix based platforms, Windows and macOS
+
+Git directory: A database for a Git project that stores the changes and the change history
+
+Git log: A log that displays commit messages 
+
+Git staging area: A file maintained by Git that contains all the information about what files and changes are going to go into the next commit
+
+Modified files: A stage where changes have been made to a file, but the have not been stored or committed 
+
+Patch: A command that can detect that there were changes made to the file and will do its best to apply the changes
+
+Repository: An organization system of files that contain separate software projects 
+
+Source Control Management (SCM): A tool similar to VCS to store source code
+
+Stage files: A stage where the changes to files are ready to be committed 
+
+Tracked: A file’s changes are recorded
+
+Untracked: A file’s changes are not recorded
+
+Version control systems (VCS): A tool to safely test code before releasing it, 
+                              allow multiple people collaborate on the same coding projects together, 
+                              and stores the history of that code and configuration
+                            
+..............................................................................................................................
+
+
+Command         Explanation & Link
+git commit -a   $ git commit -a automatically stages the files that have been locally modified. New files which have not been published yet are not affected.
+
+git log -p      $ git log -p produces patch text. A patch file is used to share your local changes with others without pushing your changes to the main branch of the repo.
+
+git shows       $ git show shows you one or more object(s) such as blobs, trees, tags, and commits.
+
+git Diff        $ git diff is similar to the Linux `diff` command, and can show the changes between commits, changes between the working tree and index, changes between two trees, changes from a merge, and so on.
+
+git diff --staged       $ git diff --staged is an alias of $ git diff --cached, which  shows all staged files compared to the named commit.
+
+git add -parameter  $ git add -p    allows a user to interactively review patches before adding to the current commit.
+
+git move        $ git mv    is similar to the Linux `mv` command. This command can move or rename a file, directory, or symlink.
+
+git remove      $ git rm    is similar to the Linux `rm` command. This command deletes or removes a file from the working tree.
+
+.gitignore files
+.gitignore files are used to tell the git tool to intentionally ignore some files in a given Git repository. 
+For example, this can be useful for configuration files or metadata files that a user may not want to check into the master branch. 
+
+..............................................................................................................................
+
+Study guide: Git Revert
+When writing and committing code, making mistakes is a common occurrence.
+Thankfully, there are multiple ways for you to revert or undo your mistakes. Take a look at the helpful commands below.
+
+git checkout is used to switch branches. 
+For example, you might want to pull from your main branch. 
+In this case, you would use the command git checkout main. 
+This will switch to your main branch, allowing you to pull. 
+Then you could switch to another branch by using the command  git checkout <branch>.
+
+git reset can be somewhat difficult to understand. 
+Say you have just used the command git add. 
+to stage all of your changes, but then you decide that you are not ready to stage those files. 
+You could use the command git reset to undo the staging of your files.
+
+There are some other useful articles online, which discuss more aggressive approaches to resetting the repo(Git repository). 
+As discussed in this article, doing a hard reset can be extremely dangerous. 
+With a hard reset, you run the risk of losing your local changes. 
+There are safer ways to achieve the same effect. 
+For example, you could run git stash, which will temporarily shelve or stash your current changes. 
+This way, your current changes are kept safe, and you can come back to them if needed.
+
+git commit --amend is used to make changes to your most recent commit after-the-fact, 
+which can be useful for making notes about or adding files to your most recent commit. 
+Be aware that this git --amend command rewrites and replaces your previous commit, so it is best not to use this command on a published commit.
+
+git revert makes a new commit which effectively rolls back a previous commit. 
+Unlike the git reset command which rewrites your commit history, 
+the git revert command creates a new commit which undoes the changes in a specific commit. 
+Therefore, a revert command is generally safer than a reset command.
+
+For more information on these and other methods to undo something in Git, checkout this 
+Git Basics - Undoing Things article.
+
+Additionally, there are some interesting considerations about how git object data is stored, such as the usage of SHA-1.
+
+SHA-1 is what’s known as a hash function, a cryptographic function that generates a digital fingerprint of a file. 
+Theoretically, it’s impossible for two different files to have the same SHA-1 hash, which means that SHA-1 can be used for two things:
+
+Confirming that the contents of a file have not changed (digital signature).
+
+Serving as an identifier for the file itself (a token or fingerprint).
+
+Git calculates a hash for every commit. Those hashes are displayed by commands like git log or in various pages on Github. 
+For commands like git revert, you can then use the hash to refer to a specific commit.
+
+..............................................................................................................................
+
+git branch
+
+Command                     Explanation & Link
+
+$ git branch                can be used to list, create, or delete branches.
+
+git branch <name>           $ git branch <name> can be used to create a new branch in your repository. 
+
+git branch -d <name>        $ git branch -d <name> can be used to delete a branch from your repository.
+
+git branch -D <name>        $ git branch -D <branch> forces a branch to be deleted.
+
+git checkout <branch>       $ git checkout <branch> switches your current working branch.
+
+git checkout -b <new-branch>$ git checkout -b <new-branch creates a new branch and makes it your current working branch. 
+
+git merge <branch>          $ git merge <branch> joins changes from one branch into another branch.
+
+git merge --abort           $ git merge --abort can only be used after merge conflicts. 
+                            This command will abort the merge and try to go back to the pre-merge state.
+
+git log --graph             $ git log --graph prints an ASCII graph of the commit and merge history.
+
+git log --oneline           $ git log --oneline prints each commit on a single line.
+
+....................................................................................
+
+Branch: A pointer to a particular commit, representing an independent line of development in a project
+
+Commit ID: An identifier next to the word commit in the log
+
+Fast-forward merge: A merge when all the commits in the checked out branch are also in the branch that's being merged
+
+Head: This points to the top of the branch that is being used
+
+Master: The default branch that Git creates for when a new repository initialized, commonly used to place the approved pieces of a project
+
+Merge conflict: This occurs when the changes are made on the same part of the same file, and Git won't know how to merge those changes
+
+Rollback: The act of reverting changes made to software to a previous state 
+
+Three-way merge: A merge when the snapshots at the two branch tips with the most recent common ancestor, the commit before the divergence
+
+Branch: A pointer to a particular commit, representing an independent line of development in a project
+
+Commit ID: An identifier next to the word commit in the log
+
+Fast-forward merge: A merge when all the commits in the checked out branch are also in the branch that's being merged
+
+Head: This points to the top of the branch that is being used
+
+Master: The default branch that Git creates for when a new repository initialized, commonly used to place the approved pieces of a project
+
+Merge conflict: This occurs when the changes are made on the same part of the same file, and Git won't know how to merge those changes
+
+Rollback: The act of reverting changes made to software to a previous state 
+
+Three-way merge: A merge when the snapshots at the two branch tips with the most recent common ancestor, the commit before the divergence
+
+
+....................................................................................
+
+Command                     Explanation & Links
+
+git remote  $ git remote    allows you to manage the set of repositories or “remotes” whose branches you track.
+
+git remote -v   $ git remote -v is similar to $ git remote, but adding the -v shows more information such as the remote URL.
+
+git remote show <name>  $ git remote show <name>    shows some information about a single remote repo.
+
+git remote update   $ git remote update fetches updates for remotes or remote groups.
+
+git fetch   $ git fetch can download objects and refs from a single repo, a single URL, or from several repositories at once.
+
+git branch -r   $ git branch -r lists remote branches and can be combined with other branch arguments to manage remote branches
+
+....................................................................................
+
+Application Programming Interface (API) key: This is an authentication token that calls an API, 
+                                            which is then called to identify the person, programmer, 
+                                            or program trying to access a website
+
+Computer protocols: Guidelines published as open standards so that any given protocol can be implemented in various products
+
+Distributed: Each developer has a copy of the whole repository on their local machine
+
+GitHub: A web-based Git repository hosting service, 
+        allowing users to share and access repositories on the web and copy or clone them to a local computer
+
+Merge: An operation that merges the origin/master branch into a local master branch
+
+Private key: A secret and secure cryptographic key that must be kept confidential and 
+             protected and is used to decrypt data that has been encrypted with the corresponding public key
+
+Public key: A safety cryptographic structure frequently employed to establish secure communication through data encryption or 
+            to validate the authenticity of a digital signature
+
+Rebasing: The base commit that's used for a branch is changed
+
+Remote branches: Git uses read-only branches to keep copies of the data that's stored in the remote repository
+
+Remote repositories: Repositories that allow developers to contribute to a project from their own workstations making changes to
+       local copies of the project independently of one another
+
+Secure Shell (SSH): A robust protocol for connecting to servers remotely
+
+SSH client: This  establishes a connection to the SSH server, ensuring a secure interaction, where the client makes access requests
+
+SSH key: An access credential
+
+SSH protocol: Standard commonly used for logging in to servers remotely on the principle of public-key encryption
+
+SSH server: This establishes secure network connections, undergoes mutual authentication, and initiates encrypted login sessions or file transfers
+
+....................................................................................
+
+Study guide: Git forks and pull requests
+GitHub is an open-source platform for collaboration and knowledge sharing, allowing users to explore code created by others. 
+       This study guide will provide you with pointers on effectively using the platform to make pull requests in the Git environment.
+
+Pull requests
+Pull requests allow you to inform fellow contributors about changes that have been made to a branch in Git.
+When pulling requests, you can discuss and evaluate proposed changes before implementing changes to the primary branch.
+
+You can eventually merge changes back into the main repository (or repo) by creating a pull request. 
+However, it is important to note that before any changes are made to the original code, 
+GitHub creates a fork (or a copy of the project), 
+which allows changes to be committed to the fork copy even if changes cannot be pushed to the other repo. 
+Anyone can suggest changes through the inline comment in pull requests, 
+but the owner only has rights to review and approve changes before merging them. To create a pull request:
+
+Make changes to the file.
+
+Change the proposal and complete a description of the change.
+
+Click the Proposed File Change button to create a commit in the forked repo to send the change to the owner.
+
+Enter comments about the change. If more context is needed about the change, use the text box.
+
+Click Pull Request.
+
+When creating multiple commits, a number next to the pull request serves as the identifier for accessing the pull requests in the future. 
+This is important because it allows project maintainers to follow up with questions or comments.  
+
+For more information on creating pull requests, click the following link: 
+Creating a pull request 
+
+Pull request merges
+
+You can merge pull requests by retaining the commits. 
+Below is a list of pull request merge options that you can use when merging pull requests.
+
+Merge commits. All commits from the feature branch are added to the base branch in a merge commit using the -- no–ff option. 
+
+Squash and merge commits. Multiple commits of a pull request are squashed, or combined into a single commit, using the fast-forward option. 
+It is recommended that when merging two branches, pull requests are squashed and merged to prevent the likelihood of conflicts due to redundancy.
+
+Merge message for a squash merge. GitHub generates a default commit message, which you can edit. 
+This message may include the pull request title, pull request description, or information about the commits.
+
+Rebase and merge commits. All commits from the topic branch are added onto the base branch individually without a merge commit. 
+
+Indirect merges. GitHub can merge a pull request automatically if the head branch is directly or indirectly merged into the base branch externally.
+
+Key takeaways
+Pull requests are a crucial tool you can use for efficiently capturing, implementing, and receiving approvals for changes. 
+These capabilities are made possible through collaboration. Practicing pull requests can help you hone your skills and contribute to a project.
+
+....................................................................................
+
+CI/CD: The name for the entire continuous integration and continuous deployment system
+
+Code reviews: The deliberate and methodical gathering of other programmers to 
+              examine each other's code for errors to increase the code quality and 
+              reduces the amount of bugs
+
+Continuous deployment (CD): New code is deployed often after it has been automatically built and tested
+
+Continuous integration (CI): A system that will automatically build and test our code every time there's a change
+
+Fix up: The decision to discard commit messages for that commit 
+
+Forking: A way of creating a copy of the given repository so that it belongs to our user
+
+Indirect merges: GitHub can merge a pull request automatically if the head branch is directly or indirectly merged into the base branch externally
+
+Issue tracker (bug tracker): A tracker that shows tasks that need to be done, the state they're in and who's working on them
+
+Merge commits: All commits from the feature branch are added to the base branch
+
+Pipelines: The specific steps that need to run to obtain the desired result
+
+Pull request: A procedure where new code is examined before it is merged to create a branch or master branch 
+
+Squash commits: The decision add commit messages together and an editor opens to make any necessary changes
+
+....................................................................................
+
+
+CI/CD: The name for the entire continuous integration and continuous deployment system
+
+Code reviews: The deliberate and methodical gathering of other programmers to examine each other's code for errors to increase the code quality and reduces the amount of bugs
+
+Continuous deployment (CD): New code is deployed often after it has been automatically built and tested
+
+Continuous integration (CI): A system that will automatically build and test our code every time there's a change
+
+Fix up: The decision to discard commit messages for that commit 
+
+Forking: A way of creating a copy of the given repository so that it belongs to our user
+
+Indirect merges: GitHub can merge a pull request automatically if the head branch is directly or indirectly merged into the base branch externally
+
+Issue tracker (bug tracker): A tracker that shows tasks that need to be done, the state they're in and who's working on them
+
+Merge commits: All commits from the feature branch are added to the base branch
+
+Pipelines: The specific steps that need to run to obtain the desired result
+
+Pull request: A procedure where new code is examined before it is merged to create a branch or master branch 
+
+Squash commits: The decision add commit messages together and an editor opens to make any necessary changes
+
+....................................................................................
+
