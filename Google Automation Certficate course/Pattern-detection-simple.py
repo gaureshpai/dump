@@ -1,5 +1,3 @@
-
-
 import re
 
 def rearrange_name(name):

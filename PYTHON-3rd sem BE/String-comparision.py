@@ -10,7 +10,7 @@ else:
     long = len(str2)
 matchCnt = 0
 
-for j in range(short):
+for i in range(short):
     if str1[i] == str2[i]:
         matchCnt+=1
 

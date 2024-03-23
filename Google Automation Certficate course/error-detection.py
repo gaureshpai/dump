@@ -23,6 +23,7 @@ def file_output(returned_errors):
     for error in returned_errors:
       file.write(error)
     file.close()
+    
 if __name__ == "__main__":
   log_file = sys.argv[1]
   returned_errors = error_search(log_file)
