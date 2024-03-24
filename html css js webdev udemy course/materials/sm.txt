@@ -1,0 +1,9 @@
+css: cascading style sheet
+cascading: flow
+css Layers: refers to applying the z-index property to elements that overlap with each other
+3 types of coloring: hexadecimal code, rgb absolute, keywords
+#000000 rgb(0,0,0)      black
+#FF0000 rgb(255,0,0)    red
+#00FF00 rgb(0,255,0)    green
+#0000FF rgb(0,0,255)    blue
+also color can be passed in hsl from -  hue saturation and lightcolor
