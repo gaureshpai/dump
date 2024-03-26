@@ -26,3 +26,4 @@ selectors in css:
     class selector - give class name for a div and style using class name
     id selector - give id to particular div and style the unique id styling
     universal selector - body or complete doc styling
+
