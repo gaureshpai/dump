@@ -1,0 +1,32 @@
+CSS: Cascading Style Sheet
+     It is used to control the style of a web development
+     Handles the look and feel of web pages
+Cascading: Strats from the top and flows to the bottom
+Advantages of CSS:
+       Saves Time, Page loads Faster
+       Easy Maintainance
+       Superior Styles to HTML
+       Mobile device compatibility
+Ways to include css in HTML:
+        Inline - use style attribute in statements itself
+        Embedding - using <style></style> in the head section and defining all the styles for particular classes over there
+        Linking - Linking a seperate stylesheet 
+        Importing - Importing a seperate stylesheet
+Javascript: js is a scripting language that can be embeded in a html page or any webpage running in www
+          client-side scripting language
+          it is untyoed,multi paradigm,functional,event diven
+          it is interpreted by browsers js engine
+Advantages of Javascript:
+          Less server Interactions
+          Better Performance
+          Richer Interface
+          Increased Interactivity
+
+Javascript Arrays: Lets your store multiple values ina  single variable
+                    it stores a fixed size sequential collection of elements
+                    To access any element, we need to pass the index
+
+Javascript variables: used to store data temporarily
+                      variables will not have specific data type
+                      variables can have global or local scope
+                      var keyword is used which means variant!
