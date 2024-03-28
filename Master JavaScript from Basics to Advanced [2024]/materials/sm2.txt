@@ -12,6 +12,11 @@ Querry Selectors:
         - querrySelector()
         - querrySelectorAll()
 
+Javascript events:
+    when some action happens in the webpage, that action is called event.
+    -using Event properties
+    0using addEventListener()
+
 Javascript functions:
     getElementById() -> getElementById is a DOM method. It accepts HTML elementId and returns the HTML element mathing that Id.
                         The element of and Id must be passed as an argument, if no element matches the Id then it returns null.
@@ -24,6 +29,11 @@ Javascript functions:
     querrySelectorAll() -> querrySelectorAll is a DOM method. It accepts the CSS Selector string and returns all the HTML elements mathing that querry.
                         The elements of and selector must be passed as an argument, if no elements matches the selector then it returns an empty array.
     selectedElement.style.{propertyName} = value; -> This way the style of the HTML elements can be changed
+    selectedElement.{eventProperty} = function(){} -> gives an event function body on a particulat instance or condition
+    selectedElement.addEventListener({eventName},function(){}) -> gives an event function body on a particulat instance or condition
+    Math.random() -> returns a random value between 0-1 in decimal
+    Math.floor() -> returns the nearest floor value or the integer part of the given number
     
+
 
     
