@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Font size increase</title>
+    <link rel="stylesheet" href="example-4.css" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,900&display=swap">
+    <script src="https://kit.fontawesome.com/35c398e458.js"></script>
+    <style type="text/css">
+        body {
+            font-family: 'Raleway', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            padding: 20px;
+            text-align: center;
+            background-color: #007bff;
+            color: #fff;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            /* Set a fixed width */
+        }
+
+        h1#main-heading {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            font-size: 18px;
+            padding: 10px 10px;
+            /* Adjust padding */
+            margin: 5px 0;
+            /* Adjust margin */
+            border: none;
+            cursor: pointer;
+            background-color: #0056b3;
+            color: #fff;
+            border-radius: 5px;
+            width: 80%;
+            justify-content: center;
+            text-align: center;
+            /* Set button width to 80% of the header width */
+        }
+
+        button:hover {
+            background-color: #004080;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 id="main-heading" class="small">Fetch Styles</h1>
+        <button id="button-decrease">Font --</button>
+        <button id="button-increase">Font ++</button>
+    </header>
+    <script type="text/javascript">
+        var btni = document.getElementById("button-increase");
+        var btnd = document.getElementById("button-decrease");
+        var x = document.getElementById('main-heading');
+        var computedStyle = window.getComputedStyle(document.getElementById('main-heading'));
+        var initialFontSize = computedStyle.fontSize;
+        var initial = parseInt(initialFontSize.substr(0, (initialFontSize.length - 2)));
+
+        btni.onclick = function () {
+            initial += 10;
+            x.style.fontSize = initial + "px";
+        }
+
+        btnd.onclick = function () {
+            initial -= 10;
+            x.style.fontSize = initial + "px";
+        }
+    </script>
+</body>
+
+</html>

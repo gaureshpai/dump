@@ -17,6 +17,8 @@ Javascript events:
     -using Event properties
     0using addEventListener()
 
+The mordern browsers give us access to a property called 'classList. This classList holds all the classes of an HTML element
+
 Javascript functions:
     getElementById() -> getElementById is a DOM method. It accepts HTML elementId and returns the HTML element mathing that Id.
                         The element of and Id must be passed as an argument, if no element matches the Id then it returns null.
@@ -33,7 +35,11 @@ Javascript functions:
     selectedElement.addEventListener({eventName},function(){}) -> gives an event function body on a particulat instance or condition
     Math.random() -> returns a random value between 0-1 in decimal
     Math.floor() -> returns the nearest floor value or the integer part of the given number
-    
-
-
-    
+    selectedElement.('selector')/querrySelector('selector) -> This way the selector like a class of the HTML elements can be change
+    selectedElement.classList() -> returns the objects i.e classes inside the element
+    selectedElement.classList.add() -> this function adds the argument passed classname to the css stylesheet
+    selectedElement.classList.remove() -> this function removes the argument passed classname to the css stylesheet
+    selectedElement.classList.contains() -> this function returns the boolean whether the argumentpassedis present or not
+    selectTimeout(function,params) -> executes the function after params miliseconds
+    window.getComputedStyle() - > retuns the object of the passed argument value
+     
