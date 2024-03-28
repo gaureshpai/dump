@@ -1,0 +1,106 @@
+What is javascript?
+    javascript is a light-weight,cross-platform object oriented programming language.
+
+what is a loop?
+    the repetition of a code is called loop and each repetition is called an iteration,in other words, running the same lines of code for a certain number if times is called loop
+
+what is scope?
+    the scope defines the part of the Program where a variable or a function is visible/accessible
+
+
+Basics:
+    variables,datatypes,operators,expressions
+    
+Program flow:
+    js executes the code from the top to bottom.It executes one line of code at a time. If an error occurs then the next line of code is not executed.
+
+javascript variables:
+    Recomended case type: Camel case 
+    Rules for naming javascript variables:
+        name can contain letters, digits _ and $
+        name cannot start with a digit
+        name can start with a _ or a $
+        names are case sensitive
+        names cannot be reserved keywords
+    variable untill defined or assigned holds undefined value i.e it doesnt hold null value but holds undefined value
+
+javascript operators:
+    arithmatic: +, -, *, /, %, ++, --
+        Post increment/decrement value gets copied or executed and then gets incremented
+        Pre increment/decrement value gets incremented and then gets copied or executed
+    assignment: =, +=, -=, *=, /= ,%=
+    comparision: ==, !=, >, < , >=, <=
+    logical: &&, ||, ?:(Ternary)
+
+javascript datatype conversion(explicit):
+    datatype() -> converts the argument passed inside the bracket to the asked datatype
+
+javascript objects:
+    enclosed in flower brackets 
+    assigned as normal variables
+    object can be defined insdie another object
+    functions can be defined inside the object
+
+javascript arrays:
+    can be defined and assigned in many ways 
+    similar to all the other languages like c, c++, java, python
+    concat functions adds two arrays from consecutive locations at the end of the first array
+
+javascript loops:
+    While loop, for loop
+    when you know how many times your loop needs to iterate then you can use for loop
+    when you have the kind of loop where you need to stop the loop based on certain condition, you can use while loop
+
+javascript functions:
+    syntax: function functionName(param1,param2, ... ,paramN){
+                        //block of code
+                     }
+
+javascript scope:
+    the variables defined outside all the functions and blocks are available throughout the code.These are called Global variables
+    the variables defined insdie the functions or blocks are local variables and are only available in that function or block of code.These variables are called Local variables
+
+javascript variable hoisting:
+    the mechanism where variables and function can be used before declaring them is called hoisting in javascript
+    Code execution in this case:
+        the variables and function declarations are moved to the top of their scope before code execution
+        javascript has two steps in executing a particular script.
+            step-1:Creation
+            step-2:Execution
+    The hoisting effect makes the creation show up before execution while compiling/executing the code
+    even functions can be declared later but used first using hoisting effect
+    
+
+
+javascript predefined functions:
+    console.clear() -> clears the console/terminal
+    console.log() -> prints the statement in the console/terminal
+    typeof() -> returns the datatype of the parameter inside the bracket
+    variable.toString() -> converts the variable of any datatype to toString
+    parseInt() -> returns the integer value of the argument inside the bracket
+    parseFloat() -> returns a floating number of the argument inside the bracket
+    variable.toFixed() -> rounds it off to the nearest integer value 0 decimal places in default but you can pass arguments for number of decimal values too
+    variable.length -> returns the length of the String
+    variable.indexOf() -> returns the index value of the string passed as an argument(index start only not scope)
+    variable.lastIndexOf() -> returns the start index from last position of the string of the string passed as an argument(index start only not scope)
+    variable.slice(arg1,arg2) -> returns the slice of the string between position arg1 and arg2 from the main string,if only 1 arg sent then then the other selects the ends
+    variable.substr(arg1, arg2) -> returns the substring between position arg1 and arg2 from the main string,if only 1 arg sent then then the other selects the ends
+    variable.toUpperCase() -> returns the uppercase value of the argument passed
+    variable.toLowerCase() -> returns the lowercase value of the argument passed
+    variable.concat() -> concatinates the passed argument to the variable, also as many as arguments can be passed which will be concatinated in order seperated by commas or '+'
+    variable.trim() -> returns the trimmed value i.e all the excess spaces like tab,spacebar are removed
+    variable.charAt() -> returns the characted at the passed argument position
+    variable.split() -> returns the split string on the basis of the arguments passed, default is spacebar
+    variable.push() -> pushes or adds the argument passed to the variable top position
+    variable.pop() -> returns and removes the last entered value from the variable array
+    variable.splice() -> takes 4 arguments:1st tells where to start,2nd tells how many items to be deleted,3rd and 4th and so on tells what itsems to be added
+    variable.sort() -> Sorts the variable array in ascending order
+    variable.reverse() -> Sorts the variable array in descending order
+
+
+    
+
+
+
+
+
