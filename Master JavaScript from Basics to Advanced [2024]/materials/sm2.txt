@@ -1,0 +1,29 @@
+Document Object Model:
+    when a web page is loaded, the browser creates a document object Model of the page. It is the tree representation of the HTML document. This DOM tree can be modified with the help of javascript
+    Javascript and DOM:
+        javascript can add new HTML elements and attributes
+        Javascript can change any HTML elements and attribute in the page
+        Javascript can change all the CSS styles in the page
+        Javascript can remove existing HTML element and attributes
+        Javascript can add and listen to HTML events like onClick, onScoll etc
+
+Querry Selectors:
+    Querry Selectors allow you to use CSS Selectors to select HTML elements, It is the new way in Javascript to select HTML elements.
+        - querrySelector()
+        - querrySelectorAll()
+
+Javascript functions:
+    getElementById() -> getElementById is a DOM method. It accepts HTML elementId and returns the HTML element mathing that Id.
+                        The element of and Id must be passed as an argument, if no element matches the Id then it returns null.
+    getElementByClassName ->getElementByClassName is a DOM method. It accepts HTML class string and returns the HTML element mathing that class.
+                        The element of and Id must be passed as an argument, if no element matches the class name then it returns empty array. 
+    getElementByTagName ->getElementByTagName is a DOM method. It accepts HTML tag string and returns the HTML element mathing that tag.
+                        The element of and tag must be passed as an argument, if no element matches the tag then it returns empty array.                     
+    querrySelector() -> querrySelector is a DOM method. It accepts the CSS Selector string and returns the HTML element mathing that querry.
+                        The element of and selector must be passed as an argument, if no element matches the selector then it returns null.
+    querrySelectorAll() -> querrySelectorAll is a DOM method. It accepts the CSS Selector string and returns all the HTML elements mathing that querry.
+                        The elements of and selector must be passed as an argument, if no elements matches the selector then it returns an empty array.
+    selectedElement.style.{propertyName} = value; -> This way the style of the HTML elements can be changed
+    
+
+    
