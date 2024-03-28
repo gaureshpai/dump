@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>if else statements in js</title>
+</head>
+
+<body>
+    <script language="'javascript" type="text/javascript">
+        var marks1 = parseInt(prompt("Enter marks1", "Enter")); 
+        var marks2 = parseInt(prompt("Enter marks2", "Enter")); 
+        var marks3 = parseInt(prompt("Enter marks3", "Enter")); 
+
+        var total = marks1 + marks2 + marks3 ;
+        var percent = total * 100 / 150;
+        alert("Your Percentage total: "+percent+"%");
+        if(percent>=80){
+            alert("Grade A");
+        }
+        else if (percent >= 60) {
+            alert("Grade B");
+        }
+        else if (percent >= 40) {
+            alert("Grade C");
+        }
+        else{
+            alert("Grade D");
+        }
+    </script>
+</body>
+
+</html>
