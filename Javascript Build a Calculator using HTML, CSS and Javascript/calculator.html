@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+    <script src="calculator.js"></script>
+</head>
+
+<body>
+    <div id="main">
+        <form action="" name="mainform">
+            <input type="text" name="calculator" id="eee" placeholder="0"><br />
+            <input type="button" value="1" onclick="mainform.calculator.value+=1">
+            <input type="button" value="2" onclick="mainform.calculator.value+=2">
+            <input type="button" value="3" onclick="mainform.calculator.value+=3">
+            <input type="button" value="+" onclick="add()">
+            <br />
+            <input type="button" value="4" onclick="mainform.calculator.value+=4">
+            <input type="button" value="5" onclick="mainform.calculator.value+=5">
+            <input type="button" value="6" onclick="mainform.calculator.value+=6">
+            <input type="button" value="-" onclick="sub()">
+            <br>
+            <input type="button" value="7" onclick="mainform.calculator.value+=7">
+            <input type="button" value="8" onclick="mainform.calculator.value+=8">
+            <input type="button" value="9" onclick="mainform.calculator.value+=9">
+            <input type="button" value="/" onclick="div()">
+            <br />
+            <input type="button" value="c" onclick="mainform.calculator.value=''">
+            <input type="button" value="0" onclick="mainform.calculator.value+=0">
+            <input type="button" id="equals" value="=" onclick="mainform.calculator.value=eval(mainform.calculator.value)">
+            <input type="button" value="x" onclick="mul()">
+        </form>
+    </div>
+</body>
+
+</html>

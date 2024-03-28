@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Animation</title>
+    <style type="text/css">
+        div#mydiv{
+            width: 150px;
+            height: 150px;
+            animation-name: example;
+            animation-duration: 4s;
+        }
+        @keyframes example{
+            from {background-color: red;}
+            to {background-color: yellow;}
+        }
+
+        div#mydiv2{
+            position:relative ;
+            width: 150px;
+            height: 150px;
+            background-color: red;
+            animation-name: example;
+            animation-duration: 4s;
+        }
+        @keyframes example{
+            0% {background-color: red;}
+            25% {background-color: yellow;}
+            50% {background-color: blue;}
+            100% {background-color: green;}
+        }
+        
+        div#mydiv3{
+            position:relative ;
+            width: 150px;
+            height: 150px;
+            background-color: red;
+            animation-name: example;
+            animation-duration: 4s;
+            animation-delay: 2s;
+            animation-iteration-count:infinite;
+            animation-direction: alternate;
+        }
+        @keyframes example{
+            0% {background-color: red;left:0px; top:0px}
+            25% {background-color: yellow;left:200px; top:0px}
+            50% {background-color: blue;left:200px; top:200px}
+            100% {background-color: green;left:0px; top:0px}
+        }
+    </style>
+</head>
+
+<body>
+    <div id="mydiv"></div>
+    <div id="mydiv2"></div>
+    <div id="mydiv3"></div>
+</body>
+
+</html>

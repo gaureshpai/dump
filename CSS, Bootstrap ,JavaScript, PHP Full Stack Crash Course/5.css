@@ -1,0 +1,35 @@
+a{
+    text-decoration: none;
+}
+a:link {color:red}
+a:visited {color:grey}
+a:hover {color:pink; text-decoration:underline}
+a:active {color:green}
+
+.div1{
+    background-color: green;
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top:0px;
+    left:120px;
+    z-index: 3;
+}
+.div2 {
+    background-color: red;
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top: 40px;
+    left: 80px;
+    z-index: 2;
+}
+.div3 {
+    background-color: yellow;
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top: 80px;
+    left: 40px;
+    z-index: 1;
+}
