@@ -29,4 +29,17 @@ comparison: ==,!=,>,<,>=,<=
 
 functions:  is a set of statements to perform a specific task
             functions are called when to be performed
-            
+            provides reusability
+
+events: onclick,lonload,Mouseover,mouseout....
+
+error handling in js:   runtime errors can be handled in js also called exceptions
+                        syntax or logical error can not be handled during runtime
+                        try,catch,throw,finally is used for exception handling
+                        
+js cookies: is used for maintaining state on client
+            Cookies are stored on the client's machine as text file
+            when user visits again, the website reads the data from the cookie
+            session cookie, persistent cookie
+
+windows.location() method can be used to redirect user from one page to another    

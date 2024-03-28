@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Objecst in javascript</title>
+</head>
+
+<body>
+    <script lang="javascript" type="text/javascript">
+        var tutorial = {
+            "topic":"js",
+            "trainer": "gauresh",
+            "mode":"online"
+        };
+        document.write("Topic "+tutorial.topic+"<br/><br/>");
+        document.write("Trainer " + tutorial.trainer + "<br/><br/>");
+        document.write("Mode " + tutorial.mode+ "<br/><br/>");
+
+        var txt = "";
+        var x;
+        for(x in tutorial){
+            txt+=tutorial[x]+",";
+        }
+        document.write(txt);
+    </script>
+</body>
+
+</html>

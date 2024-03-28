@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>events in javascript</title>
+        <script lang="javascript" type="text/javascript">
+            function MouseOver(){
+                document.write("Save me!")
+            }
+            function MouseOut() {
+                    document.write("Just kidding")
+            }
+            function Load() {
+                    document.write("hmmm....")
+            }
+        </script>
+    </head>
+    <body>
+        <a  onload="Load()">Hey there!! touch me!</a>
+        <a onmouseover="MouseOver()">Me too</a>
+        <a onmouseout="MouseOut()">not me</a>
+    </body>
+</html>
