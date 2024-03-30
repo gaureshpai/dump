@@ -226,13 +226,11 @@ int main()
     NODE head, head1, head2, head3;
     int res, ch;
 
-    // Creating nodes for the linked lists
-    head = getnode();  /* To hold the main linked list */
-    head1 = getnode(); /* To hold POLY1 */
-    head2 = getnode(); /* To hold POLY2 */
-    head3 = getnode(); /* To hold POLYSUM */
+    head = getnode(); 
+    head1 = getnode();
+    head2 = getnode();
+    head3 = getnode(); 
 
-    // Initializing links in the linked lists
     head->link = head;
     head1->link = head1;
     head2->link = head2;

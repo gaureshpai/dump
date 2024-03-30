@@ -22,7 +22,6 @@ NODE create()
 
 void insert(NODE root, NODE newnode)
 {
-    /*Note: if newnode->data ==  root->data it will be skipped. No duplicate nodes are allowed */
 
     if (newnode->data < root->data)
     {

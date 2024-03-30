@@ -4,16 +4,13 @@
     box-sizing: border-box;
 }
 
-/* Body styles */
 body {
     font-family: 'Raleway', sans-serif;
 }
 
-/* Header styles */
 header {
     position: relative;
     height: 300px;
-    /* Adjust as needed */
 }
 
 header div {
@@ -34,5 +31,4 @@ h1#countdown {
     font-size: 60px;
     color: #d21010;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-    /* Add a shadow effect */
 }
