@@ -115,7 +115,6 @@ NODE deleteend()
 
 void display()
 {
-    // Implement your display logic here
     NODE cur = start;
     while (cur != NULL)
     {

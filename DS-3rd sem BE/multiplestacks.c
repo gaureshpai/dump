@@ -4,7 +4,6 @@
 #define MAX_SIZE 15
 #define NUM_STACKS 3
 
-// Structure for multiple stacks
 typedef struct {
     int* array;
     int* top;
@@ -12,7 +11,6 @@ typedef struct {
     int stackSize;
 } MultiStack;
 
-// Function to create multiple stacks
 MultiStack* createMultiStack(int totalSize) {
     MultiStack* multiStack = (MultiStack*)malloc(sizeof(MultiStack));
     if (multiStack == NULL) {
@@ -32,17 +30,14 @@ MultiStack* createMultiStack(int totalSize) {
     return multiStack;
 }
 
-// Function to check if a stack is empty
 int isEmpty(MultiStack* multiStack, int stackNum) {
     return (multiStack->top - stackNum * multiStack->stackSize == multiStack->base);
 }
 
-// Function to check if a stack is full
 int isFull(MultiStack* multiStack, int stackNum) {
     return (multiStack->top - stackNum * multiStack->stackSize == (stackNum + 1) * multiStack->stackSize);
 }
 
-// Function to push an element onto a stack
 void push(MultiStack* multiStack, int stackNum, int item) {
     if (isFull(multiStack, stackNum)) {
         printf("Stack %d is full. Cannot push.\n", stackNum + 1);
@@ -54,7 +49,6 @@ void push(MultiStack* multiStack, int stackNum, int item) {
     printf("Pushed %d onto Stack %d\n", item, stackNum + 1);
 }
 
-// Function to pop an element from a stack
 int pop(MultiStack* multiStack, int stackNum) {
     if (isEmpty(multiStack, stackNum)) {
         printf("Stack %d is empty. Cannot pop.\n", stackNum + 1);
@@ -67,7 +61,6 @@ int pop(MultiStack* multiStack, int stackNum) {
     return item;
 }
 
-// Function to display the elements in a stack
 void display(MultiStack* multiStack, int stackNum) {
     if (isEmpty(multiStack, stackNum)) {
         printf("Stack %d is empty.\n", stackNum + 1);
@@ -83,7 +76,6 @@ void display(MultiStack* multiStack, int stackNum) {
     printf("\n");
 }
 
-// Function to free the memory used by multiple stacks
 void freeMultiStack(MultiStack* multiStack) {
     free(multiStack->array);
     free(multiStack);

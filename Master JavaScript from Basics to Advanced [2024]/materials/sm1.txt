@@ -53,7 +53,7 @@ javascript loops:
 
 javascript functions:
     syntax: function functionName(param1,param2, ... ,paramN){
-                        //block of code
+                        {block of code}
                      }
 
 javascript scope:

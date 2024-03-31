@@ -1,4 +1,3 @@
-// Custom exception class
 class DivisionByZeroException extends Exception {
     public DivisionByZeroException(String message) {
         super(message);
@@ -6,7 +5,6 @@ class DivisionByZeroException extends Exception {
 }
 
 public class CustomExceptionDemo {
-    // Method to perform division and throw custom exception if denominator is zero
     static double divide(int numerator, int denominator) throws DivisionByZeroException {
         if (denominator == 0) {
             throw new DivisionByZeroException("Cannot divide by zero!");

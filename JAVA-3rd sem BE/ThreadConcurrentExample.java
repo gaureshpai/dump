@@ -1,17 +1,15 @@
 class MyThread extends Thread {
-    // Constructor calling base class constructor using super
     public MyThread(String name) {
         super(name);
-        start(); // Start the thread in the constructor
+        start();
     }
 
-    // The run method that will be executed when the thread starts
     @Override
     public void run() {
         for (int i = 1; i <= 5; i++) {
             System.out.println(Thread.currentThread().getName() + " Count: " + i);
             try {
-                Thread.sleep(500); // Sleep for 500 milliseconds
+                Thread.sleep(500);
             } catch (InterruptedException e) {
                 System.out.println(Thread.currentThread().getName() + " Thread interrupted.");
             }
@@ -21,14 +19,12 @@ class MyThread extends Thread {
 
 public class ThreadConcurrentExample {
     public static void main(String[] args) {
-        // Create an instance of MyThread
         MyThread myThread = new MyThread("Child Thread");
 
-        // Main thread
         for (int i = 1; i <= 5; i++) {
             System.out.println(Thread.currentThread().getName() + " Thread Count: " + i);
             try {
-                Thread.sleep(500); // Sleep for 500 milliseconds
+                Thread.sleep(500); 
             } catch (InterruptedException e) {
                 System.out.println(Thread.currentThread().getName() + " Thread interrupted.");
             }

@@ -1,15 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
  
- 
-// Structure to represent a term in a polynomial
 struct Term {
     int coefficient;
     int exponent;
     struct Term* next;
 };
 
-// Function to create a new term
 struct Term* createTerm(int coeff, int exp) {
     struct Term* newTerm = (struct Term*)malloc(sizeof(struct Term));
     newTerm->coefficient = coeff;
@@ -18,7 +15,6 @@ struct Term* createTerm(int coeff, int exp) {
     return newTerm;
 }
 
-// Function to insert a term at the end of a polynomial
 void insertTerm(struct Term** poly, int coeff, int exp) {
     struct Term* newTerm = createTerm(coeff, exp);
     if (*poly == NULL) {
@@ -35,7 +31,6 @@ void insertTerm(struct Term** poly, int coeff, int exp) {
     }
 }
 
-// Function to display a polynomial
 void displayPolynomial(struct Term* poly) {
     while (poly != NULL)
     {
@@ -49,7 +44,6 @@ void displayPolynomial(struct Term* poly) {
     printf("\n");
 }
 
-// Function to add two polynomials
 struct Term* addPolynomials(struct Term* poly1, struct Term* poly2) {
     struct Term* result = NULL;
 
@@ -74,7 +68,6 @@ struct Term* addPolynomials(struct Term* poly1, struct Term* poly2) {
     return result;
 }
 
-// Function to free memory allocated for a polynomial
 void freePolynomial(struct Term* poly) {
     struct Term* temp;
     while (poly != NULL) {
@@ -88,30 +81,24 @@ int main() {
     struct Term* poly1 = NULL;
     struct Term* poly2 = NULL;
 
-    // Insert terms into the first polynomial
     insertTerm(&poly1, 3, 2);
     insertTerm(&poly1, -2, 1);
     insertTerm(&poly1, 5, 0);
 
-    // Insert terms into the second polynomial
     insertTerm(&poly2, 4, 1);
     insertTerm(&poly2, 1, 0);
 
-    // Display the polynomials
     printf("Polynomial 1: ");
     displayPolynomial(poly1);
 
     printf("Polynomial 2: ");
     displayPolynomial(poly2);
 
-    // Add the polynomials
     struct Term* result = addPolynomials(poly1, poly2);
 
-    // Display the result
     printf("Resultant Polynomial: ");
     displayPolynomial(result);
 
-    // Free allocated memory
     freePolynomial(poly1);
     freePolynomial(poly2);
     freePolynomial(result);

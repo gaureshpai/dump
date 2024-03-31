@@ -39,7 +39,6 @@ void linear_prob(int a[MAX], int key, int num)
                 flag = 1;
                 break;
             }
-        // for(i=0;i<key;i++)
         i = 0;
         while ((i < key) && (flag == 0))
         {

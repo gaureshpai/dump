@@ -3,14 +3,12 @@
 
 #define MAX_SIZE 5
 
-// Structure for the double-ended queue (deque)
 typedef struct {
     int front, rear;
     int capacity;
     int* array;
 } Deque;
 
-// Function to create a new deque
 Deque* createDeque(int capacity) {
     Deque* deque = (Deque*)malloc(sizeof(Deque));
     if (deque == NULL) {
@@ -30,17 +28,14 @@ Deque* createDeque(int capacity) {
     return deque;
 }
 
-// Function to check if the deque is empty
 int isEmpty(Deque* deque) {
     return (deque->front == -1);
 }
 
-// Function to check if the deque is full
 int isFull(Deque* deque) {
     return ((deque->rear + 1) % deque->capacity == deque->front);
 }
 
-// Function to add an element to the front of the deque
 void enqueueFront(Deque* deque, int item) {
     if (isFull(deque)) {
         printf("Deque is full. Cannot enqueue at the front.\n");
@@ -58,7 +53,6 @@ void enqueueFront(Deque* deque, int item) {
     printf("Enqueued at the front: %d\n", item);
 }
 
-// Function to add an element to the rear of the deque
 void enqueueRear(Deque* deque, int item) {
     if (isFull(deque)) {
         printf("Deque is full. Cannot enqueue at the rear.\n");
@@ -76,7 +70,6 @@ void enqueueRear(Deque* deque, int item) {
     printf("Enqueued at the rear: %d\n", item);
 }
 
-// Function to remove an element from the front of the deque
 int dequeueFront(Deque* deque) {
     if (isEmpty(deque)) {
         printf("Deque is empty. Cannot dequeue from the front.\n");
@@ -85,7 +78,6 @@ int dequeueFront(Deque* deque) {
 
     int item = deque->array[deque->front];
     if (deque->front == deque->rear) {
-        // Last element in the deque
         deque->front = -1;
         deque->rear = -1;
     } else {
@@ -96,7 +88,6 @@ int dequeueFront(Deque* deque) {
     return item;
 }
 
-// Function to remove an element from the rear of the deque
 int dequeueRear(Deque* deque) {
     if (isEmpty(deque)) {
         printf("Deque is empty. Cannot dequeue from the rear.\n");
@@ -105,7 +96,6 @@ int dequeueRear(Deque* deque) {
 
     int item = deque->array[deque->rear];
     if (deque->front == deque->rear) {
-        // Last element in the deque
         deque->front = -1;
         deque->rear = -1;
     } else {
@@ -116,7 +106,6 @@ int dequeueRear(Deque* deque) {
     return item;
 }
 
-// Function to display the elements in the deque
 void display(Deque* deque) {
     if (isEmpty(deque)) {
         printf("Deque is empty.\n");
@@ -132,7 +121,6 @@ void display(Deque* deque) {
     printf("\n");
 }
 
-// Function to free the memory used by the deque
 void freeDeque(Deque* deque) {
     free(deque->array);
     free(deque);

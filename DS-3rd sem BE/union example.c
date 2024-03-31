@@ -9,7 +9,6 @@ union Data {
 int main() {
     union Data data;
 
-    // Accessing and modifying union members
     data.i = 10;
     printf("i: %d\n", data.i);
 

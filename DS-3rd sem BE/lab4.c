@@ -21,7 +21,7 @@ int main() {
 void evaluate() {
     int i = 0, j = 0;
     char symb, temp;
-    push('#'); // Use # as the bottom of the stack
+    push('#'); 
     for (i = 0; infix[i] != '\0'; i++) {
         symb = infix[i];
         switch (symb) {

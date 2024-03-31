@@ -26,7 +26,7 @@ public class Stack {
             return poppedValue;
         } else {
             System.out.println("Stack Underflow! Cannot pop from an empty stack.");
-            return -1; // Return a default value for simplicity
+            return -1;
         }
     }
 
@@ -36,7 +36,7 @@ public class Stack {
             return stackArray[top];
         } else {
             System.out.println("Stack is empty. Cannot peek.");
-            return -1; // Return a default value for simplicity
+            return -1; 
         }
     }
 

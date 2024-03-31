@@ -8,22 +8,18 @@ typedef struct {
     int top;
 } Stack;
 
-// Function to initialize a stack
 void initialize(Stack *s) {
     s->top = -1;
 }
 
-// Function to check if the stack is empty
 int isEmpty(Stack *s) {
     return (s->top == -1);
 }
 
-// Function to check if the stack is full
 int isFull(Stack *s) {
     return (s->top == MAX_SIZE - 1);
 }
 
-// Function to push an element onto the stack
 void push(Stack *s, int value) {
     if (isFull(s)) {
         printf("Stack overflow: Cannot push %d, stack is full.\n", value);
@@ -33,7 +29,6 @@ void push(Stack *s, int value) {
     printf("Pushed %d onto the stack.\n", value);
 }
 
-// Function to pop an element from the stack
 int pop(Stack *s) {
     if (isEmpty(s)) {
         printf("Stack underflow: Cannot pop from an empty stack.\n");
@@ -43,7 +38,6 @@ int pop(Stack *s) {
     return s->data[(s->top)--];
 }
 
-// Function to peek at the top element of the stack
 int peek(Stack *s) {
     if (isEmpty(s)) {
         printf("Cannot peek from an empty stack.\n");

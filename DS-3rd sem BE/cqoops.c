@@ -8,7 +8,6 @@ typedef struct {
     int* array;
 } CircularQueue;
 
-// Function to create a new circular queue
 CircularQueue* createCircularQueue(int capacity) {
     CircularQueue* queue = (CircularQueue*)malloc(sizeof(CircularQueue));
     if (queue == NULL) {
@@ -28,17 +27,14 @@ CircularQueue* createCircularQueue(int capacity) {
     return queue;
 }
 
-// Function to check if the circular queue is empty
 int isEmpty(CircularQueue* queue) {
     return (queue->front == -1);
 }
 
-// Function to check if the circular queue is full
 int isFull(CircularQueue* queue) {
     return ((queue->rear + 1) % queue->capacity == queue->front);
 }
 
-// Function to add an element to the circular queue (enqueue)
 void enqueue(CircularQueue* queue, int item) {
     if (isFull(queue)) {
         printf("Queue is full. Cannot enqueue.\n");
@@ -54,7 +50,6 @@ void enqueue(CircularQueue* queue, int item) {
     printf("Enqueued: %d\n", item);
 }
 
-// Function to remove an element from the circular queue (dequeue)
 int dequeue(CircularQueue* queue) {
     if (isEmpty(queue)) {
         printf("Queue is empty. Cannot dequeue.\n");
@@ -63,7 +58,6 @@ int dequeue(CircularQueue* queue) {
 
     int item = queue->array[queue->front];
     if (queue->front == queue->rear) {
-        // Last element in the queue
         queue->front = -1;
         queue->rear = -1;
     } else {
@@ -74,7 +68,6 @@ int dequeue(CircularQueue* queue) {
     return item;
 }
 
-// Function to display the elements in the circular queue
 void display(CircularQueue* queue) {
     if (isEmpty(queue)) {
         printf("Queue is empty.\n");
@@ -90,7 +83,6 @@ void display(CircularQueue* queue) {
     printf("\n");
 }
 
-// Function to free the memory used by the circular queue
 void freeCircularQueue(CircularQueue* queue) {
     free(queue->array);
     free(queue);

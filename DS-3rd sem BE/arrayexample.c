@@ -29,7 +29,6 @@ int** createAndInitialize2DArray(int rows, int cols) {
             exit(EXIT_FAILURE);
         }
 
-        // Initialize array elements
         for (int j = 0; j < cols; j++) {
             arr[i][j] = i * cols + j + 1;
         }
@@ -38,7 +37,6 @@ int** createAndInitialize2DArray(int rows, int cols) {
     return arr;
 }
 
-// Function to print 1D array
 void print1DArray(int* arr, int size) {
     printf("1D Array: ");
     for (int i = 0; i < size; i++) {
@@ -47,7 +45,6 @@ void print1DArray(int* arr, int size) {
     printf("\n");
 }
 
-// Function to print 2D array
 void print2DArray(int** arr, int rows, int cols) {
     printf("2D Array:\n");
     for (int i = 0; i < rows; i++) {
@@ -58,12 +55,10 @@ void print2DArray(int** arr, int rows, int cols) {
     }
 }
 
-// Function to free memory allocated for 1D array
 void free1DArray(int* arr) {
     free(arr);
 }
 
-// Function to free memory allocated for 2D array
 void free2DArray(int** arr, int rows) {
     for (int i = 0; i < rows; i++) {
         free(arr[i]);
@@ -72,13 +67,11 @@ void free2DArray(int** arr, int rows) {
 }
 
 int main() {
-    // Example for 1D array
     int size1D = 5;
     int* arr1D = createAndInitialize1DArray(size1D);
     print1DArray(arr1D, size1D);
     free1DArray(arr1D);
 
-    // Example for 2D array
     int rows2D = 3;
     int cols2D = 4;
     int** arr2D = createAndInitialize2DArray(rows2D, cols2D);

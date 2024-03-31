@@ -24,17 +24,13 @@ public class Employee {
     }
 
     public static void main(String[] args) {
-        // Creating an Employee object
         Employee employee = new Employee(1, "John Doe", 50000.0);
 
-        // Displaying employee details
         System.out.println("Initial Employee Details:");
         System.out.println(employee);
 
-        // Raising salary by 10%
         employee.raiseSalary(10);
 
-        // Displaying updated employee details
         System.out.println("\nEmployee Details after Salary Raise:");
         System.out.println(employee);
     }

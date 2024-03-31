@@ -76,7 +76,7 @@ void delete()
         item = cq[front];
         printf("\n\nDeleted element from the queue is: %c ", item);
 
-        if (front == rear) // only one element
+        if (front == rear)
             front = rear = -1;
         else
             front = (front + 1) % MAX;

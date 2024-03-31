@@ -1,57 +1,52 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Define the structure for a node in the linked list
-typedef struct Node {
+typedef struct Node
+{
     int data;
     struct Node *next;
 } Node;
 
-// Define the structure for the stack
-typedef struct {
-    Node *top;  // Points to the top of the stack
+typedef struct
+{
+    Node *top;
 } Stack;
 
-// Function to initialize an empty stack
-void initialize(Stack *stack) {
+void initialize(Stack *stack)
+{
     stack->top = NULL;
 }
 
-// Function to check if the stack is empty
-int isEmpty(Stack *stack) {
+int isEmpty(Stack *stack)
+{
     return (stack->top == NULL);
 }
 
-// Function to push an element onto the stack
-void push(Stack *stack, int value) {
-    // Create a new node
+void push(Stack *stack, int value)
+{
     Node *newNode = (Node *)malloc(sizeof(Node));
-    if (newNode == NULL) {
+    if (newNode == NULL)
+    {
         printf("Memory allocation failed.\n");
         exit(EXIT_FAILURE);
     }
 
-    // Set the data and link the new node to the current top
     newNode->data = value;
     newNode->next = stack->top;
-
-    // Update the top to the new node
     stack->top = newNode;
 
     printf("Pushed %d onto the stack.\n", value);
 }
 
-// Function to pop an element from the stack
-int pop(Stack *stack) {
-    if (isEmpty(stack)) {
+int pop(Stack *stack)
+{
+    if (isEmpty(stack))
+    {
         printf("Stack underflow: Cannot pop from an empty stack.\n");
         exit(EXIT_FAILURE);
     }
 
-    // Get the value from the top node
     int value = stack->top->data;
-
-    // Move the top to the next node and free the popped node
     Node *temp = stack->top;
     stack->top = stack->top->next;
     free(temp);
@@ -60,9 +55,10 @@ int pop(Stack *stack) {
     return value;
 }
 
-// Function to peek at the top element of the stack
-int peek(Stack *stack) {
-    if (isEmpty(stack)) {
+int peek(Stack *stack)
+{
+    if (isEmpty(stack))
+    {
         printf("Cannot peek from an empty stack.\n");
         exit(EXIT_FAILURE);
     }
@@ -70,16 +66,16 @@ int peek(Stack *stack) {
     return stack->top->data;
 }
 
-// Function to free the memory used by the stack
-void freeStack(Stack *stack) {
-    // Pop each element until the stack is empty
-    while (!isEmpty(stack)) {
+void freeStack(Stack *stack)
+{
+    while (!isEmpty(stack))
+    {
         pop(stack);
     }
 }
 
-// Example usage
-int main() {
+int main()
+{
     Stack myStack;
     initialize(&myStack);
 
@@ -94,7 +90,6 @@ int main() {
 
     printf("Is the stack empty? %s\n", isEmpty(&myStack) ? "Yes" : "No");
 
-    // Free the memory used by the stack
     freeStack(&myStack);
 
     return 0;

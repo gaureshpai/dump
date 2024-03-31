@@ -14,7 +14,6 @@ void waitexample()
             exit(100 + i);
         }
     }
-    // Using waitpid() and printing exit status of children.
     for (i = 0; i < 5; i++)
     {
         pid_t cpid = waitpid(pid[i], &stat, 0);
@@ -23,7 +22,6 @@ void waitexample()
                    cpid, WEXITSTATUS(stat));
     }
 }
-// Driver code
 int main()
 {
     waitexample();

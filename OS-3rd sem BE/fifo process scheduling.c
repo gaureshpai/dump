@@ -15,12 +15,12 @@ int main()
         scanf("%d", &bt[i]);
         printf("\n");
     }
-    for (int j = 0; j < n; j++) // calculate completion time of processes
+    for (int j = 0; j < n; j++)
     {
         sum += bt[j];
         ct[j] += sum;
     }
-    for (int k = 0; k < n; k++) // calculate turnaround time and waiting times
+    for (int k = 0; k < n; k++)
     {
         tat[k] = ct[k] - at[k];
         totalTAT += tat[k];

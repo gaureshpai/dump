@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-// Define the structure for a student record
-struct StudentRecord {
+struct StudentRecord
+{
     char name[50];
     int regNumber;
     long long contactNumber;
@@ -9,8 +9,8 @@ struct StudentRecord {
     float avgMarks;
 };
 
-// Function to read a student record
-void readStudentRecord(struct StudentRecord *student) {
+void readStudentRecord(struct StudentRecord *student)
+{
     printf("Enter student name: ");
     scanf("%s", student->name);
 
@@ -27,8 +27,8 @@ void readStudentRecord(struct StudentRecord *student) {
     scanf("%f", &student->avgMarks);
 }
 
-// Function to write a student record
-void writeStudentRecord(struct StudentRecord student) {
+void writeStudentRecord(struct StudentRecord student)
+{
     printf("\nStudent Record:\n");
     printf("Name: %s\n", student.name);
     printf("Registration Number: %d\n", student.regNumber);
@@ -37,24 +37,25 @@ void writeStudentRecord(struct StudentRecord student) {
     printf("Average Marks: %.2f\n", student.avgMarks);
 }
 
-int main() {
+int main()
+{
     int numStudents;
 
     printf("Enter the number of students: ");
     scanf("%d", &numStudents);
 
-    // Declare an array of student records
     struct StudentRecord students[numStudents];
 
-    // Read and write records for each student
-    for (int i = 0; i < numStudents; i++) {
+    for (int i = 0; i < numStudents; i++)
+    {
         printf("\nEnter details for Student %d:\n", i + 1);
         readStudentRecord(&students[i]);
     }
 
     printf("\nDetails of all students:\n");
 
-    for (int i = 0; i < numStudents; i++) {
+    for (int i = 0; i < numStudents; i++)
+    {
         writeStudentRecord(students[i]);
     }
 
