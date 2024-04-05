@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-struct StudentRecord
-{
+struct StudentRecord{
     char name[50];
     int regNumber;
     long long contactNumber;
@@ -9,8 +8,7 @@ struct StudentRecord
     float avgMarks;
 };
 
-void readStudentRecord(struct StudentRecord *student)
-{
+void readStudentRecord(struct StudentRecord *student){
     printf("Enter student name: ");
     scanf("%s", student->name);
 
@@ -27,9 +25,9 @@ void readStudentRecord(struct StudentRecord *student)
     scanf("%f", &student->avgMarks);
 }
 
-void writeStudentRecord(struct StudentRecord student)
-{
+void writeStudentRecord(struct StudentRecord student){
     printf("\nStudent Record:\n");
+
     printf("Name: %s\n", student.name);
     printf("Registration Number: %d\n", student.regNumber);
     printf("Contact Number: %lld\n", student.contactNumber);
@@ -37,8 +35,7 @@ void writeStudentRecord(struct StudentRecord student)
     printf("Average Marks: %.2f\n", student.avgMarks);
 }
 
-int main()
-{
+int main(){
     int numStudents;
 
     printf("Enter the number of students: ");
@@ -46,16 +43,14 @@ int main()
 
     struct StudentRecord students[numStudents];
 
-    for (int i = 0; i < numStudents; i++)
-    {
+    for (int i = 0; i < numStudents; i++){
         printf("\nEnter details for Student %d:\n", i + 1);
         readStudentRecord(&students[i]);
     }
 
     printf("\nDetails of all students:\n");
 
-    for (int i = 0; i < numStudents; i++)
-    {
+    for (int i = 0; i < numStudents; i++){
         writeStudentRecord(students[i]);
     }
 

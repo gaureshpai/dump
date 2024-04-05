@@ -1,10 +1,12 @@
-
 import java.util.Scanner;
+
 class switch1{
     public static void main(String []args){
         Scanner obj = new Scanner(System.in);
+
         System.out.println("Enter the month:");
         int m = obj.nextInt();
+        
         switch(m){
             case 12:
             case 1:

@@ -41,7 +41,6 @@ In the case of computer protocols, these are usually published as open standards
 
 For a deeper dive into Secure Shell, see 
 SSH protocol
-. 
 
 The SSH protocol
 So how does SSH secure the network? It works on the principle of public-key encryption. The client and the server each generate a strong encryption key for any data that is passed between them. Then, that key gets split in half, with the client retaining one portion and the server keeping the other. It’s a complex version of a simple idea, really; it’s not hard to imagine two people making up an encryption code and then tearing it in half for extra secrecy. 
@@ -52,7 +51,6 @@ For more on these keys, see
 Public – private key pairs & how they work
  and 
 A Deep Dive on End-to-End Encryption
-. 
 
 Using the SSH protocol
 The SSH protocol is commonly used for logging in to servers remotely. While it is primarily used for logging in to Linux and Unix servers, it is also used to encrypt file transfers and to log in to some network equipment, like routers. 
@@ -79,7 +77,6 @@ SSH will also ask you for a passphrase to protect your key. Many people choose n
 
 If you add a passphrase to your SSH key for added security, you can save the passphrase to an SSH agent, which is a program that manages SSH keys. For more about working with SSH key passphrases, see 
 Adding your SSH key to the ssh-agent
-. 
 
 After you have set your passphrase or declined the option, OpenSSH will then generate a random public/private key pair and save it. Depending on your hardware, this may take several seconds to complete. OpenSSH will then return a message that your key has been saved and display the fingerprint and a “randomart image” of your new key. Here is an example:
 
@@ -122,11 +119,9 @@ If you try to connect to a host and see an error like “ssh: connection refused
 
 For use cases like increased security or managing user connections, see 
 How To Tune your SSH Daemon Configuration on a Linux VPS
-.
 
 Later versions of MacOS also have a command-line SSH client already installed. For a free implementation of SSH for Windows, Mac, and Unix, see 
 PuTTY: a free SSH and Telnet client
-. 
 
 Pro Tips 
 You can use the same private/public key pair across all the machines you control. So if you have two laptops and a tablet, you could copy your key pair to all of them. This can save you a few steps when logging in from other devices.

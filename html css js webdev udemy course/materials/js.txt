@@ -20,8 +20,8 @@ continue - skips the particular condition execution after the statement
 switch statement should generally be used when menu like statements are to be compared
 
 operators: operator is a symbol which tells the system to perform specific operation
-            unary,binary,ternary
-            arithmatic,assignment,comparison,logical,ternary
+           unary,binary,ternary
+           arithmatic,assignment,comparison,logical,ternary
 
 arithmatic: +,-,*,/,%,++,--
 logical: &&,||,!

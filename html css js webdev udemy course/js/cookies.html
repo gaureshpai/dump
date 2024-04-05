@@ -1,25 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Cookies in javascript</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookies in JavaScript</title>
     <script lang="javascript" type="text/javascript">
-        function WriteCookie(){
-            if(document.myform.customer.value == ""){
-                alert("Enter some value");
-                return
+        function writeCookie() {
+            var customerName = document.myform.customer.value.trim();
+            if (customerName === "") {
+                alert("Please enter a name.");
+                return;
             }
-            var cookievalue = escape(document.myform.customer.value)+":";
-            document.cookie = "Name" + cookievalue;
-            document.write("setting cookies: "+"name = "+cookievalue)
+            var cookieValue = encodeURIComponent(customerName);
+            document.cookie = "Name=" + cookieValue + "; expires=Fri, 31 Dec 9999 23:59:59 GMT";
+            document.write("Cookie set successfully: Name = " + customerName);
         }
     </script>
 </head>
-
 <body>
     <form name="myform">
-        Enter name: <input type="text" name="customer">
-        <button onclick="WriteCookie()">Set Cookie</button>
+        <label for="customer">Enter name:</label>
+        <input type="text" id="customer" name="customer" required>
+        <button type="button" onclick="writeCookie()">Set Cookie</button>
     </form>
 </body>
 

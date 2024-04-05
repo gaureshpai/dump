@@ -1,37 +1,37 @@
-        body {
-            background-color: #1a1a1a;
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding-top: 50px;
-        }
+body {
+    background-color: #1a1a1a;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+}
 
-        .gallery {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
 
-        .card {
-            margin-left: -50px;
-            width: 150px;
-            height: 200px;
-            padding: 20px;
-            background-color: #ffffff;
-            border-radius: 10px;
-            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
-            transition: transform 0.3s ease;
-            cursor: pointer;
-        }
+.card {
+    margin-left: -50px;
+    width: 150px;
+    height: 200px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
 
-        .card:nth-child(odd) {
-            background-color: #B881FF;
-        }
+.card:nth-child(odd) {
+    background-color: #B881FF;
+}
 
-        .card:nth-child(even) {
-            background-color: #FF9940;
-        }
+.card:nth-child(even) {
+    background-color: #FF9940;
+}
 
-        .card:hover {
-            transform: translateY(-10px);
-        }
+.card:hover {
+    transform: translateY(-10px);
+}

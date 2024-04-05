@@ -1,4 +1,5 @@
 #include<stdio.h>
+ 
 int add(int x,int y)
 {
     int Sum = x+y;
@@ -7,7 +8,7 @@ int add(int x,int y)
 
 int main(){
     int x,y;
-    printf("Enter numbers:");
+    printf("Enter numbers: ");
     scanf("%d %d",&x,&y);
     int sum = add(x,y);
     printf("Sum = %d",sum);

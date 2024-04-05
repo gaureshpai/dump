@@ -1,5 +1,5 @@
 public class TestMyPoint {
-    public static void main(String[] args) {
+    public static void main(String[] args){
         MyPoint point1 = new MyPoint();
         MyPoint point2 = new MyPoint(3, 4);
 

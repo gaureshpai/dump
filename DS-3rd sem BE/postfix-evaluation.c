@@ -25,9 +25,11 @@ int main() {
 
     for (i = 0; postfix[i] != '\0'; i++) {
         symb = postfix[i];
+
         if (isdigit(symb)) {
             push(symb - '0');
-        } else {
+        } 
+        else {
             op2 = pop();
             op1 = pop();
             switch (symb) {

@@ -14,7 +14,9 @@ public class Employee {
             double raiseAmount = salary * (percent / 100);
             salary += raiseAmount;
             System.out.println(name + "'s salary raised by " + percent + "%. New salary: $" + salary);
-        } else {
+        } 
+        
+        else {
             System.out.println("Invalid percentage. Salary remains unchanged.");
         }
     }

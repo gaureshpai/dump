@@ -1,6 +1,6 @@
 #include<stdio.h>
-int main()
-{
+
+int main(){
     int l,b;
     printf("Enter the length and breadth of the rectangle:");
     scanf("%d %d",&l , &b);

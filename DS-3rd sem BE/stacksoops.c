@@ -25,6 +25,7 @@ void push(Stack *s, int value) {
         printf("Stack overflow: Cannot push %d, stack is full.\n", value);
         return;
     }
+
     s->data[++(s->top)] = value;
     printf("Pushed %d onto the stack.\n", value);
 }
@@ -34,6 +35,7 @@ int pop(Stack *s) {
         printf("Stack underflow: Cannot pop from an empty stack.\n");
         exit(EXIT_FAILURE);
     }
+
     printf("Popped %d from the stack.\n", s->data[s->top]);
     return s->data[(s->top)--];
 }
@@ -43,6 +45,7 @@ int peek(Stack *s) {
         printf("Cannot peek from an empty stack.\n");
         exit(EXIT_FAILURE);
     }
+    
     return s->data[s->top];
 }
 

@@ -1,6 +1,7 @@
 a{
     text-decoration: none;
 }
+
 a:link {color:red}
 a:visited {color:grey}
 a:hover {color:pink; text-decoration:underline}
@@ -15,6 +16,7 @@ a:active {color:green}
     left:120px;
     z-index: 3;
 }
+
 .div2 {
     background-color: red;
     width: 300px;
@@ -24,6 +26,7 @@ a:active {color:green}
     left: 80px;
     z-index: 2;
 }
+
 .div3 {
     background-color: yellow;
     width: 300px;

@@ -3,38 +3,31 @@
 
 #define MAX_SIZE 100
 
-struct Queue
-{
+struct Queue{
     int front, rear;
     int array[MAX_SIZE];
 };
 
-void initializeQueue(struct Queue *queue)
-{
+void initializeQueue(struct Queue *queue){
     queue->front = -1;
     queue->rear = -1;
 }
 
-int isEmpty(struct Queue *queue)
-{
+int isEmpty(struct Queue *queue){
     return queue->front == -1;
 }
 
-int isFull(struct Queue *queue)
-{
+int isFull(struct Queue *queue){
     return (queue->rear == MAX_SIZE - 1);
 }
 
-void enqueue(struct Queue *queue, int item)
-{
-    if (isFull(queue))
-    {
+void enqueue(struct Queue *queue, int item){
+    if (isFull(queue)){
         printf("Queue is full. Cannot enqueue %d\n", item);
         return;
     }
 
-    if (isEmpty(queue))
-    {
+    if (isEmpty(queue)){
         queue->front = 0;
     }
 
@@ -43,10 +36,9 @@ void enqueue(struct Queue *queue, int item)
     printf("%d enqueued to the queue\n", item);
 }
 
-int dequeue(struct Queue *queue)
-{
-    if (isEmpty(queue))
-    {
+int dequeue(struct Queue *queue){
+
+    if (isEmpty(queue)){
         printf("Queue is empty. Cannot dequeue.\n");
         return -1;
     }
@@ -54,8 +46,7 @@ int dequeue(struct Queue *queue)
     int item = queue->array[queue->front];
     queue->front++;
 
-    if (queue->front > queue->rear)
-    {
+    if (queue->front > queue->rear){
         initializeQueue(queue);
     }
 
@@ -63,10 +54,9 @@ int dequeue(struct Queue *queue)
     return item;
 }
 
-int front(struct Queue *queue)
-{
-    if (isEmpty(queue))
-    {
+int front(struct Queue *queue){
+
+    if (isEmpty(queue)){
         printf("Queue is empty.\n");
         return -1;
     }
@@ -74,19 +64,18 @@ int front(struct Queue *queue)
     return queue->array[queue->front];
 }
 
-void printQueue(struct Queue *queue)
-{
-    if (isEmpty(queue))
-    {
+void printQueue(struct Queue *queue){
+
+    if (isEmpty(queue)){
         printf("Queue is empty.\n");
         return;
     }
 
     printf("Queue elements: ");
-    for (int i = queue->front; i <= queue->rear; i++)
-    {
+    for (int i = queue->front; i <= queue->rear; i++){
         printf("%d ", queue->array[i]);
     }
+
     printf("\n");
 }
 

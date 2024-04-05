@@ -12,7 +12,9 @@ int top = -1;
 int main() {
     printf("\nEnter the valid infix expression:\t");
     scanf("%s", infix);
+
     evaluate();
+
     printf("\nThe entered infix expression is:\n%s\n", infix);
     printf("\nThe corresponding postfix expression is:\n%s\n", postfix);
     return 0;
@@ -22,6 +24,7 @@ void evaluate() {
     int i = 0, j = 0;
     char symb, temp;
     push('#'); 
+    
     for (i = 0; infix[i] != '\0'; i++) {
         symb = infix[i];
         switch (symb) {

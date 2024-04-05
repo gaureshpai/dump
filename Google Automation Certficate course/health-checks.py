@@ -12,5 +12,6 @@ def check_cpu_usage():
 
 if not check_disk_usage("/") or not check_cpu_usage:
     print("Error!")
+    
 else:
     print("Everything is ok!")

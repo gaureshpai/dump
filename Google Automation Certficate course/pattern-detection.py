@@ -3,6 +3,7 @@ import re
 def show_time_of_pid(line):
     pattern = r"(\w{3} \d{1,2} \d{2}:\d{2}:\d{2}) \w+\.?\w* (\[?\w+\]?)"
     result = re.search(pattern, line)
+    
     if result:
         return f"{result.group(1)} pid:{result.group(2)}"
 

@@ -1,6 +1,10 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
+
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Arrays in js</title>
     </head>
     <body>
@@ -11,11 +15,13 @@
             arr[2] = 30;
             arr[3] = 40;
             arr[4] = 50;
+
             for(i=0;i<5;i++){
                 document.write(arr[i] + "<br/>");
             }
 
             var arr1 = new Array(10,20,30,40,50);
+
             for (i = 0; i < 5; i++) {
                 document.write(arr1[i] + "<br/>");
             }
@@ -24,9 +30,11 @@
             var i,j,temp;
 
             document.write("<br/><br/>Before sort...<br/>");
+
             for (i = 0; i < 6; i++) {
                     document.write(arr2[i] + "<br/>");
-                }
+            }
+
             for (i = 0; i < 6; i++) {
                 for (j = 0; j < 5; j++) {
                     if(arr2[j]>arr2[j+1]){
@@ -38,8 +46,9 @@
             }
 
             document.write("<br/><br/>After sort...<br/>");
-                for (i = 0; i < 6; i++) {
-                    document.write(arr2[i] + "<br/>");
+            
+            for (i = 0; i < 6; i++) {
+                document.write(arr2[i] + "<br/>");
             }
         </script>
     </body>

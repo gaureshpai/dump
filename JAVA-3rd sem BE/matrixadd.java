@@ -41,7 +41,6 @@ public class matrixadd{
                 resultMatrix[i][j] = matrix1[i][j] + matrix2[i][j];
             }
         }
-
         return resultMatrix;
     }
 

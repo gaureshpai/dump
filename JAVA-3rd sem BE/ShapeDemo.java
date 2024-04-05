@@ -34,7 +34,7 @@ class Triangle extends Shape {
 
     @Override
     double calculateArea() {
-        double s = (side1 + side2 + side3) / 2;
+        double s = (side1 + side2 + side3)/2;
         return Math.sqrt(s * (s - side1) * (s - side2) * (s - side3));
     }
 
@@ -45,7 +45,7 @@ class Triangle extends Shape {
 }
 
 public class ShapeDemo {
-    public static void main(String[] args) {
+    public static void main(String[] args){
         Circle circle = new Circle(5.0);
         Triangle triangle = new Triangle(3.0, 4.0, 5.0);
 

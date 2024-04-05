@@ -39,20 +39,24 @@ int** createAndInitialize2DArray(int rows, int cols) {
 
 void print1DArray(int* arr, int size) {
     printf("1D Array: ");
+
     for (int i = 0; i < size; i++) {
         printf("%d ", arr[i]);
     }
+
     printf("\n");
 }
 
 void print2DArray(int** arr, int rows, int cols) {
     printf("2D Array:\n");
+
     for (int i = 0; i < rows; i++) {
         for (int j = 0; j < cols; j++) {
             printf("%d ", arr[i][j]);
         }
         printf("\n");
     }
+
 }
 
 void free1DArray(int* arr) {
@@ -60,9 +64,11 @@ void free1DArray(int* arr) {
 }
 
 void free2DArray(int** arr, int rows) {
+
     for (int i = 0; i < rows; i++) {
         free(arr[i]);
     }
+
     free(arr);
 }
 
@@ -78,5 +84,5 @@ int main() {
     print2DArray(arr2D, rows2D, cols2D);
     free2DArray(arr2D, rows2D);
 
-    return 0;
+    return 0; 
 }

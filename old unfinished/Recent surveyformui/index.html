@@ -1,7 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
     <link href="style.css" rel="stylesheet">
 </head>
 
@@ -17,20 +20,24 @@
             </div>
             <table class="marginfix1">
                 <tr>
-                    <td class="marginfix2">Name:</td>
-                    <td class="marginfix3"><input type="text" placeholder="Enter your name" name="name" required></td>
+                    <td class="marginfix2"><label for="name">Name:</label></td>
+                    <td class="marginfix3"><input type="text" id="name" placeholder="Enter your name" name="name"
+                            required></td>
                 </tr>
                 <tr>
-                    <td class="marginfix2">Address:</td>
-                    <td class="marginfix3"><input type="text" placeholder="Enter your address" name="address" required></td>
+                    <td class="marginfix2"><label for="address">Address:</label></td>
+                    <td class="marginfix3"><input type="text" id="address" placeholder="Enter your address"
+                            name="address" required></td>
                 </tr>
                 <tr>
-                    <td class="marginfix2">Email:</td>
-                    <td class="marginfix3"><input type="email" placeholder="Enter your email" name="email" required></td>
+                    <td class="marginfix2"><label for="email">Email:</label></td>
+                    <td class="marginfix3"><input type="email" id="email" placeholder="Enter your email" name="email"
+                            required></td>
                 </tr>
                 <tr>
-                    <td class="marginfix2">Number:</td>
-                    <td class="marginfix3"><input type="number" placeholder="Enter your number" name="number" required></td>
+                    <td class="marginfix2"><label for="number">Number:</label></td>
+                    <td class="marginfix3"><input type="number" id="number" placeholder="Enter your number"
+                            name="number" required></td>
                 </tr>
             </table>
             <div class="marginfix1">
@@ -38,13 +45,16 @@
             </div>
             <table class="marginfix1">
                 <tr>
-                    <td class="marginfix2"><input type="radio" name="gender" value="m">Male</td>
+                    <td class="marginfix2"><input type="radio" id="male" name="gender" value="m"><label
+                            for="male">Male</label></td>
                 </tr>
                 <tr>
-                    <td class="marginfix2"><input type="radio" name="gender" value="f">Female</td>
+                    <td class="marginfix2"><input type="radio" id="female" name="gender" value="f"><label
+                            for="female">Female</label></td>
                 </tr>
                 <tr>
-                    <td class="marginfix2"><input type="radio" name="gender" value="o">Prefer Not to Say</td>
+                    <td class="marginfix2"><input type="radio" id="other" name="gender" value="o"><label
+                            for="other">Prefer Not to Say</label></td>
                 </tr>
             </table>
             <hr class="headline">
@@ -54,7 +64,8 @@
             <table class="headline">
                 <tr>
                     <td class="marginfix5">
-                        <textarea name="additionalInfo" placeholder="Enter additional information" required></textarea>
+                        <textarea id="additionalInfo" name="additionalInfo" placeholder="Enter additional information"
+                            required></textarea>
                     </td>
                 </tr>
             </table>

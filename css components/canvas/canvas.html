@@ -1,32 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Canvas Animation</title>
     <link href="canvas.css" rel="stylesheet">
 </head>
-
 <body>
-    <canvas id="canvas1">
-    </canvas>
+    <canvas id="canvas1"></canvas>
     <script>
-        // Define variables for the first circle
         let x1 = 260;
         let y1 = 1;
         let r1 = 5;
-
-        // Define variables for the second circle
         let x2 = 260;
         let y2 = 1;
         let r2 = 5;
 
-        // Get the canvas context
         const canvas = document.getElementById("canvas1");
         const context = canvas.getContext("2d");
 
-        // Define the draw function for the first circle
         function draw1() {
-            // Fill the canvas with a semi-transparent black color to create a trail effect
             context.fillStyle = "rgba(0, 0, 0, 0.05)";
             context.fillRect(0, 0, canvas.width, canvas.height);
 
@@ -35,7 +29,6 @@
             context.fillStyle = "orange";
             context.fill();
 
-            // Update position and size for the first circle
             if (y1 < 110) {
                 x1 -= 7;
             } else if (y1 < 260) {
@@ -48,18 +41,15 @@
             y1 += 3;
             r1 += 0.3;
 
-            // Request next animation frame
             requestAnimationFrame(draw1);
         }
 
-        // Define the draw function for the second circle
         function draw2() {
             context.beginPath();
             context.arc(x2, y2, r2, 0, 2 * Math.PI);
             context.fillStyle = "red";
             context.fill();
 
-            // Update position and size for the second circle
             if (y2 < 110) {
                 x2 += 7;
             } else if (y2 < 260) {
@@ -72,17 +62,14 @@
             y2 += 3;
             r2 += 0.3;
 
-            // Request next animation frame
             requestAnimationFrame(draw2);
         }
 
-        // Define a function to start the animation loop
         function startAnimation() {
             draw1();
             draw2();
         }
 
-        // Start the animation loop
         startAnimation();
     </script>
 </body>

@@ -3,18 +3,16 @@
 
 #define MAX_SIZE 5
 
-typedef struct
-{
+typedef struct{
     int front, rear;
     int capacity;
     int *array;
 } Queue;
 
-Queue *createQueue(int capacity)
-{
+Queue *createQueue(int capacity){
     Queue *queue = (Queue *)malloc(sizeof(Queue));
-    if (queue == NULL)
-    {
+
+    if (queue == NULL){
         printf("Memory allocation failed.\n");
         exit(EXIT_FAILURE);
     }
@@ -23,8 +21,8 @@ Queue *createQueue(int capacity)
     queue->front = -1;
     queue->rear = -1;
     queue->array = (int *)malloc(capacity * sizeof(int));
-    if (queue->array == NULL)
-    {
+
+    if (queue->array == NULL){
         printf("Memory allocation failed.\n");
         exit(EXIT_FAILURE);
     }
@@ -32,31 +30,26 @@ Queue *createQueue(int capacity)
     return queue;
 }
 
-int isEmpty(Queue *queue)
-{
+int isEmpty(Queue *queue){
     return (queue->front == -1);
 }
 
-int isFull(Queue *queue)
-{
+int isFull(Queue *queue){
     return ((queue->rear + 1) % queue->capacity == queue->front);
 }
 
-void enqueue(Queue *queue, int item)
-{
-    if (isFull(queue))
-    {
+void enqueue(Queue *queue, int item){
+    if (isFull(queue)){
         printf("Queue is full. Cannot enqueue.\n");
         return;
     }
 
-    if (isEmpty(queue))
-    {
+    if (isEmpty(queue)){
         queue->front = 0;
         queue->rear = 0;
     }
-    else
-    {
+
+    else{
         queue->rear = (queue->rear + 1) % queue->capacity;
     }
 
@@ -64,22 +57,20 @@ void enqueue(Queue *queue, int item)
     printf("Enqueued: %d\n", item);
 }
 
-int dequeue(Queue *queue)
-{
-    if (isEmpty(queue))
-    {
+int dequeue(Queue *queue){
+    if (isEmpty(queue)){
         printf("Queue is empty. Cannot dequeue.\n");
         exit(EXIT_FAILURE);
     }
 
     int item = queue->array[queue->front];
-    if (queue->front == queue->rear)
-    {
+
+    if (queue->front == queue->rear){
         queue->front = -1;
         queue->rear = -1;
     }
-    else
-    {
+
+    else{
         queue->front = (queue->front + 1) % queue->capacity;
     }
 
@@ -87,32 +78,30 @@ int dequeue(Queue *queue)
     return item;
 }
 
-void display(Queue *queue)
-{
-    if (isEmpty(queue))
-    {
+void display(Queue *queue){
+
+    if (isEmpty(queue)){
         printf("Queue is empty.\n");
         return;
     }
 
     printf("Queue: ");
     int i = queue->front;
-    do
-    {
+
+    do{
         printf("%d ", queue->array[i]);
         i = (i + 1) % queue->capacity;
     } while (i != (queue->rear + 1) % queue->capacity);
+
     printf("\n");
 }
 
-void freeQueue(Queue *queue)
-{
+void freeQueue(Queue *queue){
     free(queue->array);
     free(queue);
 }
 
-int main()
-{
+int main(){
     Queue *queue = createQueue(MAX_SIZE);
 
     enqueue(queue, 10);

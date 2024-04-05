@@ -1,4 +1,5 @@
 Study guide: Git
+
 In any Git project, there are three sections: 
 the Git directory,
 the working tree,

@@ -1,67 +1,57 @@
 #include <stdio.h>
-struct Term
-{
+
+struct Term{
     int coefficient;
     int exponent;
 };
 
-void inputPolynomial(struct Term poly[], int degree)
-{
-    for (int i = 0; i <= degree; i++)
-    {
+void inputPolynomial(struct Term poly[], int degree){
+    for (int i = 0; i <= degree; i++){
         printf("Enter coefficient for x^%d: ", degree - i);
         scanf("%d", &poly[i].coefficient);
         poly[i].exponent = degree - i;
     }
 }
 
-void displayPolynomial(struct Term poly[], int degree)
-{
-    for (int i = 0; i <= degree; i++)
-    {
+void displayPolynomial(struct Term poly[], int degree){
+    for (int i = 0; i <= degree; i++){
         printf("%dx^%d", poly[i].coefficient, poly[i].exponent);
-        if (i < degree)
-        {
+
+        if (i < degree){
             printf(" + ");
         }
     }
     printf("\n");
 }
 
-void addPolynomials(struct Term poly1[], struct Term poly2[], int degree1, int degree2, struct Term result[])
-{
+void addPolynomials(struct Term poly1[], struct Term poly2[], int degree1, int degree2, struct Term result[]){
     int i = 0, j = 0, k = 0;
 
-    while (i <= degree1 && j <= degree2)
-    {
-        if (poly1[i].exponent > poly2[j].exponent)
-        {
+    while (i <= degree1 && j <= degree2){
+        if (poly1[i].exponent > poly2[j].exponent){
             result[k++] = poly1[i++];
         }
-        else if (poly1[i].exponent < poly2[j].exponent)
-        {
+
+        else if (poly1[i].exponent < poly2[j].exponent){
             result[k++] = poly2[j++];
         }
-        else
-        {
+
+        else{
             result[k].exponent = poly1[i].exponent;
             result[k++].coefficient = poly1[i++].coefficient + poly2[j++].coefficient;
         }
     }
 
-    while (i <= degree1)
-    {
+    while (i <= degree1){
         result[k++] = poly1[i++];
     }
 
-    while (j <= degree2)
-    {
+    while (j <= degree2){
         result[k++] = poly2[j++];
     }
 }
 
-int main()
-{
+int main(){
     int degree1, degree2;
 
     printf("Enter the degree of the first polynomial: ");

@@ -14,7 +14,9 @@ public class Stack {
         if (top < MAX_SIZE - 1) {
             stackArray[++top] = value;
             System.out.println("Pushed: " + value);
-        } else {
+        } 
+        
+        else {
             System.out.println("Stack Overflow! Cannot push " + value + ".");
         }
     }
@@ -24,7 +26,9 @@ public class Stack {
             int poppedValue = stackArray[top--];
             System.out.println("Popped: " + poppedValue);
             return poppedValue;
-        } else {
+        } 
+        
+        else {
             System.out.println("Stack Underflow! Cannot pop from an empty stack.");
             return -1;
         }
@@ -34,7 +38,9 @@ public class Stack {
         if (top >= 0) {
             System.out.println("Peeked: " + stackArray[top]);
             return stackArray[top];
-        } else {
+        } 
+        
+        else {
             System.out.println("Stack is empty. Cannot peek.");
             return -1; 
         }
@@ -47,7 +53,9 @@ public class Stack {
                 System.out.print(stackArray[i] + " ");
             }
             System.out.println();
-        } else {
+        } 
+        
+        else {
             System.out.println("Stack is empty.");
         }
     }

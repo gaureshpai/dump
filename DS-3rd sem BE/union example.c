@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 
 union Data {
     int i;

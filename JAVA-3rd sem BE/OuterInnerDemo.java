@@ -11,7 +11,7 @@ class Outer {
 }
 
 public class OuterInnerDemo {
-    public static void main(String[] args) {
+    public static void main(String[] args){
         Outer outer = new Outer();
 
         outer.display();

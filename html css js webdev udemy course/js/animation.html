@@ -1,31 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Animation in javascript</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation in JavaScript</title>
     <script lang="javascript" type="text/javascript">
         var arr = new Array("webinar 1.png", "webinar 2.png", "webinar 3.png", "webinar 4.png");
         var i = 1;
         var ref;
-        function picLibrary(){
+
+        function picLibrary() {
             document.images[0].src = arr[i];
             i++
-            if(i<3){
-                i=0;
+            if (i < 3) {
+                i = 0;
             }
         }
 
-        function start(){
-            var ref = setInterval("picLibrary()",100);
+        function start() {
+            ref = setInterval(picLibrary, 100);
         }
-        function stop(){
+
+        function stop() {
             clearInterval(ref);
         }
     </script>
 </head>
 
 <body onload="start()">
-    <img src="webinar 1.png" name="img1" onmouseover="stop()" onmouseout="start()"/>
+    <img src="webinar 1.png" alt="Webinar Image" name="img1" onmouseover="stop()" onmouseout="start()" />
 </body>
 
 </html>

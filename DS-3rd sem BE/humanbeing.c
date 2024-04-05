@@ -7,7 +7,7 @@ struct HumanBeing {
 };
 
 int main() {
-    struct HumanBeing person;
+    struct HumanBeing person;   
 
     printf("Enter name: ");
     scanf("%s", person.name);

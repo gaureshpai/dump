@@ -11,6 +11,7 @@ typedef struct {
 
 Deque* createDeque(int capacity) {
     Deque* deque = (Deque*)malloc(sizeof(Deque));
+
     if (deque == NULL) {
         printf("Memory allocation failed.\n");
         exit(EXIT_FAILURE);
@@ -20,6 +21,7 @@ Deque* createDeque(int capacity) {
     deque->front = -1;
     deque->rear = -1;
     deque->array = (int*)malloc(capacity * sizeof(int));
+
     if (deque->array == NULL) {
         printf("Memory allocation failed.\n");
         exit(EXIT_FAILURE);
@@ -45,7 +47,9 @@ void enqueueFront(Deque* deque, int item) {
     if (isEmpty(deque)) {
         deque->front = 0;
         deque->rear = 0;
-    } else {
+    } 
+    
+    else {
         deque->front = (deque->front - 1 + deque->capacity) % deque->capacity;
     }
 
@@ -62,7 +66,9 @@ void enqueueRear(Deque* deque, int item) {
     if (isEmpty(deque)) {
         deque->front = 0;
         deque->rear = 0;
-    } else {
+    } 
+    
+    else {
         deque->rear = (deque->rear + 1) % deque->capacity;
     }
 
@@ -80,7 +86,9 @@ int dequeueFront(Deque* deque) {
     if (deque->front == deque->rear) {
         deque->front = -1;
         deque->rear = -1;
-    } else {
+    } 
+    
+    else {
         deque->front = (deque->front + 1) % deque->capacity;
     }
 
@@ -98,7 +106,9 @@ int dequeueRear(Deque* deque) {
     if (deque->front == deque->rear) {
         deque->front = -1;
         deque->rear = -1;
-    } else {
+    } 
+    
+    else {
         deque->rear = (deque->rear - 1 + deque->capacity) % deque->capacity;
     }
 
@@ -114,10 +124,12 @@ void display(Deque* deque) {
 
     printf("Deque: ");
     int i = deque->front;
+    
     do {
         printf("%d ", deque->array[i]);
         i = (i + 1) % deque->capacity;
     } while (i != (deque->rear + 1) % deque->capacity);
+
     printf("\n");
 }
 

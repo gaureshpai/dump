@@ -1,32 +1,27 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef struct Node
-{
+typedef struct Node{
     int data;
     struct Node *next;
 } Node;
 
-typedef struct
-{
+typedef struct{
     Node *top;
 } Stack;
 
-void initialize(Stack *stack)
-{
+void initialize(Stack *stack){
     stack->top = NULL;
 }
 
-int isEmpty(Stack *stack)
-{
+int isEmpty(Stack *stack){
     return (stack->top == NULL);
 }
 
-void push(Stack *stack, int value)
-{
+void push(Stack *stack, int value){
     Node *newNode = (Node *)malloc(sizeof(Node));
-    if (newNode == NULL)
-    {
+
+    if (newNode == NULL){
         printf("Memory allocation failed.\n");
         exit(EXIT_FAILURE);
     }
@@ -38,10 +33,8 @@ void push(Stack *stack, int value)
     printf("Pushed %d onto the stack.\n", value);
 }
 
-int pop(Stack *stack)
-{
-    if (isEmpty(stack))
-    {
+int pop(Stack *stack){
+    if (isEmpty(stack)){
         printf("Stack underflow: Cannot pop from an empty stack.\n");
         exit(EXIT_FAILURE);
     }
@@ -55,10 +48,8 @@ int pop(Stack *stack)
     return value;
 }
 
-int peek(Stack *stack)
-{
-    if (isEmpty(stack))
-    {
+int peek(Stack *stack){
+    if (isEmpty(stack)){
         printf("Cannot peek from an empty stack.\n");
         exit(EXIT_FAILURE);
     }
@@ -66,16 +57,13 @@ int peek(Stack *stack)
     return stack->top->data;
 }
 
-void freeStack(Stack *stack)
-{
-    while (!isEmpty(stack))
-    {
+void freeStack(Stack *stack){
+    while (!isEmpty(stack)){
         pop(stack);
     }
 }
 
-int main()
-{
+int main(){
     Stack myStack;
     initialize(&myStack);
 

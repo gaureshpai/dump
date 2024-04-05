@@ -19,9 +19,13 @@ public class CustomExceptionDemo {
         try {
             double result = divide(numerator, denominator);
             System.out.println("Result of division: " + result);
-        } catch (DivisionByZeroException e) {
+        } 
+        
+        catch (DivisionByZeroException e) {
             System.out.println("Exception caught: " + e.getMessage());
-        } finally {
+        } 
+        
+        finally {
             System.out.println("Finally block executed");
         }
     }

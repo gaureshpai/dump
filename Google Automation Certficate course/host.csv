@@ -1,2 +1,5 @@
-workstation,192.168.25.46
-webserver.cloud,10.2.5.6
+workstation,192.168.25.46
+
+webserver.cloud,10.2.5.6
+
+webserver.cloud,10.3.4.5

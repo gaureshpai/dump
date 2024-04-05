@@ -10,7 +10,9 @@ class MyThread extends Thread {
             System.out.println(Thread.currentThread().getName() + " Count: " + i);
             try {
                 Thread.sleep(500);
-            } catch (InterruptedException e) {
+            } 
+            
+            catch (InterruptedException e) {
                 System.out.println(Thread.currentThread().getName() + " Thread interrupted.");
             }
         }
@@ -25,7 +27,9 @@ public class ThreadConcurrentExample {
             System.out.println(Thread.currentThread().getName() + " Thread Count: " + i);
             try {
                 Thread.sleep(500); 
-            } catch (InterruptedException e) {
+            } 
+            
+            catch (InterruptedException e) {
                 System.out.println(Thread.currentThread().getName() + " Thread interrupted.");
             }
         }

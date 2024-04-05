@@ -8,7 +8,9 @@ class MyRunnable implements Runnable {
             try {
                 Thread.sleep(500);
                 System.out.println("Thread ID: " + Thread.currentThread().getId() + " is running.");
-            } catch (InterruptedException e) {
+            } 
+            
+            catch (InterruptedException e) {
                 System.out.println("Thread interrupted.");
             }
         }
@@ -42,7 +44,9 @@ public class RunnableThreadExample {
 
         try {
             Thread.sleep(500);
-        } catch (InterruptedException e) {
+        } 
+        
+        catch (InterruptedException e) {
             e.printStackTrace();
         }
 

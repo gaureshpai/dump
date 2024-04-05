@@ -13,6 +13,7 @@ typedef struct {
 
 MultiStack* createMultiStack(int totalSize) {
     MultiStack* multiStack = (MultiStack*)malloc(sizeof(MultiStack));
+
     if (multiStack == NULL) {
         printf("Memory allocation failed.\n");
         exit(EXIT_FAILURE);
@@ -82,6 +83,7 @@ void freeMultiStack(MultiStack* multiStack) {
 }
 
 int main() {
+    
     MultiStack* multiStack = createMultiStack(MAX_SIZE);
 
     push(multiStack, 0, 10);

@@ -1,4 +1,3 @@
-
 class test{
     void math(int i,int j){
         i+=2;

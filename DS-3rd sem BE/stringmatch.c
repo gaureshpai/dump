@@ -1,6 +1,8 @@
 #include<stdio.h>
+
 char str[50],pat[20],rep[20],ans[50];
 int c=0,m=0,i=0,j=0,k,flag=0;
+
 void stringmatch(){
     while(str[c] != '\0'){
         if(str[m] == pat[i]){
@@ -14,7 +16,8 @@ void stringmatch(){
                 i = 0;
                 c = m; 
             }
-        }else{
+        }
+        else{
             ans[j] = str[c];
             j++;
             c++;
@@ -24,17 +27,24 @@ void stringmatch(){
     }
     ans[j] = '\0';
 }
+
 void main(){
     printf("Enter the main string:");
     gets(str);
+
     printf("Enter the pat string:");
     gets(pat);
+
     printf("Enter the replace string:");
     gets(rep);
+
     stringmatch();
+
     if( flag == 1 ){  
-    printf("\nResultant string is %s",ans);
-    }else{    
-    printf("\n Pattern string is not found");
+        printf("\nResultant string is %s",ans);
+    }
+
+    else{    
+        printf("\n Pattern string is not found");
     }
 }

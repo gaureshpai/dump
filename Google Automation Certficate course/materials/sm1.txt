@@ -1,4 +1,5 @@
 Study guide: diff and patch
+
 The diff command
 You use the diff command to find the differences between two files. On its own, it’s a bit hard to use; instead, use diff -u to find lines that differ in two files:
 

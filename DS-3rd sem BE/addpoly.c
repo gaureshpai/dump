@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
- 
+
 struct Term {
     int coefficient;
     int exponent;
@@ -20,11 +20,9 @@ void insertTerm(struct Term** poly, int coeff, int exp) {
     if (*poly == NULL) {
         *poly = newTerm;
     } 
-    else 
-    {
+    else {
         struct Term* temp = *poly;
-        while (temp->next != NULL)
-        {
+        while (temp->next != NULL){
             temp = temp->next;
         }
         temp->next = newTerm;
@@ -32,12 +30,10 @@ void insertTerm(struct Term** poly, int coeff, int exp) {
 }
 
 void displayPolynomial(struct Term* poly) {
-    while (poly != NULL)
-    {
+    while (poly != NULL){
         printf("%dx^%d", poly->coefficient, poly->exponent);
         poly = poly->next;
-        if (poly != NULL) 
-        {
+        if (poly != NULL){
             printf(" + ");
         }
     }
@@ -64,7 +60,6 @@ struct Term* addPolynomials(struct Term* poly1, struct Term* poly2) {
             poly2 = poly2->next;
         }
     }
-
     return result;
 }
 
@@ -84,7 +79,6 @@ int main() {
     insertTerm(&poly1, 3, 2);
     insertTerm(&poly1, -2, 1);
     insertTerm(&poly1, 5, 0);
-
     insertTerm(&poly2, 4, 1);
     insertTerm(&poly2, 1, 0);
 

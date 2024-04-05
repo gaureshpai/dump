@@ -30,9 +30,13 @@ void insertFront(struct Deque* deque, int item) {
     if (isEmpty(deque)) {
         deque->front = 0;
         deque->rear = 0;
-    } else if (deque->front == 0) {
+    } 
+
+    else if (deque->front == 0) {
         deque->front = MAX_SIZE - 1;
-    } else {
+    } 
+
+    else {
         deque->front--;
     }
 
@@ -49,9 +53,13 @@ void insertRear(struct Deque* deque, int item) {
     if (isEmpty(deque)) {
         deque->front = 0;
         deque->rear = 0;
-    } else if (deque->rear == MAX_SIZE - 1) {
+    } 
+    
+    else if (deque->rear == MAX_SIZE - 1) {
         deque->rear = 0;
-    } else {
+    } 
+    
+    else {
         deque->rear++;
     }
 
@@ -69,9 +77,13 @@ int deleteFront(struct Deque* deque) {
 
     if (deque->front == deque->rear) {
         initializeDeque(deque);
-    } else if (deque->front == MAX_SIZE - 1) {
+    } 
+    
+    else if (deque->front == MAX_SIZE - 1) {
         deque->front = 0;
-    } else {
+    } 
+    
+    else {
         deque->front++;
     }
 
@@ -89,9 +101,13 @@ int deleteRear(struct Deque* deque) {
 
     if (deque->front == deque->rear) {
         initializeDeque(deque);
-    } else if (deque->rear == 0) {
+    } 
+    
+    else if (deque->rear == 0) {
         deque->rear = MAX_SIZE - 1;
-    } else {
+    } 
+    
+    else {
         deque->rear--;
     }
 
@@ -130,7 +146,9 @@ void printDeque(struct Deque* deque) {
 
         if (i == MAX_SIZE - 1) {
             i = 0;
-        } else {
+        } 
+        
+        else {
             i++;
         }
 

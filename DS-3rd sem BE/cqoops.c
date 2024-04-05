@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 #define MAX_SIZE 5
+
 typedef struct {
     int front, rear;
     int capacity;
@@ -10,6 +11,7 @@ typedef struct {
 
 CircularQueue* createCircularQueue(int capacity) {
     CircularQueue* queue = (CircularQueue*)malloc(sizeof(CircularQueue));
+
     if (queue == NULL) {
         printf("Memory allocation failed.\n");
         exit(EXIT_FAILURE);
@@ -19,6 +21,7 @@ CircularQueue* createCircularQueue(int capacity) {
     queue->front = -1;
     queue->rear = -1;
     queue->array = (int*)malloc(capacity * sizeof(int));
+
     if (queue->array == NULL) {
         printf("Memory allocation failed.\n");
         exit(EXIT_FAILURE);
@@ -36,6 +39,7 @@ int isFull(CircularQueue* queue) {
 }
 
 void enqueue(CircularQueue* queue, int item) {
+
     if (isFull(queue)) {
         printf("Queue is full. Cannot enqueue.\n");
         return;
@@ -51,16 +55,19 @@ void enqueue(CircularQueue* queue, int item) {
 }
 
 int dequeue(CircularQueue* queue) {
+
     if (isEmpty(queue)) {
         printf("Queue is empty. Cannot dequeue.\n");
         exit(EXIT_FAILURE);
     }
 
     int item = queue->array[queue->front];
+
     if (queue->front == queue->rear) {
         queue->front = -1;
         queue->rear = -1;
-    } else {
+    } 
+    else {
         queue->front = (queue->front + 1) % queue->capacity;
     }
 
@@ -69,6 +76,7 @@ int dequeue(CircularQueue* queue) {
 }
 
 void display(CircularQueue* queue) {
+
     if (isEmpty(queue)) {
         printf("Queue is empty.\n");
         return;
@@ -76,10 +84,12 @@ void display(CircularQueue* queue) {
 
     printf("Queue: ");
     int i = queue->front;
+
     do {
         printf("%d ", queue->array[i]);
         i = (i + 1) % queue->capacity;
     } while (i != (queue->rear + 1) % queue->capacity);
+
     printf("\n");
 }
 
@@ -96,13 +106,20 @@ int main() {
     enqueue(queue, 30);
     enqueue(queue, 40);
     enqueue(queue, 50);
+
     display(queue);
+
     dequeue(queue);
     dequeue(queue);
+
     display(queue);
+
     enqueue(queue, 60);
     enqueue(queue, 70);
+
     display(queue);
+
     freeCircularQueue(queue);
+    
     return 0;
 }

@@ -2,32 +2,28 @@
 #include <stdlib.h>
 #include <math.h>
 
-#define COMPARE(x, y) ((x == y) ? 0 : (x > y) ? 1 \
-                                                : -1)
+#define COMPARE(x, y) ((x == y) ? 0 : (x > y) ? 1 : -1)
 
-struct node
-{
+struct node{
     int coef;
     int xexp, yexp, zexp;
     struct node *link;
 };
-
 typedef struct node *NODE;
 
-NODE getnode()
-{
+NODE getnode(){
     NODE x;
     x = (NODE)malloc(sizeof(struct node));
-    if (x == NULL)
-    {
+
+    if (x == NULL){
         printf("Running out of memory\n");
         exit(0);
     }
+
     return x;
 }
 
-NODE attach(int coef, int xexp, int yexp, int zexp, NODE head)
-{
+NODE attach(int coef, int xexp, int yexp, int zexp, NODE head){
     NODE temp, cur;
     temp = getnode();
     temp->coef = coef;
@@ -35,8 +31,8 @@ NODE attach(int coef, int xexp, int yexp, int zexp, NODE head)
     temp->yexp = yexp;
     temp->zexp = zexp;
     cur = head->link;
-    while (cur->link != head)
-    {
+
+    while (cur->link != head){
         cur = cur->link;
     }
     cur->link = temp;
@@ -44,13 +40,12 @@ NODE attach(int coef, int xexp, int yexp, int zexp, NODE head)
     return head;
 }
 
-NODE read_poly(NODE head)
-{
+NODE read_poly(NODE head){
     int i, coef, xexp, yexp, zexp, n;
     printf("\nEnter the number of terms in the polynomial: ");
     scanf("%d", &n);
-    for (i = 1; i <= n; i++)
-    {
+
+    for (i = 1; i <= n; i++){
         printf("\n\tEnter the %d term:\n", i);
         printf("\t\tCoefficient: ");
         scanf("%d", &coef);
@@ -61,17 +56,15 @@ NODE read_poly(NODE head)
     return head;
 }
 
-void display(NODE head)
-{
+void display(NODE head){
     NODE temp;
-    if (head->link == head)
-    {
+    if (head->link == head){
         printf("\nPolynomial does not exist.\n");
         return;
     }
+
     temp = head->link;
-    while (temp != head)
-    {
+    while (temp != head){
         printf(" %dx^%dy^%dz^%d", temp->coef, temp->xexp, temp->yexp, temp->zexp);
         temp = temp->link;
         if (temp != head)
@@ -80,35 +73,30 @@ void display(NODE head)
     printf("\n");
 }
 
-int poly_evaluate(NODE head)
-{
+int poly_evaluate(NODE head){
     int x, y, z, sum = 0;
     NODE poly;
     printf("\nEnter the value of x, y, and z: ");
     scanf("%d %d %d", &x, &y, &z);
     poly = head->link;
-    while (poly != head)
-    {
+
+    while (poly != head){
         sum += poly->coef * pow(x, poly->xexp) * pow(y, poly->yexp) * pow(z, poly->zexp);
         poly = poly->link;
     }
     return sum;
 }
 
-NODE poly_sum(NODE head1, NODE head2, NODE head3)
-{
+NODE poly_sum(NODE head1, NODE head2, NODE head3){
     NODE a, b;
     int coef;
 
     a = head1->link;
     b = head2->link;
 
-    while (a != head1 && b != head2)
-    {
-        while (1)
-        {
-            if (a->xexp == b->xexp && a->yexp == b->yexp && a->zexp == b->zexp)
-            {
+    while (a != head1 && b != head2){
+        while (1){
+            if (a->xexp == b->xexp && a->yexp == b->yexp && a->zexp == b->zexp){
                 coef = a->coef + b->coef;
                 head3 = attach(coef, a->xexp, a->yexp, a->zexp, head3);
                 a = a->link;
@@ -116,35 +104,29 @@ NODE poly_sum(NODE head1, NODE head2, NODE head3)
                 break;
             }
 
-            if (a->xexp != 0 || b->xexp != 0)
-            {
-                switch (COMPARE(a->xexp, b->xexp))
-                {
+            if (a->xexp != 0 || b->xexp != 0){
+                switch (COMPARE(a->xexp, b->xexp)){
                 case -1:
                     head3 = attach(b->coef, b->xexp, b->yexp, b->zexp, head3);
                     b = b->link;
                     break;
                 case 0:
-                    if (a->yexp > b->yexp)
-                    {
+                    if (a->yexp > b->yexp){
                         head3 = attach(a->coef, a->xexp, a->yexp, a->zexp, head3);
                         a = a->link;
                         break;
                     }
-                    else if (a->yexp < b->yexp)
-                    {
+                    else if (a->yexp < b->yexp){
                         head3 = attach(b->coef, b->xexp, b->yexp, b->zexp, head3);
                         b = b->link;
                         break;
                     }
-                    else if (a->zexp > b->zexp)
-                    {
+                    else if (a->zexp > b->zexp){
                         head3 = attach(a->coef, a->xexp, a->yexp, a->zexp, head3);
                         a = a->link;
                         break;
                     }
-                    else if (a->zexp < b->zexp)
-                    {
+                    else if (a->zexp < b->zexp){
                         head3 = attach(b->coef, b->xexp, b->yexp, b->zexp, head3);
                         b = b->link;
                         break;
@@ -158,23 +140,19 @@ NODE poly_sum(NODE head1, NODE head2, NODE head3)
                 break;
             }
 
-            if (a->yexp != 0 || b->yexp != 0)
-            {
-                switch (COMPARE(a->yexp, b->yexp))
-                {
+            if (a->yexp != 0 || b->yexp != 0){
+                switch (COMPARE(a->yexp, b->yexp)){
                 case -1:
                     head3 = attach(b->coef, b->xexp, b->yexp, b->zexp, head3);
                     b = b->link;
                     break;
                 case 0:
-                    if (a->zexp > b->zexp)
-                    {
+                    if (a->zexp > b->zexp){
                         head3 = attach(a->coef, a->xexp, a->yexp, a->zexp, head3);
                         a = a->link;
                         break;
                     }
-                    else if (a->zexp < b->zexp)
-                    {
+                    else if (a->zexp < b->zexp){
                         head3 = attach(b->coef, b->xexp, b->yexp, b->zexp, head3);
                         b = b->link;
                         break;
@@ -188,10 +166,8 @@ NODE poly_sum(NODE head1, NODE head2, NODE head3)
                 break;
             }
 
-            if (a->zexp != 0 || b->zexp != 0)
-            {
-                switch (COMPARE(a->zexp, b->zexp))
-                {
+            if (a->zexp != 0 || b->zexp != 0){
+                switch (COMPARE(a->zexp, b->zexp)){
                 case -1:
                     head3 = attach(b->coef, b->xexp, b->yexp, b->zexp, head3);
                     b = b->link;
@@ -206,14 +182,12 @@ NODE poly_sum(NODE head1, NODE head2, NODE head3)
         }
     }
 
-    while (a != head1)
-    {
+    while (a != head1){
         head3 = attach(a->coef, a->xexp, a->yexp, a->zexp, head3);
         a = a->link;
     }
 
-    while (b != head2)
-    {
+    while (b != head2){
         head3 = attach(b->coef, b->xexp, b->yexp, b->zexp, head3);
         b = b->link;
     }
@@ -221,8 +195,7 @@ NODE poly_sum(NODE head1, NODE head2, NODE head3)
     return head3;
 }
 
-int main()
-{
+int main(){
     NODE head, head1, head2, head3;
     int res, ch;
 
@@ -236,8 +209,7 @@ int main()
     head2->link = head2;
     head3->link = head3;
 
-    while (1)
-    {
+    while (1){
         printf("\n~~~~ Menu ~~~~");
         printf("\n1. Represent and Evaluate a Polynomial P(x, y, z)");
         printf("\n2. Find the sum of two polynomials POLY1(x, y, z)");
@@ -245,8 +217,7 @@ int main()
         printf("\nEnter your choice: ");
         scanf("%d", &ch);
 
-        switch (ch)
-        {
+        switch (ch){
         case 1:
             printf("\n~~~~ Polynomial evaluation P(x, y, z) ~~~~\n");
             head = read_poly(head);

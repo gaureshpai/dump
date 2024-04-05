@@ -1,6 +1,9 @@
 css: cascading style sheet
+
 cascading: flow
+
 css Layers: refers to applying the z-index property to elements that overlap with each other
+
 3 types of coloring: hexadecimal code, rgb absolute, keywords
 #000000 rgb(0,0,0)      black
 #FF0000 rgb(255,0,0)    red
@@ -9,7 +12,6 @@ css Layers: refers to applying the z-index property to elements that overlap wit
 also color can be passed in hsl from -  hue saturation and lightcolor
 
 Padding:
-
 when we have used padding 15 pixels that mean it will be 15 pixels from all the four side.
 
 But if I will specify like 10 pixels and spaced 2%, that means from top and bottom it's going to be 10 pixel, 

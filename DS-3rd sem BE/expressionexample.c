@@ -32,23 +32,25 @@ int evaluatePostfix(char *expression) {
     for (int i = 0; expression[i] != '\0'; i++) {
         if (isOperand(expression[i])) {
             push(&stack, expression[i] - '0');
-        } else {
+        } 
+        
+        else {
             int operand2 = pop(&stack);
             int operand1 = pop(&stack);
 
-            switch (expression[i]) {
-                case '+':
-                    push(&stack, operand1 + operand2);
-                    break;
-                case '-':
-                    push(&stack, operand1 - operand2);
-                    break;
-                case '*':
-                    push(&stack, operand1 * operand2);
-                    break;
-                case '/':
-                    push(&stack, operand1 / operand2);
-                    break;
+        switch (expression[i]) {
+            case '+':
+                push(&stack, operand1 + operand2);
+                break;
+            case '-':
+                push(&stack, operand1 - operand2);
+                break;
+            case '*':
+                push(&stack, operand1 * operand2);
+                break;
+            case '/':
+                push(&stack, operand1 / operand2);
+                break;
             }
         }
     }
@@ -60,6 +62,5 @@ int main() {
     char postfixExpression[] = "34+5*";
     int result = evaluatePostfix(postfixExpression);
     printf("Result of postfix expression: %d\n", result);
-
     return 0;
 }
