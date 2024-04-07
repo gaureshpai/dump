@@ -13,7 +13,11 @@ def octal_to_hexadecimal(octal):
 
 binary = input("Enter a binary number: ")
 octal = input("Enter an octal number: ")
+
 decimal = binary_to_decimal(binary)
+
 print("The decimal equivalent of", binary, "is:", decimal)
+
 hexadecimal = octal_to_hexadecimal(octal)
+
 print("The hexadecimal equivalent of", octal, "is:", hexadecimal)

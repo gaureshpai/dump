@@ -10,11 +10,14 @@ def count_digit(number):
     return digit_occur
 
 input_number = int(input("Enter a number: "))
+
 if is_palindrome(input_number):
     print(f"{input_number} is a palindrome")
 else:
     print(f"{input_number} is not a palindrome")
+    
 occur = count_digit(input_number)
 print("Digit occurences:")
+
 for digit,count in occur.items():
     print(f"Digit {digit}:{count} times.")

@@ -9,6 +9,5 @@ y = np.random.random(50) * 200
 graph = figure(title="Simple Scatter Plot", x_axis_label="x", y_axis_label="y") 
 
 graph.circle(x, y, legend_label="Random Points", color="yellow", size=12)
-
-# displaying the model 
+ 
 show(graph)

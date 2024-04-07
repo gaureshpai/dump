@@ -14,5 +14,4 @@ glyph = circle.glyph
 glyph.size = 200
 glyph.fill_color = "red"
 
-# displaying the model 
 show(graph)

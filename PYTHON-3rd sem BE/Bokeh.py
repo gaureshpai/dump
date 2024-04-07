@@ -22,5 +22,4 @@ textinput.js_link("value", points.glyph, "fill_color")
 # Create the layout
 layout = layout([[div, spinner], [textinput], [graph]])
 
-# Show the plot
 show(layout)

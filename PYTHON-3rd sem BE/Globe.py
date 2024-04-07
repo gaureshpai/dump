@@ -1,4 +1,3 @@
-#Importing the required libraries
 import plotly.graph_objects as go
 
 # Orthographic Projection

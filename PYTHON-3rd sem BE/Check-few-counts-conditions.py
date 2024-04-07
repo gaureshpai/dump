@@ -1,4 +1,5 @@
 s = input("Enter a sentence:")
+
 w,d,u,l = 0,0,0,0
 l_w = s.split()
 w = len(l_w)

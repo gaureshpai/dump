@@ -9,6 +9,5 @@ y = np.random.random(5) * 200
 graph = figure(title="Simple Bar Plot", x_axis_label="x", y_axis_label="y") 
 
 graph.vbar(x=x, top=y, width=0.5, bottom=0, color="red")
-
-# displaying the model 
+ 
 show(graph)
