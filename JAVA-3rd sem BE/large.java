@@ -1,9 +1,10 @@
-
 import java.util.Scanner;
+
 class large{
     public static void main(String args[]){
         Scanner obj = new Scanner(System.in);
         System.out.print("Enter the two numbers:");
+        
         float a = obj.nextFloat();
         float b = obj.nextFloat();
 

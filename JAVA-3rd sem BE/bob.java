@@ -1,4 +1,3 @@
-
 class box{
     double width;
     double height;
@@ -14,6 +13,7 @@ class box{
         return width*depth*height;
     }
 }
+
 class bob{
     public static void main(String args[]){
         Box mybox1 = new Box(10,20,15);

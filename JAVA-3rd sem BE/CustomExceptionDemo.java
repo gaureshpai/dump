@@ -9,6 +9,7 @@ public class CustomExceptionDemo {
         if (denominator == 0) {
             throw new DivisionByZeroException("Cannot divide by zero!");
         }
+        
         return (double) numerator / denominator;
     }
 

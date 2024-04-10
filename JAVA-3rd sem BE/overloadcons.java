@@ -1,4 +1,3 @@
-
 class box{
     double width;
     double height;

@@ -13,6 +13,7 @@ public class Employee {
         if (percent > 0) {
             double raiseAmount = salary * (percent / 100);
             salary += raiseAmount;
+            
             System.out.println(name + "'s salary raised by " + percent + "%. New salary: $" + salary);
         } 
         
