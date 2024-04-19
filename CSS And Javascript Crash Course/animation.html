@@ -9,6 +9,7 @@
         var arr = new Array("webinar 1.png", "webinar 2.png", "webinar 3.png", "webinar 4.png");
         var i = 1;
         var ref;
+
         function picLibrary(){
             document.images[0].src = arr[i];
             i++
@@ -28,7 +29,9 @@
 </head>
 
 <body onload="start()">
+
     <img alt="" src="webinar 1.png" name="img1" onmouseover="stop()" onmouseout="start()"/>
+    
 </body>
 
 </html>
