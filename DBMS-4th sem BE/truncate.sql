@@ -1,0 +1,1 @@
+truncate table cse_course;
