@@ -1,0 +1,30 @@
+Algorithm Mergesort(a, l, h)
+    if(l < h)
+    mid <- (l + h)/2
+    Mergesort(a, l, mid)
+    Mergesort(a, mid+1, h)
+    Simplemerge(a, l, h, mid)
+
+ Algorithm Simplemerge(A, B, C, m, n)
+    i <- j <- k <- 0
+    while(i < m  and j < n)
+        if(A[i] < B[i])then
+            C[k] <- A[i]
+            i <- i + 1 
+            k <- k + 1
+        else
+            C[k] <- B[j]
+            j <- j + 1
+            k <- k + 1
+        End if
+    End while
+    while(i < m)
+        C[k] <- A[i]
+        i <- i + 1 
+        k <- k + 1
+    End while
+    while (j < n)
+        C[k] <- B[j]
+        j <- j + 1
+        k <- k + 1
+    End while
