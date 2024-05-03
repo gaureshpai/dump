@@ -1,51 +1,43 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <omp.h>
+
 int *a, n;
 
-void merge(int l, int r, int m)
-{
+void merge(int l, int r, int m){
     int i, j, k, *b;
     i = l;
     j = m + 1;
     k = l;
     b = calloc(n, sizeof(int));
-    while (i <= m && j <= r)
-    {
-        if (a[i] < a[j])
-        {
+    while (i <= m && j <= r){
+        if (a[i] < a[j]){
             b[k++] = a[i++];
         }
-        else
-        {
+        else{
             b[k++] = a[j++];
         }
     }
-    while (i <= m)
-    {
+    while (i <= m){
         b[k++] = a[i++];
     }
-    while (j <= m)
-    {
+    while (j <= m){
         b[k++] = a[j++];
     }
-    for (i = l; i < k; i++)
-    {
+    for (i = l; i < k; i++){
         a[i] = b[i];
     }
 }
 
-void merge_sort(int l, int r)
-{
+void merge_sort(int l, int r){
     int m;
-    if (l < r)
-    {
+    if (l < r){
         m = (l + r) / 2;
-#pragma opm task
+        #pragma opm task
         {
             merge_sort(l, m);
         }
-#pragma opm task
+        #pragma opm task
         {
             merge_sort(m + 1, r);
         }
@@ -53,18 +45,15 @@ void merge_sort(int l, int r)
     }
 }
 
-void print_array()
-{
+void print_array(){
     int i;
-    for (i = 0; i < n; i++)
-    {
+    for (i = 0; i < n; i++){
         printf("%d\t", a[i]);
     }
     printf("\n");
 }
 
-int main()
-{
+int main(){
     int i;
     double start, end;
 
@@ -73,8 +62,7 @@ int main()
 
     a = calloc(n, sizeof(int));
 
-    for (i = 0; i < n; i++)
-    {
+    for (i = 0; i < n; i++){
         a[i] = rand() % 20;
     }
 
