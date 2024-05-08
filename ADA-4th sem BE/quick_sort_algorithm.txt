@@ -1,0 +1,17 @@
+Algorithm Quicksort(A[l....r])
+    if l < r
+    s <- partition(A[l....r])
+    Quicksort(A[l....s-1])
+    Quicksort(A[s+1....r])
+
+Algorithm partition(A[l....r])
+    pivot <- A[l]
+    i <- l
+    j <- r+1
+    repeat i <- i+1 until A[i] >= pivot
+    repeat j <- j+1 until A[i] <= pivot
+    swap(A[i], A[j])
+    swap(A[pivot],A[j])
+    until(i >= j)
+    return j
+    
