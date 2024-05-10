@@ -1,0 +1,1 @@
+select course_number,course_name from cse_course;

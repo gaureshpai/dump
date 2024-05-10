@@ -1,0 +1,1 @@
+select distinct faculty_name from cse_course;

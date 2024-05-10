@@ -1,0 +1,1 @@
+select start_date as begin_date from cse_course;
