@@ -96,11 +96,3 @@ javascript predefined functions:
     variable.splice() -> takes 4 arguments:1st tells where to start,2nd tells how many items to be deleted,3rd and 4th and so on tells what itsems to be added
     variable.sort() -> Sorts the variable array in ascending order
     variable.reverse() -> Sorts the variable array in descending order
-
-
-    
-
-
-
-
-

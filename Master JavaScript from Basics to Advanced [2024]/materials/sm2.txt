@@ -15,9 +15,15 @@ Querry Selectors:
 Javascript events:
     when some action happens in the webpage, that action is called event.
     -using Event properties
-    0using addEventListener()
+    -using addEventListener()
 
-The mordern browsers give us access to a property called 'classList. This classList holds all the classes of an HTML element
+The mordern browsers give us access to a property called 'classList'. This classList holds all the classes of an HTML elements.
+
+Form events:
+    change: the change event is triggered when the content of an input field is changed or when the user selects a value from the dropdown etc.
+    focus: the focus event is triggered when the input field is focused by the user.
+    blur: the blur event is triggered when the input field looses focus.
+    submit: the submit event is triggered when the submit button is clicked by the user.
 
 Javascript functions:
     getElementById() -> getElementById is a DOM method. It accepts HTML elementId and returns the HTML element mathing that Id.
