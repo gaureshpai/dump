@@ -1,0 +1,2 @@
+ALTER TABLE Player
+DROP COLUMN ContactNo;

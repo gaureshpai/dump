@@ -1,0 +1,55 @@
+Data is an unprocessed set of inputs, which is not self-explanatory. 
+We need to comprehend the idea of data. Data is a collection of facts about the object of interest. 
+For e.g. data about a student would include information like name, address, roll no, subjects, marks etc. 
+Software Applications need to store data as it is required to answer questions like e.g. 
+how many students have scored above 90? Data is also required to convey a story e.g. how a student is categorized as Top Performer?
+
+Data is crude, simply a bunch of realities which without anyone else doesn't pass on anything. 
+We need to comprehend designs between genuine information and give it a significance. 
+This is called information which causes us with answers to questions like who, when, what, where and so forth. 
+Union of data and information drives us to address the how question and take business choices. This is referred to as Knowledge.
+
+Software Applications that utilizes data are relied upon to meet a few necessities of end-users
+
+Data is stored in flat files and can be accessed using any programming language. The file-based approach suffers following problems:
+-Dependency of program on physical structure of data
+-Complex process to fetch data
+-Loss of data on simultaneous access
+-Inability to give access based on record (Security)
+-Data redundancy
+
+A Database is a shared collection of logically related data and description of these data, designed to meet the information needs of an organization.
+A Database Management System(DBMS) is a software system that enables users to define, create, maintain, and control access to the database. 
+Database Systems typically have high costs and require high-end hardware configurations.
+An Application Program communicates with a database by issuing an appropriate request (typically a SQL statement)
+
+Database systems are categorized into four types based upon the underlying structure used to store data. 
+These database systems in chronological order of their evolution are Hierarchical, Network, Relational and NoSql. 
+We will now get a brief overview of these database management systems.
+
+-Hierarchical Databases organize data into a tree-like structure. Data is stored as records which are connected to one another through parent child relationships. 
+Some examples of Hierarchical Databases are Information Management System (IMS), Raima Database Manager (RDM) Mobile etc.
+-Network Databases organize data into a graph structure in which object types are nodes and relationship types are arcs. Each record can have multiple parent and child records. 
+Some examples of Network Databases are Integrated Database Management System (IDMS), Integrated Data Store (IDS) etc.
+-Relational Databases organizes data into one or more tables. A table consists of attributes (columns), tuples (rows) and provides a way to uniquely identify each tuple. 
+Tables are related to each other through parent child relationships. Some examples of Relational Databases are DB2, Oracle, SQL Server etc.
+-NoSQL (Not only SQL) database uses key-value, graph or document data structures to store data. These databases aim for simplicity of design, horizontal scaling and finer control over availability. 
+Some examples on No Sql databases are Cassandra, MongoDB, CouchDB, OrientDB, HBASE etc.
+
+Additionally there are other databases types as well like Object Oriented databases e.g. DB4O and ZopeDB, Graph Databases e.g. Neo4J and InfiniteGraph etc. 
+Relational databases are the most widely used database in the current times.
+
+-Relational Databases store data in relations i.e. tables. Each relation must have a name.
+-An attribute is a named column of a relation. It stores a specific information about an object e.g. salary.
+-A tuple is a row in a relation. It represents relationship between attributes that can contain single value.
+-Cardinality of relation is the number of rows it contains
+-Degree of relation is the number of attributes it contains.
+-NULL represents the value of an attribute that is currently unknown or not applicable.
+-A domain is the set of allowable values for one or more attributes.
+-A collection of relations with distinct relation names is called as Relational Model.
+
+A Foreign Key is a set of one or more columns in the child table whose values are required to match with corresponding columns in the parent table. 
+Foreign key establishes a relationship between these two tables. 
+Foreign key columns identified in child tables must refer to the primary key or unique key of the parent table. 
+The child table can contain NULL values.
+Additionally, numerous rows in the child table can connect to the same row of the parent table depending upon the type of relationship.

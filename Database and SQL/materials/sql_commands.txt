@@ -1,0 +1,44 @@
+CREATE TABLE statement is used to create a table in a database. 
+Database tables are organized into rows and columns. 
+Each table must have a name and can have any number of columns (minimum 1 column is required). 
+Each column must have a data type which determines the type of values that can be stored. 
+CREATE TABLE command will fail if a table is already existing in the database with the same name. 
+All tables must have a unique name.
+
+DROP TABLE statement is used to remove an existing table from the database.
+DROP TABLE statement is used to drop an existing table from the database.
+The syntax for DROP statement:
+        DROP TABLE <Table name>;
+Note:- Tables without any reference with the child table can be dropped using the DROP statement given above.
+
+The parent table in the database cannot be deleted before deleting all its child tables basically the tables with which its foreign keys are associated with.
+
+DROP TABLE <Table name> CASCADE CONSTRAINTS;
+CASCADE CONSTRAINTS clause should be added to the DROP statement to drop all the referential integrity constraints that refer to primary and unique keys in the table.
+
+Table level constraint can be specified after all columns used in the constraint have been defined. 
+It is not necessary to specify them after all columns in the table are defined. 
+Composite constraints can only be specified as table level constraints.
+
+Various constraints that can be created on database tables are:
+NOT NULL, PRIMARY KEY, CHECK, UNIQUE, FOREIGN KEY
+We can also specify DEFAULT value for a column. Oracle database does not consider DEFAULT as a constraint.
+
+NOT NULL Constraint prevents a column from accepting NULL values. 
+NOT NULL can only be applied as a column level constraint. 
+Constraint name is optional and it can be specified by using CONSTRAINT keyword.
+
+A column can be given the default value by using DEFAULT option. 
+The data type of column and default expression must be the same. 
+DEFAULT option can be provided for nullable as well as NOT NULL attributes. 
+Oracle database does not consider DEFAULT as a constraint.
+
+PRIMARY KEY constraint on a column ensures that the column cannot contain NULL and duplicate values. 
+We can have only one PRIMARY KEY in a table.
+
+UNIQUE constraint on a column ensures that two rows in a table cannnot have same value in that column. 
+Unlike Primary Key, UNIQUE constraint allows NULL values. A table can have many UNIQUE constraints.
+
+We need to use ALTER TABLE command through which the structure of the existing table can be changed without any loss of data. 
+It can also be used to rename a column, change the data type of a column and to add or remove constraints.
+

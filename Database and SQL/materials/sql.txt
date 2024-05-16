@@ -1,0 +1,47 @@
+Structured Query Language (SQL) is used to manage data in all relational databases like DB2, Oracle, SQL Server etc. 
+SQL standards are maintained by ISO. 
+While most database products comply with the ISO standard, they also offer additional proprietary features.
+
+Data Definition Language is used to specify the structure i.e. schema of a relational database. 
+DDL provides commands for creation, modification and deletion of various database objects like tables, views, stored procedures, indexes, constraints etc. 
+The output of DDL is placed in data dictionary which contains metadata i.e. data about data.
+
+Data Manipulation Language enables users to access or manipulate data in a relational database. 
+DML provides commands for retrieval, creation, deletion and modification of information in a database. 
+DML requires a user to specify what data is needed without specifying how to get it. 
+The database engine is left to figure out effective means of retrieving data.
+
+Data Control Language enables users to provide access to various database objects like views, tables, stored procedures etc.
+in a relational database. Typically only DBAs have access to grant and revoke privileges.
+Whenever a user submits a query, the database checks against the granted privileges and rejects the query if it is not authorized.
+
+Transaction Control Language specifies commands for beginning and ending a transaction. 
+A transaction consists of a sequence of SQL statements that are applied in an atomic (all or none) manner. 
+A commit makes all the changes applied by the transaction permanent on the database while a rollback undoes all the changed applied by the transaction.
+
+To summarize, Structured Query Language (SQL) provides four types of languages based on type of operation to be performed on a database. 
+These languages can be considered as subsets of SQL and logical groups only. 
+Physically commands for all these languages are executed from the same interface provided by the database.
+
+Data types :
+-Character data types
+-Integral data types 
+-Non-Integral data types
+-Miscellaneous data types 
+
+Operators :
+-Arithmetic operators
+-Comparison operators 
+-Logical operators 
+
+SQL supports SMALLINT, INTEGER and INT data types that are used for storing whole numbers. 
+Unlike other databases, Oracle does not define different size limits for them. 
+They are all treated internally to have 38 digits of precision.
+
+Precision and Scale of non-integral data type determines the maximum value that can be stored. 
+It also determines, how input data will be modified before storing the value.
+
+not equal to is represented as <>
+equal to is represented as =
+
+

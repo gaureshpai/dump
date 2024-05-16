@@ -1,0 +1,10 @@
+Create Match table as per details below. A player cannot play against himself, so player1 should not be equal to player2.
+
+Column Name	Data Type	Constraint	Description
+MId	INTEGER	PRIMARY KEY		Unique Match Id for a tournament
+TId	INTEGER	FOREIGN KEY	Existing tournament Id present in tournament table
+Player1	INTEGER	FOREIGN KEY	Player1 should not be equal to Player2	Existing player Id present in player table
+Player2	INTEGER	FOREIGN KEY	Existing player Id present in player table
+MatchDt	DATE	NOT NULL	Match Date
+Winner	INTEGER	FOREIGN KEY	Existing player Id present in Player table
+Score	VARCHAR2(30)	NOT NULL	Match Score

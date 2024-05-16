@@ -1,0 +1,6 @@
+CREATE TABLE Player 
+(
+    PId INTEGER PRIMARY KEY,
+    PName VARCHAR2(20) NOT NULL,
+    Ranking INTEGER
+);

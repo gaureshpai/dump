@@ -1,0 +1,1 @@
+alter table player modify(pname varchar(50));
