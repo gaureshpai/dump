@@ -1,0 +1,1 @@
+select salary from emp group by salary;

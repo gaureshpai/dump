@@ -1,0 +1,1 @@
+select min(age) from emp;
