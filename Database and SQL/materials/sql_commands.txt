@@ -42,3 +42,40 @@ Unlike Primary Key, UNIQUE constraint allows NULL values. A table can have many 
 We need to use ALTER TABLE command through which the structure of the existing table can be changed without any loss of data. 
 It can also be used to rename a column, change the data type of a column and to add or remove constraints.
 
+Insert statement is used to add tuples (records) to the table.
+If column names are not used then values must be provided for all columns in the order of their specification during table creation.
+If column names are used then the data provided in the values clause must have the same data type of column at same position.
+Multiple rows can be inserted through a single INSERT statement only when it is used with SELECT statement. 
+While inserting data, column values should match column type definition
+(e.g., you can’t insert a textual value into the numerical column/attribute). 
+If the column is of strings or date time or characters, they need to be enclosed in single quotes(You cannot use double quotes). 
+String data is case sensitive and will be stored as given within quotes. 
+If the data is numeric, you don't need the quotes. NULL also should not be enclosed with quotes.
+
+Select is the most commonly used statement in SQL. 
+The SELECT Statement in SQL is used to retrieve or fetch data from a database. 
+We can fetch either the entire table or according to some specified rules. 
+The data returned is stored in a result table. This result table is also called the result-set.
+With the SELECT clause of a SELECT command statement, 
+we specify the columns that we want to be displayed in the query result and, optionally, 
+which column headings we prefer to see above the result table.
+
+The usage of DISTINCT is used to print the values only once while the use of SELECT.
+
+The % after any attribute is considered as the rest of the string enclosed in the single ''
+
+A SELECT statement can have many clauses so it is important to understand the order in which these are executed to provide the result. 
+However, for ease of understanding we can refer to the execution order by FJWGHSDO.
+A quick way to remember this is to use the mnemonic "Frank John's Wicked Grave Haunts Several Dull Owls". In this section we will focus on FROM, WHERE, SELECT and DISTINCT keywords.
+
+The first step is always the FROM clause as we need to identify the tables from which data has to be fetched.
+SELECT must be always be executed after the WHERE clause, e.g. we can have a query
+
+        SELECT Ename FROM Employee WHERE Id = 1;
+
+Here the filtering needs to happen on an Id column which is not included in the SELECT clause. 
+Unless SELECT executes after WHERE this functionality cannot be supported.
+DISTINCT removes duplicates based on all columns of the SELECT clause. 
+These columns could be a subset of all columns of the table OR may even contain derived columns through the use of an expression. 
+Thus DISTINCT is dependent on SELECT clause and it's execution must happen after SELECT clause.
+

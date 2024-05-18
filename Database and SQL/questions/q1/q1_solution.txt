@@ -1,0 +1,111 @@
+To identify the candidate keys, primary keys, and foreign keys for the given relations in the banking application, let's analyze each table.
+
+### 1. Customer
+**Attributes:**
+- CustId
+- Name
+- Address
+- EMail
+- ContactNumber
+- AcctNumber
+- AcctType
+- OpenDate
+
+**Candidate Keys:**
+- CustId (Each customer has a unique customer ID.)
+
+**Primary Key:**
+- CustId
+
+**Foreign Keys:**
+- AcctNumber (This should reference the primary key of another table which holds account details, but since it's not provided, we'll consider it later if needed.)
+- AcctType (References `AccountType.AcctType`)
+
+### 2. AccountType
+**Attributes:**
+- AcctType
+- MinBalance
+
+**Candidate Keys:**
+- AcctType (Each account type has a unique type identifier.)
+
+**Primary Key:**
+- AcctType
+
+**Foreign Keys:**
+- None (This table is standalone with no dependencies.)
+
+### 3. Transaction
+**Attributes:**
+- TId
+- TranType
+- TDate
+- ChequeNum
+- AccNum
+- Amount
+- CustId
+
+**Candidate Keys:**
+- TId (Each transaction has a unique transaction ID.)
+
+**Primary Key:**
+- TId
+
+**Foreign Keys:**
+- AccNum (This should reference the primary key of another table which holds account details, but since it's not provided, we'll consider it later if needed.)
+- CustId (References `Customer.CustId`)
+
+### Summary of Keys
+
+**Customer:**
+- **Primary Key:** CustId
+- **Foreign Keys:** 
+  - AcctType (References `AccountType.AcctType`)
+
+**AccountType:**
+- **Primary Key:** AcctType
+- **Foreign Keys:** None
+
+**Transaction:**
+- **Primary Key:** TId
+- **Foreign Keys:**
+  - CustId (References `Customer.CustId`)
+
+### Additional Considerations
+- The `AcctNumber` in the `Customer` and `Transaction` tables should reference a separate `Account` table which could look something like this:
+  ```sql
+  Account (AcctNumber, AcctType, OpenDate, CustId)
+  ```
+- The `AcctType` in the `Account` table would reference `AccountType.AcctType`.
+- If `Account` table is created, the `Customer` table would no longer need the `AcctType` field, as it would be determined by joining with the `Account` table.
+
+### Revised Schema with Account Table
+#### Customer
+```sql
+Customer (CustId, Name, Address, EMail, ContactNumber)
+PRIMARY KEY (CustId)
+```
+
+#### Account
+```sql
+Account (AcctNumber, AcctType, OpenDate, CustId)
+PRIMARY KEY (AcctNumber)
+FOREIGN KEY (AcctType) REFERENCES AccountType (AcctType)
+FOREIGN KEY (CustId) REFERENCES Customer (CustId)
+```
+
+#### AccountType
+```sql
+AccountType (AcctType, MinBalance)
+PRIMARY KEY (AcctType)
+```
+
+#### Transaction
+```sql
+Transaction (TId, TranType, TDate, ChequeNum, AccNum, Amount, CustId)
+PRIMARY KEY (TId)
+FOREIGN KEY (AccNum) REFERENCES Account (AcctNumber)
+FOREIGN KEY (CustId) REFERENCES Customer (CustId)
+```
+
+This setup ensures that all foreign key constraints are properly defined and maintain referential integrity across the relations.
