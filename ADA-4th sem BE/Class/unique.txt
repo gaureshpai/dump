@@ -1,0 +1,9 @@
+Algorithm Unique( A[0 .... n-1])
+    i/p: array A[ 0 ... n-1 ]
+    o/p: True / False
+    
+    for i <- o to n-2 do
+        for j <- i + 1 to n - 1 do  
+            if a[i] == a[j]
+                return False
+    return True

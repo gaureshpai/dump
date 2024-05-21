@@ -1,0 +1,10 @@
+Algorithm Matrixmul( A[i, j], B[i, j])
+    i/p: m x n matrices A and B
+    o/p: Result matrix C = AB
+    
+    for i <- 0 to n-1 do
+        for j <- 0 to n-1 do
+            c[i, j] <- 0
+            for k <- 0 to n-1 do
+                c[i, j] = c[i, j] + A[i][k] * B[k][j]
+    return C

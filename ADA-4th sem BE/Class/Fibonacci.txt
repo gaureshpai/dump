@@ -1,0 +1,8 @@
+Algorithm Fibonacci(n)
+    Input: An integer n representing the position of the Fibonacci number to be calculated
+    Output: The Fibonacci number at position n
+
+    if (n <= 1)
+        return n
+    else
+        return Fibonacci(n-1) + Fibonacci(n-2)

@@ -1,0 +1,12 @@
+Algorithm TowerofHannoi(n, s, d, t)
+    i/p: n no of disks
+    o/p: Desc transfer to disks
+    
+    if ( n==1 )
+        move disk1 from s to d
+        return
+    else    
+        TowerofHannoi( n-1, s, d, t)
+        move disk n from s to disk
+        TowerofHannoi( n-1, t, s, d)
+        

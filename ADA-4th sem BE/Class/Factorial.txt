@@ -1,0 +1,8 @@
+Algorithm factorial(N)
+    i/p: Integer value
+    o/p: factorial of the number
+    
+    if N == 0
+        return 1
+    else
+        return factorial(N-1)*N

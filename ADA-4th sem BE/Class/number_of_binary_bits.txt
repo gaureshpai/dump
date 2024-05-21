@@ -1,0 +1,8 @@
+Algorithm Bin(n)
+    i/p: A +ve decimal no
+    o/p: Binary number of bits
+    
+    if n == 1
+        return 1
+    else    
+        return Bin( floor_divison[n/2] ) + 1

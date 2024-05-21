@@ -1,0 +1,9 @@
+Algorithm max( A[0 ... n-1])
+    i/p: array A[0 ... n-1]
+    o/p: array A[0 ... n-1]
+    
+    max <- A[0]
+    for i <- 1 to n-1 do
+        if a[i] > max
+            max <- A[i]
+    return max
