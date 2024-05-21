@@ -1,0 +1,30 @@
+Algorithm Kruskal'sAlgorithm
+    Input: Number of vertices n, cost adjacency matrix cost.
+    Output: Minimum cost spanning tree (MST) and its total cost.
+
+    Kruskal(n, cost)
+        for each vertex i in 1 to n do
+            parent[i] <- 0
+        
+        while number of edges in MST < n - 1 do
+            find the edge (a, b) with minimum cost such that a and b are in different components
+            u <- Find(a)
+            v <- Find(b)
+            if Union(u, v) is true then
+                add edge (a, b) to MST
+                increase edge count
+                add cost of edge (a, b) to total cost
+            mark edge (a, b) as used
+
+        return MST and total cost
+
+    Find(i)
+        while parent[i] != 0 do
+            i <- parent[i]
+        return i
+
+    Union(u, v)
+        if u != v then
+            parent[v] <- u
+            return true
+        return false

@@ -1,0 +1,11 @@
+Algorithm SelectionSort(A, n)
+    Input: Array A of size n.
+    Output: Sorted array A.
+
+    SelectionSort(A, n)
+        for i <- 0 to n-2 do
+            min <- i
+            for j <- i+1 to n-1 do
+                if A[j] < A[min] then
+                    min <- j
+            swap(A[min], A[i])
