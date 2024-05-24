@@ -1,0 +1,7 @@
+Algorithm Bubble_sort( A[0 ... n-1] )
+    i/p: array A[ 0 ... n-1 ]
+    o/p: Sorted array
+    for i <- 0 to n-2 do
+        for j <- 0 to n-2-i do
+            if A[j+1] < A[j]
+                swap A[j] and A[j+1]

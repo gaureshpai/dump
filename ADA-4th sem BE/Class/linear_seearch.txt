@@ -1,0 +1,11 @@
+Algorithm SequentialSearch( A[0 ... n], k)
+    i/p: Array & key
+    o/p: key/-1
+    A[n] <- key
+    i <- 0
+    while A[i] != k do 
+        i <- i+1
+        if i < n return;
+        else
+            return -1;
+            
