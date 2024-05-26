@@ -1,0 +1,5 @@
+Algorithm Warshall(A[1..n][1..n])
+    for k <- 0 to n-1
+        for i <- 0 to n-1
+            for j <- 0 to n-1
+                A[i][j] <- A[i][j] OR (A[i][k] AND A[k][j])

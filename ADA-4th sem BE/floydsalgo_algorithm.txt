@@ -1,0 +1,6 @@
+Algorithm FloydWarshall(p[1..n][1..n])
+    for k <- 1 to n
+        for i <- 1 to n
+            for j <- 1 to n
+                if p[i][j] > p[i][k] + p[k][j]
+                    p[i][j] <- p[i][k] + p[k][j]
