@@ -1,0 +1,10 @@
+Algorithm STringMatch(T[ 0 ... n-1 ], P[ 0 ... n-1 ])
+    i/p: String and the pattern String
+    o/p: -1/first loc of the pattern string in the string
+    for i <- 0 to n-1 do
+        j <- 0
+        while j < m & p[i] = T[i+j] do
+            j <- j + 1
+        if j = m 
+            return i
+    return -1
