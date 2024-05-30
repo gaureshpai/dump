@@ -1,0 +1,7 @@
+Create a table called Employee that contain attributes EMPNO,ENAME,JOB, MGR,SAL & 
+execute the following.    
+1. Add a column commission with domain to the Employeetable.  
+2. Insert any five records into the table.  
+3. Update the column details of job  
+4. Rename the column of Employ table using alter command.  
+5. Delete the employee whose Empno is 105. 

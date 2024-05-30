@@ -1,0 +1,11 @@
+Consider the following Schema for order database
+ salesman(salesman_id,name,city,commission)
+ customer(customer_id,cust_name,city,grade,salesman_id)
+ orders(ord_no,purchase_amt,ord_date,customer_id,salesman_id)
+
+write SQL querries to
+1.count the customers with grades above banglore's average
+2.find the name and numbers of all salesman who had more than one customer
+3.list all salesman and indicate those who have and dont have customers in their cites(use UNION operation)
+4.create a view that finds the salesman who has the customer with the highest order of a day
+5.demonstrate the DELETE operation by removing salesman with id 1000, all his orders must also be added

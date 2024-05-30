@@ -1,0 +1,8 @@
+Queries using aggregate functions(COUNT,AVG,MIN,MAX,SUM),Group by,Orderby. 
+Employee(E_id, E_name, Age, Salary) 
+1. Create Employee table containing all Records E_id, E_name, Age, Salary. 
+2. Count number of employee names from employeetable 
+3. Find the Maximum age from employee table. 
+4. Find the Minimum age from employeetable. 
+5. Find salaries of employee in Ascending Order. 
+6. Find grouped salaries of employees.
