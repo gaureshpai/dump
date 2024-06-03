@@ -1,0 +1,7 @@
+Algorithm Height(T):
+    i/p: A binary tree T 
+    o/p: height of T 
+    if T = 0
+        return -1
+    else
+        return max{Height(T[left]), Height(T[right])}+1

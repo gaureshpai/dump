@@ -1,0 +1,12 @@
+Algorithm insertion_sort(A[0 ... n-1])
+    Input: An array
+    Output: Sorted array
+
+    for i <- 1 to n-1 do
+        v <- A[i]
+        j <- i-1
+        while j >= 0 and A[j] > v do  
+            A[j+1] <- A[j]
+            j <- j-1
+        A[j+1] <- v
+    return A
