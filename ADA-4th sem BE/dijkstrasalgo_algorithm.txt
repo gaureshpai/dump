@@ -1,0 +1,18 @@
+Algorithm DijakstrasAlgo( G, S ):
+    i/p: weighted connected graph G( V, E )
+    o/p: shortest path from src to all other V
+    for i <- 0 to n-1 do
+        d[i] <- cost( source, i )
+        s[i] <- 0
+    End for
+    s[source] <- 1
+    for i <- 1 to n-1 do
+        find adjacency vertex 'u' & distance d[u] such that d[u] is minimum
+        add u to s 
+        s[u] <- 1
+        for every v belongs to u-s do
+            if d[u] + w[ u, v] < d[v] do
+                d[v] <- d[u] + w(u, v)
+            End if
+        End for
+    End for
