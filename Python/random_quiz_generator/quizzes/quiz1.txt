@@ -1,0 +1,15 @@
+QUIZ
+
+1. What is the largest planet in our solar system?
+2. What is the capital of Spain?
+3. What is the capital of France?
+4. What is 2 + 2?
+5. Who wrote 'To Kill a Mockingbird'?
+
+ANSWER KEY
+
+1. Jupiter
+2. Madrid
+3. Paris
+4. 4
+5. Harper Lee
