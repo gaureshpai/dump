@@ -1,0 +1,4 @@
+Create a row level trigger for the customers table that would fire for insert or update or delete operations performed in the customers table.
+This Tigger will display the salary difference between the old new salary.
+
+CUSTOMERS( ID, NAME, AGE, ADDRESS, SALARY )
