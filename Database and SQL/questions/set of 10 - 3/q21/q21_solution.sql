@@ -1,0 +1,1 @@
+ALTER TABLE Store RENAME COLUMN Name TO StoreName;

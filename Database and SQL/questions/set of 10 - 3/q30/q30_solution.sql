@@ -1,0 +1,2 @@
+ALTER TABLE Address
+MODIFY state VARCHAR2(20);

@@ -1,0 +1,8 @@
+Alter the table Shopper to change the data type of mobile number from NUMBER to VARCHAR2. Mobile number can have a maximum length of 15 characters.
+
+Column Name	Constraints	DESCRIPTION
+Shopperid	PRIMARY KEY	Unique id of the shopper. For ex. 2001, 2003
+ShopperName	NOT NULL	Name of the Shopper
+Gender	should be only 'Male' or 'Female'	Gender of the Shopper
+MobileNo	NOT NULL	Mobile number of the Shopper
+Address		Address of the Shopper. For ex. Allen Street, New York

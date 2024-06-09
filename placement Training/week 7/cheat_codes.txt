@@ -1,0 +1,28 @@
+CALENDER:
+
+Normal Year - 365 days - 12 months - 52 weeks + 1 day( odd day )
+For a Normal Year the year begins and ends on the same day of the week
+How many normal years come in 100 years? - 76 years
+How many normal years come in 400 years? - 303 years  
+
+Leap Year - 366 days - 12 months - 52 weeks + 2 days( odd days )
+For a Leap Year the year begins and ends on the next day of the week from the day when the year started
+To check whether the year is a leap year or not - divide by 4 - if the remaininder is 0 then its a leap year
+For century years divide by 400 and not by 4
+A leap year does not come once in 4 years - reason - every year has an extra of 5hrs 48 minutes and some seconds - so we compensate the difference of 12 minutes by letting the century year calculations
+How many leap years come in 100 years? - 24  years 
+How many leap years come in 100 years? - 97  years
+
+
+odd day is a day which does not become part of any week 
+
+number of odd days in a century -> 5 odd days
+number of odd days in two centuries -> 3 odd days
+number of odd days in three centuries -> 1 odd days
+number of odd day in four centuries -> 0 odd days
+
+Tusday, Thursday, Saturday cant be the last day of the century
+
+LOGIAL REASONING:
+
+Find the pattern in the question -> first check consecutive digits and then for iterative
