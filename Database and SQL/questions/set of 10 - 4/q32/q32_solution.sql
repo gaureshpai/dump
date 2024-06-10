@@ -1,0 +1,1 @@
+insert into Article values('A1001','Mouse',500,0,'C');

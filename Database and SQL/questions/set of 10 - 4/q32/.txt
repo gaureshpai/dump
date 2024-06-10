@@ -1,0 +1,3 @@
+Insert the following data into Article table.
+ArCode	ArName	Rate	Quantity	Class
+A1001	Mouse	500	0	C

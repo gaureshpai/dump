@@ -1,0 +1,3 @@
+Insert the following data into Store table created on Day 2.
+StoreName	Location	ManagerName
+Loyal World	Infy Campus, Mysore	Rohan Kumar
