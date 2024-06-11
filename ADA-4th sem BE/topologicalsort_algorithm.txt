@@ -1,0 +1,34 @@
+Algorithm DFS(u)
+        Push u onto stack s and mark visited[u] as 1
+        s[++top] <- u
+        visited[u] <- 1
+        for v <- 0 to n-1 do
+            if visited[v] != 1 and a[u][v] == 1 then
+                DFS(v)
+        res[k--] <- Pop u from stack s
+        top--
+
+Algorithm TopologicalSort(a, n)
+    Input: Adjacency matrix a of size n x n, integer n.
+    Output: Array res containing vertices in topologically sorted order.
+
+    Initialize a, visited, res, s, and top as follows:
+        a <- calloc(n, sizeof(int *))
+        for i <- 0 to n-1 do
+            a[i] <- calloc(n, sizeof(int))
+        visited <- calloc(n, sizeof(int))
+        res <- calloc(n, sizeof(int))
+        s <- calloc(n, sizeof(int))
+        top <- -1
+
+    Set k <- n-1
+
+    TopologicalSort(a, n)
+        for v <- 0 to n-1 do
+            if visited[v] != 1 then
+                DFS(v)
+
+        Print "The topological ordering is:"
+        for v <- 0 to n-1 do
+            Print res[v]
+
