@@ -1,0 +1,14 @@
+Consider the following Employee Relational Schema:
+
+Emp(Fname, Lname, SSN, DOB, address, gender, Salary, SuperSSN, Dno)
+Dept(Dname, Dnumber, mgrSSN)
+Dept_loc(Dnumber, Dloc)
+Project(Pname, Pnumber, Ploc, Dnum)
+Works_on(ESSN, Dep_name, Gender, DOB, Relationship)
+
+Give the SQL querry and relational algebra expression for the following
+
+1. Retrieve the name and address of all employees who work for 'Sports' department.
+2. Retrieve each department number,number of employees and their average Salary.
+3. Retrieve number of Male and Female employee working in the company.
+4. List female employees from Dno = 12 earning more than 50,000.
