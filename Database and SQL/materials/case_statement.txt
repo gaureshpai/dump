@@ -1,0 +1,33 @@
+CASE statement can be used in SELECT clause to conditionally assign values to a computed attribute. 
+It can also be used with WHERE, GROUP BY etc. 
+CASE statement has two different syntax styles: Simple CASE expression and Searched CASE expression. 
+Both of them are similar to if else statement in Java.
+
+(1) Simple CASE expression :
+Pseudo code:
+
+if designation == 'SE'
+    salary = salary * 1.2
+else if designation == 'SSE'
+    salary = salary * 1.1
+else
+    salary = salary * 1.05
+
+The CASE statement goes through conditions and returns a value when the first condition is met (like an IF-THEN-ELSE statement). 
+So, once a condition is true, it will stop reading and return the result. If no conditions are true, it returns the value in the ELSE clause.
+
+We can use the first syntax form when all conditions check for equality against a single column.
+
+(2) Searched CASE expression :
+Pseudo code:
+
+if marks >= 85
+    grade = 'Excellent'
+else if marks >= 65
+    grade = 'Good'
+else
+    grade = 'Poor'
+
+We can use the second syntax form to compare different conditions.
+
+NOTE: ELSE is optional. If ELSE is omitted and no condition is true, then NULL is returned by CASE.

@@ -51,3 +51,49 @@ Any violation of constraints results in failure of the statement.
 TRUNCATE statement can also be used to delete data from tables. 
 TRUNCATE statement deletes all records from the table as it does not support WHERE clause. 
 TRUNCATE statement is a faster option compared to DELETE when you have to delete all records from the table.
+
+SQL functions are built in modules provided by a database. 
+You can use them in data manipulation statements to perform calculations on data.
+All functions return a single value.
+
+Numeric functions are single row functions that accept a numeric value and return numeric output.
+Name	Syntax	                Function
+ABS	    ABS(value)	            Returns absolute value of a number
+ROUND	ROUND(value, digits)	Rounds the value to specified decimal digits
+CEIL	CEIL(value)	            Rounds up the fractional value to next integer
+FLOOR	FLOOR(value)	        Rounds down the fractional value to the lower integer
+
+Character functions work on character strings and can return a character string or a numeric value.
+Name	Syntax	                Function
+UPPER	UPPER(value)	        Converts value to upper case
+LOWER	LOWER(value)	        Converts value in lower case
+CONCAT	CONCAT(value1, value2)	Concatenates value1 and value2
+LENGTH	LENGTH(value)	        Returns the number of characters in value.
+
+Substring function is used to extract part of a string. It has the following syntax SUBSTR(value, start_position, length)
+
+Use conversion functions to convert data from one format to another.
+
+Name	    Syntax	                Function
+TO_CHAR	    TO_CHAR(value,format)	Converts a number or a date to a string. Use this function for formatting dates and numbers.
+TO_DATE	    TO_DATE(value,format)	Converts a string to a date.
+TO_NUMBER	TO_NUMBER(value,format)	Converts a string to a number.
+
+Database provides functions to determine the current time and to perform date operations like adding a specific duration to a date, finding time difference between two dates etc.
+Name	        Syntax	                    Function
+SYSDATE	        SYSDATE	                    Returns current date of System i.e. the host on which database server is installed.
+SYSTIMESTAMP	SYSTIMESTAMP	            Returns current timestamp of the System.
+ADD_MONTHS	    ADD_MONTHS(date, n)	        Adds n months to the given date.
+MONTHS_BETWEEN	MONTHS_BETWEEN(date1,date2)	Finds difference between two dates in months.
+
+Aggregate functions operate on multiple rows to return a single row. 
+Some aggregate functions like SUM (total), AVG (average) operates only on numeric columns while others like MIN (lowest value), MAX (highest value) and COUNT (number of rows) operate on all data types. 
+All aggregate functions ignore NULL values except COUNT(*).
+
+
+Name	Syntax	                Function
+NVL	    NVL(value1, value2)	    Substitutes value1 by value2 if value1 is NULL. The data type of value1 and value2 must be same.
+USER	USER	                Returns the current logged in user
+
+
+

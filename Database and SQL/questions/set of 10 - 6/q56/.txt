@@ -1,0 +1,16 @@
+Write a query to display the product id, first five characters of product description and category of those products.
+
+Database structure
+Salesman (Sid, Sname, Location)
+Product (Prodid, Pdesc, Price, Category, Discount)
+Sale (Saleid, Sid, Sldate, Amount)
+Saledetail (Saleid, Prodid, Quantity)
+
+Expected Result
+PRODID	PDESC_FIVE	CATEGORY
+101	Baske	Sports
+102	Shirt	Apparel
+103	NULL	Electronics
+104	Crick	Sports
+105	Trous	Apparel
+106	Telev	ELECTRONICS

@@ -1,0 +1,10 @@
+Write a query to display the number of sales that were made in the last 40 months
+
+Salesman (Sid, Sname, Location)
+Product (Prodid, Pdesc, Price, Category, Discount)
+Sale (Saleid, Sid, Sldate, Amount)
+Saledetail (Saleid, Prodid, Quantity)
+
+Expected Result
+SALE_COUNT
+0
