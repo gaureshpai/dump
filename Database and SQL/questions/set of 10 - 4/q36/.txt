@@ -1,0 +1,21 @@
+Retrieve itemcode, description and price for all items.
+
+Item (Itemcode, Itemtype, Descr, Price, Reorderlevel, Qtyonhand, Category)
+
+Expected Result
+ITEMCODE	DESCR	PRICE
+I1001	Britannia Marie Gold Cookies	20
+I1002	Best Rice	120
+I1003	Modern Bread	15
+I1004	Lee T-Shirt	300
+I1005	Levis T-Shirt	1700
+I1006	Satyapaul Sari	7300
+I1007	Allen Solly Tie	600
+I1008	Xbox gamepad	1500
+I1009	Microsoft Mouse	700
+I1010	Intel C2D Processor	6500
+I1011	Intel Motherboard	5000
+I1012	500GB Hard disk	2500
+I1013	320GB Hard disk	1800
+I1014	Aroma Bread	17
+I1015	Arrow Jeans	7300

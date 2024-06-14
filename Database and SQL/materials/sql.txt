@@ -44,4 +44,10 @@ It also determines, how input data will be modified before storing the value.
 not equal to is represented as <>
 equal to is represented as =
 
+DELETE statement is used to delete records from a single table in a relational database. 
+The database system ensures that no constraints are violated during the execution of a delete statement. 
+Any violation of constraints results in failure of the statement.
 
+TRUNCATE statement can also be used to delete data from tables. 
+TRUNCATE statement deletes all records from the table as it does not support WHERE clause. 
+TRUNCATE statement is a faster option compared to DELETE when you have to delete all records from the table.

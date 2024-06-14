@@ -1,0 +1,17 @@
+Retrieve the quotation id and sname of the quotations which have been either 'Accepted' or 'Rejected'.
+
+Quotation (Quotationid, Sname, Itemcode, Quotedprice, Qdate, Qstatus)
+
+Expected Result
+QUOTATIONID	SNAME
+Q1001	Giant Store
+Q1003	EBATs
+Q1004	Shop Zilla
+Q1005	Giant Store
+Q1007	Shop Zilla
+Q1008	Shop Zilla
+Q1009	Shop Zilla
+Q1010	Giant Store
+Q1011	EBATs
+Q1012	VV Electronics
+Q1013	Giant Store

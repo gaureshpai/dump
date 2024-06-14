@@ -1,0 +1,1 @@
+insert into Address(houseno,street,city,zip,state) values(350,'Electronics City','Mysore',570018,'Karnataka');

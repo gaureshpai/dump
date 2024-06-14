@@ -1,0 +1,16 @@
+Retrieve the designation and salary of employees without any duplication of data.
+
+Empdetails (Empid, Empname, Designation, Emailid, Contactno, Worksin, Salary)
+
+Expected Result
+DESIGNATION	SALARY
+Administrator	6000
+Manager	5000
+Manager	6500
+Billing Staff	3000
+Super Manager	9000
+Billing Staff	2800
+Billing Staff	2500
+Billing Staff	5000
+Billing Staff	2900
+Security	2000

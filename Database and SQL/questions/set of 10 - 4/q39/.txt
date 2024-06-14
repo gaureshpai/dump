@@ -1,0 +1,10 @@
+Retrieve the different item types.
+
+Item (Itemcode, Itemtype, Descr, Price, Reorderlevel, Qtyonhand, Category)
+
+
+Expected Result
+ITEMTYPE
+FMCG
+Apparels
+Computer

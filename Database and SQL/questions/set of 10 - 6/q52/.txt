@@ -1,0 +1,14 @@
+Update the Salesman name to 'Jenny' and location to 'Bristol' for the salesman having SID as 3.
+
+Salesman (Sid, Sname, Location)
+Product (Prodid, Pdesc, Price, Category, Discount)
+Sale (Saleid, Sid, Sldate, Amount)
+Saledetail (Saleid, Prodid, Quantity)
+
+SID	SNAME	LOCATION
+1	Peter	London
+2	Michael	Paris
+3	Jenny	Bristol
+4	Harry	Chicago
+5	Kevin	London
+6	Alex	Chicago

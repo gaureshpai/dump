@@ -1,0 +1,14 @@
+Update discount of all products whose category is 'Sports' to 25 percent.
+
+Salesman (Sid, Sname, Location)
+Product (Prodid, Pdesc, Price, Category, Discount)
+Sale (Saleid, Sid, Sldate, Amount)
+Saledetail (Saleid, Prodid, Quantity)
+
+PRODID	PDESC	PRICE	CATEGORY	DISCOUNT
+101	Basketball	10	Sports	25
+102	Shirt	20	Apparel	10
+103	NULL	30	Electronics	15
+104	Cricket Bat	20	Sports	25
+105	Trouser	10	Apparel	5
+106	Television	40	ELECTRONICS	20

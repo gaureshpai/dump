@@ -1,0 +1,19 @@
+Delete all records from SaleDetail table for SaleId 1004.
+
+Salesman (Sid, Sname, Location)
+Product (Prodid, Pdesc, Price, Category, Discount)
+Sale (Saleid, Sid, Sldate, Amount)
+Saledetail (Saleid, Prodid, Quantity)
+
+Expected Result
+SALEID	PRODID	QUANTITY
+1001	106	2
+1001	103	1
+1002	102	5
+1002	101	1
+1003	104	1
+1003	101	1
+1005	101	3
+1005	106	1
+1006	102	6
+1006	104	1

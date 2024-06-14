@@ -1,0 +1,8 @@
+Retrieve the itemcode, descr and unit price of the items which have 'Shirt' or 'Skirt' in their desc and their category is 'B'.
+
+Item (Itemcode, Itemtype, Descr, Price, Reorderlevel, Qtyonhand, Category)
+
+Expected Result
+ITEMCODE	DESCR	PRICE
+I1004	Lee T-Shirt	300
+I1005	Levis T-Shirt	1700

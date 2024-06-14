@@ -1,0 +1,10 @@
+
+Retrieve quotationid, qdate and quotedprice for quotations that are quoted in 1400 to 2150 range (not inclusive of these values).
+
+Quotation (Quotationid, Sname, Itemcode, Quotedprice, Qdate, Qstatus)
+
+Expected Result
+QUOTATIONID	QDATE	QUOTEDPRICE
+Q1001	15-Oct-14	1500
+Q1009	15-Jun-15	1480
+Q1010	15-Jun-15	1490

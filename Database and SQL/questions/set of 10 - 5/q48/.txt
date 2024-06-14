@@ -1,0 +1,14 @@
+Retrieve the designation and salary of all 'Manager' and 'Billing Staff' who have salary in the range of 2500 to 5000 (both inclusive).
+
+Empdetails (Empid, Empname, Designation, Emailid, Contactno, Worksin, Salary)
+
+
+Expected Result
+DESIGNATION	SALARY
+Billing Staff	3000
+Billing Staff	3000
+Manager	5000
+Billing Staff	5000
+Billing Staff	2800
+Billing Staff	2900
+Billing Staff	2500

@@ -1,0 +1,20 @@
+The management wants to increase salary of all employees by 10%. Write a query to display empid, current salary, increased salary and incremented amount.
+
+Empdetails (Empid, Empname, Designation, Emailid, Contactno, Worksin, Salary)
+
+Expected Result
+EMPID	Current Salary	New Salary	Incremented Amount
+1001	6000	6600	600
+1002	6500	7150	650
+1003	3000	3300	300
+1004	9000	9900	900
+1005	6000	6600	600
+1006	6500	7150	650
+1007	3000	3300	300
+1008	5000	5500	500
+1009	5000	5500	500
+1010	2800	3080	280
+1011	2900	3190	290
+1012	2500	2750	250
+1013	2000	2200	200
+1014	2000	2200	200

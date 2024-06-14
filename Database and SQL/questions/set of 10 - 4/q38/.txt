@@ -1,0 +1,9 @@
+Retrieve item id, item description and price for items whose names have 'r' as the second character.
+
+Item (Itemcode, Itemtype, Descr, Price, Reorderlevel, Qtyonhand, Category)
+
+Expected Result
+ITEMCODE	DESCR	PRICE
+I1001	Britannia Marie Gold Cookies	20
+I1014	Aroma Bread	17
+I1015	Arrow Jeans	7300

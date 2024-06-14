@@ -1,0 +1,10 @@
+Retrieve the order details like orderid, quotationid, status, pymtdate for those orders where payments are not received.
+
+Orders (Orderid, Quotationid, Qtyordered, Orderdate, Status, Pymtdate, Delivereddate, Amountpaid, Pymtmode)
+
+
+Expected Result
+ORDERID	QUOTATIONID	STATUS	PYMTDATE
+O1002	Q1006	Ordered	NULL
+O1007	Q1009	Ordered	NULL
+O1008	Q1013	Ordered	NULL
