@@ -1,0 +1,16 @@
+In order to display the rows in sorted order, SQL has one clause called the ORDER BY clause.
+Order By clause is used to sort the result of a query in a particular order. 
+Before we understand the syntax of ORDER BY, let us understand the sorting process on tabular data. 
+Data in a single column can be sorted in ascending or descending order.
+We can also sort data by multiple columns. 
+In such case data is sorted on the primary (first) column first. 
+Sorting on the secondary column happens only when multiple rows have the same value in the primary column. 
+The sort order can be different for the two columns i.e. primary can be sorted in ascending and secondary in descending and vice-versa. 
+This two column sorting mechanism can be extended to any number of columns.
+ORDER BY must be used to specify the columns on which data has to be sorted and the sort order i.e. ascending or descending. 
+Rows are sorted in ascending order if sort order is not specified. 
+DESC should be used to sort the rows in descending order. 
+ORDER BY clause must be the last clause and can be used only in SELECT statement. 
+The sort order only applies to the query result i.e. the underlying data in the table is not sorted.
+An important point to note is that sorting of rows in the result is guaranteed only on columns specified in the ORDER BY clause. 
+If multiple rows have same value for columns in ORDER BY clause then they can appear in any order.

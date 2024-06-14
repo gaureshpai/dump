@@ -1,0 +1,10 @@
+Display the sale id and date for most recent sale.
+
+Salesman (Sid, Sname, Location)
+Product (Prodid, Pdesc, Price, Category, Discount)
+Sale (Saleid, Sid, Sldate, Amount)
+Saledetail (Saleid, Prodid, Quantity)
+
+Expected Result
+SALEID	SLDATE
+1006	01-Jun-15

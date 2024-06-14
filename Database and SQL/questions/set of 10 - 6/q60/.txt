@@ -1,0 +1,13 @@
+Display product id, category and discount of the products which belongs to the category ‘Sports’ or ‘Apparel’ in ascending order of category and discount.
+
+Salesman (Sid, Sname, Location)
+Product (Prodid, Pdesc, Price, Category, Discount)
+Sale (Saleid, Sid, Sldate, Amount)
+Saledetail (Saleid, Prodid, Quantity)
+
+Expected Result
+PRODID	CATEGORY	DISCOUNT
+105	Apparel	5
+102	Apparel	10
+101	Sports	5
+104	Sports	20

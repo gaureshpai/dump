@@ -1,0 +1,9 @@
+Display department and number of computers made by Dell allocated in that department.
+
+Computer (Compid, Make, Model, Myear)
+Employee (Id, Ename, Doj, Salary, Bonus, Dept, Designation, Manager, Compid)
+
+Expected Result
+DEPT	NUMBER OF COMPUTERS
+ETA	1
+ICP	1

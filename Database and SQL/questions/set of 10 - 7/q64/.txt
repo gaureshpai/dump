@@ -1,0 +1,9 @@
+Display id, name, computer id and make of the computers allocated to employees provided model is either 'Precision' or 'Edge'.
+
+Computer (Compid, Make, Model, Myear)
+Employee (Id, Ename, Doj, Salary, Bonus, Dept, Designation, Manager, Compid)
+
+Expected Result
+ID	ENAME	COMPID	MAKE
+3	Emily Rayner	1002	Dell
+5	Ayaz Mohammad	1003	Lenovo

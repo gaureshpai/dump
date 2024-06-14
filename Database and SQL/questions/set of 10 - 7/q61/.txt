@@ -1,0 +1,13 @@
+Display month of sale and number of sales done in that month sorted in descending order of sales.
+
+Salesman (Sid, Sname, Location)
+Product (Prodid, Pdesc, Price, Category, Discount)
+Sale (Saleid, Sid, Sldate, Amount)
+Saledetail (Saleid, Prodid, Quantity)
+
+Expected Result
+MONTH	NUMBER_SALE
+January	2
+February	2
+March	1
+June	1

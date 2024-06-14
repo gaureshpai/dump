@@ -1,0 +1,20 @@
+GROUP BY must always be after the WHERE clause otherwise aggregate functions will be calculated wrongly.
+Having must always be after Group by as it filters records based on aggregate functions calculated during GROUP BY evaluation
+SELECT clause must be evaluated after Group By and Having because displaying attributes not used in GROUP BY are not allowed in SELECT clause. 
+It can only filter columns from the grouped resultset
+ORDER BY must always be the last step in query execution as it depends on input from other clauses.
+
+Do’s for Group by and Having clauses:
+GROUP BY clause should contain all non-aggregate columns that are present in SELECT clause
+GROUP BY clause should be mandatory when there is a list of aggregate and non-aggregate columns in SELECT statement
+Whenever nested aggregate columns appear in the SELECT clause, GROUP BY clause should be mandatorily used
+HAVING cannot be written without the GROUP BY clause in the query
+Aggregate column condition(s) should always be written along with the HAVING clause and not with the WHERE clause
+
+Don’ts for Group by and Having clauses:
+Columns from the list of the SELECT clause should not be skipped in the GROUP BY clause. 
+    However, you can add an extra non-aggregate column which is not present in the SELECT to the GROUP BY clause
+GROUP BY clause should not contain any aggregate columns
+Aliased name given for the column should not be used in GROUP BY clause
+HAVING clause should not contain non-aggregate columns which are not present in the GROUP BY clause
+If the query does not adhere to these points, either it gives syntax error or it may result in a wrong output.

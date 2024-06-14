@@ -1,0 +1,14 @@
+Subquery is a query inside a query. 
+A subquery should be enclosed in parenthesis and can be used in SELECT, FROM, WHERE and HAVING clauses.
+Subquery in SELECT and FROM clause are not used often. 
+Subqueries in WHERE and HAVING clauses are classified into the following:-
+1. Independent subquery
+2. Correlated subquery
+
+In an independent subquery, the inner queries and outer queries are independent of each other. 
+You can run an inner query and inspect its result independent of the outer query. 
+Independent subquery is further classified into  
+1. single row 
+2. multiple row 
+types depending upon the number of rows returned.
+

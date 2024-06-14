@@ -1,0 +1,10 @@
+Display employee id, name and department along with computer id and make of computers allocated to them.
+
+Computer (Compid, Make, Model, Myear)
+Employee (Id, Ename, Doj, Salary, Bonus, Dept, Designation, Manager, Compid)
+
+Expected Result
+ID	ENAME	DEPT	COMPID	MAKE
+1	James Potter	ICP	1001	Dell
+3	Emily Rayner	ETA	1002	Dell
+5	Ayaz Mohammad	ICP	1003	Lenovo

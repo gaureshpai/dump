@@ -1,0 +1,11 @@
+Display product id and total quantity for products that have been sold more than once. 
+Consider only those sale instances when the quantity sold was more than 1.
+
+Salesman (Sid, Sname, Location)
+Product (Prodid, Pdesc, Price, Category, Discount)
+Sale (Saleid, Sid, Sldate, Amount)
+Saledetail (Saleid, Prodid, Quantity)
+
+Expected Result
+PRODID	QTY_SOLD
+102	11

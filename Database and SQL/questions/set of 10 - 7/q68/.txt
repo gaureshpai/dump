@@ -1,0 +1,10 @@
+Display the product id and description of those products which are sold in minimum total quantity.
+
+Salesman (Sid, Sname, Location)
+Product (Prodid, Pdesc, Price, Category, Discount)
+Sale (Saleid, Sid, Sldate, Amount)
+Saledetail (Saleid, Prodid, Quantity)
+
+Expected Result
+PRODID	PDESC
+103	NULL

@@ -1,0 +1,11 @@
+Display SId, SName and Location of those salesmen who have total sales amount greater than average sales amount of all the sales made. Amount can be calculated from Price and Discount of Product and Quantity sold.
+
+Salesman (Sid, Sname, Location)
+Product (Prodid, Pdesc, Price, Category, Discount)
+Sale (Saleid, Sid, Sldate, Amount)
+Saledetail (Saleid, Prodid, Quantity)
+
+Expected Result
+SID	SNAME	LOCATION
+1	Peter	London
+5	Kevin	London

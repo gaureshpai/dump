@@ -1,0 +1,9 @@
+Retrieve the product ID, description, and total quantity sold for each product, ordered by the total quantity sold in descending order.
+
+Product (Prodid, Pdesc, Price, Category, Discount)
+Sale (Saleid, Sid, Sldate, Amount)
+Saledetail (Saleid, Prodid, Quantity)
+Expected Result:
+
+Columns: Prodid, Pdesc, TotalQuantitySold
+Order: TotalQuantitySold descending

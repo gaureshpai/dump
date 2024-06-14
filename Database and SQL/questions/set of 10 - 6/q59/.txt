@@ -1,0 +1,15 @@
+Display product id, category, price and discount of all products in descending order of category and ascending order of price.
+
+Salesman (Sid, Sname, Location)
+Product (Prodid, Pdesc, Price, Category, Discount)
+Sale (Saleid, Sid, Sldate, Amount)
+Saledetail (Saleid, Prodid, Quantity)
+
+Expected Result
+PRODID	CATEGORY	PRICE	DISCOUNT
+101	Sports	10	5
+104	Sports	20	20
+103	Electronics	30	15
+106	ELECTRONICS	40	20
+105	Apparel	10	5
+102	Apparel	20	10

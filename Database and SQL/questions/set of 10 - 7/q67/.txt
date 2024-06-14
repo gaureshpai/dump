@@ -1,0 +1,10 @@
+Display the names of salesmen who have made at least 2 sales.
+
+Salesman (Sid, Sname, Location)
+Product (Prodid, Pdesc, Price, Category, Discount)
+Sale (Saleid, Sid, Sldate, Amount)
+Saledetail (Saleid, Prodid, Quantity)
+
+Expected Result
+SNAME
+Peter

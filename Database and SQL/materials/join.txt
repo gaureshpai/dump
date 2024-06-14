@@ -1,0 +1,13 @@
+CROSS Join is also referred to as Cartesian Product. 
+A CROSS join with m rows in table A and n rows in table B will always produce m * n rows. 
+Essentially it combines each row from the first table with each row of the second table. 
+A cross join is rarely used as it mostly produces lot of meaningless data. 
+However it is useful to understand the concept of other joins
+
+INNER Join is the most frequently used JOIN. 
+It matches the records from both tables based on the join predicate and returns only the matched rows. 
+For ease of understanding one can think that first a Cartesian Product is created and then all the rows that do not meet the join condition are dropped from the result. 
+Inner join also has a short hand syntax given its wide use.
+The query is evaluated using a two-step process:
+Step 1. Two tables are joined using join condition and resultset is evaluated
+Step 2. Filter condition in WHERE clause is applied on all the rows of the resultset to give the final result
