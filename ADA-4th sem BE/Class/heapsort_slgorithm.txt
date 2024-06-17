@@ -1,0 +1,8 @@
+Heapsort algorithm ( n, a [ ] ):
+    i/p: list of numbers a[]
+    o/p: solid list of numbers
+    Bottom-up-heapify( n, a )
+        for i <= n - 1 down to 0
+            Exchange ( a[0], a[i] )
+            Bottom-up-heapify();
+        end for
