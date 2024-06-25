@@ -1,0 +1,9 @@
+Algorithm Dynamic_knapsack(n, m)
+    while(v[i, j] > 0) do
+        if j < wi
+            val <- v[i-1, j]
+        else
+            val <- max{v[i-1, j], vi+v[i-1, j-wi]}
+        v[i][j] <- val
+    end while   
+    return v[i, j]

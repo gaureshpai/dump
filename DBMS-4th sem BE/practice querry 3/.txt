@@ -1,0 +1,12 @@
+Consider the following Relational Schema:
+
+WORKS( PNAME, CNAME, SALARY)
+LIVE(PNAME, STREET, CITY)
+LOCATED_IN(CNAME, CITY)
+MANAGER(PNAME, MGRNAME)
+Write the sql querry and relational algebra expression for the following:
+
+i. find the nameds of all persons who live in city mumbai
+ii. retrive the nameds of all persons of infosys whos salry is between 30000 and 50000
+iii. list the names of the people who work for wipro along with the cities they live in
+iv. Find the average salary of all the infosys people
