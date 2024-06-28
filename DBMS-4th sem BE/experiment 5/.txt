@@ -1,0 +1,3 @@
+Create cursor for Employee table & extract the values from the table. Declare the variables 
+,Open the cursor & extrct the values from the cursor. Close the cursor. 
+Employee(E_id, E_name, Age, Salary)
