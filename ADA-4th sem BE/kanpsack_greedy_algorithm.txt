@@ -1,0 +1,15 @@
+Algorithm Knapsack(m, n, w, p, x):
+    i/p: m is the capacoty of Knapsack, n is the number of objects, w and p are weights and profits.
+    o/p: maximum profit
+    for i <- i to n do
+        x[i] <- 0
+        weight <- 0
+        while weight < w do
+            i <- the best remaining object
+            if weight+w[i] <= w then
+                x[i] <- 1
+                weight <- weight + w[i]
+            else
+                x[i] <-(w - weight)/w[i]
+                weight <- w
+    return x

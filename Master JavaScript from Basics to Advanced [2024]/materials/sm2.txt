@@ -25,6 +25,16 @@ Form events:
     blur: the blur event is triggered when the input field looses focus.
     submit: the submit event is triggered when the submit button is clicked by the user.
 
+Keyboard events:
+    the Keyboard events are triggeredn when the user clicks a key from the Keyboard
+    -keydown, keyup(after keydown), keypress(any except shift, function, capslock is pressed).
+
+Mouse events:
+    the mouse events are triggered when the different mouse keys are pressed and/or released.
+    -mousedown, mouseup, click, dblclick, mouseover, mouseenter, mousemove
+
+
+
 Javascript functions:
     getElementById() -> getElementById is a DOM method. It accepts HTML elementId and returns the HTML element mathing that Id.
                         The element of and Id must be passed as an argument, if no element matches the Id then it returns null.
@@ -48,4 +58,9 @@ Javascript functions:
     selectedElement.classList.contains() -> this function returns the boolean whether the argumentpassedis present or not
     selectTimeout(function,params) -> executes the function after params miliseconds
     window.getComputedStyle() - > retuns the object of the passed argument value
-     
+    createElement() -> creates a new element and can be strored in any variable
+    createTextNode() -> can be used to enter the text into the created element
+    variable.id = '' -> can be used to allocate an id to the newly created node
+    childElementCount -> returns the number of elements in a particular list
+    insertBefore() -> is used as the appendChild() but adds an element before the given element
+    
