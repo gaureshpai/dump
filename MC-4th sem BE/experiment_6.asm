@@ -4,13 +4,14 @@ memoryLoc2 DCD 0X9ABCDEF0 ; second memory location ( example value )
 onescount DCD 0 ; to store the count of ones
 zeroscount DCD 0 ; to store the count of zeros
 
-    AREA MyCode, CODEm READONLY
+    AREA MyCode, CODE, READONLY
     ENTRY
-    EXPORT _main
+    EXPORT _main 
 _main
     LDR R0 ,= memoryLoc1 ; load the address of the first memory location
     LDR R1, [R0] ; Load the value at the first memory location into R1
     LDR R0 ,= memoryLoc2 ; Load the address of the second number location
+    LDR R2, [R0]; Load the value at the second memory location into R2
     MOV R3, R1 ; Copy first value of R3 for bit counting
     MOV R4, R2 ; Copy second value of R4 for bit counting
     MOV R5, #0 ; Initialize the ones counter to 0

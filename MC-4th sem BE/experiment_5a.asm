@@ -2,6 +2,7 @@
 numbers  DCD 5, 2, 8, 4, 12, 9, 15, 1, 6, 10;
 
     AREA MyCode, CODE, READONLY
+    
     ENTRY
     MOV R3, #10     ; initialize counter to 10
     LDR R0 ,= numbers   ; Load the address of numbers away

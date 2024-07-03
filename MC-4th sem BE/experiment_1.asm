@@ -1,4 +1,5 @@
     AREA Simple_ALP, CODE, READONLY
+    
     MOV R0, #10; load first number (10) into R0
     MOV R1, #20; load second number (20) into R1
     ADD R2, R0, R1; Add R0 and R1, store result in R2
