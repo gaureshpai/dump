@@ -1,0 +1,31 @@
+Algorithm N-Queens Problem():
+    Input: An integer `N` representing the size of the chessboard (NxN) and the number of queens to place.  
+    Output: All possible solutions where N queens are placed on the board such that no two queens attack each other.
+
+    1. Initialize a 2D array `board` of size `N x N` to store the positions of the queens.
+    2. Define a function `isSafe(board, row, col, N)` to check if a queen can be placed on `board[row][col]`.
+        - for `i <- 0` to `col-1` do
+            - if `board[row][i] = 1` then
+                - return `False`
+        - for `i <- row, j <- col` to `i >= 0, j >= 0` do
+            - if `board[i][j] = 1` then
+                - return `False`
+        - for `i <- row, j <- col` to `i < N, j >= 0` do
+            - if `board[i][j] = 1` then
+                - return `False`
+        - return `True`
+
+    3. Define a function `solveNQueens(board, col, N)` to solve the N-Queens problem using backtracking.
+        - if `col >= N` then
+            - print the board configuration
+            - return `True`
+        - for `i <- 0` to `N-1` do
+            - if `isSafe(board, i, col, N)` then
+                - set `board[i][col] <- 1`
+                - if `solveNQueens(board, col + 1, N)` then
+                    - return `True`
+                - set `board[i][col] <- 0`  // backtrack
+        - return `False`
+
+    4. Initialize `board` with all zeros.
+    5. Call `solveNQueens(board, 0, N)` to find all solutions.

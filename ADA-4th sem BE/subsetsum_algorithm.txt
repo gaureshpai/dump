@@ -1,0 +1,28 @@
+Algorithm SubsetSumProblem():
+    Input: A set of integers `arr` and an integer `sum`.  
+    Output: A subset of `arr` that sums up to `sum` (if such a subset exists).
+
+    1. Initialize a 2D array `dp` of size `(n+1) x (sum+1)` where `n` is the size of `arr`.
+    2. Set all elements of `dp[0][j]` to `False` for `j` from `1` to `sum`.
+    3. Set all elements of `dp[i][0]` to `True` for `i` from `0` to `n`.
+
+    4. for `i <- 1` to `n` do
+        - for `j <- 1` to `sum` do
+            - if `arr[i-1] <= j` then
+                - `dp[i][j] <- dp[i-1][j] OR dp[i-1][j-arr[i-1]]`
+            - else
+                - `dp[i][j] <- dp[i-1][j]`
+
+    5. if `dp[n][sum]` then
+        - print "Subset with the given sum exists."
+        - print "Subset elements: "
+        - Initialize `subset <- []`
+        - Set `i <- n` and `j <- sum`
+        - while `i > 0` and `j > 0` do
+            - if `dp[i][j] != dp[i-1][j]` then
+                - Add `arr[i-1]` to `subset`
+                - `j <- j - arr[i-1]`
+            - `i <- i - 1`
+        - print `subset`
+    else
+        - print "No subset with the given sum exists."
