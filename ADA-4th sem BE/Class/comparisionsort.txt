@@ -1,0 +1,30 @@
+Algorithm Counting_Sort( A[0 ... n-1] ):
+    i/p: array A
+    o/p: array s in increasing order
+    
+    # Step 1: Find the maximum value in A
+    max_val <- maximum(A)
+    
+    # Step 2: Initialize count array with zeros
+    count <- array of size max_val + 1 with all elements 0
+    
+    # Step 3: Store the count of each element
+    for i <- 0 to n-1 do
+        count[A[i]] <- count[A[i]] + 1
+    end for
+    
+    # Step 4: Store the cumulative count
+    for i <- 1 to max_val do
+        count[i] <- count[i] + count[i-1]
+    end for
+    
+    # Step 5: Create output array s
+    s <- array of size n
+    
+    # Step 6: Build the output array
+    for i <- n-1 downto 0 do
+        s[count[A[i]] - 1] <- A[i]
+        count[A[i]] <- count[A[i]] - 1
+    end for
+    
+    return s
