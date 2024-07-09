@@ -1,0 +1,6 @@
+Algorithm Coin_Row_problem(n):
+    F(0) <- 0
+    F(1) <- c[1]
+    for i <- 2 to n-1 do
+        F(i) <- max[c(i) + F(i-2), F(i-2)]   
+    return F(n)

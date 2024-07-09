@@ -1,0 +1,27 @@
+Angle of elevation: down angle
+
+Angle of depression: up angle
+
+Tree, Wall, Building, Tower - consider perpendicular
+
+shadow cast - 90 degree, until given otherwise
+
+Banks of the river, parallel roads - consider two ends of the base
+
+1/sin(theeta) = coasec(theeta)
+1/cos(theeta) = sec( theeta)
+1/tan(theeta) = cot(theeta)
+
+sin -> 0, 1/2, 1/root(2), root(3)/2,1
+tan -> 0. 1/root(3), 1, root(3), unidentified
+
+VBODMAS -> Vinculum Bar, Brackets, of, division, Multiplication, Addition, Substraction
+
+Brackets -> (), {}, []
+
+Squares and Cubes -> Squares till 30 should be known, Cubes till 10 should be known.
+
+Formulae -> Basic Formulae related to quadratic equations Squares and Cubes.
+
+Simplifying series -> divide, 95% of the fractions get divided by first 20 numbers.
+
