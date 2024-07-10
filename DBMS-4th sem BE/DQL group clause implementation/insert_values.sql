@@ -9,4 +9,3 @@ insert into student values('jeswin',100,100,100,'4JK22CS019');
 insert into student values('jnanesh',100,100,100,'4JK22CS020');
 
 select * from student;
-
