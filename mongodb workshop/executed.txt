@@ -10,7 +10,8 @@
 
 > db.students.find() --displays black as we have not inserted any data into the particulat collection
 
-> db.students.insertOne({id:1,name:"alice johnson",age:20,email:"alice.johnson@example.com",major:"Computer Science"}) --insert one row into the collection
+> db.students.insertOne(
+                {id:1,name:"alice johnson",age:20,email:"alice.johnson@example.com",major:"Computer Science"}) --insert one row into the collection
 
 db.students.insertMany([
                          {
@@ -67,7 +68,7 @@ db.students.find() --will display all the data in the JSON format
                                     state:'CA',
                                     zip:12345
                                     },
-                            active:'TRUE',
+                            active:true,
                             intrests:['hiking','reading']
                         }) --used to insert one set of data into the collection
 
@@ -83,7 +84,7 @@ db.students.find() --will display all the data in the JSON format
                                             state:'NY',
                                             zip:54321
                                         },
-                                active:'FALSE',
+                                active:false,
                                 intrests:['photography','gardening']
                             },
                             {
@@ -97,7 +98,7 @@ db.students.find() --will display all the data in the JSON format
                                             city:'Smalltown',
                                             state:'TX',zip:67890
                                         },
-                                active:'TRUE',
+                                active:true,
                                 intrests:['coding','travelling']
                             },
                             {
@@ -112,7 +113,7 @@ db.students.find() --will display all the data in the JSON format
                                             state:'FL',
                                             zip:13579
                                         },
-                                active:'FALSE',
+                                active:false,
                                 intrests:['painting','dancing']
                             },
                             {
@@ -127,8 +128,29 @@ db.students.find() --will display all the data in the JSON format
                                             state:'IL',
                                             zip:97531
                                         },
-                                active:'TRUE',
+                                active:true,
                                 intrests:['sports','music']
                             }
                         ]) --insert multiple documents or data into the collection
 
+> db.employee.find() --display all the above array in the database in JSON 
+
+> db.students.updateOne({id:4},{$set:{name:'David Luck'}}) --update the name as 'david Luck' where id is 4
+
+> db.students.deleteOne({major:'Civil'}) --delete the document where major is Civil
+
+> db.students.deleteMany({major:'Information Science'}) --delete all the documents where major is 'Information Science'
+
+> db.employee.find({active:true}) --Find all documents where active status is true.
+
+> db.employee.find({age:{$gt:30}}) --Find all documents where age is greater than 30.
+
+> db.employee.find({'address.state':"CA"}) --Find all documents where address.state is "CA".
+
+> db.employee.updateOne({name:'Jane Smith'},{$set:{age:26}}) --Update the age of "Jane Smith" to 26.
+
+> db.employee.updateOne({name:'John Doe'},{$push:{intrests:"coding"}}) --Add a new interest "coding" to the interests array for "John Doe".
+
+> db.employee.find({age:{$lte:30}}) --Find all documents where age is less than or equal to 30.
+
+> db.employee.find({$and:[{age:{$gt:30}},{active:true}]}) --Find all documents where active is true or age is greater than 30.
