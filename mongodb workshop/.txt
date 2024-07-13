@@ -1,0 +1,37 @@
+what is mongodb?
+
+what is json?
+    what is a document?
+    what is collection?
+    what is databse?
+
+key featyres if mongodb: document-oriented, schema-less, scalability, replication, indexing, aggregation framework.
+
+difference between sql and no-sql.
+
+mongodb installation and setup.
+
+commands and CRUD operations.
+
+what are helpers?
+
+DDL and DML commands.
+
+querry commands.
+
+indexing commands.
+
+CRUD operations.
+    insert[create] syntax with example
+    find[read] syntax with example
+    update syntax with example
+    delete[remove] syntax with example
+    
+CRUD in mongodb cmd
+    use mongosh
+    >mongosh
+
+To display all the commands just click . and then press tab twice
+
+nested objects
+

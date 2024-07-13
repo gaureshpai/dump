@@ -1,0 +1,134 @@
+>mongosh --used to check and operate upon
+
+>use collegeDb; --switch to collegeDb database, if not present create one
+
+> db.createCollection("students") --creating a new collection named students
+
+> show dbs -- to show all the databases 
+
+> show collections -to show all the collections in the current database
+
+> db.students.find() --displays black as we have not inserted any data into the particulat collection
+
+> db.students.insertOne({id:1,name:"alice johnson",age:20,email:"alice.johnson@example.com",major:"Computer Science"}) --insert one row into the collection
+
+db.students.insertMany([
+                         {
+                            id:2,
+                            name:"Bob Smith",
+                            age:21,
+                            email:"bob.smith@example.com",
+                            major:"Information Science"
+                         },
+                         {
+                            id:3,
+                            name:"Charlie Brown",
+                            age:50,
+                            email:"charlie.brown@example.com",
+                            major:"Computer Science"
+                         },
+                         {
+                            id:4,
+                            name:"David Lee",
+                            age:35,
+                            email:"david.lee@example.com",
+                            major:"Civil"
+                         },
+                         {
+                            id:5,
+                            name:'Eve Davis',
+                            age:18,
+                            email:'eve.davis@example.com',
+                            major:'Computer Science'
+                         },
+                         {
+                            id:6,
+                            name:'Bob Lee',
+                            age:32,
+                            email:'bob.lee@example.com',
+                            major:'Informaton Science'
+                         }
+                       ]) --inserting multiple documents or data into the collection
+
+db.students.find() --will display all the data in the JSON format
+
+
+
+> db.createCollection("employee") --used to create a collection named employee
+
+> db.employee.insertOne({
+                            id:1,
+                            name:'John Doe',
+                            age:30,
+                            email:'john.doe@example.com',
+                            address:{
+                                    street:'123 Main St',
+                                    city:'Anytown',
+                                    state:'CA',
+                                    zip:12345
+                                    },
+                            active:'TRUE',
+                            intrests:['hiking','reading']
+                        }) --used to insert one set of data into the collection
+
+> db.employee.insertMany([
+                            {
+                                id:2,
+                                name:'Jane Smith',
+                                age:25,
+                                email:'jane.smith@example.com',
+                                address:{
+                                            street:'456 Eml St',
+                                            city:'Otherville',
+                                            state:'NY',
+                                            zip:54321
+                                        },
+                                active:'FALSE',
+                                intrests:['photography','gardening']
+                            },
+                            {
+                                id:3,
+                                name:'Michael Johnson',
+                                age:35,
+                                email:'michael.johnson@example.com',
+                                address:
+                                        {
+                                            street:'789 Oak Ave',
+                                            city:'Smalltown',
+                                            state:'TX',zip:67890
+                                        },
+                                active:'TRUE',
+                                intrests:['coding','travelling']
+                            },
+                            {
+                                id:4,
+                                name:'Emily Brown',
+                                age:28,
+                                email:'emily.brown@example.com',
+                                address:
+                                        {
+                                            street:'321 Pine Rd',
+                                            city:'Villageton',
+                                            state:'FL',
+                                            zip:13579
+                                        },
+                                active:'FALSE',
+                                intrests:['painting','dancing']
+                            },
+                            {
+                                id:5,
+                                name:'Alex Williams',
+                                age:32,
+                                email:'alex.williams@example.com',
+                                address:
+                                        {
+                                            street:'654 Cedar Ln',
+                                            city:'Metropolis',
+                                            state:'IL',
+                                            zip:97531
+                                        },
+                                active:'TRUE',
+                                intrests:['sports','music']
+                            }
+                        ]) --insert multiple documents or data into the collection
+
