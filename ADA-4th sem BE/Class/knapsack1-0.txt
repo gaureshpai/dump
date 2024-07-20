@@ -1,0 +1,32 @@
+Define the DP State:
+    Let dp[i][w] represent the maximum value that can be obtained with the first i items and weight capacity w.
+Formulate the Recurrence Relation:
+    If the weight of the i-th item is more than w, then the item cannot be included: dp[i][w] = dp[i-1][w].
+    Otherwise, decide the maximum value obtained by including or excluding the i-th item: dp[i][w] = max(dp[i-1][w], dp[i-1][w - weights[i-1]] + values[i-1]).
+Initialize the DP Table:
+    dp[0][w] = 0 for all w, meaning no items and any capacity results in zero value.
+Fill the DP Table:
+    Use the recurrence relation to fill the table from dp[1][0] to dp[n][capacity].
+Return the Result:
+    The value at dp[n][capacity] will be the maximum value that can be obtained.
+
+Algorithm Knapsack(weights[0 ... n-1], values[0 ... n-1], capacity)
+    i/p: Arrays weights and values, and an integer capacity
+    o/p: Maximum value that can be obtained with the given weight capacity
+
+    # Step 1: Initialize dp array
+    dp <- 2D array of size (n + 1) x (capacity + 1) filled with 0
+
+    # Step 2: Fill the DP table
+    for i <- 1 to n do
+        for w <- 1 to capacity do
+            if weights[i-1] <= w then
+                dp[i][w] <- max(dp[i-1][w], dp[i-1][w - weights[i-1]] + values[i-1])
+            else
+                dp[i][w] <- dp[i-1][w]
+            end if
+        end for
+    end for
+
+    # Step 3: Return the result
+    return dp[n][capacity]

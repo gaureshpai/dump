@@ -1,0 +1,41 @@
+Preprocessing Phase:
+    Create a shift table based on the pattern. 
+    The table tells how many positions the pattern can be shifted when a mismatch occurs.
+    The shift value for each character in the pattern is determined by the distance from the last occurrence of the character to the end of the pattern. 
+    If the character does not appear in the pattern, the shift value is the length of the pattern.
+Search Phase:
+    Align the pattern with the beginning of the text.
+    Compare the pattern with the text from right to left.
+    If a mismatch occurs, use the shift table to determine how far to shift the pattern.
+    Repeat the process until the pattern is found or the end of the text is reached.
+
+Algorithm HorspoolSearch(T, P)
+    Input: Text string T[0 ... n-1] and pattern string P[0 ... m-1]
+    Output: Index of the first occurrence of pattern P in text T or -1 if not found
+
+    Preprocessing:
+        Compute the shift table for pattern P:
+        Let m be the length of P
+
+        Initialize shift_table as a dictionary with default value m for all characters in the alphabet
+
+        For each position j in pattern P from 0 to m-2:
+            Set shift_table[P[j]] to m - 1 - j
+
+    Search Phase:
+        Let n be the length of T
+        Initialize i to 0 (start index in text T)
+
+        While i <= n - m:
+            Let j be m - 1 (last index of the pattern)
+
+        While j >= 0 and P[j] == T[i + j]:
+            Decrement j
+
+        If j == -1:
+            Return i (pattern found at index i)
+        Else:
+            Shift i by shift_table.get(T[i + m - 1], m) (move pattern to align with the next character in T)
+
+    Return Result:
+    If the pattern is not found by the end of the text, return -1

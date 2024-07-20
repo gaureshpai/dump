@@ -1,0 +1,39 @@
+Algorithm: Prim's Algorithm
+    Input: A connected, undirected graph represented by a cost adjacency matrix a with n vertices.
+    Output: MST and its total cost.
+
+    1. Initialize arrays `visited` and `sel`.
+    2. Set the source vertex (e.g., vertex 0) as visited.
+    3. count <- 0
+    sum <- 0
+    k <- 0
+
+    4. while count < n-1 do
+        min <- 999
+        for i <- 0 to n-1 do
+            for j <- 0 to n-1 do
+                if visited[i] = 1 and visited[j] != 1 and a[i][j] < min then
+                    min <- a[i][j]
+                    u <- i
+                    v <- j
+            end for
+        end for
+
+        sel[k][0] <- u
+        sel[k][1] <- v
+        sum <- sum + a[u][v]
+        visited[v] <- 1
+        k <- k + 1
+        count <- count + 1
+    end while
+
+    5. if sum < 999 then
+        print "Spanning Tree Exists."
+        print "Sum of MST: ", sum
+        print "Selected Edges: "
+        for i <- 0 to n-2 do
+            print sel[i][0], "--", sel[i][1]
+        end for
+    else
+        print "Spanning Tree does not exist."
+    end if

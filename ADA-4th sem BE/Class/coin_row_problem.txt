@@ -1,3 +1,27 @@
+Algorithm CoinRow(coins[0 ... n-1])
+    Input: Array coins[0 ... n-1] representing the values of coins in a row
+    Output: Maximum sum of values that can be collected from the row of coins without picking two adjacent coins
+
+    Initialization:
+        Let n be the length of the coins array.
+        If n == 0, return 0 (no coins to select).
+        If n == 1, return coins[0] (only one coin available).
+
+    Define DP Table:
+        Initialize an array dp[0 ... n-1] where dp[i] represents the maximum value obtained from the first i+1 coins.
+
+    Base Cases:
+        Set dp[0] = coins[0] (only one coin, so maximum is coins[0]).
+        Set dp[1] = max(coins[0], coins[1]) (choose the maximum of the first two coins).
+
+    Fill DP Table:
+        For each i from 2 to n-1:
+            Compute dp[i] = max(dp[i-1], coins[i] + dp[i-2]).
+            dp[i-1] represents the maximum value without including the current coin.
+            coins[i] + dp[i-2] represents the maximum value by including the current coin (thus skipping the previous one).
+    Return Result:
+        Return dp[n-1], which is the maximum value obtained from the entire row of coins.
+
 Algorithm Coin_Row_problem(n):
     F(0) <- 0
     F(1) <- c[1]

@@ -1,0 +1,33 @@
+Find the Range of Input: Determine the range of the numbers to be sorted (find the minimum and maximum values).
+Count Frequencies: Create a count array and count the frequency of each distinct number in the input array.
+Calculate Positions: Modify the count array such that each element at each index stores the sum of previous counts. This modified count array indicates the position of each object in the output sequence.
+Sort the Input: Use the count array to place the elements in the correct position in the output array.
+Copy to Original Array: Copy the sorted elements back to the original array.
+
+Algorithm CountingSort(arr)
+    Input: Array arr of integers to be sorted
+    Output: Sorted array arr
+
+    If arr is empty then
+        Return arr
+
+    Find the minimum value min_val in arr
+    Find the maximum value max_val in arr
+
+    Calculate the range of elements:
+    range_of_elements = max_val - min_val + 1
+
+    Initialize a count array count of size range_of_elements with all zeros
+    For each element num in arr:
+        Increment count[num - min_val]
+
+    For each index i from 1 to range_of_elements - 1:
+        count[i] += count[i - 1]
+
+    Initialize an output array output of the same size as arr with all zeros
+    For each element num in arr (processed in reverse order):
+        Place num in output at index count[num - min_val] - 1
+    Decrement count[num - min_val] by 1
+    For each index i in arr:
+        arr[i] = output[i]
+    Return arr
