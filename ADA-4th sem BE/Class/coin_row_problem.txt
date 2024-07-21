@@ -1,3 +1,22 @@
+Define the Subproblem:
+    Let C[i] be the maximum amount of money that can be collected from the first i coins.
+
+Recursive Relation:
+    For each coin at position i, you have two choices:
+        Do not pick the i-th coin, in which case the maximum amount is C[i-1].
+        Pick the i-th coin, in which case you cannot pick the (i-1)-th coin, and the maximum amount is C[i-2] + value of i-th coin.
+    Therefore, the recurrence relation is: 𝐶[𝑖]=max(𝐶[𝑖−1],𝐶[𝑖−2]+value of i-th coin)
+
+Base Cases:
+    C[0] = 0 (if there are no coins, the maximum value is 0)
+    C[1] = \text{value of the first coin} (if there is only one coin, the maximum value is the value of that coin)
+
+Compute the Solution:
+    Use the above relation to compute C[i] for all i from 1 to n.
+
+Final Result:
+    The result will be stored in C[n], which represents the maximum amount of money that can be collected from all the coins.
+
 Algorithm CoinRow(coins[0 ... n-1])
     Input: Array coins[0 ... n-1] representing the values of coins in a row
     Output: Maximum sum of values that can be collected from the row of coins without picking two adjacent coins

@@ -1,14 +1,17 @@
-To solve the Change-Making Problem using dynamic programming:
 Define the DP State:
     Let dp[i] represent the minimum number of coins needed to make the amount i.
     Formulate the Recurrence Relation:
+
 To compute dp[i], consider:
     For each coin c in coins, if i - c is non-negative, then dp[i] can be updated as dp[i] = min(dp[i], dp[i - c] + 1).
+
 Initialize the DP Table:
     Set dp[0] = 0 (zero coins are needed to make amount 0).
     Set all other dp[i] values to a large number (e.g., amount + 1) to represent initially unreachable states.
+
 Fill the DP Table:
     Iterate through amounts from 1 to amount, updating the dp table using the recurrence relation.
+
 Return the Result:
     If dp[amount] is still set to the initial large value, return -1 (indicating that it's not possible to make the target amount). Otherwise, return dp[amount].
 

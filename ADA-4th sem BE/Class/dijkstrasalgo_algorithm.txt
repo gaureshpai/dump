@@ -1,0 +1,32 @@
+Initialization:
+    distances: An array where distances[i] holds the shortest distance from the source vertex to vertex i. Initialized to infinity except for the source vertex which is set to 0.
+    visited: A boolean array to keep track of vertices whose shortest path has been found.
+    priority_queue: A min-heap to extract the vertex with the minimum distance efficiently.
+
+Processing the Priority Queue:
+    Extract the vertex u with the smallest distance from the priority queue.
+    If u has already been visited, skip it.
+    Mark u as visited.
+    For each adjacent vertex v of u, if the path through u offers a shorter path to v than previously known, update distances[v] and add v to the priority queue with the updated distance.
+
+Result:
+    The algorithm returns the array distances, which contains the shortest distance from the source vertex to all other vertices in the graph.
+
+Algorithm DijakstrasAlgo( G, S ):
+    i/p: weighted connected graph G( V, E )
+    o/p: shortest path from src to all other V
+    for i <- 0 to n-1 do
+        d[i] <- cost( source, i )
+        s[i] <- 0
+    End for
+    s[source] <- 1
+    for i <- 1 to n-1 do
+        find adjacency vertex 'u' & distance d[u] such that d[u] is minimum
+        add u to s 
+        s[u] <- 1
+        for every v belongs to u-s do
+            if d[u] + w[ u, v] < d[v] do
+                d[v] <- d[u] + w(u, v)
+            End if
+        End for
+    End for

@@ -1,3 +1,19 @@
+Initialize the DP Table:
+    Create a 2D array K where K[i][weight] represents the maximum profit obtainable with the first i items and a maximum weight limit weight.
+
+Fill the DP Table:
+    Iterate through each item and each possible weight limit, updating the table based on whether including the current item offers a better profit than excluding it.
+
+Base Cases:
+    If there are no items (i == 0) or the weight limit is zero (weight == 0), the maximum profit is zero.
+
+Decision Making:
+    If the weight of the current item is less than or equal to the current weight limit, decide whether to include it or not based on which option provides a higher profit.
+    If the current item's weight exceeds the current weight limit, the item cannot be included, and the profit remains as it was without this item.
+
+Result:
+    The maximum profit is found in K[n][m], where n is the number of items and m is the maximum weight capacity of the knapsack.
+
 Algorithm Knapsack(m, n, w, p, x):
     i/p: m is the capacoty of Knapsack, n is the number of objects, w and p are weights and profits.
     o/p: maximum profit

@@ -1,0 +1,16 @@
+Algorithm HuffmanCoding(charFreq)
+    Input: A list of characters and their frequencies.
+    Output: A dictionary of characters and their corresponding Huffman codes.
+    
+    Initialize Priority Queue:
+        Create a priority queue and insert all characters along with their frequencies as nodes.
+
+    Construct the Huffman Tree:
+        While the priority queue contains more than one node:
+            Extract the two nodes with the smallest frequencies.
+            Create a new internal node with these two nodes as children and with a frequency equal to the sum of their frequencies.
+            Insert the new node back into the priority queue.
+        The remaining node in the queue is the root of the Huffman Tree.
+    
+    Generate Huffman Codes:
+        Traverse the Huffman Tree from the root to the leaves, assigning a binary code to each character. Moving left assigns a '0' and moving right assigns a '1'.

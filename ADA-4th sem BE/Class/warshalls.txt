@@ -1,3 +1,16 @@
+Initialization:
+    The input matrix A is used to represent the adjacency matrix of the graph.
+
+Triple Nested Loop:
+    The algorithm iterates over each possible pair of vertices (i, j) and considers each vertex k as an intermediate vertex.
+    If there is a path from i to k and from k to j, then there is a path from i to j.
+
+Update Matrix:
+    Update A[i][j] to 1 if there is an intermediate vertex k such that A[i][k] and A[k][j] are both 1.
+
+Result:
+    The final matrix A represents the transitive closure of the graph.
+
 Algorithm Warshall(A[1..n][1..n])
     for k <- 0 to n-1
         for i <- 0 to n-1

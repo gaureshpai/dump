@@ -1,3 +1,19 @@
+Initialization:
+    The matrix p represents the initial weights of the edges. If there is no direct edge between two vertices, the corresponding entry is set to infinity.
+
+Triple Nested Loop:
+    The algorithm uses three nested loops:
+    Outer Loop (k): Iterates over each vertex considered as an intermediate vertex.
+    Middle Loop (i): Iterates over each starting vertex.
+    Inner Loop (j): Iterates over each ending vertex.
+    For each combination of starting vertex i, ending vertex j, and intermediate vertex k, it updates the distance p[i][j] to be the minimum of its current value and the path through k.
+
+Update Matrix:
+    dition if p[i][j] > p[i][k] + p[k][j] checks if a shorter path from i to j through k is found. If true, update p[i][j].
+
+Result:
+    ix p is updated to show the shortest path distances between all pairs of vertices.
+
 Algorithm FloydWarshall(p[1..n][1..n])
     for k <- 1 to n
         for i <- 1 to n

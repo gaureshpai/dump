@@ -1,12 +1,16 @@
 Define the DP State:
     Let dp[i][w] represent the maximum value that can be obtained with the first i items and weight capacity w.
+
 Formulate the Recurrence Relation:
     If the weight of the i-th item is more than w, then the item cannot be included: dp[i][w] = dp[i-1][w].
     Otherwise, decide the maximum value obtained by including or excluding the i-th item: dp[i][w] = max(dp[i-1][w], dp[i-1][w - weights[i-1]] + values[i-1]).
+
 Initialize the DP Table:
     dp[0][w] = 0 for all w, meaning no items and any capacity results in zero value.
+
 Fill the DP Table:
     Use the recurrence relation to fill the table from dp[1][0] to dp[n][capacity].
+
 Return the Result:
     The value at dp[n][capacity] will be the maximum value that can be obtained.
 

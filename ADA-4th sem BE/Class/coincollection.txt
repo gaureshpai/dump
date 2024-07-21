@@ -1,17 +1,20 @@
-To solve the Coin Collection Problem using dynamic programming:
 Define the DP State:
     Let dp[i][j] represent the maximum number of coins that can be collected up to cell (i, j).
+
 Formulate the Recurrence Relation:
     To compute dp[i][j], consider:
     If coming from the left, dp[i][j] = dp[i][j-1] + G[i][j].
     If coming from above, dp[i][j] = dp[i-1][j] + G[i][j].
     Therefore, dp[i][j] = G[i][j] + max(dp[i-1][j], dp[i][j-1]).
+
 Initialize the DP Table:
     Set dp[0][0] = G[0][0] (starting point).
     Initialize the first row: dp[0][j] = dp[0][j-1] + G[0][j] for all j.
     Initialize the first column: dp[i][0] = dp[i-1][0] + G[i][0] for all i.
+
 Fill the DP Table:
     For each i from 1 to m-1 and each j from 1 to n-1, update dp[i][j] using the recurrence relation.
+
 Return the Result:
     Return dp[m-1][n-1], which represents the maximum number of coins collected to reach the bottom-right corner.
 

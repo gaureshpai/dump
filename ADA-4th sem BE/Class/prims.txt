@@ -1,3 +1,21 @@
+Initialization:
+    visited: An array to keep track of visited vertices. Initially, only the source vertex (vertex 0) is marked as visited.
+    sel: A list to store the edges included in the MST.
+    count: To count the number of edges added to the MST.
+    sum_cost: To accumulate the total weight of the MST.
+
+Finding the Minimum Cost Edge:
+    Iterate through all pairs of vertices (i, j), where i is visited and j is not visited.
+    Find the edge with the minimum weight connecting a visited vertex to an unvisited vertex.
+
+Updating the MST:
+    Add the edge with the minimum cost to the MST.
+    Mark the new vertex v as visited and update the total cost.
+    Increment the count of edges added to the MST.
+
+Result:
+    After constructing the MST, print the total cost and the edges included in the MST.
+
 Algorithm: Prim's Algorithm
     Input: A connected, undirected graph represented by a cost adjacency matrix a with n vertices.
     Output: MST and its total cost.
