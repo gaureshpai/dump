@@ -1,0 +1,10 @@
+Model Training:
+    For classification, DecisionTreeClassifier is used.
+    For regression, DecisionTreeRegressor is used.
+    The model is trained on the training dataset (X_train and y_train).
+
+Prediction:
+    raining, the model can be used to make predictions on new data (X_test).
+
+Evaluation:
+    Metrics like accuracy (for classification) or mean squared error (for regression) are used to evaluate the model's performance.

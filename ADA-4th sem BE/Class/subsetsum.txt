@@ -1,0 +1,41 @@
+Initialization:
+    A 2D array dp is initialized where dp[i][j] will be true if there is a subset of the first i elements in the set S that has a sum of j.
+    The first column (dp[i][0]) is set to true for all i because a sum of 0 can always be achieved with an empty subset.
+    The first row (dp[0][j]) is set to false for all j > 0 because a non-zero sum cannot be achieved with an empty set.
+
+Filling the dp table:
+        For each element in the set, iterate through all possible sums from 1 to the target sum.
+        If the current element is greater than the current sum, the value is carried forward from the previous set of elements.
+    If the current element is less than or equal to the current sum, the value is determined by checking if the sum can be achieved either with or without including the current element.
+
+Result:
+    The value dp[n][sum] will indicate if the target sum can be achieved with the given set of integers
+
+Algorithm SubsetSumProblem():
+    Input: A set of integers `arr` and an integer `sum`.  
+    Output: A subset of `arr` that sums up to `sum` (if such a subset exists).
+
+    1. Initialize a 2D array `dp` of size `(n+1) x (sum+1)` where `n` is the size of `arr`.
+    2. Set all elements of `dp[0][j]` to `False` for `j` from `1` to `sum`.
+    3. Set all elements of `dp[i][0]` to `True` for `i` from `0` to `n`.
+
+    4. for `i <- 1` to `n` do
+        - for `j <- 1` to `sum` do
+            - if `arr[i-1] <= j` then
+                - `dp[i][j] <- dp[i-1][j] OR dp[i-1][j-arr[i-1]]`
+            - else
+                - `dp[i][j] <- dp[i-1][j]`
+
+    5. if `dp[n][sum]` then
+        - print "Subset with the given sum exists."
+        - print "Subset elements: "
+        - Initialize `subset <- []`
+        - Set `i <- n` and `j <- sum`
+        - while `i > 0` and `j > 0` do
+            - if `dp[i][j] != dp[i-1][j]` then
+                - Add `arr[i-1]` to `subset`
+                - `j <- j - arr[i-1]`
+            - `i <- i - 1`
+        - print `subset`
+    else
+        - print "No subset with the given sum exists."

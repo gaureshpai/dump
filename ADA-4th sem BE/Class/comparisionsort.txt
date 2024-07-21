@@ -1,3 +1,9 @@
+Find Range: Determine the range of the input (minimum and maximum values).
+Count Frequencies: Create a count array and count the frequency of each element.
+Calculate Positions: Modify the count array to store the cumulative count of elements.
+Sort Input: Use the cumulative count array to place elements in the correct position in the output array.
+Copy to Original Array: Copy the sorted elements back to the original array.
+
 Algorithm Counting_Sort( A[0 ... n-1] ):
     i/p: array A
     o/p: array s in increasing order
