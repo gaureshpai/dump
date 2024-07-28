@@ -1,0 +1,38 @@
+browser object Model(BOM):
+    BOM represents the currentr browser window. 
+    The main purpose of BOM is to manipulate the properties and methods which are associated with the browser window.
+
+widnow -> document, history, navigator, location, screen
+
+The document object represents the liquid structure and content in a free format, where the three notes represent different external elements and its content.
+The history object holds the data about the orders that have been listed by the user.
+The screen object holds the information about the browser screen, like width on height.
+The Navigator object contains information about the user's browser to access the browser object model.
+
+window objext gives access to the following functions:
+    setTimeout()
+    setInterval()
+    alert()
+    confirm()
+    prompt()
+    open()
+    close()
+
+The javascript screen object holds information of the browser screen.
+It can be used to display screen width, height, availableWidth, availableHeight, colorDepth, pixelDepth.
+
+The navigator object contains information about the browser where your application is running.
+
+navigator.userAgent -> gives the info about the current browser and the onScoll
+
+The javascript history object represents an array of URLs visited by the user.
+It gives us two methods:
+    back() -> it loads the previous page from the browser history.
+    forward() 0>  it loads the next page from the browser history
+
+The location object can be used to get the details of the current page address.
+It can also redirect the browser to a new page in the same browser.
+    window.location.href -> returns the link of the current page i.e for google.com/search this gives google.com/search
+    window.location.hostname -> returns the host name of the current page i.e for google.com/search this gives search google.com
+    window.location.pathname -> returns the path name of the current page i.e for google.com/search this gives search
+    
