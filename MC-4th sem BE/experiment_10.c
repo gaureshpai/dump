@@ -18,8 +18,8 @@ int main (void) {
 
 __irq void Ext_ISR(void) // Interrupt Service Routine-ISR 
 {
-IO1DIR |=0xFF000000;//make Port P1.31 to P1.24 as output
-IO1PIN ^= 0x01000000; // Turn ON Buzzer
-EXTINT |= 0x4; //clear interrupt
-VICVectAddr = 0; // End of interrupt execution
+    IO1DIR |=0xFF000000;//make Port P1.31 to P1.24 as output
+    IO1PIN ^= 0x01000000; // Turn ON Buzzer
+    EXTINT |= 0x4; //clear interrupt
+    VICVectAddr = 0; // End of interrupt execution
 }
