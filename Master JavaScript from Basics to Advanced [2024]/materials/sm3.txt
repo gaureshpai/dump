@@ -36,3 +36,38 @@ It can also redirect the browser to a new page in the same browser.
     window.location.hostname -> returns the host name of the current page i.e for google.com/search this gives search google.com
     window.location.pathname -> returns the path name of the current page i.e for google.com/search this gives search
     
+
+Regular expressions:
+    A regular expression is an object that describes a pattern of characters.
+    It allows us to search for specific patterns of text using the defined patterns.
+
+syntax for regex: /pattern-string/flags
+
+sets and ranges are represented by several characters inside the [].
+[] -> characters inside the brackets check for any one occurenace inside the brackets, this can also include ranges for one charcater.
+\d	Digits (0-9)
+\D	Non-digits
+\w	Word characters (letters, digits, underscores)
+\W	Non-word characters
+\s	Whitespace characters (spaces, tabs, line breaks)
+\S	Non-whitespace characters
+. (Dot) -> Matches any character except newline (\n).
+\b -> Matches a word boundary (the position between a word character and a non-word character).
+\B -> Matches a non-word boundary.
+^ -> Matches the beginning of a string or line.
+$ -> Matches the end of a string or line.
+* -> Matches 0 or more occurrences of the preceding element.
++ -> Matches 1 or more occurrences of the preceding element.
+? -> Matches 0 or 1 occurrence of the preceding element.
+{n} -> Matches exactly n occurrences of the preceding element.
+{n,} -> Matches n or more occurrences of the preceding element.
+{n,m} -> Matches between n and m occurrences of the preceding element.
+[...] -> Matches any one of the characters inside the brackets (character set).
+[^...] -> Matches any one character not inside the brackets (negated character set).
+(...) -> Groups multiple tokens together and creates a capture group.
+| -> Acts like a boolean OR to match patterns on either side of the |.
+\ -> Escapes a special character, allowing it to be treated as a literal.
+
+Quantifiers select a value multiple times. They also decide how many times a value should be selected.
+{} -> values indside these define the number of times of the occurenace.
+more than one can be represented using +

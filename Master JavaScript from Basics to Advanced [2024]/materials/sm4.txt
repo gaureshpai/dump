@@ -1,0 +1,95 @@
+the this keyword: 
+    In js, this keyword refers to the current context.
+
+In JavaScript development, the distinction between front-end and back-end development is crucial. 
+Each side of web development serves different purposes and involves different technologies and methodologies.
+
+Front-End Development
+    Purpose:
+    - The front end is responsible for the user interface and the user experience. It encompasses everything that users see and interact with on their web browsers.
+
+    Technologies:
+    - HTML (HyperText Markup Language): Structures the content on the web.
+    - CSS (Cascading Style Sheets): Styles the HTML content.
+    - JavaScript: Adds interactivity and dynamic behavior to web pages.
+    - Frameworks and Libraries: 
+    - React: A JavaScript library for building user interfaces.
+    - Angular: A framework for building single-page client applications.
+    - Vue.js: A progressive framework for building user interfaces.
+
+    Tools:
+    - Build Tools: Webpack, Parcel.
+    - Preprocessors: Sass, LESS for CSS preprocessing.
+    - Version Control: Git, GitHub.
+    - Task Runners: Gulp, Grunt.
+
+    Key Concepts:
+    - Responsive Design: Making web applications work on various devices and screen sizes.
+    - DOM Manipulation: Changing the structure, style, and content of the document.
+    - Event Handling: Responding to user interactions like clicks and keypresses.
+    - AJAX: Asynchronous JavaScript and XML for making asynchronous requests to the server.
+
+Back-End Development
+    Purpose:
+    - The back end is responsible for the server side of web applications. It handles data storage, business logic, authentication, and authorization. It manages the database and interacts with the front end through APIs.
+
+    Technologies:
+    - JavaScript (Node.js): JavaScript runtime built on Chrome's V8 JavaScript engine.
+    - Other Languages: Python, Ruby, PHP, Java, etc.
+    - Frameworks:
+    - Express.js: A minimal and flexible Node.js web application framework.
+    - Koa.js: A new web framework designed by the team behind Express.
+    - NestJS: A framework for building efficient, reliable, and scalable server-side applications.
+
+Databases:
+    - SQL: MySQL, PostgreSQL.
+    - NoSQL: MongoDB, Redis.
+
+    Tools:
+    - Version Control: Git, GitHub.
+    - Task Runners: npm scripts, Gulp.
+    - Package Managers: npm, Yarn.
+
+    Key Concepts:
+    - APIs (Application Programming Interfaces): REST, GraphQL.
+    - Authentication and Authorization: JWT, OAuth.
+    - Data Storage and Retrieval: CRUD operations, database management.
+    - Server Management: Handling server requests and responses, middleware.
+    - Scalability and Performance: Load balancing, caching.
+
+Differences Between Front-End and Back-End
+1. Focus and Responsibilities:
+   - Front-End: Focuses on the visual and interactive aspects of web applications. Responsibilities include designing, user experience, and making the interface dynamic.
+   - Back-End: Focuses on the server side, databases, and application logic. Responsibilities include data processing, business logic, and server-side functionality.
+
+2. Skills and Tools:
+   - Front-End: Requires knowledge of HTML, CSS, JavaScript, and related frameworks/libraries (React, Angular, Vue.js). Tools include build tools (Webpack), CSS preprocessors (Sass), and version control (Git).
+   - Back-End: Requires knowledge of server-side languages (Node.js, Python, Ruby) and frameworks (Express, Koa). Tools include database management systems (MySQL, MongoDB), version control (Git), and server management tools.
+
+3. Interaction:
+   - Front-End: Interacts with users directly. The main concern is to ensure a smooth, responsive, and visually appealing experience.
+   - Back-End: Interacts with the front end through APIs. The main concern is to ensure that data is stored, retrieved, and processed efficiently and securely.
+
+4. Development Process:
+   - Front-End: Emphasizes on creating an intuitive and engaging user interface. It involves a lot of design considerations and user testing.
+   - Back-End: Emphasizes on building a robust and scalable architecture. It involves a lot of logical problem-solving and handling of data.
+
+Front-end and back-end development in JavaScript serve different, but complementary purposes. 
+The front end focuses on the user experience and interface, while the back end deals with server-side logic, databases, and APIs. 
+Both are crucial for building full-fledged web applications and often require collaboration between developers who specialize in each area. 
+Understanding the roles and responsibilities of each side helps in creating a more cohesive and efficient development process.
+
+HTTP:
+
+200 -> success
+400 -> bad requests
+401 -> unauthorized
+404 -> not found
+500 -> something went wrong
+
+JSON:
+
+JavaScript Object Notation.
+It is basically a text format that makes it easy to share.
+JSON.stringify() -> converts the object to te string.
+JSON.parse() -> !JSON.stringify().
