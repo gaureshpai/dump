@@ -1,0 +1,68 @@
+Square and Cube root
+    Square:
+        Square of any number:
+            Take the number in the given question.
+            check the nearest tens of the particular number.
+            add and subtract the difference between the nearest tens and the given number.
+            We obtain two numbers now, multiply these numbers and add the square of the difference number to it to obtain the square of the given number.
+
+        Square of number ending with 5:
+            eliminate the 5 from the given number.
+            multiply the obtained number with the next number.
+            concatinate the obtained number with 25 and hence the obtained number is the square of the number.
+
+    Square Root:
+        Know the squares of the numbers from 1-10.
+        Check the last digit.
+        Now in the given number eliminate the lst two digits.
+        Check the nearest square of the hence obtained number( smaller than the initial).
+        Consider the lesser number square nearest to the obtained number.
+        Now add the lesser number square and its square root.
+        From the known values of the squares from 1-10, check for the last digit and then add the occurances.
+        If multiple occurances of these numbers then, check for the added value if the added value is less then Consider the lesser among the two.
+        If it is more then Consider the larger among the two.
+        Hence this number is the required square root.
+
+    Cube Root:
+        Know the cubes of the numbers from 1-10.
+        Check the last digit.
+        ignore the last 3 digits.
+        Hence now check for the lesser number square of the hence obtained number.
+        concatinate the square root with the ignored 3 digits.
+        Hence this number is the required cube root.
+
+To find the number that with addition to the given number will be a perfect square/cube:
+    Factorize and obtain the factors of the given number.
+    Ignore the numbers repeating twice as the factors for square and thrice for cube.
+    multiply the remaining numbers and the obtained overall number, this number is the nearest perfect square.
+    subtract this number with the given number.
+    This is the required answer is hence obtained.
+
+Square of a decimal number:
+    will have twice and number of decimal places in the number.
+
+For nested root questions(same number seperated by +/-)[For questions such as  (√x+√x+√x)]:
+    Check the value i.e square root of the number.
+    Consider the factors with the differences as 1.
+    if the symbol in the nested question is + then Consider the greater value.
+    if the symbol is minus its the lesser number.
+
+For nested root questions(same number)[For questions such as  (√x√x√x)]:
+    x is the answer.
+
+When the value of a fractional square root is asked:
+    Check to obtain a square number both in numerator and denominator by multiplication.
+    divide the hence obtained number outside the square root (easier).
+    The required answer is hence obtained.
+
+For higher value roots(more than cube root):
+    write the number as the power of 1/x if x is the numbered value of the root to be found.
+    wtite the fractions in terms of cube and square roots and hence obtain the answer.
+
+For numbers with rooted part in the denominator:
+    multiply the consequent symboled value both in denominator and numerator.
+    Hence we get a non rooted number in the denominator.
+    find the value in the numerator and hence obtain the value.
+
+Know the value of basic square operations:  
+    formula for simplified versions of sum of squares subtraction etc.

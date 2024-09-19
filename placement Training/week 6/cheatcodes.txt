@@ -1,0 +1,12 @@
+Chain rule Formula
+    M -> men
+    D -> days
+    T -> time
+    W -> work
+
+    M₁D₁T₁W₂ = M₂D₂T₂W₁
+
+True or false
+    Check for the statements and consider those as conditions.
+    Depict in as lines.
+    Look and re-check the values again n again.
