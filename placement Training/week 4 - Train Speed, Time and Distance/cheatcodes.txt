@@ -1,0 +1,33 @@
+Trains:
+    Speed, distance, time s=d/t
+
+    length of train -> included distance travelled
+    legth of any object(man, car, pole) -> 0
+
+    Normal speed -> with relation to stationary object
+    relative speed -> with relation to moving object
+
+    for two objects with different directions -> relative speed = addition
+    for two objects with same directions -> relative speed = subtraction
+
+    total distance travelled for tow trains in different directions = addition of length of two trains
+
+    dst formula is the only formula to be used to calculate all the train related problems
+
+    Check for one same value and then use the dst formula
+
+    Consider relative speed if more than 2 or 2 objects are invloved.
+
+Speed, Distance, Time:
+    distance = speed * time.
+
+    4 types of sums:    
+        distance sqame
+        Speed same
+        Time same
+        Average speed
+
+    Average speed = total distance/ total time.
+    
+    
+    

@@ -1,0 +1,22 @@
+Work and Wages:
+    Similar to work and time sums.
+
+    more the work more the money
+
+    less the number of days more the money you get.
+
+    If ratio of days is given, then the ratio of money is the exact opposiite.
+
+    share of money: share of a/total share.
+
+Pipes and Cisterns:
+    Time -> Work = Invert.
+
+    Fill the tank -> add
+    Empty the tank(remove) -> subtract       
+
+    Find the 1hr work done for all the problems by inverting.
+
+    Tap -  Leak = Total work
+
+    

@@ -66,3 +66,24 @@ For numbers with rooted part in the denominator:
 
 Know the value of basic square operations:  
     formula for simplified versions of sum of squares subtraction etc.
+
+Clocks:
+    1hr -> 60 min
+    1min -> 60sec
+    mirror time -> subtract from 11:60 but if 12 then Consider it 00
+    1hr -> 60min space
+    total angle of a circle -> 360deg
+    1hr -> 30deg hr hand
+    1min -> 6deg min hand
+    1min -> 0.5deg hr hand
+    15min spaces -> 90deg
+    
+    22 times 90deg in 12hrs
+    both hr hand and min hand coinside 11 times in 12hrs
+
+    noon -> 12:00am
+    mid night ->12:00pm
+
+    A broken clock is right two times a day
+
+    

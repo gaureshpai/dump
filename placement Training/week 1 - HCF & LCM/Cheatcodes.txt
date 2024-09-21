@@ -1,0 +1,31 @@
+HCF & LCM:
+    HCF:
+        Highest common factor.
+        Find the factors of the number and their highest number if the HCF
+        Also called as GCD: Greatest Common Divisor.
+
+        Factorize till we obtain down to non common factorizable numbers for all the numbers.
+        Multiply all the factors and hence obtained number is the HCF.
+
+        Observation is also a key to find the HCF.
+
+    LCM:
+        Least Commmon Multiple.
+        Factorize till we obtain down to 1 for all the numbers.
+        Multiply all the factors and hence obtained number is the LCM.
+
+        Observation is also a key to find the LCM.
+    
+LCM fraction = LCM Numerator/HCF Denominator.
+
+HCF fraction = HCF Numerator/LCM Denominator.
+
+Greatest -> HCF
+
+Least, Total -> LCM
+
+For remainder leaving problem check for a relation with the remainders ad then subtract it from the LCM.
+
+LCM*HCF = multiple of the numbers.
+
+For sum of numbers and HCF/LCM problems -> Create pairs and check the condition.

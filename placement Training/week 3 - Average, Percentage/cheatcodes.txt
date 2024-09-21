@@ -1,0 +1,11 @@
+Averages:
+    Average ->  equitable distribution.
+    Total value/Total number of members(things)
+
+Total Sum:
+    Total Sum = Average * Total.
+
+Percentage:
+    %
+    divide by 100
+    
