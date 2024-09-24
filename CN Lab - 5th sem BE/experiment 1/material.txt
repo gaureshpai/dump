@@ -1,0 +1,25 @@
+Go to terminal -> create directory -> cd into the directory -> paste the .jar file -> java -jar NSG2.jar
+
+nsg has been launched
+
+scenario -> wired scenario -> Node -> drop the nodes
+
+The nodes are been created
+
+Link -> duplex-link -> left click of consecutive nodes between which the link must be established
+
+Links are established between the nodes
+Agent -> TCP -> left click on one node and drop the TCP to a blank point
+
+Agent -> TCPSink -> left click on another node drop it to a blank point and then connect it withthe TCP.
+A orange line connection of the sink is established between the TCP & TCPSink
+
+Application -> FTP -> Connect FTP to blank to the TCP connection
+
+chnage the name of the tr & nam file under parameter
+
+TCL -> save the tcl file
+
+run ns programname.tcl & run the simulation
+
+run grep -c "^d" programname.tr & gedit programname.tr 
