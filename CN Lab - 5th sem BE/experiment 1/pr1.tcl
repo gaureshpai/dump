@@ -37,7 +37,7 @@ $ns duplex-link-op $n1 $n2 orient left-down
 #Agents definition
 #Setup a TCP connection
 set tcp0 [new Agent/TCP]
-$bs attach-agent $n0 $tcp0
+$ns attach-agent $n0 $tcp0
 set sink1 [new Agent/TCPSink]
 $ns attach-agent $n2 $sink1
 $tcp0 set pocketSize_ 1500
