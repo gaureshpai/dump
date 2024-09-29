@@ -1,0 +1,62 @@
+To create the web application using laravel: 
+    composer global require laravel/installer
+
+    laravel new example-app
+
+To run the server:
+    php artisan serve 
+
+To input the initial dataset from the files:
+    php artisan mirgate
+
+To display the info of the web application(particular section):
+    php artisan about --only=environment
+
+To display the config:
+    php artisan config:show database
+
+We can save the env file by encrypting it using the following command:
+    php artisan env:encrypt
+
+We can do this using a custom key to ensure safety:
+    php artisan env:encrypt --key=3UVsEgGVK36XN82KKeyLFMhvosbZN1aF
+
+Decrypting of the same can be done using the following:
+    php artisan env:decrypt --key=3UVsEgGVK36XN82KKeyLFMhvosbZN1aF
+
+For better safety we can also pass on the custom cipher hence we use the following command:
+    php artisan env:decrypt --key=qUWuNRdfuImXcKxZ --cipher=AES-128-CBC
+
+In order to overwrite an existing environment file, you may provide the --force option to the env:decrypt command:
+    php artisan env:decrypt --force
+
+you should typically run the php artisan config:cache command as part of your production deployment process
+
+The config:clear command may be used to purge the cached configuration:
+    php artisan config:clear
+
+you may use the config:publish Artisan command to publish any configuration files that are not published by default:
+    php artisan config:publish
+    
+    php artisan config:publish --all
+
+For local development, you should set the APP_DEBUG environment variable to true. In your production environment, this value should always be false. If the variable is set to true in production, you risk exposing sensitive configuration values to your application's end users.
+
+To enable maintenance mode, execute the down Artisan command:
+    php artisan down
+
+If you would like the Refresh HTTP header to be sent with all maintenance mode responses, you may provide the refresh option when invoking the down command. The Refresh header will instruct the browser to automatically refresh the page after the specified number of seconds:
+    php artisan down --refresh=15
+
+You may also provide a retry option to the down command, which will be set as the Retry-After HTTP header's value, although browsers generally ignore this header:
+    php artisan down --retry=60
+
+To allow maintenance mode to be bypassed using a secret token, you may use the secret option to specify a maintenance mode bypass token:
+    php artisan down --secret="1630542a-246b-4b66-afa1-dd72a4c43515"
+
+If you would like Laravel to generate the secret token for you, you may use the with-secret option. The secret will be displayed to you once the application is in maintenance mode:
+    php artisan down --with-secret
+
+To disable maintenance mode, use the up command:
+    php artisan up
+
