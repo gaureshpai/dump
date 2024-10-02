@@ -1,0 +1,19 @@
+ns pr2.tcl
+
+node 5 recived ping answer from #0 with round-trip-time 3602.0 ms
+node 5 recived ping answer from #0 with round-trip-time 3902.0 ms
+node 5 recived ping answer from #0 with round-trip-time 4202.0 ms
+node 0 recived ping answer from #5 with round-trip-time 4502.0 ms
+node 5 recived ping answer from #0 with round-trip-time 4502.0 ms
+node 0 recived ping answer from #5 with round-trip-time 4802.0 ms
+node 5 recived ping answer from #0 with round-trip-time 4802.0 ms
+node 0 recived ping answer from #5 with round-trip-time 5102.0 ms
+node 5 recived ping answer from #0 with round-trip-time 5102.0 ms
+node 0 recived ping answer from #5 with round-trip-time 5402.0 ms
+node 5 recived ping answer from #0 with round-trip-time 5302.0 ms
+node 0 recived ping answer from #5 with round-trip-time 5702.0 ms
+node 5 recived ping answer from #0 with round-trip-time 5602.0 ms
+node 0 recived ping answer from #5 with round-trip-time 6102.0 ms
+node 0 recived ping answer from #5 with round-trip-time 6102.0 ms
+Number of packets dropped:
+3

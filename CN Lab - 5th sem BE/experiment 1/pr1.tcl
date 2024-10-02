@@ -26,9 +26,9 @@ set n2 [$ns node]
 #Links definition
 #create links between Nodes
 $ns duplex-link $n0 $n1 100.0Mb 10ms DropTail
-$ns queue-limit $n0 $n1 50
+$ns queue-limit $n0 $n1 5
 $ns duplex-link $n1 $n2 100.0Mb 10ms DropTail
-$ns queue-limit $n0 $n1 50
+$ns queue-limit $n0 $n1 5
 
 #Give node position(for NAM)
 $ns duplex-link-op $n0 $n1 orient right-down
@@ -57,6 +57,8 @@ proc finish{}{
     close $tracefile
     close $namfile
     exec nam pr1.nam &
+    puts "No of packets dropped:"
+    exec grep -c "^d" pr1.tr &
     exit 0
 }
 
