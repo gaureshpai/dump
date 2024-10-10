@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+            background: linear-gradient(30deg, blue, red);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: 'Times New Roman', serif;
+            padding: 20px;
+        }
+
+        form {
+            background: black;
+            padding: 20px;
+            border-radius: 20px;
+            width: 800px;
+            color: white;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        table td {
+            padding: 10px;
+        }
+
+        label {
+            font-size: 18px;
+            color: lightblue;
+        }
+
+        input,
+        select,
+        textarea {
+            padding: 5px;
+            border: 1px solid blue;
+            border-radius: 10px;
+            background: blue;
+            color: white;
+            width: 100%;
+        }
+
+        button {
+            background: red;
+            border-radius: 10px;
+            color: white;
+            padding: 8px;
+            margin-top: 10px;
+            cursor: pointer;
+            border: 1px solid red;
+            width: 100px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .radio,
+        .checkbox {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+
+        .radio input,
+        .checkbox input {
+            width: auto;
+            margin-right: 5px;
+        }
+
+        .file-upload-label {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <h1>Registration Form</h1>
+        <table>
+            <tr>
+                <td><label for="fname">First Name:</label></td>
+                <td><input type="text" id="fname" name="fname" required placeholder="Enter your first name"></td>
+            </tr>
+            <tr>
+                <td><label for="lname">Last Name:</label></td>
+                <td><input type="text" id="lname" name="lname" required placeholder="Enter your last name"></td>
+            </tr>
+            <tr>
+                <td><label for="age">Age:</label></td>
+                <td><input type="number" id="age" name="age" min="18" max="100" required placeholder="Enter your age">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email" required placeholder="Enter your email"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" id="password" name="password" required placeholder="Create a password"></td>
+            </tr>
+            <tr>
+                <td><label for="phone">Phone Number:</label></td>
+                <td><input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required
+                        placeholder="Enter your phone number"></td>
+            </tr>
+            <tr>
+                <td><label for="dob">Date of Birth:</label></td>
+                <td><input type="date" id="dob" name="dob" required></td>
+            </tr>
+            <tr>
+                <td><label for="time">Preferred Contact Time:</label></td>
+                <td><input type="time" id="time" name="time" required></td>
+            </tr>
+            <tr>
+                <td><label for="sem">Select your Semester:</label></td>
+                <td>
+                    <select id="sem" name="sem" required>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Favorite Language:</label></td>
+                <td>
+                    <div class="radio">
+                        <input type="radio" id="html" name="fav_language" value="HTML" required>
+                        <label for="html">HTML</label>
+                        <input type="radio" id="css" name="fav_language" value="CSS">
+                        <label for="css">CSS</label>
+                        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                        <label for="javascript">JavaScript</label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Skills:</label></td>
+                <td>
+                    <div class="checkbox">
+                        <input type="checkbox" id="skill1" name="skills" value="HTML"> <label for="skill1">HTML</label>
+                        <input type="checkbox" id="skill2" name="skills" value="CSS"> <label for="skill2">CSS</label>
+                        <input type="checkbox" id="skill3" name="skills" value="JavaScript"> <label
+                            for="skill3">JavaScript</label>
+                        <input type="checkbox" id="skill4" name="skills" value="Python"> <label
+                            for="skill4">Python</label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="experience">Years of Experience:</label></td>
+                <td><input type="range" id="experience" name="experience" min="0" max="10" step="1" value="0"></td>
+            </tr>
+            <tr>
+                <td><label for="resume" class="file-upload-label">Upload your Resume:</label></td>
+                <td><input type="file" id="resume" name="resume" required></td>
+            </tr>
+            <tr>
+                <td><label for="message">Good and Bad Qualities:</label></td>
+                <td><textarea id="message" name="message" required
+                        placeholder="Write your good and bad qualities here"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <button type="submit">Submit</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
