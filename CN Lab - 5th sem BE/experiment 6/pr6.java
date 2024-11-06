@@ -1,6 +1,6 @@
 import java.util.*; 
 
-class prg7 { 
+class prg6 { 
     public static void main(String args[]){ 
         
         Scanner sc=new Scanner(System.in); 
