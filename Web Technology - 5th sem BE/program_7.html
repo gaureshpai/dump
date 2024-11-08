@@ -4,16 +4,14 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>JSON/CSV Converter and Hash Generator</title>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto- js.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
         <style>
             body {
-
                 font-family: Arial, sans-serif;
                 line-height: 1.6;
                 margin: 0;
                 padding: 20px;
                 background-color: #f4f4f4;
-
             }
 
             .container {
@@ -33,7 +31,6 @@
                 width: 100%;
                 height: 100px;
                 margin-bottom: 10px;
-
             }
 
             button {
@@ -48,7 +45,6 @@
 
             button:hover {
                 background-color: #45a049;
-
             }
 
             #result {
@@ -58,21 +54,18 @@
                 border-radius: 4px;
             }
         </style>
-
     </head>
     <body>
         <div class="container">
             <h1>JSON/CSV Converter and Hash Generator</h1>
-
             <h2>a) Convert JSON to JavaScript Object</h2>
             <textarea id="jsonInput" placeholder="Enter JSON here"></textarea>
             <button onclick="convertJsonToObject()">Convert to Object</button>
 
             <h2>b) Convert JSON to Date</h2>
-            <textarea id="jsonDateInput"  placeholder='Enter JSON date string (e.g., {"date": "2023-05-15T12:00:00Z"})'></textarea>
+            <textarea id="jsonDateInput"
+                placeholder='Enter JSON date string (e.g., {"date": "2023-05-15T12:00:00Z"})'></textarea>
             <button onclick="convertJsonToDate()">Convert to Date</button>
-
-
 
             <h2>c) Convert JSON to CSV and CSV to JSON</h2>
             <textarea id="dataInput" placeholder="Enter JSON or CSV here"></textarea>
@@ -90,83 +83,66 @@
             function convertJsonToObject() {
                 try {
                     const jsonInput = document.getElementById('jsonInput').value;
-                    const jsObject = JSON.parse(jsonInput); document.getElementById('result').innerText = 'Converted Object: '
-                        + JSON.stringify(jsObject, null, 2);
+                    const jsObject = JSON.parse(jsonInput);
+                    document.getElementById('result').innerText = 'Converted Object: ' + JSON.stringify(jsObject, null, 2);
                 } catch (error) {
-                    document.getElementById('result').innerText = 'Error: ' +
-                        error.message;
-
+                    document.getElementById('result').innerText = 'Error: ' + error.message;
                 }
-
             }
 
             function convertJsonToDate() {
                 try {
-                    const jsonInput = document.getElementById('jsonDateInput').value; const jsObject = JSON.parse(jsonInput);
+                    const jsonInput = document.getElementById('jsonDateInput').value;
+                    const jsObject = JSON.parse(jsonInput);
                     const date = new Date(jsObject.date);
-
                     document.getElementById('result').innerText = 'Converted Date: ' + date.toString();
                 } catch (error) {
-
                     document.getElementById('result').innerText = 'Error: ' + error.message;
                 }
-
             }
 
             function convertJsonToCsv() {
                 try {
                     const jsonInput = document.getElementById('dataInput').value;
-
                     const jsObject = JSON.parse(jsonInput);
-
-                    const headers = Object.keys(jsObject[0]); const csvRows = [
+                    const headers = Object.keys(jsObject[0]);
+                    const csvRows = [
                         headers.join(','),
-
                         ...jsObject.map(row => headers.map(fieldName => JSON.stringify(row[fieldName])).join(','))
                     ];
-                    const csvString = csvRows.join('\n'); document.getElementById('result').innerText = 'Converted CSV:\n'
-                        + csvString;
+                    const csvString = csvRows.join('\n');
+                    document.getElementById('result').innerText = 'Converted CSV:\n' + csvString;
                 } catch (error) {
-                    document.getElementById('result').innerText = 'Error: ' +
-                        error.message;
-
+                    document.getElementById('result').innerText = 'Error: ' + error.message;
                 }
-
             }
 
             function convertCsvToJson() {
                 try {
-                    const csvInput = document.getElementById('dataInput').value; const lines = csvInput.split('\n');
+                    const csvInput = document.getElementById('dataInput').value;
+                    const lines = csvInput.split('\n');
                     const headers = lines[0].split(',');
-
                     const jsonArray = lines.slice(1).map(line => {
                         const values = line.split(',');
                         return headers.reduce((obj, header, index) => {
                             obj[header] = values[index];
                             return obj;
-
                         }, {});
-
                     });
-
                     document.getElementById('result').innerText = 'Converted JSON:\n' + JSON.stringify(jsonArray, null, 2);
                 } catch (error) {
-
                     document.getElementById('result').innerText = 'Error: ' + error.message;
                 }
-
             }
 
             function createHash() {
                 try {
-                    const input = document.getElementById('hashInput').value; const hash = CryptoJS.SHA256(input);
-
+                    const input = document.getElementById('hashInput').value;
+                    const hash = CryptoJS.SHA256(input).toString();
                     document.getElementById('result').innerText = 'Generated Hash (SHA-256): ' + hash;
                 } catch (error) {
-
                     document.getElementById('result').innerText = 'Error: ' + error.message;
                 }
-
             }
         </script>
     </body>
