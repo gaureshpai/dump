@@ -2,7 +2,7 @@ import java.math.BigInteger;
 import java.util.Random;
 import java.io.*;
 
-public class RSA {
+public class pr7 {
     private BigInteger p;
     private BigInteger q;
     private BigInteger N;
@@ -12,7 +12,7 @@ public class RSA {
     private int bitlength = 1024;
     private Random r;
 
-    public RSA() {
+    public pr7() {
         r = new Random();
         p = BigInteger.probablePrime(bitlength, r);
         q = BigInteger.probablePrime(bitlength, r);
@@ -28,7 +28,7 @@ public class RSA {
     }
 
     public static void main(String[] args) throws IOException {
-        RSA rsa = new RSA();
+        pr7 rsa = new pr7();
         DataInputStream in = new DataInputStream(System.in);
         
         System.out.println("Enter the plain text:");
@@ -45,7 +45,7 @@ public class RSA {
         System.out.println("Decrypted String: " + new String(decrypted));
     }
 
-    private Static String bytesToString(byte[] encrypted){
+    private static String bytesToString(byte[] encrypted){
         String test = " ";
         for(byte b:encrypted){
             test += Byte.toString(b);

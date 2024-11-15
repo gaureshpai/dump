@@ -1,6 +1,6 @@
 import java.util.Scanner; 
  
-public class Bellman{ 
+public class pr5{ 
     public static void bellmanFord(int numvertex,int source,int numedges,int edgemat[][]){ 
         int srcdist[]=new int[numvertex+1]; 
 
