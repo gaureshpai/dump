@@ -192,7 +192,7 @@ Place toasts with custom CSS as you need them. The top right is often used for n
   <div class="mb-3">
     <label for="selectToastPlacement">Toast placement</label>
     <select class="form-select mt-2" id="selectToastPlacement">
-      <option value="" selected>Select a position...</option>
+      <option selected>Select a position...</option>
       <option value="top-0 start-0">Top left</option>
       <option value="top-0 start-50 translate-middle-x">Top center</option>
       <option value="top-0 end-0">Top right</option>

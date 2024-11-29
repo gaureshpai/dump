@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5bd573e-99b0-4cd2-b408-e1187f1187fd" name="Changes" comment="" />
+    <list default="true" id="e5bd573e-99b0-4cd2-b408-e1187f1187fd" name="Changes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,24 +46,24 @@
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ARTIFACT_NAME" />
+      <option name="PM_INSTALL_OPTIONS" />
       <option name="ALL_USERS" value="false" />
       <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
       <option name="CLEAR_APP_STORAGE" value="false" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" />
       <option name="MODE" value="default_activity" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
       <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
       <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
       <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" />
       <option name="DEBUGGER_TYPE" value="Auto" />
       <Auto>
         <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
         <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
+        <option name="WORKING_DIR" />
         <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
         <option name="SHOW_OPTIMIZED_WARNING" value="true" />
         <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
@@ -72,7 +72,7 @@
       <Hybrid>
         <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
         <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
+        <option name="WORKING_DIR" />
         <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
         <option name="SHOW_OPTIMIZED_WARNING" value="true" />
         <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
@@ -85,7 +85,7 @@
       <Native>
         <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
         <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
+        <option name="WORKING_DIR" />
         <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
         <option name="SHOW_OPTIMIZED_WARNING" value="true" />
         <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
@@ -99,8 +99,8 @@
         <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
         <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
       </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
+      <option name="DEEP_LINK" />
+      <option name="ACTIVITY_CLASS" />
       <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
       <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
       <method v="2">

@@ -1105,7 +1105,7 @@ describe('Tooltip', () => {
     })
 
     it('should return false if there is no content', () => {
-      fixtureEl.innerHTML = '<a href="#" rel="tooltip" title=""></a>'
+      fixtureEl.innerHTML = '<a href="#" rel="tooltip" title="tooltip"></a>'
 
       const tooltipEl = fixtureEl.querySelector('a')
       const tooltip = new Tooltip(tooltipEl)

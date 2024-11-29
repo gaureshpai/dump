@@ -311,22 +311,22 @@ These changes, and more, are demonstrated below.
     <p>
       <label for="select">Example select</label>
       <select id="select">
-        <option value="">Choose...</option>
+        <option>Choose...</option>
         <optgroup label="Option group 1">
-          <option value="">Option 1</option>
-          <option value="">Option 2</option>
-          <option value="">Option 3</option>
+          <option>Option 1</option>
+          <option>Option 2</option>
+          <option>Option 3</option>
         </optgroup>
         <optgroup label="Option group 2">
-          <option value="">Option 4</option>
-          <option value="">Option 5</option>
-          <option value="">Option 6</option>
+          <option>Option 4</option>
+          <option>Option 5</option>
+          <option>Option 6</option>
         </optgroup>
       </select>
     </p>
     <p>
       <label>
-        <input type="checkbox" value="">
+        <input type="checkbox">
         Check this checkbox
       </label>
     </p>

@@ -41,7 +41,7 @@ describe('Tab', () => {
 
     it('Do not Throw exception if not parent', () => {
       fixtureEl.innerHTML = [
-        fixtureEl.innerHTML = '<div class=""><div class="nav-link"></div></div>'
+        fixtureEl.innerHTML = '<div><div class="nav-link"></div></div>'
       ].join('')
       const navEl = fixtureEl.querySelector('.nav-link')
 

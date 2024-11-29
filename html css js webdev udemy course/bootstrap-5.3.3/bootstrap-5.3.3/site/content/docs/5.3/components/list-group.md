@@ -253,15 +253,15 @@ Place Bootstrap's checkboxes and radios within list group items and customize as
 {{< example >}}
 <ul class="list-group">
   <li class="list-group-item">
-    <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+    <input class="form-check-input me-1" type="checkbox" id="firstCheckbox">
     <label class="form-check-label" for="firstCheckbox">First checkbox</label>
   </li>
   <li class="list-group-item">
-    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+    <input class="form-check-input me-1" type="checkbox" id="secondCheckbox">
     <label class="form-check-label" for="secondCheckbox">Second checkbox</label>
   </li>
   <li class="list-group-item">
-    <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+    <input class="form-check-input me-1" type="checkbox" id="thirdCheckbox">
     <label class="form-check-label" for="thirdCheckbox">Third checkbox</label>
   </li>
 </ul>
@@ -270,15 +270,15 @@ Place Bootstrap's checkboxes and radios within list group items and customize as
 {{< example >}}
 <ul class="list-group">
   <li class="list-group-item">
-    <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="firstRadio" checked>
+    <input class="form-check-input me-1" type="radio" name="listGroupRadio" id="firstRadio" checked>
     <label class="form-check-label" for="firstRadio">First radio</label>
   </li>
   <li class="list-group-item">
-    <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="secondRadio">
+    <input class="form-check-input me-1" type="radio" name="listGroupRadio" id="secondRadio">
     <label class="form-check-label" for="secondRadio">Second radio</label>
   </li>
   <li class="list-group-item">
-    <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="thirdRadio">
+    <input class="form-check-input me-1" type="radio" name="listGroupRadio" id="thirdRadio">
     <label class="form-check-label" for="thirdRadio">Third radio</label>
   </li>
 </ul>
@@ -289,15 +289,15 @@ You can use `.stretched-link` on `<label>`s to make the whole list group item cl
 {{< example >}}
 <ul class="list-group">
   <li class="list-group-item">
-    <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckboxStretched">
+    <input class="form-check-input me-1" type="checkbox" id="firstCheckboxStretched">
     <label class="form-check-label stretched-link" for="firstCheckboxStretched">First checkbox</label>
   </li>
   <li class="list-group-item">
-    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckboxStretched">
+    <input class="form-check-input me-1" type="checkbox" id="secondCheckboxStretched">
     <label class="form-check-label stretched-link" for="secondCheckboxStretched">Second checkbox</label>
   </li>
   <li class="list-group-item">
-    <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckboxStretched">
+    <input class="form-check-input me-1" type="checkbox" id="thirdCheckboxStretched">
     <label class="form-check-label stretched-link" for="thirdCheckboxStretched">Third checkbox</label>
   </li>
 </ul>

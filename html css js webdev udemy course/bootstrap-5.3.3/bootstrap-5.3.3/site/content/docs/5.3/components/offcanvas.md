@@ -62,7 +62,7 @@ You can use a link with the `href` attribute, or a button with the `data-bs-targ
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
   <div class="offcanvas-body">
-    <div class="">
+    <div>
       Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
     </div>
     <div class="dropdown mt-3">
