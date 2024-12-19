@@ -4,7 +4,7 @@
 #===================================
 #     Simulation parameters setup
 #===================================
-set val(stop)   10.0                         ;# time of simulation end
+set val(stop) 10.0; # time of simulation end
 
 #===================================
 #        Initialization        
@@ -34,7 +34,7 @@ set n2 [$ns node]
 #Createlinks between nodes
 $ns duplex-link $n0 $n1 100.0Mb 10ms DropTail
 $ns queue-limit $n0 $n1 5
-$ns duplex-link $n1 $n2 100.0Mb 10ms DropTail
+$ns duplex-link $n1 $n2 50.0Mb 10ms DropTail
 $ns queue-limit $n1 $n2 5
 
 #Give node position (for NAM)
@@ -52,7 +52,6 @@ $ns attach-agent $n2 $sink1
 $ns connect $tcp0 $sink1
 $tcp0 set packetSize_ 1500
 
-
 #===================================
 #        Applications Definition        
 #===================================
@@ -61,7 +60,6 @@ set ftp0 [new Application/FTP]
 $ftp0 attach-agent $tcp0
 $ns at 1.0 "$ftp0 start"
 $ns at 2.0 "$ftp0 stop"
-
 
 #===================================
 #        Termination        
@@ -72,9 +70,12 @@ proc finish {} {
     $ns flush-trace
     close $tracefile
     close $namfile
-    exec nam prg1.nam &
+    exec nam prg1.nam 
+    puts "no. of packets dropped:"
+    exec grep -c "^d" prg1.tr &
     exit 0
 }
+
 $ns at $val(stop) "$ns nam-end-wireless $val(stop)"
 $ns at $val(stop) "finish"
 $ns at $val(stop) "puts \"done\" ; $ns halt"
