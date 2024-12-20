@@ -34,7 +34,7 @@ set n2 [$ns node]
 #Createlinks between nodes
 $ns duplex-link $n0 $n1 100.0Mb 10ms DropTail
 $ns queue-limit $n0 $n1 5
-$ns duplex-link $n1 $n2 50.0Mb 10ms DropTail
+$ns duplex-link $n1 $n2 100.0Mb 10ms DropTail
 $ns queue-limit $n1 $n2 5
 
 #Give node position (for NAM)
