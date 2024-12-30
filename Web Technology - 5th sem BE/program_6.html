@@ -1,131 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Simple Calculator</title>
+        <style>
+            * {
+                box-sizing: border-box;
+                padding: 0;
+                margin: 0;
+            }
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Calculator</title>
-    <style>
-        * {
-            box-sizing: border-box;
-            padding: 0;
-            margin: 0;
-        }
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: linear-gradient(45deg, green, black);
+                min-height: 100vh;
+                margin: 0;
+                font-family: Arial, sans-serif;
+            }
 
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background: linear-gradient(45deg, green, black);
-            min-height: 100vh;
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
+            form {
+                width: 300px;
+                border: 2px solid black;
+                padding: 15px;
+                background-color: #fff;
+                border-radius: 10px;
+                box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+            }
 
-        form {
-            width: 300px;
-            border: 2px solid black;
-            padding: 15px;
-            background-color: #fff;
-            border-radius: 10px;
-            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
-        }
+            input[name="display"] {
+                background-color: blue;
+                border: none;
+                color: white;
+                width: 100%;
+                padding: 20px;
+                font-size: 24px;
+                text-align: right;
+                border-radius: 5px;
+                margin-bottom: 10px;
+                box-sizing: border-box;
+            }
 
-        input[name="display"] {
-            background-color: blue;
-            border: none;
-            color: white;
-            width: 100%;
-            padding: 20px;
-            font-size: 24px;
-            text-align: right;
-            border-radius: 5px;
-            margin-bottom: 10px;
-            box-sizing: border-box;
-        }
+            .buttons {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                gap: 10px;
+            }
 
-        .buttons {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 10px;
-        }
+            .buttons input[type="button"] {
+                background-color: #333;
+                color: white;
+                padding: 15px;
+                font-size: 18px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: background-color 0.3s;
+            }
 
-        .buttons input[type="button"] {
-            background-color: #333;
-            color: white;
-            padding: 15px;
-            font-size: 18px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
+            .buttons input[type="button"]:hover {
+                background-color: #555;
+            }
 
-        .buttons input[type="button"]:hover {
-            background-color: #555;
-        }
+            /* Styling operators differently */
+            .operator {
+                background-color: orange;
+            }
 
-        /* Styling operators differently */
-        .operator {
-            background-color: orange;
-        }
+            .operator:hover {
+                background-color: darkorange;
+            }
 
-        .operator:hover {
-            background-color: darkorange;
-        }
+            .clear {
+                background-color: red;
+                grid-column: span 2;
+            }
 
-        .clear {
-            background-color: red;
-            grid-column: span 2;
-        }
+            .clear:hover {
+                background-color: darkred;
+            }
 
-        .clear:hover {
-            background-color: darkred;
-        }
+            .equal {
+                background-color: green;
+                grid-column: span 2;
+            }
 
-        .equal {
-            background-color: green;
-            grid-column: span 2;
-        }
+            .equal:hover {
+                background-color: darkgreen;
+            }
+        </style>
+    </head>
 
-        .equal:hover {
-            background-color: darkgreen;
-        }
-    </style>
-</head>
+    <body>
+        <form name="calculator">
+            <input type="text" name="display" disabled title="display" />
+            <div class="buttons">
+                <input type="button" value="7" onclick="calculator.display.value += '7'">
+                <input type="button" value="8" onclick="calculator.display.value += '8'">
+                <input type="button" value="9" onclick="calculator.display.value += '9'">
+                <input type="button" value="/" onclick="calculator.display.value += '/'" class="operator">
 
-<body>
-    <form name="calculator">
-        <input type="text" name="display" disabled title="display" />
-        <div class="buttons">
-            <input type="button" value="7" onclick="calculator.display.value += '7'">
-            <input type="button" value="8" onclick="calculator.display.value += '8'">
-            <input type="button" value="9" onclick="calculator.display.value += '9'">
-            <input type="button" value="/" onclick="calculator.display.value += '/'" class="operator">
+                <input type="button" value="4" onclick="calculator.display.value += '4'">
+                <input type="button" value="5" onclick="calculator.display.value += '5'">
+                <input type="button" value="6" onclick="calculator.display.value += '6'">
+                <input type="button" value="*" onclick="calculator.display.value += '*'" class="operator">
 
-            <input type="button" value="4" onclick="calculator.display.value += '4'">
-            <input type="button" value="5" onclick="calculator.display.value += '5'">
-            <input type="button" value="6" onclick="calculator.display.value += '6'">
-            <input type="button" value="*" onclick="calculator.display.value += '*'" class="operator">
+                <input type="button" value="1" onclick="calculator.display.value += '1'">
+                <input type="button" value="2" onclick="calculator.display.value += '2'">
+                <input type="button" value="3" onclick="calculator.display.value += '3'">
+                <input type="button" value="-" onclick="calculator.display.value += '-'" class="operator">
 
-            <input type="button" value="1" onclick="calculator.display.value += '1'">
-            <input type="button" value="2" onclick="calculator.display.value += '2'">
-            <input type="button" value="3" onclick="calculator.display.value += '3'">
-            <input type="button" value="-" onclick="calculator.display.value += '-'" class="operator">
+                <input type="button" value="0" onclick="calculator.display.value += '0'">
+                <input type="button" value="00" onclick="calculator.display.value += '00'">
+                <input type="button" value="." onclick="calculator.display.value += '.'">
+                <input type="button" value="+" onclick="calculator.display.value += '+'" class="operator">
+                <input type="button" value="%" onclick="calculator.display.value += '%'" class="operator">
+                <input type="button" value="^" onclick="calculator.display.value += '**'" class="operator">
+                <input type="button" value="^2" onclick="calculator.display.value += '**2'" class="operator">
+                <input type="button" value="root" onclick="calculator.display.value += '**(1/2)'" class="operator">
 
-            <input type="button" value="0" onclick="calculator.display.value += '0'">
-            <input type="button" value="00" onclick="calculator.display.value += '00'">
-            <input type="button" value="." onclick="calculator.display.value += '.'">
-            <input type="button" value="+" onclick="calculator.display.value += '+'" class="operator">
-            <input type="button" value="%" onclick="calculator.display.value += '%'" class="operator">
-            <input type="button" value="^" onclick="calculator.display.value += '**'" class="operator">
-            <input type="button" value="^2" onclick="calculator.display.value += '**2'" class="operator">
-            <input type="button" value="root" onclick="calculator.display.value += '**(1/2)'" class="operator">
-
-            <input type="button" value="C" onclick="calculator.display.value = ''" class="clear">
-            <input type="button" value="=" onclick="calculator.display.value = eval(calculator.display.value)" class="equal">
-        </div>
-    </form>
-</body>
-
+                <input type="button" value="C" onclick="calculator.display.value = ''" class="clear">
+                <input type="button" value="=" onclick="calculator.display.value = eval(calculator.display.value)" class="equal">
+            </div>
+        </form>
+    </body>
 </html>

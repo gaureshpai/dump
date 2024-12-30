@@ -1,193 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Daily Chronicle</title>
+        <style>
+            body {
+                font-family: 'Georgia', serif;
+                line-height: 1.6;
+                color: #333;
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 20px;
+                background-color: #f4f4f4;
+            }
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Daily Chronicle</title>
-    <style>
-        body {
-            font-family: 'Georgia', serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f4f4f4;
-        }
+            header {
+                background-color: #1a1a1a;
+                color: #fff;
+                padding: 20px;
+                text-align: center;
+            }
 
-        header {
-            background-color: #1a1a1a;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
+            header h1 {
+                margin: 0;
+                font-size: 2.5em;
+            }
 
-        header h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
+            nav {
+                background-color: #333;
+                color: #fff;
+                padding: 10px;
+            }
 
-        nav {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-        }
+            nav ul {
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+                display: flex;
+                justify-content: center;
+            }
 
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-        }
+            nav ul li {
+                margin: 0 10px;
+            }
 
-        nav ul li {
-            margin: 0 10px;
-        }
+            nav ul li a {
+                color: #fff;
+                text-decoration: none;
+            }
 
-        nav ul li a {
-            color: #fff;
-            text-decoration: none;
-        }
+            main {
+                display: flex;
+                margin-top: 20px;
+            }
 
-        main {
-            display: flex;
-            margin-top: 20px;
-        }
+            section {
+                flex: 2;
+                margin-right: 20px;
+            }
 
-        section {
-            flex: 2;
-            margin-right: 20px;
-        }
+            article {
+                background-color: #fff;
+                padding: 20px;
+                margin-bottom: 20px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
 
-        article {
-            background-color: #fff;
-            padding: 20px;
-            margin-bottom: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
+            article h2 {
+                color: #1a1a1a;
+                font-size: 1.8em;
+            }
 
-        article h2 {
-            color: #1a1a1a;
-            font-size: 1.8em;
-        }
+            aside {
+                flex: 1;
+                background-color: #e6e6e6;
+                padding: 20px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
 
-        aside {
-            flex: 1;
-            background-color: #e6e6e6;
-            padding: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
+            figure {
+                margin: 0;
+                text-align: center;
+            }
 
-        figure {
-            margin: 0;
-            text-align: center;
-        }
+            figure img {
+                max-width: 100%;
+                height: auto;
+            }
 
-        figure img {
-            max-width: 100%;
-            height: auto;
-        }
+            figcaption {
+                font-style: italic;
+                color: #666;
+                font-size: 0.9em;
+            }
 
-        figcaption {
-            font-style: italic;
-            color: #666;
-            font-size: 0.9em;
-        }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-bottom: 20px;
+            }
 
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-bottom: 20px;
-        }
+            th,
+            td {
+                border: 1px solid #ddd;
+                padding: 10px;
+                text-align: left;
+            }
 
-        th,
-        td {
-            border: 1px solid #ddd;
-            padding: 10px;
-            text-align: left;
-        }
+            th {
+                background-color: #f2f2f2;
+            }
 
-        th {
-            background-color: #f2f2f2;
-        }
+            footer {
+                background-color: #1a1a1a;
+                color: #fff;
+                text-align: center;
+                padding: 10px;
+                margin-top: 20px;
+            }
+        </style>
+    </head>
 
-        footer {
-            background-color: #1a1a1a;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-            margin-top: 20px;
-        }
-    </style>
-</head>
+    <body>
+        <header>
+            <h1>The Daily Chronicle</h1>
+        </header>
 
-<body>
-    <header>
-        <h1>The Daily Chronicle</h1>
-    </header>
-
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Politics</a></li>
-            <li><a href="#">Technology</a></li>
-            <li><a href="#">Sports</a></li>
-            <li><a href="#">Entertainment</a></li>
-        </ul>
-    </nav>
-
-    <main>
-        <section>
-            <article>
-                <h2>Breaking News: Major Technological Breakthrough</h2>
-                <p>Scientists have announced a groundbreaking discovery in the field of quantum computing, potentially
-                    revolutionizing the tech industry.</p>
-                <figure>
-                    <img src="https://www.cnet.com/a/img/resize/c7cb26e927bebaa784fb55a01e71d7fecb15d2e3/hub/2019/06/26/3f76e99d-8055-46f3-8f27-558ee276b665/20180405-ibm-q-quantum-computer-02.jpg?auto=webp&fit=crop&height=675&width=1200"
-                        alt="Quantum Computer">
-                    <figcaption>A state-of-the-art quantum computer at the research facility</figcaption>
-                </figure>
-            </article>
-
-            <article>
-                <h2>Local Sports Team Wins Championship</h2>
-                <p>In a thrilling match, our local team secured victory in the national championship, bringing pride to
-                    our city.</p>
-                <table>
-                    <tr>
-                        <th>Team</th>
-                        <th>Score</th>
-                    </tr>
-                    <tr>
-                        <td>Local Heroes</td>
-                        <td>3</td>
-                    </tr>
-                    <tr>
-                        <td>Visiting Challengers</td>
-                        <td>2</td>
-                    </tr>
-                </table>
-            </article>
-        </section>
-
-        <aside>
-            <h3>Weather Update</h3>
-            <p>Expect sunny skies with a high of 75°F (24°C) today.</p>
-
-            <h3>Upcoming Events</h3>
+        <nav>
             <ul>
-                <li>City Festival - This Weekend</li>
-                <li>Tech Conference - Next Month</li>
-                <li>Charity Run - In Two Weeks</li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Politics</a></li>
+                <li><a href="#">Technology</a></li>
+                <li><a href="#">Sports</a></li>
+                <li><a href="#">Entertainment</a></li>
             </ul>
-        </aside>
-    </main>
+        </nav>
 
-    <footer>
-        <p>&copy; 2024 The Daily Chronicle. All rights reserved.</p>
-    </footer>
-</body>
+        <main>
+            <section>
+                <article>
+                    <h2>Breaking News: Major Technological Breakthrough</h2>
+                    <p>Scientists have announced a groundbreaking discovery in the field of quantum computing, potentially
+                        revolutionizing the tech industry.</p>
+                    <figure>
+                        <img src="https://www.cnet.com/a/img/resize/c7cb26e927bebaa784fb55a01e71d7fecb15d2e3/hub/2019/06/26/3f76e99d-8055-46f3-8f27-558ee276b665/20180405-ibm-q-quantum-computer-02.jpg?auto=webp&fit=crop&height=675&width=1200" alt="Quantum Computer">
+                        <figcaption>A state-of-the-art quantum computer at the research facility</figcaption>
+                    </figure>
+                </article>
 
+                <article>
+                    <h2>Local Sports Team Wins Championship</h2>
+                    <p>In a thrilling match, our local team secured victory in the national championship, bringing pride to our city.</p>
+                    <table>
+                        <tr>
+                            <th>Team</th>
+                            <th>Score</th>
+                        </tr>
+                        <tr>
+                            <td>Local Heroes</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>Visiting Challengers</td>
+                            <td>2</td>
+                        </tr>
+                    </table>
+                </article>
+            </section>
+
+            <aside>
+                <h3>Weather Update</h3>
+                <p>Expect sunny skies with a high of 75°F (24°C) today.</p>
+
+                <h3>Upcoming Events</h3>
+                <ul>
+                    <li>City Festival - This Weekend</li>
+                    <li>Tech Conference - Next Month</li>
+                    <li>Charity Run - In Two Weeks</li>
+                </ul>
+            </aside>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 The Daily Chronicle. All rights reserved.</p>
+        </footer>
+    </body>
 </html>

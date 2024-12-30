@@ -55,6 +55,7 @@
             }
         </style>
     </head>
+
     <body>
         <div class="container">
             <h1>Ajax Demo Program</h1>
@@ -78,8 +79,10 @@
         <script>
             // Simulated data
             const simulatedData = {
-                text: "This is a sample text from a simulated server response.", json: {
-                    name: "John Doe", age: 30,
+                text: "This is a sample text from a simulated server response.", 
+                json: {
+                    name: "John Doe", 
+                    age: 30,
                     city: "New York"
 
                 }
@@ -121,6 +124,5 @@
                 $("#result-d").text(JSON.stringify(jsonObject, null, 2));
             }
         </script>
-
     </body>
 </html>

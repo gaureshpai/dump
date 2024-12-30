@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -54,7 +52,9 @@
                     // Increment the count
                     $count++;
                     
-                    // Save the new count file_put_contents($counterFile, $count);
+                    // Save the new count 
+                    file_put_contents($counterFile, $count);
+                    
                     // Display the count
                     echo "<h2>Visitor Count</h2>";
 
@@ -63,5 +63,4 @@
             </div>
         </div>
     </body>
-
 </html>
