@@ -81,7 +81,9 @@
                         }
                     }
                     
-                    // Sort students by GPA selectionSort($students, count($students));
+                    // Sort students by GPA 
+                    selectionSort($students, count($students));
+                    
                     // Display sorted student records 
                     echo "<table>";
                     echo "<tr><th>ID</th><th>Name</th><th>GPA</th></tr>"; 
