@@ -1,0 +1,1 @@
+This folder contains the codes or the snippets of the codes and functions used for the project.
