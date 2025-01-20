@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    background: #18d0f0;
+    overflow: hidden;
+}
+
+#smoke {
+    position: absolute;
+    z-index: 3;
+    width: 1px;
+    height: 160px;
+    left: 50%;
+    bottom: 50px;
+}
+
+#smoke span {
+    display: block;
+    position: absolute;
+    bottom: -35px;
+    left: 50%;
+    margin-left: -20px;
+    height: 0;
+    width: 0;
+    border: 35px solid #4b4b4b;
+    border-radius: 50%;
+    opacity: 0;
+    transform: scale(0.2);
+}
+
+@keyframes smokeL {
+    0% {
+        opacity: 0.8;
+        transform: scale(0.2) translate(0, 0);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: scale(0.5) translate(-10px, -70px);
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(0.7) translate(-30px, -150px);
+    }
+}
+
+@keyframes smokeR {
+    0% {
+        opacity: 0.8;
+        transform: scale(0.2) translate(0, 0);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: scale(0.5) translate(10px, -70px);
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(0.7) translate(30px, -150px);
+    }
+}
+
+#smoke .s0 {
+    animation: smokeL 5s 0s infinite;
+}
+
+#smoke .s1 {
+    animation: smokeR 5s 1s infinite;
+}
+
+#smoke .s2 {
+    animation: smokeL 5s 2s infinite;
+}
+
+#smoke .s3 {
+    animation: smokeR 5s 3s infinite;
+}
+
+#smoke .s4 {
+    animation: smokeL 5s 4s infinite;
+}
+
+#smoke .s5 {
+    animation: smokeR 5s 5s infinite;
+}
+
+#smoke .s6 {
+    animation: smokeL 5s 6s infinite;
+}
+
+#smoke .s7 {
+    animation: smokeR 5s 7s infinite;
+}
+
+#smoke .s8 {
+    animation: smokeL 5s 8s infinite;
+}
+
+#smoke .s9 {
+    animation: smokeR 5s 9s infinite;
+}
