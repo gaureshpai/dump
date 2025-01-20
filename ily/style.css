@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #FFB6C1, #FFC568);
+    font-family: 'Dancing Script', cursive;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 4rem;
+    color: #FF1493;
+    position: relative;
+}
+
+.text-group {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    opacity: 0;
+    transform: scale(0.8);
+    visibility: hidden;
+    animation: fadeInOut 4s forwards;
+}
+
+.heart {
+    width: 80px;
+    height: 80px;
+    fill: #FF0000;
+    filter: drop-shadow(0 0 10px rgba(255, 0, 0, 0.5));
+    animation: pulse 1s ease-in-out infinite;
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+}
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+        visibility: hidden;
+    }
+
+    25%,
+    75% {
+        opacity: 1;
+        transform: scale(1);
+        visibility: visible;
+    }
+
+    50%,
+    100% {
+        opacity: 0;
+        transform: scale(0.8);
+        visibility: hidden;
+    }
+}
