@@ -1,0 +1,115 @@
+:root{
+    --bg: #87d8c2;
+    --green: #009900;
+    --red: #e70001;
+    --seeds: #420200;
+}
+
+body{
+    background-color: var(--bg);
+}
+
+.watermelon{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.cut-1{
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    top: 40%;
+    left: 30%;
+    border-radius: 50%;
+    transform: rotate(45deg);
+    background-color: var(--red);
+}
+
+.cut-1:after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: -15%;
+    border-bottom: 60px solid var(--green);
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.seed1, .seed2, .seed3, .seed4, .seed5 {
+    height: 10px;
+    width: 10px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    background-color: var(--seeds);
+}
+
+.seed1 {
+    position: absolute;
+    left:45%;
+    top:40%;
+}
+
+.seed2 {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+}
+
+.seed3 {
+    position: absolute;
+    left: 45%;
+    top: 45%;
+}
+
+.seed4 {
+    position: absolute;
+    left: 40%;
+    top: 35%;
+}
+
+.seed5 {
+    position: absolute;
+    left: 40%;
+    top: 45%;
+}
+
+.cut-2{
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    top: 40%;
+    left: 30%;
+    border-radius: 50%;
+    transform: rotate(-130deg);
+    background-color: var(--green);
+    animation: slice 5s ease-in-out infinite;
+}
+
+.cut-2:after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: -15%;
+    border-bottom: 60px solid var(--green);
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+@keyframes slice {
+    from{
+        left: 30%;
+        top:40%;
+    }
+    to{
+        left: 45%;
+        top:50%;
+    }
+}
