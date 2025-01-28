@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Play-with-plus-minus",
+  "name": "Play-with-plus-minus-UseState-hook",
   "icons": [
     {
       "src": "favicon.ico",
