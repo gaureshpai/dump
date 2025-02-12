@@ -1,5 +1,3 @@
-#include<stdio.h>
-
 /**
  * @brief Program to calculate the sum of the numerical values in a given string.
  *
@@ -10,6 +8,9 @@
  *
  * @return 0 on success
  */
+
+#include<stdio.h>
+
 int main(){
 	char number[] = "876543";
 	int x=0;

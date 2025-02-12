@@ -8,18 +8,8 @@ You are given two non-negative integers, `n1` and `n2`. Write a function `functi
    - Subtract odd numbers from the sum (`x`).
    - Return the final value of `x`.
 3. If `n1 >= n2`, return `-1`. */
+
 #include<stdio.h>
-
-
-/*
- * This function takes two non-negative integers, n1 and n2, as input.
- * 
- * Returns:
- * - If either n1 or n2 is negative, returns 0.
- * - If n1 < n2, iterates from n1 to n2 (inclusive), adding even numbers
- *   and subtracting odd numbers from a sum variable x, then returns x.
- * - If n1 >= n2, returns -1.
- */
 
 int function1(int n1, int n2){
 	if(n1<0 || n2<0)
