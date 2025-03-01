@@ -1,0 +1,7 @@
+How to Create a Virtual Machine (VM) on Google Cloud Platform (GCP): https://www.youtube.com/watch?v=g2Il8cxNv18
+
+Step by Step Guide: Setting up a Windows Virtual Machine on GCP Compute Engine | Lecture 15: https://www.youtube.com/watch?v=RTPJl9KD5c0
+
+🎓BCS601 Cloud Computing Lab | 6th Sem CSE VTU | Full Experiment List & Explanation (2022 Scheme): https://www.youtube.com/watch?v=b2I1pMg7LsY
+
+How To Install Kali Linux On Windows 10 / Windows 11: https://www.youtube.com/watch?v=J1LfIUCVYXM
