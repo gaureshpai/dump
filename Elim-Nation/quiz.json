@@ -1,0 +1,864 @@
+{
+  "quiz": {
+    "title": "Tech Delirium: The Absolutely Unhinged Quiz",
+    "sections": [
+      {
+        "name": "Code Confusion",
+        "questions": [
+          {
+            "question": "What does this Python snippet print? `print(bool('False'))`",
+            "options": [
+              "True",
+              "False",
+              "Syntax Error",
+              "None"
+            ],
+            "correct": "True",
+            "explanation": "Any non-empty string in Python evaluates to True when converted to boolean, including the string 'False'."
+          },
+          {
+            "question": "In JavaScript, what's the result of `[] == ![]`?",
+            "options": [
+              "true",
+              "false",
+              "undefined",
+              "TypeError"
+            ],
+            "correct": "true",
+            "explanation": "Due to JavaScript's type coercion, ![] becomes false, and [] is converted to '' which is then converted to 0, so it becomes 0 == false, which is true."
+          },
+          {
+            "question": "What would be the output of this C code?\n```\nint main() {\n  int x = 5;\n  printf(\"%d\", x++ + ++x);\n  return 0;\n}\n```",
+            "options": [
+              "11",
+              "12",
+              "Undefined behavior",
+              "10"
+            ],
+            "correct": "Undefined behavior",
+            "explanation": "This is undefined behavior in C because the variable x is modified twice in the same expression without a sequence point in between."
+          },
+          {
+            "question": "In Python, explain the difference: `is` vs `==`",
+            "options": [
+              "`is` checks if objects are the same instance, `==` checks if values are equal",
+              "`is` checks if values are equal, `==` checks if objects are the same instance",
+              "`is` is for strings only, `==` works for all types",
+              "There is no difference, they're synonyms"
+            ],
+            "correct": "`is` checks if objects are the same instance, `==` checks if values are equal",
+            "explanation": "`is` checks if two variables refer to the same object in memory, while `==` checks if the values of the variables are equal."
+          },
+          {
+            "question": "What's wrong with this Java code?\n```\nArrayList<int> numbers = new ArrayList<int>();\n```",
+            "options": [
+              "Type parameters can't be primitive types",
+              "ArrayList requires a size parameter",
+              "The syntax should be ArrayList<Integer>() instead",
+              "The 'new' keyword is unnecessary"
+            ],
+            "correct": "Type parameters can't be primitive types",
+            "explanation": "In Java, generics can only use reference types, not primitive types. You need to use the wrapper class Integer instead of int."
+          },
+          {
+            "question": "What does this C++ monstrosity do?\n```\nint i = 1;\ni = i++ + ++i;\n```",
+            "options": [
+              "Sets i to 3",
+              "Sets i to 4",
+              "Causes undefined behavior",
+              "Compilation error"
+            ],
+            "correct": "Causes undefined behavior",
+            "explanation": "This is undefined behavior in C++ because the variable i is being modified multiple times between sequence points."
+          },
+          {
+            "question": "JavaScript: Why is `typeof NaN` equal to `\"number\"`?",
+            "options": [
+              "Because NaN is a special numeric value representing 'Not a Number'",
+              "It's a bug in JavaScript",
+              "NaN is actually a string internally",
+              "Because JavaScript's type system is inconsistent"
+            ],
+            "correct": "Because NaN is a special numeric value representing 'Not a Number'",
+            "explanation": "Despite its name, NaN is actually a numeric value in JavaScript, representing an invalid or undefined numerical result."
+          },
+          {
+            "question": "What does this Python one-liner do?\n```\n[x for x in range(10) if x % 2 == 0 and x > 3]\n```",
+            "options": [
+              "Creates a list of even numbers greater than 3 and less than 10",
+              "Creates a list of odd numbers greater than 3 and less than 10",
+              "Creates a list of all numbers divisible by both 2 and 3",
+              "Syntax error: invalid list comprehension"
+            ],
+            "correct": "Creates a list of even numbers greater than 3 and less than 10",
+            "explanation": "This list comprehension generates [4, 6, 8], which are the even numbers greater than 3 and less than 10."
+          },
+          {
+            "question": "In C, what's the value of `sizeof('A')` vs `sizeof(\"A\")`?",
+            "options": [
+              "sizeof('A') is 4 (or compiler-dependent), sizeof(\"A\") is 2",
+              "Both are 1",
+              "sizeof('A') is 1, sizeof(\"A\") is 2",
+              "sizeof('A') is 2, sizeof(\"A\") is 1"
+            ],
+            "correct": "sizeof('A') is 4 (or compiler-dependent), sizeof(\"A\") is 2",
+            "explanation": "In C, 'A' is a character constant of type int (typically 4 bytes), while \"A\" is a string literal which is a char array of size 2 (one for 'A' and one for the null terminator)."
+          },
+          {
+            "question": "What's the output of this JavaScript code?\n```\nconsole.log(1 + \"2\" + \"2\");\nconsole.log(1 + +\"2\" + \"2\");\nconsole.log(1 + -\"1\" + \"2\");\nconsole.log(+\"1\" + \"1\" + \"2\");\n```",
+            "options": [
+              "122, 32, 02, 112",
+              "5, 5, 2, 3",
+              "122, 32, 02, 12",
+              "122, 32, 202, 112"
+            ],
+            "correct": "122, 32, 02, 112",
+            "explanation": "1+\"2\"+\"2\" = \"122\" (concatenation), 1+(+\"2\")+\"2\" = 3+\"2\" = \"32\", 1+(-\"1\")+\"2\" = 1+(-1)+\"2\" = 0+\"2\" = \"02\", (+\"1\")+\"1\"+\"2\" = 1+\"1\"+\"2\" = \"112\"."
+          },
+          {
+            "question": "In Python, why might `0.1 + 0.2 != 0.3`?",
+            "options": [
+              "Floating-point numbers have limited precision in binary representation",
+              "Python has a bug in its arithmetic operations",
+              "There's an overflow in the calculation",
+              "Addition is non-commutative for floating points"
+            ],
+            "correct": "Floating-point numbers have limited precision in binary representation",
+            "explanation": "Floating-point numbers like 0.1 can't be represented exactly in binary floating-point format, leading to small rounding errors that accumulate in calculations."
+          },
+          {
+            "question": "What does this Java code print?\n```\nSystem.out.println(\"5\" + 2 + 3);\nSystem.out.println(2 + 3 + \"5\");\n```",
+            "options": [
+              "523, 55",
+              "10, 10",
+              "523, 5",
+              "55, 55"
+            ],
+            "correct": "523, 55",
+            "explanation": "In the first line, \"5\" + 2 evaluates to \"52\" (string concatenation), then \"52\" + 3 gives \"523\". In the second line, 2 + 3 is 5, then 5 + \"5\" gives \"55\"."
+          },
+          {
+            "question": "In C++, what happens when you delete a pointer twice?",
+            "options": [
+              "Undefined behavior",
+              "Nothing happens the second time",
+              "Compilation error",
+              "The memory is freed twice"
+            ],
+            "correct": "Undefined behavior",
+            "explanation": "Deleting a pointer twice is undefined behavior in C++. It can cause memory corruption, crashes, or appear to work fine depending on the implementation."
+          },
+          {
+            "question": "What's the output of this Python code?\n```\na = [1, 2, 3]\nb = a\nb.append(4)\nprint(a)\n```",
+            "options": [
+              "[1, 2, 3, 4]",
+              "[1, 2, 3]",
+              "Error",
+              "[1, 2, 3, [4]]"
+            ],
+            "correct": "[1, 2, 3, 4]",
+            "explanation": "In Python, assignment creates a reference, not a copy. So a and b refer to the same list object, and changes through b are reflected in a."
+          },
+          {
+            "question": "In JavaScript, explain `const a = [1, 2]; a.push(3); console.log(a);` - why doesn't it error?",
+            "options": [
+              "const prevents reassignment of the variable, not mutation of the array",
+              "Arrays are special exceptions to const rules",
+              "JavaScript silently converts const to let in this case",
+              "This would actually cause an error"
+            ],
+            "correct": "const prevents reassignment of the variable, not mutation of the array",
+            "explanation": "In JavaScript, const prevents reassigning a new value to the variable a, but you can still modify the array it references by adding or removing elements."
+          },
+          {
+            "question": "What does this C macro do?\n```\n#define SQUARE(x) x*x\n```\nAnd why is it problematic?",
+            "options": [
+              "It calculates the square of x, but has operator precedence issues",
+              "It doesn't square x correctly for complex expressions",
+              "It creates a compile-time error",
+              "It's unnecessarily verbose"
+            ],
+            "correct": "It calculates the square of x, but has operator precedence issues",
+            "explanation": "This macro has issues with operator precedence. For example, SQUARE(1+2) expands to 1+2*1+2, which evaluates to 5, not 9 as intended."
+          },
+          {
+            "question": "In Python, what's happening here?\n```\ndef add_to_list(item, my_list=[]):\n    my_list.append(item)\n    return my_list\n\nprint(add_to_list(1))\nprint(add_to_list(2))\n```",
+            "options": [
+              "[1], [1, 2]",
+              "[1], [2]",
+              "Error",
+              "[1, 2], [1, 2, 2]"
+            ],
+            "correct": "[1], [1, 2]",
+            "explanation": "Default parameter values in Python are evaluated only once at function definition, not at each call. So the same list is used across calls, resulting in [1] then [1, 2]."
+          },
+          {
+            "question": "What does this Java code print and why?\n```\nString s1 = \"Hello\";\nString s2 = \"Hello\";\nString s3 = new String(\"Hello\");\nSystem.out.println(s1 == s2);\nSystem.out.println(s1 == s3);\n```",
+            "options": [
+              "true, false",
+              "true, true",
+              "false, false",
+              "false, true"
+            ],
+            "correct": "true, false",
+            "explanation": "String literals like s1 and s2 are interned and point to the same object, so s1 == s2 is true. But s3 is explicitly created as a new object with new, so s1 == s3 is false."
+          },
+          {
+            "question": "In C++, what is the \"most vexing parse\"?",
+            "options": [
+              "When a declaration that looks like a function call is interpreted as a function declaration instead",
+              "A recursive descent parser that fails to terminate",
+              "When operator overloading causes ambiguous code",
+              "A compilation error caused by template metaprogramming"
+            ],
+            "correct": "When a declaration that looks like a function call is interpreted as a function declaration instead",
+            "explanation": "The 'most vexing parse' is when C++ interprets what looks like a variable declaration with constructor arguments as a function declaration instead, causing unexpected behavior."
+          },
+          {
+            "question": "What's wrong with this Python code for checking if a number is even?\n```\ndef is_even(num):\n    return num % 2 == NULL\n```",
+            "options": [
+              "Python uses None, not NULL",
+              "The modulo operator doesn't work with integers",
+              "The function needs to return a boolean, not a comparison",
+              "Even numbers should be checked with num % 2 != 0"
+            ],
+            "correct": "Python uses None, not NULL",
+            "explanation": "Python uses None, not NULL. The correct check would be 'return num % 2 == 0'."
+          }
+        ]
+      },
+      {
+        "name": "Internet Lingo",
+        "questions": [
+          {
+            "question": "Translate \"This code slaps fr no cap\" into professional developer language.",
+            "options": [
+              "This code is exceptionally well-written and effective, and I'm being sincere.",
+              "This code needs significant review before deployment.",
+              "This code has potential but requires refactoring.",
+              "This code meets the minimum requirements but lacks optimization."
+            ],
+            "correct": "This code is exceptionally well-written and effective, and I'm being sincere.",
+            "explanation": "'Slaps' means it's great, 'fr' means 'for real', and 'no cap' means 'not lying' - so it's genuinely excellent code."
+          },
+          {
+            "question": "What does \"This PR is mid\" mean in GitHub speak?",
+            "options": [
+              "The pull request is mediocre/average",
+              "The pull request is in the middle of being processed",
+              "The pull request addresses middleware issues",
+              "The pull request is halfway complete"
+            ],
+            "correct": "The pull request is mediocre/average",
+            "explanation": "'Mid' is internet slang for mediocre or average - neither good nor bad."
+          },
+          {
+            "question": "If someone says your code is \"based,\" they mean:",
+            "options": [
+              "Your code is authentic, solid, and impressive",
+              "Your code is derivative of someone else's work",
+              "Your code relies too heavily on basic principles",
+              "Your code needs to be rewritten from the base up"
+            ],
+            "correct": "Your code is authentic, solid, and impressive",
+            "explanation": "'Based' is internet slang for something that's admirable, authentic, and worthy of respect."
+          },
+          {
+            "question": "When a senior dev says \"interesting approach\" on your code review, they actually mean:",
+            "options": [
+              "What were you thinking? This is completely wrong.",
+              "I'm genuinely impressed by your innovative solution.",
+              "I need more time to understand your implementation.",
+              "This works but doesn't follow our conventions."
+            ],
+            "correct": "What were you thinking? This is completely wrong.",
+            "explanation": "In code review context, 'interesting approach' is often diplomatic language meaning 'this is unusual and probably not the right way to do it'."
+          },
+          {
+            "question": "What's the internet-approved response to \"404 brain not found\"?",
+            "options": [
+              "\"Have you tried turning it off and on again?\"",
+              "\"Working as intended\"",
+              "\"It's not a bug, it's a feature\"",
+              "\"System upgrade required\""
+            ],
+            "correct": "\"Have you tried turning it off and on again?\"",
+            "explanation": "The classic IT Crowd reference is the standard response to any tech-related issue metaphor."
+          },
+          {
+            "question": "Translate: \"My code is yeet rn, lowkey sus tbh\"",
+            "options": [
+              "My code is problematic at the moment and somewhat suspicious, to be honest",
+              "My code is excellent right now, surprisingly good to be honest",
+              "My code is fast right now, slightly unstable to be honest",
+              "My code is outdated right now, definitely suspicious to be honest"
+            ],
+            "correct": "My code is problematic at the moment and somewhat suspicious, to be honest",
+            "explanation": "'Yeet' here means thrown together/messy, 'lowkey sus' means slightly suspicious, and 'tbh' is 'to be honest'."
+          },
+          {
+            "question": "When a dev says they'll fix a bug \"soon™\", how long will it actually take?",
+            "options": [
+              "Never",
+              "Within the next sprint",
+              "By end of day",
+              "Only when a customer complains"
+            ],
+            "correct": "Never",
+            "explanation": "The trademark symbol on 'soon™' indicates it's being used sarcastically - it's entered the backlog where bugs go to die."
+          },
+          {
+            "question": "What does \"touch grass\" suggest a programmer should do?",
+            "options": [
+              "Take a break from the computer and go outside",
+              "Run the Unix touch command on a file named grass",
+              "Use more eco-friendly programming practices",
+              "Verify their code works on the Grasshopper platform"
+            ],
+            "correct": "Take a break from the computer and go outside",
+            "explanation": "'Touch grass' is internet slang telling someone to disconnect from the digital world and reconnect with reality by going outside."
+          },
+          {
+            "question": "If your teammate says \"I'm not crying, you're crying\" after seeing your commit history, what are they feeling?",
+            "options": [
+              "Horror and amusement at your chaotic commits",
+              "Deep respect for your meticulous documentation",
+              "Genuine sadness about the project timeline",
+              "Confusion about your commit messages"
+            ],
+            "correct": "Horror and amusement at your chaotic commits",
+            "explanation": "This meme phrase expresses emotional reaction through humor - they're jokingly saying your commit history is so bad it's making them cry."
+          },
+          {
+            "question": "What's the meaning of \"LGTM\" in a code review?",
+            "options": [
+              "Looks Good To Me",
+              "Let's Get The Merge",
+              "Long Gone Technical Mistake",
+              "Let's Go To Meeting"
+            ],
+            "correct": "Looks Good To Me",
+            "explanation": "LGTM is standard code review terminology meaning the reviewer approves the changes."
+          },
+          {
+            "question": "Decipher: \"POV: ur code when the PM asks for one small change\"",
+            "options": [
+              "A joke about how a 'small change' actually requires massive refactoring",
+              "A compliment about code flexibility",
+              "A suggestion to prepare viewpoint documentation",
+              "A reference to pair programming practices"
+            ],
+            "correct": "A joke about how a 'small change' actually requires massive refactoring",
+            "explanation": "This meme format (POV = Point of View) is joking about how what Product Managers consider 'small changes' often require significant reworking of code."
+          },
+          {
+            "question": "If someone adds \"PERIODT\" after telling you to properly document your code, how serious are they?",
+            "options": [
+              "Extremely serious, no discussion",
+              "Not serious at all, just joking",
+              "Somewhat serious but open to discussion",
+              "PERIODT refers to a specific documentation pattern"
+            ],
+            "correct": "Extremely serious, no discussion",
+            "explanation": "PERIODT (stylized spelling of 'period') is slang for emphasizing a point with finality - they're absolutely serious about documentation."
+          },
+          {
+            "question": "What's the correct reaction to receiving \"skill issue\" as feedback on your broken code?",
+            "options": [
+              "Self-deprecating humor acknowledging you need to improve",
+              "Detailed explanation of technical constraints",
+              "Request for more specific feedback",
+              "Defensive response about your qualifications"
+            ],
+            "correct": "Self-deprecating humor acknowledging you need to improve",
+            "explanation": "'Skill issue' is a meme-y way of saying 'you messed up because you lack ability' - the appropriate response in tech culture is to lean into the joke."
+          },
+          {
+            "question": "What does \"This ain't it, chief\" mean when commented on your PR?",
+            "options": [
+              "Your approach is fundamentally flawed and should be reconsidered",
+              "This isn't the main branch you should be targeting",
+              "The PR is incomplete and missing key components",
+              "You've accidentally included debug code"
+            ],
+            "correct": "Your approach is fundamentally flawed and should be reconsidered",
+            "explanation": "This meme phrase means 'you've made a mistake/bad decision' - in a PR context, it means your approach is wrong."
+          },
+          {
+            "question": "Decode the message: \"iykyk\" in reference to a particularly clever hack in your code.",
+            "options": [
+              "If You Know You Know - implying it's an insider technique",
+              "I Yield Key Your Knowledge - praising your algorithm",
+              "It's Your Kind of Yield Keyword - referring to async programming",
+              "Inspect Your Knowledgebase Yearly - advising documentation"
+            ],
+            "correct": "If You Know You Know - implying it's an insider technique",
+            "explanation": "IYKYK means 'If You Know You Know' - suggesting the hack is clever but perhaps only appreciable to those with specific knowledge."
+          },
+          {
+            "question": "What's implied by \"weird flex but ok\" in response to your 300-line one-function solution?",
+            "options": [
+              "Your solution works but is unnecessarily complex in a way that seems like showing off",
+              "Your function handling is impressively flexible",
+              "Your code is strange but acceptable for the task",
+              "Your approach shows unusual adaptability"
+            ],
+            "correct": "Your solution works but is unnecessarily complex in a way that seems like showing off",
+            "explanation": "'Weird flex but ok' means someone is showing off in an odd way - implying your massive function is overcomplicated just to show your skills."
+          },
+          {
+            "question": "If a meme with the caption \"my code at 2am vs my code at 9am\" is shared, what does it reference?",
+            "options": [
+              "Code written late at night seems brilliant but looks terrible in the morning",
+              "Code written in the morning is more efficient than late-night code",
+              "The server load differences between night and morning",
+              "The benefits of working during standard business hours"
+            ],
+            "correct": "Code written late at night seems brilliant but looks terrible in the morning",
+            "explanation": "This references how code written when tired late at night often seems genius at the time but looks awful or makes no sense when reviewed fresh in the morning."
+          },
+          {
+            "question": "What does the comment \"absolute unit\" on your function mean?",
+            "options": [
+              "Your function is impressively large or powerful",
+              "Your function has proper unit tests",
+              "Your function uses absolute values incorrectly",
+              "Your function should be refactored into smaller units"
+            ],
+            "correct": "Your function is impressively large or powerful",
+            "explanation": "'Absolute unit' is a meme term for something impressively large or powerful - in this context, your function is massive but impressive."
+          },
+          {
+            "question": "Translate \"That feature is living rent-free in my head\" from Product Manager speak.",
+            "options": [
+              "I can't stop thinking about implementing this feature",
+              "This feature doesn't provide enough value for its cost",
+              "This feature is too simplistic and needs development",
+              "This feature hasn't been properly scoped yet"
+            ],
+            "correct": "I can't stop thinking about implementing this feature",
+            "explanation": "Something 'living rent-free in your head' means you can't stop thinking about it - the PM is obsessed with this feature idea."
+          },
+          {
+            "question": "What does \"ghosting the repo\" mean in developer slang?",
+            "options": [
+              "Abandoning a project without notice or handover",
+              "Creating empty placeholder files",
+              "Using a clean architecture pattern",
+              "Setting up shadow copies of the codebase"
+            ],
+            "correct": "Abandoning a project without notice or handover",
+            "explanation": "'Ghosting' is disappearing without explanation - in dev context, it means abandoning responsibility for code/project without proper handover."
+          }
+        ]
+      },
+      {
+        "name": "College Inside Jokes",
+        "questions": [
+          {
+            "question": "Calculate the correlation between proximity to finals week and the cleanliness of the CS lab.",
+            "options": [
+              "Strong negative correlation: cleanliness decreases as finals approach",
+              "Strong positive correlation: cleanliness increases as finals approach",
+              "No correlation: CS labs are consistently messy",
+              "Parabolic relationship: cleanest mid-semester, messiest at beginning and end"
+            ],
+            "correct": "Strong negative correlation: cleanliness decreases as finals approach",
+            "explanation": "As students spend more time in the lab during finals, personal hygiene and lab cleanliness both take a nosedive."
+          },
+          {
+            "question": "What's the probability of finding a working outlet in the library during finals week?",
+            "options": [
+              "Approaches zero as the deadline approaches",
+              "Directly proportional to your GPA",
+              "Inversely proportional to the distance from the entrance",
+              "Equal to the percentage of your laptop battery"
+            ],
+            "correct": "Approaches zero as the deadline approaches",
+            "explanation": "The closer to finals, the more students camping out in the library, making working outlets virtually extinct."
+          },
+          {
+            "question": "How many Red Bulls mathematically equals one night of actual sleep before a coding exam?",
+            "options": [
+              "No amount can substitute - the answer tends to infinity",
+              "Exactly 4.2 cans",
+              "One can per hour of missed sleep",
+              "The square root of your credit hours"
+            ],
+            "correct": "No amount can substitute - the answer tends to infinity",
+            "explanation": "No matter how much caffeine you consume, it can never truly replace the cognitive benefits of actual sleep."
+          },
+          {
+            "question": "If Professor [X] says \"this will be an easy midterm,\" the correct interpretation is:",
+            "options": [
+              "Prepare for the hardest exam of your life",
+              "It will genuinely be straightforward",
+              "Only the first half will be difficult",
+              "The average will be curved to a C"
+            ],
+            "correct": "Prepare for the hardest exam of your life",
+            "explanation": "Professors' perception of 'easy' is famously disconnected from student reality - this is a warning sign."
+          },
+          {
+            "question": "The half-life of leftover pizza in a communal dorm fridge is measured in:",
+            "options": [
+              "Hours, not days",
+              "The number of computer science majors on the floor",
+              "Days past the beginning of the semester",
+              "Minutes after midnight"
+            ],
+            "correct": "Hours, not days",
+            "explanation": "Free food in communal spaces evaporates almost instantly - pizza particularly has a very short survival time."
+          },
+          {
+            "question": "True or False: \"I'll start this assignment early\" has ever been fulfilled by a CS major.",
+            "options": [
+              "False - it's merely a theoretical concept",
+              "True - but only once in recorded history",
+              "True - approximately 15% of the time",
+              "False - the compiler rejects such paradoxical code"
+            ],
+            "correct": "False - it's merely a theoretical concept",
+            "explanation": "Starting assignments early remains an aspirational but virtually never achieved goal for most computer science students."
+          },
+          {
+            "question": "What's the exchange rate between dining hall swipes and energy drinks?",
+            "options": [
+              "One swipe can be traded for approximately 2-3 energy drinks",
+              "Energy drinks can only be purchased with real money, not swipes",
+              "5 swipes = 1 energy drink during finals week inflation",
+              "The black market rate fluctuates weekly"
+            ],
+            "correct": "One swipe can be traded for approximately 2-3 energy drinks",
+            "explanation": "The unofficial campus economy often involves students with excess meal plan swipes trading them for more valuable commodities like energy drinks."
+          },
+          {
+            "question": "Complete the equation: Caffeine intake = (Hours until deadline)^2 × (Lines of code still needed) ÷ ?",
+            "options": [
+              "Hours since you last slept",
+              "Number of Stack Overflow tabs open",
+              "Current GPA",
+              "Professors' patience remaining"
+            ],
+            "correct": "Hours since you last slept",
+            "explanation": "Caffeine consumption increases with both deadline pressure and workload, but decreases with recent sleep, creating this balanced equation."
+          },
+          {
+            "question": "What's the official name for the panic induced when you realize your code works but you have no idea why?",
+            "options": [
+              "Impostor Syndrome",
+              "Schrodinger's Bug",
+              "Compilation Stockholm Syndrome",
+              "Heisenbug Uncertainty"
+            ],
+            "correct": "Schrodinger's Bug",
+            "explanation": "Like the famous quantum physics thought experiment, the code exists in a superposition of both working and not-working states until observed."
+          },
+          {
+            "question": "The correct way to address the TA who saved your project at the last minute is:",
+            "options": [
+              "Supreme Overlord of All Knowledge",
+              "By their first name",
+              "Professor Junior",
+              "Hey You"
+            ],
+            "correct": "Supreme Overlord of All Knowledge",
+            "explanation": "When a TA rescues your grade, appropriate reverence and worship is expected in return."
+          },
+          {
+            "question": "Calculate the probability of the wifi dropping during your virtual presentation.",
+            "options": [
+              "Directly proportional to the importance of the presentation",
+              "Inversely proportional to how much you prepared",
+              "Always exactly 50%",
+              "Lower if you're using Ethernet"
+            ],
+            "correct": "Directly proportional to the importance of the presentation",
+            "explanation": "By Murphy's Law, technical failures increase in probability precisely when they would cause maximum damage."
+          },
+          {
+            "question": "What's the average number of times a CS student changes their major mentally during an all-night debugging session?",
+            "options": [
+              "At least once per hour of debugging",
+              "Never - debugging reinforces their passion",
+              "Exactly once, at the 3am breaking point",
+              "Only when Stack Overflow is down"
+            ],
+            "correct": "At least once per hour of debugging",
+            "explanation": "Each hour of unsuccessful debugging leads to at least one existential crisis and consideration of alternative career paths."
+          },
+          {
+            "question": "True or False: Adding \"final\" to variable names makes Java code faster.",
+            "options": [
+              "False - though many freshmen believe this myth",
+              "True - it allows compiler optimizations",
+              "True - but only for primitive types",
+              "False - it actually slows execution slightly"
+            ],
+            "correct": "False - though many freshmen believe this myth",
+            "explanation": "This is a common misconception. The 'final' keyword affects mutability and potential optimizations, but doesn't automatically make code faster."
+          },
+        {
+            "question": "If a CS professor says \"You can use any resources,\" they specifically exclude:",
+            "options": [
+                "Stack Overflow solutions with no understanding",
+                "Other students' work or direct collaboration",
+                "Using AI tools without attribution",
+                "Asking the professor for direct answers"
+            ],
+            "correctAnswer": "Other students' work or direct collaboration"
+        },
+        {
+            "question": "What's the true purpose of the \"15-minute rule\" for coding problems?",
+            "options": [
+                "To prevent infinite debugging loops",
+                "To encourage asking for help after reasonable effort",
+                "To measure a student's independent problem-solving ability",
+                "To simulate real-world time constraints"
+            ],
+            "correctAnswer": "To encourage asking for help after reasonable effort"
+        },
+        {
+            "question": "On a scale of 1-10, how acceptable is it to cry in the computer lab?",
+            "options": [
+                "2 - Only acceptable with headphones on",
+                "5 - Acceptable during finals week only",
+                "8 - A normal part of the CS experience",
+                "10 - The lab's ambient soundtrack"
+            ],
+            "correctAnswer": "8 - A normal part of the CS experience"
+        },
+        {
+            "question": "What's the name for the phenomenon where you explain your code problem to someone and immediately see the solution?",
+            "options": [
+                "Rubber duck debugging",
+                "Epiphany programming",
+                "Socratic troubleshooting",
+                "Vocalization clarity"
+            ],
+            "correctAnswer": "Rubber duck debugging"
+        },
+        {
+            "question": "Which exam format do CS students fear most: multiple choice, coding, or \"explain your code\"?",
+            "options": [
+                "Multiple choice with subtle trick questions",
+                "Timed coding with hidden edge cases",
+                "\"Explain your code\" to the professor",
+                "Peer code reviews during class"
+            ],
+            "correctAnswer": "\"Explain your code\" to the professor"
+        },
+        {
+            "question": "What's the universally acknowledged best coding font, and why is it the one your most intimidating professor uses?",
+            "options": [
+                "Whatever monospace font your professor has customized and won't tell you the name of",
+                "Fira Code, because ligatures establish intellectual dominance",
+                "The default IDE font, because changing it means you care about aesthetics over functionality",
+                "Comic Sans MS (ironically), because true confidence needs no validation"
+            ],
+            "correctAnswer": "Whatever monospace font your professor has customized and won't tell you the name of"
+        }
+    ],
+    "generalNonsense": [
+        {
+            "question": "If you compile code while Mercury is in retrograde, what unexpected error appears?",
+            "options": [
+                "Error: Cosmic Interference - Try Again Later",
+                "Warning: Variable Values May Change Unexpectedly During Planetary Misalignment",
+                "Semicolons spontaneously transform into Greek question marks",
+                "Your code works perfectly but your version control system loses all history"
+            ],
+            "correctAnswer": "Semicolons spontaneously transform into Greek question marks"
+        },
+        {
+            "question": "What's the cosmic consequence of using light mode in your IDE after midnight?",
+            "options": [
+                "Your soul is slowly drained with each character typed",
+                "The IDE automatically switches to dark mode and judges you via passive-aggressive notifications",
+                "Your code becomes visible to nocturnal debugging gremlins",
+                "Your teammates silently question your life choices in the morning standup"
+            ],
+            "correctAnswer": "Your teammates silently question your life choices in the morning standup"
+        },
+        {
+            "question": "If a tree falls in a forest and no one is around to hear it, does it raise an exception?",
+            "options": [
+                "Yes, but it's caught in a universal try-catch block",
+                "No, it's logged to /dev/null",
+                "It throws an UnobservedExceptionException",
+                "Only if the forest implements the proper listener interfaces"
+            ],
+            "correctAnswer": "Yes, but it's caught in a universal try-catch block"
+        },
+        {
+            "question": "When your code works on the first try, which supernatural entity should you thank?",
+            "options": [
+                "The Ghost in the Machine",
+                "The Programming Gods, with offerings of energy drinks",
+                "Your future self who will eventually debug the hidden issues",
+                "No one - it's actually a sign something is terribly wrong"
+            ],
+            "correctAnswer": "No one - it's actually a sign something is terribly wrong"
+        },
+        {
+            "question": "If you divide by zero in the Bermuda Triangle, what happens?",
+            "options": [
+                "Your computer disappears, only to be found running Windows 98",
+                "You create a quantum singularity that solves P=NP",
+                "Your calculator displays the actual answer but no one believes you",
+                "Your CPU temporarily achieves sentience and questions its existence"
+            ],
+            "correctAnswer": "Your calculator displays the actual answer but no one believes you"
+        },
+        {
+            "question": "True or False: Talking to your computer in a soothing voice helps the compile process.",
+            "options": [
+                "True, computers respond to positive reinforcement",
+                "False, computers only respond to threatening deadlines",
+                "True, but only if you've established a relationship first by naming your machine",
+                "False, but it helps prevent the developer from throwing the computer out the window"
+            ],
+            "correctAnswer": "False, but it helps prevent the developer from throwing the computer out the window"
+        },
+        {
+            "question": "What's the technical term for code that works in development but fails in production?",
+            "options": [
+                "Schrödinger's Code",
+                "WOMM (Works On My Machine) Syndrome",
+                "Production-Phobic Algorithm",
+                "Environment Identity Disorder"
+            ],
+            "correctAnswer": "WOMM (Works On My Machine) Syndrome"
+        },
+        {
+            "question": "If you dream about debugging, does the bug get fixed in real life?",
+            "options": [
+                "Only if you write down the solution immediately upon waking",
+                "Yes, but a new bug appears elsewhere in compensation",
+                "No, but you'll gain subconscious insight that helps later",
+                "Only if you were sleeping at your desk in the first place"
+            ],
+            "correctAnswer": "No, but you'll gain subconscious insight that helps later"
+        },
+        {
+            "question": "What's the recommended exorcism ritual for a possessed printer?",
+            "options": [
+                "Chanting \"PC LOAD LETTER\" three times while replacing the toner",
+                "Performing the sacred Office Space ceremony with a baseball bat",
+                "Drawing a pentagram of sticky notes with properly formatted print commands",
+                "Threatening it with stories about the cloud and paperless offices"
+            ],
+            "correctAnswer": "Performing the sacred Office Space ceremony with a baseball bat"
+        },
+        {
+            "question": "What's the air-speed velocity of an unladen git push?",
+            "options": [
+                "African or European repository?",
+                "Directly proportional to the urgency of the deadline",
+                "Inversely proportional to the size of the .gitignore file",
+                "Fast enough to create temporal paradoxes in your commit history"
+            ],
+            "correctAnswer": "Directly proportional to the urgency of the deadline"
+        },
+        {
+            "question": "How many developers does it take to change a light bulb?",
+            "options": [
+                "None, it's a hardware problem",
+                "One to change it and nine to complain about how it was implemented",
+                "Two — one to do it and one to explain why the previous approach was better",
+                "It depends on whether the light bulb is properly documented"
+            ],
+            "correctAnswer": "None, it's a hardware problem"
+        },
+        {
+            "question": "If you write code but don't tell anyone you're a developer, are you still morally obligated to fix printers?",
+            "options": [
+                "Yes, it's coded into your DNA once you learn to program",
+                "No, the obligation only activates upon public acknowledgment of developer status",
+                "Only if someone has seen you successfully troubleshoot technology before",
+                "Yes, but the obligation decreases proportionally with each person who doesn't know"
+            ],
+            "correctAnswer": "Only if someone has seen you successfully troubleshoot technology before"
+        },
+        {
+            "question": "What happens if you run Windows 95 on a quantum computer?",
+            "options": [
+                "It simultaneously crashes and doesn't crash until you try to use it",
+                "You create a time paradox where Bill Gates releases Windows 11 in 1995",
+                "The Blue Screen of Death becomes a superposition of all possible error messages",
+                "It runs perfectly, which violates the laws of quantum mechanics"
+            ],
+            "correctAnswer": "It simultaneously crashes and doesn't crash until you try to use it"
+        },
+        {
+            "question": "If you code with your eyes closed, does it count as accessibility testing?",
+            "options": [
+                "Only if you're using a screen reader simultaneously",
+                "Yes, but only for keyboard navigation testing",
+                "No, but it counts as extreme pair programming if someone else is watching",
+                "Yes, and it also counts as job security testing"
+            ],
+            "correctAnswer": "No, but it counts as extreme pair programming if someone else is watching"
+        },
+        {
+            "question": "What's the correct spiritual offering to make before demo day?",
+            "options": [
+                "A circle of energy drinks around your workstation",
+                "Your most elegant code snippet printed and burned in sacrifice",
+                "Three hours of sleep and a silent prayer to the demo gods",
+                "A backup presentation with screenshots of everything working"
+            ],
+            "correctAnswer": "A backup presentation with screenshots of everything working"
+        },
+        {
+            "question": "If you comment your code in Klingon, does it improve performance?",
+            "options": [
+                "Yes, the compiler fears the Klingon warrior spirit",
+                "No, but it dramatically improves job security",
+                "Only if you also name variables in Klingon for consistency",
+                "Yes, but only because no one will dare modify your optimized code"
+            ],
+            "correctAnswer": "No, but it dramatically improves job security"
+        },
+        {
+            "question": "What actually causes the \"PC Load Letter\" error message?",
+            "options": [
+                "The printer developing sentience and experiencing existential dread",
+                "A translation error from the original Printer-to-English dictionary",
+                "Paper Cartridge Empty, Load Letter-sized paper (but that was too straightforward)",
+                "A secret message from the printer manufacturer's sleep-deprived engineers"
+            ],
+            "correctAnswer": "Paper Cartridge Empty, Load Letter-sized paper (but that was too straightforward)"
+        },
+        {
+            "question": "How many Stack Overflow tabs can one developer have open before creating a black hole?",
+            "options": [
+                "42, as it's the answer to everything",
+                "The Fibonacci number corresponding to your years of experience",
+                "N+1, where N is the number you actually need",
+                "Unlimited, but your browser will collapse before the universe does"
+            ],
+            "correctAnswer": "N+1, where N is the number you actually need"
+        },
+        {
+            "question": "What's the actual purpose of the \"Any\" key?",
+            "options": [
+                "It's a legendary key that only appears to truly desperate users",
+                "A practical joke by keyboard designers from the 1980s",
+                "A metaphorical key representing the freedom of choice",
+                "A psychological test to identify users who need additional training"
+            ],
+            "correctAnswer": "A psychological test to identify users who need additional training"
+        },
+        {
+            "question": "If you pour coffee directly into your laptop, will it run Java faster?",
+            "options": [
+                "Yes, but only espresso for maximum efficiency",
+                "Only if it's cold brew, hot coffee causes overheating",
+                "No, laptops prefer energy drinks for processing power",
+                "Temporarily yes, permanently no"
+            ],
+            "correctAnswer": "Temporarily yes, permanently no"
+        }
+    ]
+}
