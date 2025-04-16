@@ -24,18 +24,18 @@ def linear_regression(df):
 linear_regression(df_linear)
 
 def gaussian_kernel(x, x_train, tau):
-    return np.exp(-cdist(x, x_train, 'sqeuclidean') ** 2 / (2 * tau ** 2))
+      return np.exp(-cdist(x, x_train, 'sqeuclidean') / (2 * tau ** 2))
 
 
 def locally_weighted_regression(x_train, y_train, tau=0.5):
     x_train = np.hstack([np.ones((x_train.shape[0], 1)), x_train])
-    x_range = np.linspace(x_train[:, 1].min(), x_train[:, 1].max(), 100)
+    x_range = np.linspace(x_train[:, 1].min(), x_train[:, 1].max(), 100).reshape(-1, 1)
     y_pred = []
     for x in x_range:
-        x_vec = np.array([1,x])
+        x_vec = np.array([1, x]).reshape(1, -1)
         weights = gaussian_kernel(x,x_train[:,1:], tau).flatten()
         w = np.diag(weights)
-        theta = np.linalg.pinv(x_train.T @ w @ x_train) @ x_train.T @ w @ (x_train.T @ w @ y_train)
+        theta = np.linalg.pinv(x_train.T @ w @ x_train) @ x_train.T @ w @ y_train
         y_pred.append(x_vec @ theta)
     plt.scatter(x_train[:, 1], y_train, label='Original Data')
     plt.plot(x_range, y_pred, label='Locally Weighted Regression', color='red')
@@ -46,7 +46,7 @@ def locally_weighted_regression(x_train, y_train, tau=0.5):
 locally_weighted_regression(df_lwr[['X']].values, df_lwr['Y'].values)
 
 def polynomial_regression(df,degree=3):
-    x,y = deff[['X']],df['Y']
+    x,y = df[['X']],df['Y']
     model = make_pipeline(PolynomialFeatures(degree),LinearRegression())
     model.fit(x,y)
     y_pred = model.predict(x)
