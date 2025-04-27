@@ -5,15 +5,19 @@ Welcome to my digital garden of knowledge! This repository is a living archive o
 ## 🗺️ Repository Atlas
 
 - 📱 `Android-Studio-Apps/`: A collection of Android applications, each a step in mastering mobile development.
-- 🎓 `BE-Sem3/`, `BE-Sem4/`, `BE-Sem5/`: The academic chronicles - lab programs that shaped my engineering foundation.
+- 🎓 `BE-Sem3/`, `BE-Sem4/`, `BE-Sem5/`, `BE-Sem6/`: The academic chronicles - lab programs that shaped my engineering foundation.
 - 📚 `Course-Materials/`: A treasure trove of resources from various online learning adventures.
 - 🌐 `M.E.R.N-Workshop-Materials/`: Artifacts from my exploration of the MERN stack universe.
+- 🎮 `Elim-Nation/`: The materials for ElimNation the event under Enigma.
+- 🎨 `html-css-experiments/`: The canvas where I paint with HTML and CSS.
+- 🎨 `html-css-experiments-old/`: The canvas where I had painted with HTML and CSS.
+- ⚛️ `learn-REACT/`, `learn-NEXT/`, `learn-LARAVEL/`: My journey through modern web frameworks.
 - 🏆 `Placement-Training/`: The training grounds for my career aspirations.
+- 📊 `M.E.R.N-Workshop-Materials/`: Unveiling the world of MERN for developer enthusiasts.
+- 🍃 `mongodb-workshop-Materials/`: Diving into the world of NoSQL with MongoDB.
 - 🐍 `Python/`: A menagerie of Python scripts and projects, from simple automations to complex algorithms.
 - 💡 `SIH-2024/`: Innovations and ideas for the Smart India Hackathon 2024.
-- 🎨 `html-css-experiments/`: The canvas where I paint with HTML and CSS.
-- ⚛️ `learn-REACT/`, `learn-NEXT/`, `learn-LARAVEL/`: My journey through modern web frameworks.
-- 🍃 `mongodb-workshop-Materials/`: Diving into the world of NoSQL with MongoDB.
+- 🎉 `UiPath/`: The assets provided by UiPath for the Student Champion developer.
 
 ## 🚀 Quickstart
 
