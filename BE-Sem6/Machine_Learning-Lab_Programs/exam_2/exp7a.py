@@ -8,9 +8,6 @@ from sklearn.metrics import mean_squared_error, r2_score
  
 # Load dataset 
 data = pd.read_csv("boston_housing.csv") 
-print(data.head()) 
-print(data.shape) 
-print(data.info()) 
  
 X = data.drop('MEDV', axis=1) # ALL columns except 'MEDV' 
 y = data['MEDV'] # Target column 

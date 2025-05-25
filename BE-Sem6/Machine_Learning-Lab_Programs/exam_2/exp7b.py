@@ -8,11 +8,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, r2_score 
 
 # Load the dataset 
-data = pd.read_csv("mpg.csv") 
-print(data.head()) 
-print(data.shape) 
-print(data.info())
- 
+data = pd.read_csv("mpg.csv")
+
 # Drop rows with missing values 
 data.dropna(inplace=True)
  
@@ -52,10 +49,8 @@ y_range_pred = model.predict(X_range_poly)
 
 # Plot 
 sns.set(style='whitegrid') 
-sns.scatterplot(x='horsepower', y='mpg', data=data, label='Actual data', alpha=0.4, 
-color='blue') 
-sns.lineplot(x='horsepower', y=y_range_pred, data=X_range, label='Polynomial Fit', 
-color='red') 
+sns.scatterplot(x='horsepower', y='mpg', data=data, label='Actual data', alpha=0.4, color='blue') 
+sns.lineplot(x='horsepower', y=y_range_pred, data=X_range, label='Polynomial Fit', color='red') 
 plt.title("Polynomial Regression - Auto MPG (Horsepower vs MPG)") 
 plt.xlabel("Horsepower") 
 plt.ylabel("Miles Per Gallon (MPG)") 

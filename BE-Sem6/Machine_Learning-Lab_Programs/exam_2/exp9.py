@@ -6,11 +6,6 @@ from sklearn.datasets import fetch_olivetti_faces
 data=fetch_olivetti_faces() 
 data.keys() 
  
-print("Data shape",data.data.shape) 
-print("Target Shapes",data.target.shape) 
-print("There are {} unique persons in the dataset".format(len(np.unique(data.target)))) 
-print("Size of each image is {}x{}".format(data.images.shape[-1],data.images.shape[1])) 
- 
 def print_faces(images,target,top_n): 
  top_n=min(top_n,len(images)) 
  grid_size=int(np.ceil(np.sqrt(top_n))) 
@@ -45,6 +40,7 @@ plt.suptitle("There are 40 distinct person faces are there in the dataset",fonts
 plt.show() 
 
 display_unique_faces(data.images) 
+
 from sklearn.model_selection import train_test_split 
 x=data.data 
 y=data.target 
@@ -54,7 +50,7 @@ print("x train :",xtrain.shape)
 print("x test :",xtest.shape) 
 
 from sklearn.naive_bayes import GaussianNB,MultinomialNB 
-from sklearn.metrics import confusion_matrix,accuracy_score,classification_report 
+from sklearn.metrics import confusion_matrix,accuracy_score 
 
 nb=GaussianNB() 
 nb.fit(xtrain,ytrain) 
@@ -70,7 +66,7 @@ nb.fit(xtrain,ytrain)
 ypred=nb.predict(xtest) 
 
 accuray=round(accuracy_score(ytest,ypred)*100,2) 
-print(f"Multinominal Naive Bayes acccuracy:{accuracy}") 
+print(f"Multinominal Naive Bayes acccuracy:{accuray}") 
 missclass=np.where(ypred!=ytest)[0] 
 nummissclass=len(missclass)
  

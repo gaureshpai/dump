@@ -12,9 +12,6 @@ data = load_breast_cancer()
 df = pd.DataFrame(data.data, columns=data.feature_names) 
 
 actual_labels = data.target # 0 = malignant, 1 = benign 
-print(df.head()) 
-print(df.info()) 
-print(df.shape) 
 
 # Standardize the dataset 
 scaler = StandardScaler() 

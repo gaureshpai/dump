@@ -12,15 +12,6 @@ y=data.target
  
 df=pd.DataFrame(data.data,columns=data.feature_names) 
 df['diagnosis']=data.target 
-
-print("Head of dataset:") 
-print(df.head()) 
-
-print("\nHead of dataset:") 
-print(df.info()) 
-
-print("\nDataset Shape:") 
-print(df.shape)
  
 x_train,x_test,y_train,y_test=train_test_split(x,y,test_size=0.2,random_state=42) 
 clf=DecisionTreeClassifier(criterion='entropy',random_state=42) 
