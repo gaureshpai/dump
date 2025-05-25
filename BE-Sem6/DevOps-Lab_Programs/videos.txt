@@ -1,0 +1,35 @@
+lab 1
+1. Maven - https://www.youtube.com/watch?v=_yK6H7iPEX4&t=26s
+
+2. Gradle - https://www.youtube.com/watch?v=RP8sI3LZidg&t=158s
+
+lab 2
+https://www.youtube.com/watch?v=2ZYgTKvk-n4
+
+lab 3
+https://youtu.be/WGjlPlAJ5ao
+
+lab 4
+https://youtu.be/RO69THrZMfY
+
+lab 5
+https://youtu.be/gUOi_TZJKys?si=Ifc6_XOzVH1y7UpF
+
+lab 6
+https://youtu.be/JUUMUyuvYFg?si=yBLdR561PK4ZTl_T
+
+lab 7
+https://youtu.be/qN1u8l3LfgA?si=SwdGZXV_i0riXEtT
+
+
+lab 8
+https://youtu.be/0jJkcTMH2Bs
+
+lab 9
+https://youtu.be/KbhGFX1q5UY
+
+lab 10
+https://youtu.be/8KJj9cjnuSs?si=XZDRK98dfSe0jq1G
+
+lab 11
+https://youtu.be/yHTr9hhpFHg?si=tFjvlhGG4_FBbv-K
