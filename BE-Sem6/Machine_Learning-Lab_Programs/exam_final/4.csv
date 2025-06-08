@@ -1,0 +1,7 @@
+Sky,Area,Furnishing,Price,Class
+Sunny,Small,Furnished,High,Yes
+Sunny,Small,Unfurnished,High,Yes
+Rainy,Small,Furnished,High,Yes
+Sunny,Medium,Furnished,High,Yes
+Sunny,Small,Furnished,Low,No
+Rainy,Small,Unfurnished,High,No
