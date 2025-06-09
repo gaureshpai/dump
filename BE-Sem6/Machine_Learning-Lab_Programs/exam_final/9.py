@@ -34,7 +34,7 @@ if misclassified_indices.size > 0:
     plt.figure(figsize=(10, 5))
     for i, index in enumerate(misclassified_indices[:10]):
         plt.subplot(2, 5, i + 1)
-        plt.imshow(images[index], cmap='gray')
+        plt.imshow(images[index].reshape(64,64), cmap='gray')
         plt.title(f"Predicted: {y_pred[index]}\nActual: {y_test[index]}")
         plt.axis('off')
     plt.tight_layout()

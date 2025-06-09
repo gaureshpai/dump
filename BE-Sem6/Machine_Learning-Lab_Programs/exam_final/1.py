@@ -25,6 +25,7 @@ for feature in numerical_features:
     Q3=df[feature].quantile(0.75) 
     IQR=Q3-Q1 
     lower_bound=Q1-1.5*IQR 
-    upper_bound=Q3+1.5*IQR 
+    upper_bound=Q3+1.5*IQR  
     outliers=df[(df[feature]<lower_bound)|(df[feature]>upper_bound)] 
     print(f" {feature}:{len(outliers)} outliers")
+    

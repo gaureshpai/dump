@@ -15,7 +15,7 @@ train_labels=labels[:50]
 test_data=data[:50].reshape(-1,1) 
 
 print("Train Data\n:",train_data.flatten()) 
-print("Train Labels\n:",test_data.flatten()) 
+print("Train Labels\n:",train_labels.flatten()) 
 print("Test Data\n:",test_data.flatten()) 
 
 K_values=[1,2,3,4,5,20,30] 

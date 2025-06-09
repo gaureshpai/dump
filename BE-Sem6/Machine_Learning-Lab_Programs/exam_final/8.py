@@ -27,8 +27,7 @@ print(classification_report(y_test,y_pred,target_names=data.target_names))
 print("\nConfusion Matrix:") 
 print(confusion_matrix(y_test,y_pred)) 
 
-new_sample=np.array([[12.5,19.2,80.0,500.0,0.085,0.1,0.05,0.02,0.17,0.06,0.4,1.0,2.5,40.0,
- 0.25,0.31,0.15,0.006,0.02,0.03,16.0,25.0,105.0,900.0,0.13,0.25,0.28,0.12,0.29,0.08]]) 
+new_sample=np.array([[12.5,19.2,80.0,500.0,0.085,0.1,0.05,0.02,0.17,0.06,0.4,1.0,2.5,40.0, 0.25,0.31,0.15,0.006,0.02,0.03,16.0,25.0,105.0,900.0,0.13,0.25,0.28,0.12,0.29,0.08]]) 
 prediction=clf.predict(new_sample) 
 
 print("\nNew sample prediction:") 
