@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.AppTest" time="0.059" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\webdev\dump\BE-Sem6\DevOps-Lab_Programs\experiment_4\my-app\target\test-classes;D:\webdev\dump\BE-Sem6\DevOps-Lab_Programs\experiment_4\my-app\target\classes;C:\Users\gauresh\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Users\gauresh\AppData\Local\Programs\Eclipse Adoptium\jdk-21.0.7.6-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\gauresh\AppData\Local\Temp\surefire9540891479058063316\surefirebooter-20250609210832547_3.jar C:\Users\gauresh\AppData\Local\Temp\surefire9540891479058063316 2025-06-09T21-08-32_236-jvmRun1 surefire-20250609210832547_1tmp surefire_0-20250609210832547_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\webdev\dump\BE-Sem6\DevOps-Lab_Programs\experiment_4\my-app\target\test-classes;D:\webdev\dump\BE-Sem6\DevOps-Lab_Programs\experiment_4\my-app\target\classes;C:\Users\gauresh\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\gauresh"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="C:\Users\gauresh\AppData\Local\Programs\Eclipse Adoptium\jdk-21.0.7.6-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\webdev\dump\BE-Sem6\DevOps-Lab_Programs\experiment_4\my-app"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\gauresh\AppData\Local\Temp\surefire9540891479058063316\surefirebooter-20250609210832547_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.7+6-LTS"/>
+    <property name="user.name" value="gauresh"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-21.0.7+6"/>
+    <property name="localRepository" value="C:\Users\gauresh\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\gauresh\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.7"/>
+    <property name="user.dir" value="D:\webdev\dump\BE-Sem6\DevOps-Lab_Programs\experiment_4\my-app"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\gauresh\AppData\Local\Programs\Eclipse Adoptium\jdk-21.0.7.6-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\GitHub CLI\;C:\Program Files\HP\HP One Agent;C:\Program Files\Git LFS;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\gauresh\.config\herd\bin\nvm;C:\Program Files\nodejs;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\gauresh\AppData\Local\Programs\Eclipse Adoptium\jdk-21.0.7.6-hotspot\bin;C:\Users\gauresh\scoop\shims;C:\Users\gauresh\AppData\Local\pnpm;C:\Users\gauresh\AppData\Local\Programs\Python\Python312\bin;C:\Users\gauresh\AppData\Local\Programs\Python\Launcher\;C:\Users\gauresh\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;D:\Music\MinGW\share\gcc-6.3.0\python;C:\Users\gauresh\AppData\Local\Programs\Python\Python312;C:\Users\gauresh\AppData\Local\Programs\Python\Python312\Scripts\;D:\games\bootstrap-5.3.3;C:\ProgramData\chocolatey;C:\Users\gauresh\.dotnet\tools;C:\Program Files\MySQL;C:\Users\gauresh\AppData\Roaming\npm;D:\games\php-8.3.12-nts-Win32-vs16-x64;C:\Users\gauresh\AppData\Roaming\Composer\vendor\bin;C:\Users\gauresh\eclipse\java-2023-09;D:\games\tor-0.1.2.1-alpha;C:\Users\gauresh\AppData\Local\Microsoft\WindowsApps;C:\Program Files\apache-maven-3.9.10\bin;C:\Program Files\gradle-8.14.2\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="21.0.7+6-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testApp" classname="com.example.AppTest" time="0.01"/>
+</testsuite>

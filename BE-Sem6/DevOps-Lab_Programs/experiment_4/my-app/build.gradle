@@ -1,0 +1,15 @@
+ plugins {
+    id 'java'
+ }
+ group = 'com.example'
+version = '1.0-SNAPSHOT'
+ repositories {
+    mavenCentral()
+ }
+ dependencies {
+    testImplementation 'junit:junit:4.12'
+ }
+ task run(type: JavaExec) {
+    main = 'com.example.App'
+    classpath = sourceSets.main.runtimeClasspath
+ }
