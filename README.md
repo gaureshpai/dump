@@ -9,6 +9,7 @@ Welcome to my digital garden of knowledge! This repository is a living archive o
 - 📚 `Course-Materials/`: A treasure trove of resources from various online learning adventures.
 - 🌐 `M.E.R.N-Workshop-Materials/`: Artifacts from my exploration of the MERN stack universe.
 - 🎮 `Elim-Nation/`: The materials for ElimNation the event under Enigma.
+- 🔒 `encrypt-decrypt-app/`: A secure app for encrypting and decrypting text.
 - 🎨 `html-css-experiments/`: The canvas where I paint with HTML and CSS.
 - 🎨 `html-css-experiments-old/`: The canvas where I had painted with HTML and CSS.
 - ⚛️ `learn-REACT/`, `learn-NEXT/`, `learn-LARAVEL/`: My journey through modern web frameworks.

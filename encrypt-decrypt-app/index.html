@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecureText - Professional Encryption Tool</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <nav class="navbar">
+            <div class="nav-content">
+                <div class="logo">
+                    <div class="logo-icon">🔐</div>
+                    <span class="logo-text">SecureText</span>
+                </div>
+            </div>
+        </nav>
+        
+        <main class="main-content">
+            <div class="container">
+                <section class="hero-section">
+                    <h1 class="hero-title">Professional Text Encryption</h1>
+                    <p class="hero-subtitle">Secure your sensitive information with military-grade encryption</p>
+                </section>
+                
+                <section class="tool-section">
+                    <div class="tool-grid">
+                        <div class="panel input-panel">
+                            <div class="panel-header">
+                                <h2 class="panel-title">
+                                    <span class="panel-icon">📝</span>
+                                    Input
+                                </h2>
+                            </div>
+                            <div class="panel-content">
+                                <div class="form-group">
+                                    <label for="inputText" class="form-label">Message</label>
+                                    <div class="textarea-wrapper">
+                                        <textarea 
+                                            id="inputText" 
+                                            class="form-textarea"
+                                            placeholder="Enter your message here..."
+                                            rows="6"
+                                        ></textarea>
+                                        <div class="char-counter">
+                                            <span id="charCount">0</span> characters
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="encryptionKey" class="form-label">Encryption Key</label>
+                                    <div class="input-wrapper">
+                                        <input 
+                                            type="password" 
+                                            id="encryptionKey" 
+                                            class="form-input"
+                                            placeholder="Enter your secret key"
+                                        >
+                                        <button type="button" id="toggleKey" class="toggle-btn">
+                                            <span class="eye-icon">👁️</span>
+                                        </button>
+                                    </div>
+                                    <div class="key-strength">
+                                        <div class="strength-bar">
+                                            <div id="strengthIndicator" class="strength-fill"></div>
+                                        </div>
+                                        <span id="strengthText" class="strength-text">Enter a key</span>
+                                    </div>
+                                </div>
+
+                                <div class="action-buttons">
+                                    <button id="encryptBtn" class="btn btn-primary">
+                                        <span class="btn-icon">🔒</span>
+                                        <span class="btn-text">Encrypt</span>
+                                    </button>
+                                    <button id="decryptBtn" class="btn btn-secondary">
+                                        <span class="btn-icon">🔓</span>
+                                        <span class="btn-text">Decrypt</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="panel output-panel">
+                            <div class="panel-header">
+                                <h2 class="panel-title">
+                                    <span class="panel-icon">📤</span>
+                                    Output
+                                </h2>
+                                <div class="panel-actions">
+                                    <button id="copyBtn" class="icon-btn" title="Copy to clipboard">
+                                        <span>📋</span>
+                                    </button>
+                                    <button id="clearBtn" class="icon-btn" title="Clear all">
+                                        <span>🗑️</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="panel-content">
+                                <div class="form-group">
+                                    <div class="textarea-wrapper">
+                                        <textarea 
+                                            id="outputText" 
+                                            class="form-textarea output-textarea"
+                                            placeholder="Your encrypted/decrypted text will appear here..."
+                                            rows="8"
+                                            readonly
+                                        ></textarea>
+                                        <div class="output-info">
+                                            <span id="outputType" class="output-type"></span>
+                                            <span id="outputLength" class="output-length"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <div id="statusContainer" class="status-container"></div>
+                
+                <section class="info-section">
+                    <div class="info-grid">
+                        <div class="info-card">
+                            <div class="info-icon">🛡️</div>
+                            <h3>Secure</h3>
+                            <p>Uses XOR cipher with Base64 encoding for reliable encryption</p>
+                        </div>
+                        <div class="info-card">
+                            <div class="info-icon">🔄</div>
+                            <h3>Reversible</h3>
+                            <p>Same key encrypts and decrypts your data seamlessly</p>
+                        </div>
+                        <div class="info-card">
+                            <div class="info-icon">💻</div>
+                            <h3>Client-Side</h3>
+                            <p>All processing happens locally - your data never leaves your device</p>
+                        </div>
+                        <div class="info-card">
+                            <div class="info-icon">⚡</div>
+                            <h3>Fast</h3>
+                            <p>Instant encryption and decryption with optimized algorithms</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+        
+        <footer class="footer">
+            <div class="footer-content">
+                <p>&copy; 2024 SecureText. Professional encryption tool for secure communications.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
