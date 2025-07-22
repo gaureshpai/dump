@@ -13,9 +13,10 @@ Welcome to my digital garden of knowledge! This repository is a living archive o
 - 🎨 `html-css-experiments/`: The canvas where I paint with HTML and CSS.
 - 🎨 `html-css-experiments-old/`: The canvas where I had painted with HTML and CSS.
 - ⚛️ `learn-REACT/`, `learn-NEXT/`, `learn-LARAVEL/`: My journey through modern web frameworks.
-- 🏆 `Placement-Training/`: The training grounds for my career aspirations.
+- ✨ `leetcode/`: My journey in solving leetcode based problems using.
 - 📊 `M.E.R.N-Workshop-Materials/`: Unveiling the world of MERN for developer enthusiasts.
 - 🍃 `mongodb-workshop-Materials/`: Diving into the world of NoSQL with MongoDB.
+- 🏆 `Placement-Training/`: The training grounds for my career aspirations.
 - 🐍 `Python/`: A menagerie of Python scripts and projects, from simple automations to complex algorithms.
 - 💡 `SIH-2024/`: Innovations and ideas for the Smart India Hackathon 2024.
 - 🎉 `UiPath/`: The assets provided by UiPath for the Student Champion developer.
@@ -64,9 +65,3 @@ This repository is more than just code; it's a testament to continuous learning 
 ## 🎉 Acknowledgements
 
 A big thank you to all the educators, mentors, and fellow learners who have been part of this journey. Your guidance and inspiration are the fuel for this rocket of knowledge!
-
-## 👤 About the Explorer
-
-This ever-growing project is curated by [Me](https://gauresh.vercel.app), an enthusiastic learner and aspiring software engineer. Connect with me to join in on this exciting journey of discovery and innovation!
-
-Happy coding, and may your compilation always be successful! 🚀✨
