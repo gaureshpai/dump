@@ -3,10 +3,8 @@ Question: Given an array of integers nums and an integer target, return indices 
 
 You may assume that each input would have exactly one solution, and you may not use the same element twice.
 
-You can return the answer in any order. */
-
-import java.util.ArrayList;
-import java.util.Arrays;
+You can return the answer in any order. 
+*/
 
 class Solution {
     public int[] twoSum(int[] nums, int target) {
