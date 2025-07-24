@@ -1,6 +1,7 @@
 /*
-Question:Given an array of strings strs, group the anagrams together. You can return the answer in any order.
- */
+Question:
+Given an array of strings strs, group the anagrams together. You can return the answer in any order.
+*/
 
 import java.util.Arrays;
 
@@ -22,9 +23,8 @@ class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
         List<List<String>> list = new ArrayList<>();
         if (strs.length <= 1) {
-            List<List<String>> result = new ArrayList<>();
-            result.add(Arrays.asList(strs));
-            return result;
+            list.add(Arrays.asList(strs));
+            return list;
         }
         boolean[] visited = new boolean[strs.length];
         for(int i = 0;i<strs.length;i++){
