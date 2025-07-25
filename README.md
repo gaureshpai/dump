@@ -19,6 +19,7 @@ Welcome to my digital garden of knowledge! This repository is a living archive o
 - 🏆 `Placement-Training/`: The training grounds for my career aspirations.
 - 🐍 `Python/`: A menagerie of Python scripts and projects, from simple automations to complex algorithms.
 - 💡 `SIH-2024/`: Innovations and ideas for the Smart India Hackathon 2024.
+- 👨‍💻 `train`: My journey in solving the tests and questions that I faced in potential online inteviews/test
 - 🎉 `UiPath/`: The assets provided by UiPath for the Student Champion developer.
 
 ## 🚀 Quickstart
