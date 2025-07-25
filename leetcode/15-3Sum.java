@@ -26,7 +26,7 @@ class Solution {
                 }
             }
         }        
-        List<List<Integer>> myArrayList = new ArrayList<>(result);
-        return myArrayList;
+        List<List<Integer>> res = new ArrayList<>(result);
+        return res;
     }
 }
