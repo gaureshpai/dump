@@ -21,11 +21,8 @@ class Solution {
                 (st.peek() == '(' && ch == ')') ||
                 (st.peek() == '{' && ch == '}') ||
                 (st.peek() == '[' && ch == ']')
-            )) {
-                st.pop();
-            } else {
-                st.push(ch);
-            }
+            )) st.pop();
+            else st.push(ch);
             i++;
         }
         return st.isEmpty();

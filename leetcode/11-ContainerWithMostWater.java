@@ -16,12 +16,9 @@ class Solution {
             int area = (right - left) * Math.min(height[left], height[right]);
             result = Math.max(result, area);
 
-            if (height[left] < height[right]) {
-                left++;
-            } else {
-                right--;
-            }
+            if (height[left] < height[right]) left++;
+            else right--;
         }
-        return result;   
+        return result;
     }
 }

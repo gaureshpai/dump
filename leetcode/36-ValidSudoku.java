@@ -22,12 +22,11 @@ class Solution {
                     }
                     int boxRowStart = (i / 3) * 3;
                     int boxColStart = (j / 3) * 3;
-                    for (int row = boxRowStart; row < boxRowStart + 3; row++) {
+                    for (int row = boxRowStart; row < boxRowStart + 3; row++)
                         for (int col = boxColStart; col < boxColStart + 3; col++) {
                             if (row == i && col == j) continue;
                             if (board[row][col] == ele) return false;
                         }
-                    }
                 }
             }
         }

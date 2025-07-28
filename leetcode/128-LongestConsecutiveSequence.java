@@ -13,11 +13,8 @@ class Solution {
         int[] count = new int[nums.length];
         int co = 0;
         for(int i = 0;i < nums.length-1;i++){
-            if(nums[i+1]==nums[i]+1){
-                co++;
-            }
-            else if(nums[i+1]==nums[i])
-                continue;
+            if(nums[i+1]==nums[i]+1) co++;
+            else if(nums[i+1]==nums[i]) continue;
             else{
                 count[m] = co;
                 m++;

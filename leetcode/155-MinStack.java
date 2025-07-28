@@ -20,9 +20,7 @@ class MinStack {
     }
     
     public void push(int val) {
-        if (ts.isEmpty() || val <= ts.peek()) {
-            ts.push(val);
-        }
+        if (ts.isEmpty() || val <= ts.peek()) ts.push(val);
         st.push(val);
         
     }
