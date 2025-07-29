@@ -9,8 +9,9 @@ Given n (the number of flowers) and k (the number of nights the spell was cast),
  */
 
 // m = number of flowers, n = number of nights
-var solution = function(m, n) {
+var solution = function (m, n) {
     let flowers = new Array(m).fill(1);
+    
     for (let night = 0; night < n; night++) {
         let prefixSum = 0;
         for (let i = 0; i < m; i++) {

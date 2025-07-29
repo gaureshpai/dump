@@ -5,9 +5,9 @@ Please implement encode and decode
 */
 
 class Solution {
-
     public String encode(List<String> strs) {
         StringBuilder result = new StringBuilder();
+        
         for (String s : strs) result.append(s.length()).append('#').append(s);
         return result.toString();
     }
@@ -15,6 +15,7 @@ class Solution {
     public List<String> decode(String str) {
         List<String> result = new ArrayList<>();
         int i = 0;
+
         while (i < str.length()) {
             int j = i;
             while (str.charAt(j) != '#') j++;
@@ -24,7 +25,6 @@ class Solution {
 
             i = j + 1 + length;
         }
-
         return result;
     }
 }

@@ -15,6 +15,7 @@ class Solution {
     public int evalRPN(String[] tokens) {
         Stack<Integer> st = new Stack<>();
         int ele1,ele2;
+        
         for(int i=0;i<tokens.length;i++){
             if(tokens[i].equals("+")){
                 ele1 = st.pop();

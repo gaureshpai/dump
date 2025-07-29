@@ -10,6 +10,7 @@ class Solution {
         int len  = s.length();
         StringBuilder str = new StringBuilder();
         StringBuilder rev = new StringBuilder();
+        
         for(int i=0;i<len;i++){
             if('a' <= s.charAt(i) && s.charAt(i) <= 'z') str.append(s.charAt(i));
             else if('A' <= s.charAt(i) && s.charAt(i) <= 'Z') str.append(Character.toLowerCase(s.charAt(i)));

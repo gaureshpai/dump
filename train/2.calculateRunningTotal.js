@@ -21,20 +21,17 @@ Output: 10
 function calculateRunningTotal(n, list_of_numbers) {
     let isZero = false, isThree = false;
     let prod = 1, sum = 0;
+    
     for (let i = 0; i < n; i++) {
         if (list_of_numbers[i] == 0 && isZero == false) isZero = true;
-        if (list_of_numbers[i] == 3 && isThree == false) isThree = true;
+        else if (list_of_numbers[i] == 3 && isThree == false) isThree = true;
         prod = prod * list_of_numbers[i];
         sum = sum + list_of_numbers[i];
     }
-    if (prod % 2 == 0) {
-        return sum;
-    } else if (prod == 0 && isZero == true) return 2 * sum;
-    else if (prod % 2 == 1 && isThree == true) {
-        return prod + 1;
-    } else {
-        return prod
-    }
+    if (prod % 2 == 0) return sum;
+    else if (prod == 0 && isZero == true) return 2 * sum;
+    else if (prod % 2 == 1 && isThree == true) return prod + 1;
+    else return prod;
 }
 
 const readline = require('readline');
