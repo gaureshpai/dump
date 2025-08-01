@@ -14,7 +14,7 @@ class Solution {
         Stack<Character> st = new Stack<>();
         int x = s.length();
         int i = 0;
-        
+
         if (s.length() < 1) return true;
         while (i != x) {
             char ch = s.charAt(i);

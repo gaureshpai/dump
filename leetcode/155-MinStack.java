@@ -14,27 +14,27 @@ import java.util.Stack;
 class MinStack {
     private Stack<Integer> st;
     private Stack<Integer> ts;
-    
+
     public MinStack() {
         st = new Stack<>();
         ts = new Stack<>();
     }
-    
+
     public void push(int val) {
         if (ts.isEmpty() || val <= ts.peek()) ts.push(val);
         st.push(val);
-        
+
     }
-    
+
     public void pop() {
         int x = st.pop();
-        if(x == ts.peek()) ts.pop();
+        if (x == ts.peek()) ts.pop();
     }
-    
+
     public int top() {
         return st.peek();
     }
-    
+
     public int getMin() {
         return ts.peek();
     }

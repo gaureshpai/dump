@@ -7,7 +7,7 @@ Please implement encode and decode
 class Solution {
     public String encode(List<String> strs) {
         StringBuilder result = new StringBuilder();
-        
+
         for (String s : strs) result.append(s.length()).append('#').append(s);
         return result.toString();
     }

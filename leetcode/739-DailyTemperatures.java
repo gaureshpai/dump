@@ -9,7 +9,7 @@ class Solution {
         Stack<Integer> st = new Stack<>();
         int[] result = new int[temperatures.length];
         // Arrays.fill(result,0);
-        
+
         for (int i = 0; i < temperatures.length; i++) {
             while (!st.isEmpty() && temperatures[i] > temperatures[st.peek()]) {
                 int prevIndex = st.pop();

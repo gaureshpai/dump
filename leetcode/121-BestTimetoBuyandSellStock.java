@@ -8,12 +8,12 @@ If you cannot achieve any profit, return 0.
 
 class Solution {
     public int maxProfit(int[] prices) {
-        int res=0;
+        int res = 0;
         int minimum = Integer.MAX_VALUE;
-        
-        for(int i=0;i<prices.length;i++){
-            if(minimum>prices[i]) minimum = prices[i];
-            if(res<(prices[i]-minimum)) res=prices[i]-minimum;
+
+        for (int i = 0; i < prices.length; i++) {
+            if (minimum > prices[i]) minimum = prices[i];
+            if (res < (prices[i] - minimum)) res = prices[i] - minimum;
         }
         return res;
     }

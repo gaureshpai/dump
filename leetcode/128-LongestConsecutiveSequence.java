@@ -9,22 +9,22 @@ class Solution {
         int m = 0;
         int[] count = new int[nums.length];
         int co = 0;
-        
-        if(nums.length<1) return 0;
-        if(nums.length<2) return 1;
+
+        if (nums.length < 1) return 0;
+        if (nums.length < 2) return 1;
         Arrays.sort(nums);
-        for(int i = 0;i < nums.length-1;i++){
-            if(nums[i+1]==nums[i]+1) co++;
-            else if(nums[i+1]==nums[i]) continue;
-            else{
+        for (int i = 0; i < nums.length - 1; i++) {
+            if (nums[i + 1] == nums[i] + 1) co++;
+            else if (nums[i + 1] == nums[i]) continue;
+            else {
                 count[m] = co;
                 m++;
                 co = 0;
             }
         }
         count[m] = co;
-        Integer[] boxed = Arrays.stream(count).boxed().toArray(Integer[]::new);
-        Arrays.sort(boxed,Collections.reverseOrder());
-        return (boxed[0]+1);
+        Integer[] boxed = Arrays.stream(count).boxed().toArray(Integer[]:: new);
+        Arrays.sort(boxed, Collections.reverseOrder());
+        return (boxed[0] + 1);
     }
 }
