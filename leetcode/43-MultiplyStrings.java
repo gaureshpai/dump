@@ -26,7 +26,6 @@ class Solution {
     }
 }
 
-
 /*
 First Thought:
 class Solution {
