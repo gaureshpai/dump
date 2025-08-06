@@ -18,16 +18,12 @@ class MaxStack {
 
     public void push(int val) {
         st.push(val);
-        if (maxSt.isEmpty() || val >= maxSt.peek()) {
-            maxSt.push(val);
-        }
+        if (maxSt.isEmpty() || val >= maxSt.peek()) maxSt.push(val);
     }
 
     public int pop() {
         int val = st.pop();
-        if (val == maxSt.peek()) {
-            maxSt.pop();
-        }
+        if (val == maxSt.peek()) maxSt.pop();
         return val;
     }
 
@@ -40,9 +36,7 @@ class MaxStack {
     }
 
     public int getMax() {
-        if (maxSt.isEmpty()) {
-            return Integer.MIN_VALUE; 
-        }
+        if (maxSt.isEmpty()) return Integer.MIN_VALUE; 
         return maxSt.peek();
     }
 }
@@ -61,24 +55,16 @@ class MaxQueue {
     }
 
     public void pop() {
-        if (outStack.isEmpty()) {
-            while (!inStack.isEmpty()) {
-                outStack.push(inStack.pop());
-            }
-        }
+        if (outStack.isEmpty())
+            while (!inStack.isEmpty()) outStack.push(inStack.pop());
         outStack.pop();
     }
 
     public int getMax() {
-        if (inStack.isEmpty() && outStack.isEmpty()) {
-            return Integer.MIN_VALUE;
-        } else if (inStack.isEmpty()) {
-            return outStack.getMax();
-        } else if (outStack.isEmpty()) {
-            return inStack.getMax();
-        } else {
-            return Math.max(inStack.getMax(), outStack.getMax());
-        }
+        if (inStack.isEmpty() && outStack.isEmpty()) return Integer.MIN_VALUE;
+        else if (inStack.isEmpty()) return outStack.getMax();
+        else if (outStack.isEmpty()) return inStack.getMax();
+        else return Math.max(inStack.getMax(), outStack.getMax());
     }
 }
 
@@ -89,9 +75,7 @@ class Solution {
         int[] res = new int[n - k + 1];
         MaxQueue queue = new MaxQueue();
 
-        for (int i = 0; i < k; i++) {
-            queue.push(nums[i]);
-        }
+        for (int i = 0; i < k; i++) queue.push(nums[i]);
         res[0] = queue.getMax();
 
         for (int i = k; i < n; i++) {
