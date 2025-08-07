@@ -5,9 +5,8 @@ Given an array nums containing n distinct numbers in the range [0, n], return th
 
 class Solution {
     public int missingNumber(int[] nums) {
-        int ans=(nums.length*(nums.length+1))/2;
-        for(int i=0;i<nums.length;i++)
-            ans = ans-nums[i];
+        int ans = (nums.length*(nums.length + 1))/2;
+        for(int i = 0; i < nums.length; i++) ans = ans - nums[i];
         return ans;
     }
 }
