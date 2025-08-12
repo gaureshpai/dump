@@ -11,13 +11,12 @@ class Solution {
     public int differenceOfSum(int[] nums) {
         int diff = 0;
         for(int i = 0; i < nums.length; i++){
-            int sumOfDigits = 0, sum = 0;
-            sum += nums[i];
+            int sumOfDigits = 0;
             while(nums[i] != 0){
                 sumOfDigits += nums[i]%10;
                 nums[i] = nums[i]/10;
             }
-            diff += sum-sumOfDigits;
+            diff += nums[i] - sumOfDigits;
         }
         return diff;
     }
