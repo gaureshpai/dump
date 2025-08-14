@@ -1,4 +1,4 @@
-Heapsort algorithm ( n, a [ ] ):
+Heapsort algorithm ( n, a [] ):
     i/p: list of numbers a[]
     o/p: solid list of numbers
     Bottom-up-heapify( n, a )

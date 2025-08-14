@@ -12,9 +12,8 @@ class Solution {
         int count = 0;
         if(s.length() <= 1) return 0;
         String m = s.toLowerCase();
-        for(int i = 0; i < m.length()-1; i++){
+        for(int i = 0; i < m.length()-1; i++)
             if(m.charAt(i) != m.charAt(i+1)) count++;
-        }
         return count;
     }
 }
