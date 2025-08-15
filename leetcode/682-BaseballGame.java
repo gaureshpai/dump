@@ -11,13 +11,11 @@ Return the sum of all the scores on the record after applying all the operations
 The test cases are generated such that the answer and all intermediate calculations fit in a 32-bit integer and that all operations are valid.
 */
 
-import java.util.*;
-
 public class Solution {
     public int calPoints(String[] operations) {
         Stack<Integer> temp = new Stack<>();
 
-        for (String ele : operations) {
+        for (String ele : operations)
             switch (ele) {
                 case "C":
                     temp.pop();
@@ -34,12 +32,9 @@ public class Solution {
                 default:
                     temp.push(Integer.parseInt(ele));
             }
-        }
 
         int sum = 0;
-        for (int score : temp) {
-            sum += score;
-        }
+        for (int score : temp) sum += score;
         return sum;
     }
 }
