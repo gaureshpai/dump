@@ -16,7 +16,7 @@ class Solution {
         }
 
         int left = 0, right = arr.length - 1;
-        while (left < right) {
+        while (left < right)
             if (he[left] && he[right]) {
                 char temp = arr[left];
                 arr[left] = arr[right];
@@ -30,7 +30,6 @@ class Solution {
                 left++;
                 right--;
             }
-        }
 
         return new String(arr);
     }
