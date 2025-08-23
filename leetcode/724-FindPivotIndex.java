@@ -10,8 +10,8 @@ Return the leftmost pivot index. If no such index exists, return -1.
 class Solution {
     public int pivotIndex(int[] nums) {
         int n = nums.length, total = 0;
-        for (int i = 0; i < n; i++) total+=nums[i];
-        int left = 0, right = total-nums[0];
+        for (int i = 0; i < n; i++) total += nums[i];
+        int left = 0, right = total - nums[0];
         if (left == right) return 0;
         int i = 1;
         while(i < n){

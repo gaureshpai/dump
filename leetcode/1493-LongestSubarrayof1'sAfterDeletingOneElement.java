@@ -7,14 +7,12 @@ Return 0 if there is no such subarray.
 
 class Solution {
     public int longestSubarray(int[] nums) {
-        int max = 0, count = 0;
+        int max = 0, count = 0, left = 0;
         boolean done = false;
-        int left = 0;
-
+        
         for (int right = 0; right < nums.length; right++) {
-            if (nums[right] == 1) {
-                count++;
-            } else {
+            if (nums[right] == 1) count++;
+            else {
                 if (!done) {
                     count++;
                     done = true;
