@@ -9,12 +9,15 @@ In how many distinct ways can you climb to the top?
 class Solution {
     public int climbStairs(int n) {
         if (n == 1) return 1;
+
         int f = 1, s = 2;
+
         for (int i = 3; i <= n; i++) {
             int cur = f + s;
             f = s;
             s = cur;
         }
+        
         return s;
     }
 }

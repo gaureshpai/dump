@@ -10,6 +10,7 @@ class Solution {
             a ^= b;
             b = c;
         }
+        
         return a;
     }
 }

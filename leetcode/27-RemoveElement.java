@@ -12,12 +12,14 @@ Consider the number of elements in nums which are not equal to val be k, to get 
 class Solution {
     public int removeElement(int[] nums, int val) {
         int j = 0, count = 0;
+
         for (int i = 0; i < nums.length; i++)
             if (nums[i] != val) {
                 nums[j] = nums[i];
                 j++;
                 count++;
             }
+            
         return count;
     }
 }

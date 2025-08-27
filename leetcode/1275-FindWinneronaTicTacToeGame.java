@@ -1,7 +1,7 @@
 /*
 Question:
-Tic-tac-toe is played by two players A and B on a 3 x 3 grid. T
-he rules of Tic-Tac-Toe are:
+Tic-tac-toe is played by two players A and B on a 3 x 3 grid. 
+The rules of Tic-Tac-Toe are:
 - Players take turns placing characters into empty squares ' '.
 - The first player A always places 'X' characters, while the second player B always places 'O' characters.
 - 'X' and 'O' characters are always placed into empty squares, never on filled ones.

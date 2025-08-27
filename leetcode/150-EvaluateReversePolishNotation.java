@@ -39,6 +39,7 @@ class Solution {
             }
             else st.push(Integer.parseInt(tokens[i]));
         }
+        
         return st.pop();
     }
 }

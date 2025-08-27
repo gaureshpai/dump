@@ -17,8 +17,10 @@ class Solution {
             else if ('0' <= s.charAt(i) && s.charAt(i) <= '9') str.append(s.charAt(i));
 
         }
+
         for (int i = str.length() - 1; i >= 0; i--) rev.append(str.charAt(i));
         if (!str.toString().equals(rev.toString())) return false;
+        
         return true;
     }
 }

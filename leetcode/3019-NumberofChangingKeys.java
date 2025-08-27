@@ -10,10 +10,14 @@ Note: Modifiers like shift or caps lock won't be counted in changing the key tha
 class Solution {
     public int countKeyChanges(String s) {
         int count = 0;
+
         if(s.length() <= 1) return 0;
+        
         String m = s.toLowerCase();
+
         for(int i = 0; i < m.length()-1; i++)
             if(m.charAt(i) != m.charAt(i+1)) count++;
+
         return count;
     }
 }

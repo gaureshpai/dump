@@ -20,6 +20,7 @@ class Solution {
             x *= x;
             N /= 2;
         }
+        
         return res;
     }
 }

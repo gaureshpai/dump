@@ -12,14 +12,17 @@ Return true if n is a happy number, and false if not.
 class Solution {
     public int happy(int n) {
         int num = 0;
+
         while (true) {
             if (n == 0) return num;
             num += (n % 10) * (n % 10);
             n = n / 10;
         }
     }
+
     public boolean isHappy(int n) {
         Set<Integer> x = new HashSet<>();
+        
         while (true) {
             n = happy(n);
             if (n == 1) return true;

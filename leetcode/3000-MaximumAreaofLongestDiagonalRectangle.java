@@ -9,20 +9,23 @@ If there are multiple rectangles with the longest diagonal, return the area of t
 class Solution {
     public int areaOfMaxDiagonal(int[][] dimensions) {
         int max = 0, maxArea = 0;
+
         for (int[] dim : dimensions) {
             int dig = dim[0] * dim[0] + dim[1] * dim[1];
             int area = dim[0] * dim[1];
+            
             if (dig > max) {
                 max = dig;
                 maxArea = area;
             } else if (dig == max) maxArea = Math.max(maxArea, area);
         }
+
         return maxArea;
     }
 }
 
 /*
-First Thought:
+First Thought: (Wrong for same diagonal different area)
 class Solution {
     public int areaOfMaxDiagonal(int[][] dimensions) {
         double maxDig = Double.MIN_VALUE;

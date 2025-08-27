@@ -35,6 +35,7 @@ public class Solution {
 
         int sum = 0;
         for (int score : temp) sum += score;
+        
         return sum;
     }
 }

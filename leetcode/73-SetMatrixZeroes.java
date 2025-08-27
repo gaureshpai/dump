@@ -6,8 +6,7 @@ You must do it in place.
 
 class Solution {
     public void setZeroes(int[][] matrix) {
-        int row = matrix.length;
-        int col = matrix[0].length;
+        int row = matrix.length, col = matrix[0].length;
         boolean[] rowZ = new boolean[row];
         boolean[] colZ = new boolean[col];
 

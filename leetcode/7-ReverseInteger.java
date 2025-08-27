@@ -8,6 +8,7 @@ Assume the environment does not allow you to store 64-bit integers (signed or un
 class Solution {
     public int reverse(int x) {
         int rev = 0;
+
         while (x != 0) {
             int digit = x % 10;
 
@@ -17,6 +18,7 @@ class Solution {
             rev = rev * 10 + digit;
             x = x / 10;
         }
+        
         return rev;
     }
 }

@@ -11,9 +11,7 @@ class Solution {
         BigInteger num = BigInteger.ZERO;
         int n = s.length();
 
-        for (int i = 0; i < n; i++) {
-            num = num.multiply(BigInteger.TEN).add(BigInteger.valueOf(s.charAt(i) - '0'));
-        }
+        for (int i = 0; i < n; i++) num = num.multiply(BigInteger.TEN).add(BigInteger.valueOf(s.charAt(i) - '0'));
 
         return num;
     }
@@ -22,6 +20,7 @@ class Solution {
         BigInteger x = convert(num1);
         BigInteger y = convert(num2);
         BigInteger z = x.multiply(y);
+
         return z.toString();
     }
 }

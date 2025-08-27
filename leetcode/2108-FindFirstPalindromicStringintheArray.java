@@ -11,6 +11,7 @@ class Solution {
             String reversed = new StringBuilder(word).reverse().toString();
             if (word.equals(reversed)) return word;
         }
+        
         return "";
     }
 }

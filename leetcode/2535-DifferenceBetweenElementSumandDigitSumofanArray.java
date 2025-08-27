@@ -10,6 +10,7 @@ Note that the absolute difference between two integers x and y is defined as |x 
 class Solution {
     public int differenceOfSum(int[] nums) {
         int diff = 0;
+
         for(int i = 0; i < nums.length; i++){
             int sumOfDigits = 0;
             while(nums[i] != 0){
@@ -18,6 +19,7 @@ class Solution {
             }
             diff += nums[i] - sumOfDigits;
         }
+        
         return diff;
     }
 }

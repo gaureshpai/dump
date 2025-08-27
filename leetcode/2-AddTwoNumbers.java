@@ -23,9 +23,7 @@ public class Solution {
         int c = 0;
 
         while (l1 != null || l2 != null) {
-            int x = (l1 != null) ? l1.val : 0;
-            int y = (l2 != null) ? l2.val : 0;
-            int sum = c + x + y;
+            int x = (l1 != null) ? l1.val : 0, y = (l2 != null) ? l2.val : 0, sum = c + x + y;
             c = sum / 10;
 
             cur.next = new ListNode(sum % 10);
@@ -35,6 +33,7 @@ public class Solution {
             if (l2 != null) l2 = l2.next;
         }
         if (c > 0) cur.next = new ListNode(c);
+        
         return l3.next;
     }
 }

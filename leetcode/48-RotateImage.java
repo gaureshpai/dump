@@ -8,14 +8,15 @@ DO NOT allocate another 2D matrix and do the rotation.
 class Solution {
     public void rotate(int[][] matrix) {
         int temp;
-        for(int i=0;i<matrix.length;i++)
-            for(int j=0;j<matrix[i].length;j++){
-                if(i<j){
+
+        for (int i = 0; i < matrix.length; i++)
+            for (int j = 0; j < matrix[i].length; j++)
+                if (i < j) {
                     temp = matrix[i][j];
                     matrix[i][j] = matrix[j][i];
                     matrix[j][i] = temp;
                 }
-            }
+
         for (int i = 0; i < matrix.length; i++) {
             int start = 0, end = matrix.length - 1;
             while (start < end) {

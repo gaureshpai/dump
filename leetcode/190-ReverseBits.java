@@ -14,9 +14,11 @@ class Solution {
     public int reverseBits(int n) {
         String x = String.format("%32s", Integer.toBinaryString(n)).replace(' ', '0');
         String rev = "";
+
         for (int i = x.length() - 1; i >= 0; i--)
         rev += x.charAt(i);
         int w = Integer.parseUnsignedInt(rev, 2);
+        
         return w;
     }
 }

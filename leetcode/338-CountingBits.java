@@ -6,6 +6,7 @@ Given an integer n, return an array ans of length n + 1 such that for each i (0 
 public int[] countBits(int n) {
     int[] result = new int[n + 1];
     for (int i = 1; i <= n; i++) result[i] = result[i >> 1] + (i & 1);
+    
     return result;
 }
 

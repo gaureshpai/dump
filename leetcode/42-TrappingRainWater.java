@@ -18,6 +18,7 @@ class Solution {
                 right--;
             }
         }
+        
         return result;
     }
 }

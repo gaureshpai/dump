@@ -15,6 +15,7 @@ class Solution {
             if (minimum > prices[i]) minimum = prices[i];
             if (res < (prices[i] - minimum)) res = prices[i] - minimum;
         }
+        
         return res;
     }
 }

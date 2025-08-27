@@ -6,9 +6,8 @@ The overall run time complexity should be O(log (m+n)).
 
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
-        int m = nums1.length, n = nums2.length;
+        int m = nums1.length, n = nums2.length, x = 0, y = 0, i = 0;
         int[] nums3 = new int[m + n];
-        int x = 0, y = 0, i = 0;
         
         while (x < m && y < n) {
             if (nums1[x] <= nums2[y]) nums3[i++] = nums1[x++];
@@ -19,6 +18,7 @@ class Solution {
         
         int len = m + n;
         if (len % 2 == 1) return nums3[len/2];
+        
         else return (nums3[len/2 - 1] + nums3[len/2]) / 2.0;
     }
 }

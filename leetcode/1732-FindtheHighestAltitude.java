@@ -15,6 +15,7 @@ class Solution {
             sum += gain[i];
             if(max < sum) max = sum;
         }
+        
         return max;
     }
 }

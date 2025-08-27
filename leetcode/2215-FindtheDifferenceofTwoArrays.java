@@ -23,6 +23,7 @@ class Solution {
             if (!set2.contains(x)) res.get(0).add(x);
         for (int y : set2)
             if (!set1.contains(y)) res.get(1).add(y);
+
         return res;
 
     }

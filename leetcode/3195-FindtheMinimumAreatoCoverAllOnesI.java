@@ -10,6 +10,7 @@ class Solution {
         int rows = grid.length, cols = grid[0].length;
         int right = 0, left = 0, top = 0, bottom = 0;
         int flag = 0;
+        
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++)
             if (grid[i][j] == 1) {
@@ -19,6 +20,7 @@ class Solution {
             }
             if (flag == 1) break;
         }
+
         flag = 0;
         for (int i = rows - 1; i >= 0; i--) {
             for (int j = 0; j < cols; j++)
@@ -29,6 +31,7 @@ class Solution {
             }
             if (flag == 1) break;
         }
+
         flag = 0;
         for (int i = 0; i < cols; i++) {
             for (int j = 0; j < rows; j++)
@@ -39,6 +42,7 @@ class Solution {
             }
             if (flag == 1) break;
         }
+
         flag = 0;
         for (int i = cols - 1; i >= 0; i--) {
             for (int j = 0; j < rows; j++)
@@ -49,6 +53,7 @@ class Solution {
             }
             if (flag == 1) break;
         }
+
         return (bottom - top + 1) * (left - right + 1);
     }
 }

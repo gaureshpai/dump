@@ -4,26 +4,22 @@
 #include <time.h>
 
 void merge(int* arr, int l, int m, int r) {
-    int i, j, k;
-    int n1 = m - l + 1;
-    int n2 = r - m;
+    int i, j, k, n1 = m - l + 1, n2 = r - m;
 
     int* L = (int *)malloc(n1 * sizeof(int));
     int* R = (int *)malloc(n2 * sizeof(int));
 
     for (i = 0; i < n1; i++)
         L[i] = arr[l + i];
+
     for (j = 0; j < n2; j++)
         R[j] = arr[m + 1 + j];
 
-    i = 0;
-    j = 0;
-    k = l;
+    i = 0, j = 0, k = l;
 
-    while (i < n1 && j < n2) {
+    while (i < n1 && j < n2)
         if (L[i] <= R[j]) arr[k++] = L[i++];
         else arr[k++] = R[j++];
-    }
 
     while (i < n1) arr[k++] = L[i++];
     while (j < n2) arr[k++] = R[j++];
@@ -35,6 +31,7 @@ void merge(int* arr, int l, int m, int r) {
 void mergeSortSequential(int* arr, int l, int r) {
     if (l < r) {
         int m = (l + r) / 2;
+
         mergeSortSequential(arr, l, m);
         mergeSortSequential(arr, m + 1, r);
         merge(arr, l, m, r);
@@ -66,6 +63,7 @@ void mergeSortParallel(int* arr, int l, int r, int depth) {
 int isSorted(int *arr, int n) {
     for (int i = 1; i < n; i++)
         if (arr[i - 1] > arr[i]) return 0;
+
     return 1;
 }
 
@@ -81,12 +79,16 @@ int main() {
     }
 
     double startSeq = omp_get_wtime();
+    
     mergeSortSequential(arrSeq, 0, n - 1);
+    
     double endSeq = omp_get_wtime();
     double timeSeq = endSeq - startSeq;
 
     double startPar = omp_get_wtime();
-    mergeSortParallel(arrPar, 0, n - 1, 4); // depth = 4
+
+    mergeSortParallel(arrPar, 0, n - 1, 4);
+
     double endPar = omp_get_wtime();
     double timePar = endPar - startPar;
 

@@ -14,6 +14,7 @@ class Solution {
         for (int i=0;i<s.length();i++) sc.merge(s.charAt(i),1,Integer::sum);
         for (int i=0;i<t.length();i++) tc.merge(t.charAt(i),1,Integer::sum);
         if (sc.equals(tc)) return true;
+
         return false;
     }
     
@@ -25,6 +26,7 @@ class Solution {
             list.add(Arrays.asList(strs));
             return list;
         }
+
         for(int i = 0;i<strs.length;i++){
             List<String> inner = new ArrayList<>();
             for(int j=i+1;j<strs.length;j++){
@@ -41,6 +43,7 @@ class Solution {
                 list.add(inner);
             }  
         }
+        
         return list;
     }
 }

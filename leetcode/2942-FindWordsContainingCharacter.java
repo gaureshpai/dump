@@ -8,8 +8,10 @@ Note that the returned array may be in any order.
 class Solution {
     public List<Integer> findWordsContaining(String[] words, char x) {
         List<Integer> res = new ArrayList<>();
+
         for(int j = 0; j < words.length; j++)
             if(words[j].indexOf(x) > -1) res.add(j);
+            
         return res;
     }
 }

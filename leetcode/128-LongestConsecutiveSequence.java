@@ -6,13 +6,13 @@ You must write an algorithm that runs in O(n) time.
 
 class Solution {
     public int longestConsecutive(int[] nums) {
-        int m = 0;
+        int m = 0, co = 0;
         int[] count = new int[nums.length];
-        int co = 0;
 
         if (nums.length < 1) return 0;
         if (nums.length < 2) return 1;
         Arrays.sort(nums);
+
         for (int i = 0; i < nums.length - 1; i++) {
             if (nums[i + 1] == nums[i] + 1) co++;
             else if (nums[i + 1] == nums[i]) continue;
@@ -25,6 +25,7 @@ class Solution {
         count[m] = co;
         Integer[] boxed = Arrays.stream(count).boxed().toArray(Integer[]:: new);
         Arrays.sort(boxed, Collections.reverseOrder());
+        
         return (boxed[0] + 1);
     }
 }
