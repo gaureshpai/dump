@@ -8,8 +8,6 @@ Specifically:
 - No two letters map to the same word, and no two words map to the same letter.
 */
 
-import java.util.*;
-
 public class Solution {
     public boolean wordPattern(String pattern, String s) {
         String[] word = s.split(" ");
@@ -30,7 +28,7 @@ public class Solution {
                 w.put(wh, ch);
             }
         }
-        
+
         return true;
     }
 }
