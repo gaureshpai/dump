@@ -16,13 +16,18 @@ Notes:
 class Solution {
     public boolean isValid(String word) {
         if (word.length() < 3) return false;
+
         boolean hasVowel = false, hasConsonant = false;
+
         for (char c : word.toCharArray()) {
             if (!((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z') || (c >= '0' && c <= '9'))) return false;
+
             char lower = Character.toLowerCase(c);
+            
             if (lower == 'a' || lower == 'e' || lower == 'i' || lower == 'o' || lower == 'u') hasVowel = true;
             else if (lower >= 'a' && lower <= 'z') hasConsonant = true;
         }
+
         return hasVowel && hasConsonant;
     }
 }
