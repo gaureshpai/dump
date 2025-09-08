@@ -7,7 +7,9 @@ class Solution {
     public int[] sumZero(int n) {
         int x = -1 * (n * (n - 1))/2;
         int[] res = new int[n];
+
         res[0] = x;
+        
         for(int i = 1; i < n; i++)
             res[i] = i;
         
