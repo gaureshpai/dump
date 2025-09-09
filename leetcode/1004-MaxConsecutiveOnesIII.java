@@ -6,6 +6,7 @@ Given a binary array nums and an integer k, return the maximum number of consecu
 class Solution {
     public int longestOnes(int[] nums, int k) {
         int left = 0, right = 0, zeros = 0, max = 0;
+        
         while (right < nums.length) {
             if (nums[right] == 0) zeros++;
             while (zeros > k) {
