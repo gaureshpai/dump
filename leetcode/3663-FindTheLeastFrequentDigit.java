@@ -10,11 +10,12 @@ class Solution {
     public int getLeastFrequentDigit(int n) {
         int[] freq = new int[10];
         int min = Integer.MAX_VALUE, minDigit = -1;
-        
+
         while(n != 0){
-            int last = n%10;
+            int last = n % 10;
+
             freq[last]++;
-            n = n/10;
+            n = n / 10;
         }
 
         for (int i = 0; i < 10; i++)

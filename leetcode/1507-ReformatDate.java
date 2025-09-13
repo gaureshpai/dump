@@ -14,8 +14,7 @@ Convert the date string to the format YYYY-MM-DD, where:
 class Solution {
     public String reformatDate(String date) {
         String[] words = date.split(" ");
-        String dayString = words[0].replaceAll("(st|nd|rd|th)", "");
-        String month = words[1].toLowerCase();
+        String dayString = words[0].replaceAll("(st|nd|rd|th)", ""), month = words[1].toLowerCase();
 
         if(dayString.length() == 1) dayString = "0" + dayString;
         
@@ -46,6 +45,6 @@ class Solution {
                      break;
         }
         
-        return words[2]+dayString;
+        return words[2] + dayString;
     }
 }
