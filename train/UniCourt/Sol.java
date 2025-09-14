@@ -1,3 +1,53 @@
+import java.util.*;
+
+public class Sol {
+    static int[][] moves = {
+        {2, 1}, {2, -1}, {1, 2}, {1, -2}
+    };
+
+    public static int BlackKnight(int x, int y) {
+        if (x < 0 || y < 0 || x >= 8 || y >= 8) {
+            System.out.println("Enter a valid input");
+            return -1;
+        }
+
+        List<int[]> path = new ArrayList<>();
+        path.add(new int[]{x, y});
+        int res = 0;
+
+        boolean moved;
+        while (true) {
+            moved = false;
+            for (int[] move : moves) {
+                int newX = x + move[0];
+                int newY = y + move[1];
+                if (newX >= 0 && newY >= 0 && newX < 8 && newY < 8) {
+                    x = newX;
+                    y = newY;
+                    path.add(new int[]{x, y});
+                    res++;
+                    moved = true;
+                    break; // always prefer the first valid move
+                }
+            }
+            if (!moved) break;
+        }
+
+        // Print path
+        for (int[] p : path) System.out.print("(" + p[0] + "," + p[1] + ") -> ");
+        System.out.println();
+        return res;
+    }
+
+    public static void main(String[] args) {
+        int x = 2, y = 2;
+        int res = BlackKnight(x, y);
+        if (res != -1)
+            System.out.println("Total Moves: " + res);
+    }
+}
+
+/*
 // import Java.util.*;
 // import Java.util.Scanner;
 // import Java.util.ArrayList;
@@ -55,4 +105,4 @@ public class Sol{
         if(res != -1)
             System.out.println("Total Moves: "+ res);
     }
-}
+} */

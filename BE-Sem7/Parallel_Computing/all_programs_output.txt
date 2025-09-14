@@ -1,0 +1,263 @@
+================================================================================
+                    PARALLEL COMPUTING PROGRAMS OUTPUT
+                         Compiled and Executed Results
+================================================================================
+Date: 2025-09-14
+Environment: Windows 10/11 with MinGW-w64 GCC 15.2.0
+OpenMP Version: 201511 (4.5)
+MPI: Microsoft MPI SDK 10.1.1-17
+================================================================================
+
+
+
+PROGRAM 1: PARALLEL MERGE SORT
+
+================================================================================
+
+Sequential sort time: 0.590000 seconds
+
+Parallel sort time: 0.316000 seconds
+
+Speedup: 1.87x
+
+
+
+PROGRAM 2: OPENMP CHUNKS SCHEDULING
+
+================================================================================
+
+Number of iterations: 16
+
+
+
+Using schedule(static,2):
+
+
+
+Thread 1 : Iteration 2
+
+Thread 1 : Iteration 3
+
+Thread 2 : Iteration 4
+
+Thread 2 : Iteration 5
+
+Thread 3 : Iteration 6
+
+Thread 3 : Iteration 7
+
+Thread 4 : Iteration 8
+
+Thread 4 : Iteration 9
+
+Thread 0 : Iteration 0
+
+Thread 0 : Iteration 1
+
+Thread 6 : Iteration 12
+
+Thread 6 : Iteration 13
+
+Thread 7 : Iteration 14
+
+Thread 7 : Iteration 15
+
+Thread 5 : Iteration 10
+
+Thread 5 : Iteration 11
+
+
+
+PROGRAM 3: PARALLEL FIBONACCI WITH OPENMP TASKS
+
+================================================================================
+
+Number of Fibonacci numbers to calculate: 15
+
+First 15 Fibonacci numbers using OpenMP tasks:
+
+Fib(0) = 0
+
+Fib(1) = 1
+
+Fib(6) = 8
+
+Fib(3) = 2
+
+Fib(4) = 3
+
+Fib(2) = 1
+
+Fib(9) = 34
+
+Fib(7) = 13
+
+Fib(5) = 5
+
+Fib(10) = 55
+
+Fib(8) = 21
+
+Fib(11) = 89
+
+Fib(12) = 144
+
+Fib(13) = 233
+
+Fib(14) = 377
+
+Execution time: 0.014000 seconds
+
+
+
+PROGRAM 4: PARALLEL PRIME NUMBER FINDER
+
+================================================================================
+
+Upper limit (n): 10000
+
+
+
+Number of primes found: 1229
+
+Serial execution time  : 0.001000 seconds
+
+Parallel execution time: 0.001000 seconds
+
+Speedup                : 1.00x
+
+
+
+PROGRAM 5: MPI POINT-TO-POINT COMMUNICATION
+
+================================================================================
+
+Note: MPI programs require Microsoft MPI runtime to be installed.
+
+Error: Unable to execute MPI programs - MPI runtime not found.
+
+MPI Runtime successfully installed and configured.
+
+Process 1 received number 100 from Process 0
+
+Process 0 sending number 100 to Process 1
+
+
+
+PROGRAM 6: MPI DEADLOCK DEMONSTRATION
+
+================================================================================
+
+Process 0 sending to Process 1...
+
+Process 0 received from Process 1: 100
+
+Process 1 sending to Process 0...
+
+Process 1 received from Process 0: 100
+
+
+
+PROGRAM 7: MPI BROADCAST
+
+================================================================================
+
+Broadcasting number: 42
+
+Process 0 received number: 42
+
+Process 1 received number: 42
+
+Process 3 received number: 42
+
+Process 2 received number: 42
+
+
+
+PROGRAM 8: MPI SCATTER AND GATHER
+
+================================================================================
+
+Process 0 received: 10
+
+Gathered data: 11 21 31 41 
+
+Process 1 received: 20
+
+Process 2 received: 30
+
+Process 3 received: 40
+
+
+
+PROGRAM 9: MPI REDUCE AND ALLREDUCE
+
+================================================================================
+
+Process 1 has value 2
+
+
+
+[Process 1] MPI_Allreduce Results:
+
+  Sum  = 10
+
+  Prod = 24
+
+  Max  = 4
+
+  Min  = 1
+
+Process 0 has value 1
+
+
+
+[Using MPI_Reduce at Root Process]
+
+Sum   = 10
+
+Prod  = 24
+
+Max   = 4
+
+Min   = 1
+
+
+
+[Process 0] MPI_Allreduce Results:
+
+  Sum  = 10
+
+  Prod = 24
+
+  Max  = 4
+
+  Min  = 1
+
+Process 2 has value 3
+
+
+
+[Process 2] MPI_Allreduce Results:
+
+  Sum  = 10
+
+  Prod = 24
+
+  Max  = 4
+
+  Min  = 1
+
+Process 3 has value 4
+
+
+
+[Process 3] MPI_Allreduce Results:
+
+  Sum  = 10
+
+  Prod = 24
+
+  Max  = 4
+
+  Min  = 1
