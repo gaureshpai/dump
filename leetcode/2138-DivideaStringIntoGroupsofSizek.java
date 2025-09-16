@@ -16,7 +16,7 @@ class Solution {
         int numWords = (n + k - 1) / k;
         ArrayList<String> resultList = new ArrayList<>();
         
-        for (int i = 0; i < n; i += k) {
+        for (int i = 0; i < n; i += k)
             if (i + k <= n) resultList.add(s.substring(i, i + k));
             else {
                 StringBuilder lastWord = new StringBuilder(s.substring(i));
@@ -25,7 +25,6 @@ class Solution {
                 
                 resultList.add(lastWord.toString());
             }
-        }
         
         return resultList.toArray(new String[0]);
     }

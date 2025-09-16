@@ -12,6 +12,7 @@ class Solution {
 
         for (String word : words) {
             boolean canBeTyped = true;
+            
             for (char brokenChar : brokenLetters.toCharArray())
                 if (word.contains(String.valueOf(brokenChar))) {
                     canBeTyped = false;
