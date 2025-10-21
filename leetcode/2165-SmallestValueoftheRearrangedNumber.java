@@ -6,10 +6,7 @@ Return the rearranged number with minimal value.
 Note that the sign of the number does not change after rearranging the digits.
 */
 
-import java.util.*;
-
 class Solution {
-
     public long negativeMin(long num) {
         long n = Math.abs(num);
         String str = Long.toString(n);
@@ -24,6 +21,7 @@ class Solution {
         for (long digit : arr) sb.append(digit);
 
         long ans = Long.parseLong(sb.toString());
+
         return -ans;
     }
 
@@ -43,6 +41,7 @@ class Solution {
         for (long digit : arr) sb.append(digit);
 
         long ans = Long.parseLong(sb.toString());
+
         return ans;
     }
 
@@ -50,6 +49,7 @@ class Solution {
         for (int i = 1; i < arr.length; i++)
             if (arr[i] != 0) {
                 Long temp = arr[0];
+
                 arr[0] = arr[i];
                 arr[i] = temp;
                 break;
@@ -58,6 +58,7 @@ class Solution {
 
     public long smallestNumber(long num) {
         if (num < 0) return negativeMin(num);
+
         return positiveNum(num);
     }
 }
