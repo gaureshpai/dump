@@ -16,7 +16,8 @@ Return the head of the modified linked list after removing all nodes from the li
  */
 class Solution {
     public ListNode modifiedList(int[] nums, ListNode head) {
-        java.util.Arrays.sort(nums);
+        Arrays.sort(nums);
+
         ListNode dummy = new ListNode(0);
         ListNode res = dummy;
         ListNode cur = head;
@@ -29,6 +30,7 @@ class Solution {
 
             cur = cur.next;
         }
+        
         return dummy.next;
     }
 
