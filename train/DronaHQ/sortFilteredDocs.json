@@ -1,0 +1,17 @@
+{
+    "find": "users",
+    "filter": {
+        "Age": {
+            "$gt": 25
+        }
+    },
+    "sort": {
+        "Age": 1
+    },
+    "projection": {
+        "FirstName": 1,
+        "LastName": 1,
+        "Age": 1,
+        "_id": 0
+    }
+}
