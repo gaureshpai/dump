@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package analytics;
+
+message Event {
+  string message_id = 1;
+  string timestamp = 2; // ISO 8601 string
+  string event = 3;
+  string distinct_id = 4;
+  map<string, string> properties = 5; // Simplified properties map
+}
