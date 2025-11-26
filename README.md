@@ -5,14 +5,14 @@ Welcome to my digital garden of knowledge! This repository is a living archive o
 ## 🗺️ Repository Atlas
 
 - 📱 `Android-Studio-Apps/`: A collection of Android applications, each a step in mastering mobile development.
-- 🎓 `BE-Sem3/`, `BE-Sem4/`, `BE-Sem5/`, `BE-Sem6/`: The academic chronicles - lab programs that shaped my engineering foundation.
+- 🎓 `BE-Sem3/`, `BE-Sem4/`, `BE-Sem5/`, `BE-Sem6/`, `BE-Sem7`: The academic chronicles - lab programs that shaped my engineering foundation.
 - 📚 `Course-Materials/`: A treasure trove of resources from various online learning adventures.
 - 🌐 `M.E.R.N-Workshop-Materials/`: Artifacts from my exploration of the MERN stack universe.
 - 🎮 `Elim-Nation/`: The materials for ElimNation the event under Enigma.
 - 🔒 `encrypt-decrypt-app/`: A secure app for encrypting and decrypting text.
 - 🎨 `html-css-experiments/`: The canvas where I paint with HTML and CSS.
 - 🎨 `html-css-experiments-old/`: The canvas where I had painted with HTML and CSS.
-- ⚛️ `learn-AZURE/`, `learn-LARAVEL/`,`learn-NEXT/`, `learn-REACT/`: My journey through modern web frameworks & DevOps.
+- ⚛️ `learn-AZURE/`,`learn-CARDANO`, `learn-LARAVEL/`, `learn-NEXT/`, `learn-REACT/`: My journey through modern web frameworks & DevOps.
 - ✨ `leetcode/`: My journey in solving leetcode based problems using.
 - 📊 `M.E.R.N-Workshop-Materials/`: Unveiling the world of MERN for developer enthusiasts.
 - 🍃 `mongodb-workshop-Materials/`: Diving into the world of NoSQL with MongoDB.
@@ -21,6 +21,7 @@ Welcome to my digital garden of knowledge! This repository is a living archive o
 - 💡 `SIH-2024/`: Innovations and ideas for the Smart India Hackathon 2024.
 - 👨‍💻 `train`: My journey in solving the tests and questions that I faced in potential online inteviews/test
 - 🎉 `UiPath/`: The assets provided by UiPath for the Student Champion developer.
+- 🎉 `VC_CC-Workshop-Materials`: The materials for Version Control and Comp coding event under DevNation.
 
 ## 🚀 Quickstart
 
