@@ -1,0 +1,15 @@
+{
+  "name": "internyet-project-sync",
+  "version": "1.0.0",
+  "description": "A tool to sync project data from CSV files.",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "csv-parser": "^3.2.0"
+  }
+}
