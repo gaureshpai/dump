@@ -1,0 +1,192 @@
+direct op = +, -, *, /, %, +=, -=, *=, /=
+
+strings can be concatenated without +
+
+strings can be multipled using *
+
+varname = value
+
+# comment
+
+print("hello world",variable)
+
+input() # get input from user
+
+len() to get the length of the string
+
+str() to convert to string
+
+int() to convert to integer from float
+
+type() to get the type of the variable
+
+float() to convert to float
+
+integer == float
+
+in operations "is" and "is not" is is used and not == or !=
+
+to use multiple comparisions use "and", "or", "not"
+
+if value == value: # if value is equal to value
+  do something # body of the if
+
+indent is very important
+
+else if = "elif"
+
+"break;" will break out of the loop
+
+"continue;" will continue the loop
+
+indentation will show the block of code
+
+print("{}".format(str(value))) # to print a variable in a string inside the flower brackets
+
+range(val1, val2, iteration-value) # to get a list of numbers from val1 to val2
+
+import package # to import a package
+
+from package import * # to import all functions from a package
+
+sys.exit() # to exit the program
+
+def funcName(): # define a function
+  do something # body of the function
+
+global variable # to make a variable global
+
+try: # to try something
+  do something # body of the try
+except: # to catch an error
+  do something # body of the except
+
+except ZeroDivisionError: # to catch a specific error
+
+finally: # to finally do something
+  do something # body of the finally
+
+list = [value1, value2, value3, value4, value5] # to create a list
+list[0] # to get the first value of the list
+list[-1] # to get the last value of the list
+list[0, 1, 2] # to get the first, second and third value of the list
+list[0:4] # to get the first 4 values of the list
+list[0,-1] # to get the first and last value of the list
+list.append() # to add a value to the list
+list.pop() # to remove a value from the list
+var2 = list[:] # to copy the list
+can use + to concatenate lists
+del list[0] # to delete a value from the list
+for(i, ele in enumerate(list)): # to get the index and value of the list where i is the index and ele is the value
+  do something # body of the for loop
+for ele1, ele2 in zip(list1, list2): # to zip two lists where ele1 is the first list element and ele2 is the second list element
+  do something # body of the for loop
+value in list # to check if a value is in the list
+value not in list # to check if a value is not in the list
+ele1,ele2,ele3 = list # to unpack a list where ele1 is the first element of the list, ele2 is the second element of the list and ele3 is the third element of the list
+list.index()  # to get the index of a value in the list
+list.insert(value, index) # to insert a value in the list at a specific index
+list.remove(value) # to remove a value from the list
+list.sort() # to sort the list
+list.sort(reverse=True) # to sort the list in reverse order
+sorted(list) # to sort the list
+
+tupules = (value1, value2, value3, value4, value5) # to create a tuple
+tupules[0] # to get the first value of the tuple
+tupule(list) # to convert a list to a tuple
+list(tuple) # to convert a tuple to a list
+dict = {key1: value1, key2: value2, key3: value3, key4: value4, key5: value5} # to create a dictionary
+dict.values() # to get the values of the dictionary
+dict.keys() # to get the keys of the dictionary
+dict.items() # to get the items of the dictionary
+dict.get(key, value) # to get the value of a key in the dictionary where key is the key and value is the default value if the key is not found
+dict.setdefault(key, value) # to set the value of a key in the dictionary where key is the key and value is the default value if the key is not found
+dict3 = {**dict1, **dict2} # to merge two dictionaries
+
+sets = {value1, value2, value3, value4, value5} # to create a set
+sets = set(list) # to create a set from a list
+sets.add(value) # to add a value to the set
+sets.remove(value) # to remove a value from the set
+sets.update(list) # to update the set with a list
+sets.discard(value) # to remove a value from the set if it exists otherwise do nothing
+set1.union(set2) # to merge two sets
+set1.intersection(set2) # to get the intersection of two sets i.e the values that are common to both sets
+set1.difference(set2) # to get the difference of two sets i.e the values that are in set1 but not in set2
+set1.symmetric_difference(set2) # to get the symmetric difference of two sets i.e the values that are in either set1 or set2 but not in both
+
+[i - 1 for i in a] # to convert a list to a list of integers where 1 is subtracted from each element
+upper() # to convert a string to upper case
+lower() # to convert a string to lower case
+islower() # to check if a string is in lower case
+isupper() # to check if a string is in upper case
+startswith() # to check if a string starts with a value
+endswith() # to check if a string ends with a value
+join() # to join a list of strings into a string where each element of the list is separated by a value and seperated by a value at the end send as the parameter
+slpit() # to split a string into a list where each element is separated by a value
+rjust() # to right justify a string where the string is padded with a value
+ljust() # to left justify a string where the string is padded with a value
+center() # to center a string where the string is padded with a value
+strip() # to strip a string where the string is stripped of all the leading and trailing characters
+rstrip() # to strip a string where the string is stripped of all the trailing characters
+lstrip() # to strip a string where the string is stripped of all the leading characters
+
+isinstance() # to check if an object is an instance of a class
+issubclass() # to check if a class is a subclass of a class
+
+{v:k for k, v in c.items()} # to convert a dictionary to a dictionary where the keys and values are swapped
+
+\', \", \t, \n, \\ # to escape characters
+
+print(r"") # to print a raw string i.e the backslash is not escaped
+print(''' ''''') # to print a multiline string, tripple quotes are used
+print(f"") # to print a formatted string, f string is used
+
+raise Exception("Error message") # to raise an exception
+
+assert x == y, "Error message" # to assert that x is equal to y, i.e if x is not equal to y then an exception is raised
+
+imporrt logging
+logging.basicConfig(filenamelogging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.debug("Debug message")
+
+func = lambda x: y = x + 1 # to create a lambda function where x is the parameter and y is the return value
+(lambda x: y = x + 1)(x) # to call a lambda function where x is the parameter and y is the return value without the funcName
+def make_adder(n):
+  return lambda x: x+not
+
+plus_3 = make_adder(3)
+plus_5 = make_adder(5)
+
+def func(*args) # to pass a variable number of arguments
+def func(**kwargs) # to pass a variable number of keyword arguments
+
+default is object # to set the default value of a parameter
+
+if __name__ == "__main__":
+    main() # execue the main function if the file is run as a script i.e if the file is imported as a module then the main function is not execued
+
+
+#Dunger of Python
+__init__ # to initialize the object
+__new__ # to create a new instance of the class
+__add__ # to add two objects
+__sub__ # to subtract two objects
+__mul__ # to multiply two objects
+__truediv__ # to divide two objects
+__lt__ # to compare two objects where the second object is greater than the first object
+__gt__ # to compare two objects where the first object is greater than the second object
+__len__ # to get the length of the object
+__str__ # to get the string representation of the object
+__repr__ # to get the string representation of the object for debugging in more detail
+__eq__ # to check if two objects are equal
+__ne__ # to check if two objects are not equal
+__gte__ # to check if the first object is greater than or equal to the second object
+__lte__ # to check if the first object is less than or equal to the second object
+__getitem__ # to get an item from the object
+__setitem__ # to set an item in the object
+__delitem__ # to delete an item from the object
+__contains__ # to check if an item is in the object
+__iter__ # to iterate over the object
+__next__ # to get the next item from the object
+
+StopIteration # to raise an exception when the iterator is done
