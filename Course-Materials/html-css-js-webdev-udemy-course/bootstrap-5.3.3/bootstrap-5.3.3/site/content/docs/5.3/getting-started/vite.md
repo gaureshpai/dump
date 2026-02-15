@@ -77,18 +77,19 @@ With dependencies installed and our project folder ready for us to start coding,
 1. **Open `vite.config.js` in your editor.** Since it's blank, we'll need to add some boilerplate config to it so we can start our server. This part of the config tells Vite where to look for our project's JavaScript and how the development server should behave (pulling from the `src` folder with hot reload).
 
    <!-- eslint-skip -->
+
    ```js
-   import { resolve } from 'path'
+   import { resolve } from "path";
 
    export default {
-     root: resolve(__dirname, 'src'),
+     root: resolve(__dirname, "src"),
      build: {
-       outDir: '../dist'
+       outDir: "../dist",
      },
      server: {
-       port: 8080
-     }
-   }
+       port: 8080,
+     },
+   };
    ```
 
 2. **Next we fill in `src/index.html`.** This is the HTML page Vite will load in the browser to utilize the bundled CSS and JS we'll add to it in later steps.
@@ -97,8 +98,8 @@ With dependencies installed and our project folder ready for us to start coding,
    <!doctype html>
    <html lang="en">
      <head>
-       <meta charset="utf-8">
-       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <meta charset="utf-8" />
+       <meta name="viewport" content="width=device-width, initial-scale=1" />
        <title>Bootstrap w/ Vite</title>
        <script type="module" src="./js/main.js"></script>
      </head>
@@ -121,7 +122,7 @@ With dependencies installed and our project folder ready for us to start coding,
      "scripts": {
        "start": "vite",
        "test": "echo \"Error: no test specified\" && exit 1"
-     },
+     }
      // ...
    }
    ```
@@ -145,30 +146,32 @@ In the next and final section to this guide, we’ll import all of Bootstrap’s
    @import "bootstrap/scss/bootstrap";
    ```
 
-   *You can also import our stylesheets individually if you want. [Read our Sass import docs]({{< docsref "/customize/sass#importing" >}}) for details.*
+   _You can also import our stylesheets individually if you want. [Read our Sass import docs]({{< docsref "/customize/sass#importing" >}}) for details._
 
 2. **Next we load the CSS and import Bootstrap's JavaScript.** Add the following to `src/js/main.js` to load the CSS and import all of Bootstrap's JS. Popper will be imported automatically through Bootstrap.
 
    <!-- eslint-skip -->
+
    ```js
    // Import our custom CSS
-   import '../scss/styles.scss'
+   import "../scss/styles.scss";
 
    // Import all of Bootstrap's JS
-   import * as bootstrap from 'bootstrap'
+   import * as bootstrap from "bootstrap";
    ```
 
    You can also import JavaScript plugins individually as needed to keep bundle sizes down:
 
    <!-- eslint-skip -->
+
    ```js
-   import Alert from 'bootstrap/js/dist/alert';
+   import Alert from "bootstrap/js/dist/alert";
 
    // or, specify which plugins you need:
-   import { Tooltip, Toast, Popover } from 'bootstrap';
+   import { Tooltip, Toast, Popover } from "bootstrap";
    ```
 
-   *[Read our JavaScript docs]({{< docsref "/getting-started/javascript/" >}}) for more information on how to use Bootstrap's plugins.*
+   _[Read our JavaScript docs]({{< docsref "/getting-started/javascript/" >}}) for more information on how to use Bootstrap's plugins._
 
 3. **And you're done! 🎉** With Bootstrap's source Sass and JS fully loaded, your local development server should now look like this:
 

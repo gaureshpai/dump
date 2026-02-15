@@ -1,7 +1,9 @@
 .bd-navbar {
-  padding: .75rem 0;
+  padding: 0.75rem 0;
   background-color: transparent;
-  box-shadow: 0 .5rem 1rem rgba($black, .15), inset 0 -1px 0 rgba($white, .15);
+  box-shadow:
+    0 0.5rem 1rem rgba($black, 0.15),
+    inset 0 -1px 0 rgba($white, 0.15);
 
   &::after {
     position: absolute;
@@ -9,7 +11,10 @@
     z-index: -1;
     display: block;
     content: "";
-    background-image: linear-gradient(rgba(var(--bd-violet-rgb), 1), rgba(var(--bd-violet-rgb), .95));
+    background-image: linear-gradient(
+      rgba(var(--bd-violet-rgb), 1),
+      rgba(var(--bd-violet-rgb), 0.95)
+    );
   }
 
   .bd-navbar-toggle {
@@ -20,11 +25,11 @@
 
   .navbar-toggler {
     padding: 0;
-    margin-right: -.5rem;
+    margin-right: -0.5rem;
     border: 0;
 
     &:first-child {
-      margin-left: -.5rem;
+      margin-left: -0.5rem;
     }
 
     .bi {
@@ -39,7 +44,7 @@
 
   .navbar-brand {
     color: $white;
-    @include transition(transform .2s ease-in-out);
+    @include transition(transform 0.2s ease-in-out);
 
     &:hover {
       transform: rotate(-5deg) scale(1.1);
@@ -48,9 +53,9 @@
 
   .navbar-toggler,
   .nav-link {
-    padding-right: $spacer * .25;
-    padding-left: $spacer * .25;
-    color: rgba($white, .85);
+    padding-right: $spacer * 0.25;
+    padding-left: $spacer * 0.25;
+    color: rgba($white, 0.85);
 
     &:hover,
     &:focus {
@@ -65,7 +70,7 @@
 
   .navbar-nav-svg {
     display: inline-block;
-    vertical-align: -.125rem;
+    vertical-align: -0.125rem;
   }
 
   .offcanvas-lg {
@@ -85,21 +90,21 @@
 
   .dropdown-menu {
     --bs-dropdown-min-width: 12rem;
-    --bs-dropdown-padding-x: .25rem;
-    --bs-dropdown-padding-y: .25rem;
-    --bs-dropdown-link-hover-bg: rgba(var(--bd-violet-rgb), .1);
+    --bs-dropdown-padding-x: 0.25rem;
+    --bs-dropdown-padding-y: 0.25rem;
+    --bs-dropdown-link-hover-bg: rgba(var(--bd-violet-rgb), 0.1);
     --bs-dropdown-link-active-bg: rgba(var(--bd-violet-rgb), 1);
-    @include rfs(.875rem, --bs-dropdown-font-size);
-    @include font-size(.875rem);
-    @include border-radius(.5rem);
+    @include rfs(0.875rem, --bs-dropdown-font-size);
+    @include font-size(0.875rem);
+    @include border-radius(0.5rem);
     box-shadow: $dropdown-box-shadow;
 
     li + li {
-      margin-top: .125rem;
+      margin-top: 0.125rem;
     }
 
     .dropdown-item {
-      @include border-radius(.25rem);
+      @include border-radius(0.25rem);
 
       &:active {
         .bi {
@@ -124,6 +129,8 @@
 
 @include color-mode(dark) {
   .bd-navbar {
-    box-shadow: 0 .5rem 1rem rgba($black, .15), inset 0 -1px 0 rgba($white, .15);
+    box-shadow:
+      0 0.5rem 1rem rgba($black, 0.15),
+      inset 0 -1px 0 rgba($white, 0.15);
   }
 }

@@ -11,10 +11,10 @@
   margin-bottom: 1.25rem;
   color: var(--bd-callout-color, inherit);
   background-color: var(--bd-callout-bg, var(--bs-gray-100));
-  border-left: .25rem solid var(--bd-callout-border, var(--bs-gray-300));
+  border-left: 0.25rem solid var(--bd-callout-border, var(--bs-gray-300));
 
   h4 {
-    margin-bottom: .25rem;
+    margin-bottom: 0.25rem;
   }
 
   > :last-child {
@@ -22,11 +22,11 @@
   }
 
   + .bd-callout {
-    margin-top: -.25rem;
+    margin-top: -0.25rem;
   }
 
   .highlight {
-    background-color: rgba($black, .05);
+    background-color: rgba($black, 0.05);
   }
 }
 

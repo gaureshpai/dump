@@ -1,34 +1,34 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 header {
-    position: relative;
-    height: 300px;
+  position: relative;
+  height: 300px;
 }
 
 header div {
-    position: relative;
+  position: relative;
 }
 
 header img {
-    width: 100%;
-    height: auto;
-    display: block;
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 h1#countdown {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 60px;
-    color: #d21010;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  color: #d21010;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }

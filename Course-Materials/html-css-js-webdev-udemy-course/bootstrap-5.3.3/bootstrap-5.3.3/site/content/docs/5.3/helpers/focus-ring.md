@@ -15,7 +15,7 @@ Click directly on the link below to see the focus ring in action, or into the ex
 
 {{< example >}}
 <a href="#" class="d-inline-flex focus-ring py-1 px-2 text-decoration-none border rounded-2">
-  Custom focus ring
+Custom focus ring
 </a>
 {{< /example >}}
 
@@ -29,7 +29,7 @@ Modify the `--bs-focus-ring-*` CSS variables as needed to change the default app
 
 {{< example >}}
 <a href="#" class="d-inline-flex focus-ring py-1 px-2 text-decoration-none border rounded-2" style="--bs-focus-ring-color: rgba(var(--bs-success-rgb), .25)">
-  Green focus ring
+Green focus ring
 </a>
 {{< /example >}}
 
@@ -41,7 +41,7 @@ By default, there is no `--bs-focus-ring-x`, `--bs-focus-ring-y`, or `--bs-focus
 
 {{< example >}}
 <a href="#" class="d-inline-flex focus-ring py-1 px-2 text-decoration-none border rounded-2" style="--bs-focus-ring-x: 10px; --bs-focus-ring-y: 10px; --bs-focus-ring-blur: 4px">
-  Blurry offset focus ring
+Blurry offset focus ring
 </a>
 {{< /example >}}
 
@@ -58,6 +58,7 @@ In addition to `.focus-ring`, we have several `.focus-ring-*` utilities to modif
 {{< example >}}
 {{< focus-ring.inline >}}
 {{- range (index $.Site.Data "theme-colors") }}
+
 <p><a href="#" class="d-inline-flex focus-ring focus-ring-{{ .name }} py-1 px-2 text-decoration-none border rounded-2">{{ title .name }} focus</a></p>
 {{- end -}}
 {{< /focus-ring.inline >}}

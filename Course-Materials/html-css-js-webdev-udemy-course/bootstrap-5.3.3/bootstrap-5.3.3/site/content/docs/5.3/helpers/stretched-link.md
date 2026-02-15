@@ -12,6 +12,7 @@ Cards have `position: relative` by default in Bootstrap, so in this case you can
 Multiple links and tap targets are not recommended with stretched links. However, some `position` and `z-index` styles can help should this be required.
 
 {{< example >}}
+
 <div class="card" style="width: 18rem;">
   {{< placeholder width="100%" height="180" class="card-img-top" text="false" title="Card image cap" >}}
   <div class="card-body">
@@ -25,6 +26,7 @@ Multiple links and tap targets are not recommended with stretched links. However
 Most custom components do not have `position: relative` by default, so we need to add the `.position-relative` here to prevent the link from stretching outside the parent element.
 
 {{< example >}}
+
 <div class="d-flex position-relative">
   {{< placeholder width="144" height="144" class="flex-shrink-0 me-3" text="false" title="Generic placeholder image" >}}
   <div>
@@ -36,6 +38,7 @@ Most custom components do not have `position: relative` by default, so we need t
 {{< /example >}}
 
 {{< example >}}
+
 <div class="row g-0 bg-body-secondary position-relative">
   <div class="col-md-6 mb-md-0 p-md-4">
     {{< placeholder width="100%" height="200" class="w-100" text="false" title="Generic placeholder image" >}}
@@ -58,6 +61,7 @@ If the stretched link doesn't seem to work, the [containing block](https://devel
 - A `filter` value other than `none` or a `will-change` value of `filter` (only works on Firefox)
 
 {{< example >}}
+
 <div class="card" style="width: 18rem;">
   {{< placeholder width="100%" height="180" class="card-img-top" text="false" title="Card image cap" >}}
   <div class="card-body">

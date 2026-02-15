@@ -3,8 +3,8 @@
 }
 
 .icon-link > .bi {
-  width: .75em;
-  height: .75em;
+  width: 0.75em;
+  height: 0.75em;
 }
 
 /*
@@ -12,13 +12,13 @@
  */
 
 .site-header {
-  background-color: rgba(0, 0, 0, .85);
+  background-color: rgba(0, 0, 0, 0.85);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
 }
 .site-header a {
   color: #8e8e8e;
-  transition: color .15s ease-in-out;
+  transition: color 0.15s ease-in-out;
 }
 .site-header a:hover {
   color: #fff;
@@ -47,7 +47,7 @@
   bottom: 10%;
   left: 10px;
   content: "";
-  background-color: rgba(255, 255, 255, .1);
+  background-color: rgba(255, 255, 255, 0.1);
   border-radius: 5px;
 }
 
@@ -58,7 +58,6 @@
   left: 5%;
   background-color: #e5e5e5;
 }
-
 
 /*
  * Extra utilities

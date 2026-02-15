@@ -3,7 +3,7 @@
 //
 
 .bd-code-snippet {
-  margin: 0 ($bd-gutter-x * -.5) 1rem;
+  margin: 0 ($bd-gutter-x * -0.5) 1rem;
   border: solid var(--bs-border-color);
   border-width: 1px 0;
 
@@ -20,7 +20,7 @@
 
   position: relative;
   padding: var(--bd-example-padding);
-  margin: 0 ($bd-gutter-x * -.5) 1rem;
+  margin: 0 ($bd-gutter-x * -0.5) 1rem;
   border: solid var(--bs-border-color);
   border-width: 1px 0;
   @include clearfix();
@@ -40,7 +40,7 @@
 
   > .form-control {
     + .form-control {
-      margin-top: .5rem;
+      margin-top: 0.5rem;
     }
   }
 
@@ -68,16 +68,16 @@
   // Images
   > svg + svg,
   > img + img {
-    margin-left: .5rem;
+    margin-left: 0.5rem;
   }
 
   // Buttons
   > .btn,
   > .btn-group {
-    margin: .25rem .125rem;
+    margin: 0.25rem 0.125rem;
   }
   > .btn-toolbar + .btn-toolbar {
-    margin-top: .5rem;
+    margin-top: 0.5rem;
   }
 
   // List groups
@@ -93,14 +93,15 @@
   .fixed-top,
   .sticky-top {
     position: static;
-    margin: calc(var(--bd-example-padding) * -1) calc(var(--bd-example-padding) * -1) var(--bd-example-padding); // stylelint-disable-line function-disallowed-list
+    margin: calc(var(--bd-example-padding) * -1)
+      calc(var(--bd-example-padding) * -1) var(--bd-example-padding); // stylelint-disable-line function-disallowed-list
   }
 
   .fixed-bottom,
   .sticky-bottom {
     position: static;
-    margin: var(--bd-example-padding) calc(var(--bd-example-padding) * -1) calc(var(--bd-example-padding) * -1); // stylelint-disable-line function-disallowed-list
-
+    margin: var(--bd-example-padding) calc(var(--bd-example-padding) * -1)
+      calc(var(--bd-example-padding) * -1); // stylelint-disable-line function-disallowed-list
   }
 
   // Pagination
@@ -116,10 +117,10 @@
 .bd-example-row [class^="col"],
 .bd-example-cols [class^="col"] > *,
 .bd-example-cssgrid [class*="grid"] > * {
-  padding-top: .75rem;
-  padding-bottom: .75rem;
-  background-color: rgba(var(--bd-violet-rgb), .15);
-  border: 1px solid rgba(var(--bd-violet-rgb), .3);
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  background-color: rgba(var(--bd-violet-rgb), 0.15);
+  border: 1px solid rgba(var(--bd-violet-rgb), 0.3);
 }
 
 .bd-example-row .row + .row,
@@ -129,12 +130,12 @@
 
 .bd-example-row-flex-cols .row {
   min-height: 10rem;
-  background-color: rgba(var(--bd-violet-rgb), .15);
+  background-color: rgba(var(--bd-violet-rgb), 0.15);
 }
 
 .bd-example-flex div:not(.vr) {
-  background-color: rgba(var(--bd-violet-rgb), .15);
-  border: 1px solid rgba(var(--bd-violet-rgb), .3);
+  background-color: rgba(var(--bd-violet-rgb), 0.15);
+  border: 1px solid rgba(var(--bd-violet-rgb), 0.3);
 }
 
 // Grid mixins
@@ -214,7 +215,7 @@
   }
 
   .btn {
-    margin: .25rem .125rem;
+    margin: 0.25rem 0.125rem;
   }
 }
 
@@ -232,14 +233,14 @@
   --bs-popover-header-bg: var(--bd-violet-bg);
   --bs-popover-header-color: var(--bs-white);
   --bs-popover-body-padding-x: 1rem;
-  --bs-popover-body-padding-y: .5rem;
+  --bs-popover-body-padding-y: 0.5rem;
 }
 // scss-docs-end custom-popovers
 
 // Scrollspy demo on fixed height div
 .scrollspy-example {
   height: 200px;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
   overflow: auto;
 }
 
@@ -250,7 +251,7 @@
 
 .simple-list-example-scrollspy {
   .active {
-    background-color: rgba(var(--bd-violet-rgb), .15);
+    background-color: rgba(var(--bd-violet-rgb), 0.15);
   }
 }
 
@@ -259,14 +260,14 @@
     display: inline-block;
     width: 5rem;
     height: 5rem;
-    margin: .25rem;
+    margin: 0.25rem;
     background-color: var(--bs-tertiary-bg);
   }
 }
 
 .bd-example-rounded-utils {
   [class*="rounded"] {
-    margin: .25rem;
+    margin: 0.25rem;
   }
 }
 
@@ -348,11 +349,11 @@
 
 .highlight {
   position: relative;
-  padding: .75rem ($bd-gutter-x * .5);
+  padding: 0.75rem ($bd-gutter-x * 0.5);
   background-color: var(--bd-pre-bg);
 
   @include media-breakpoint-up(md) {
-    padding: .75rem 1.25rem;
+    padding: 0.75rem 1.25rem;
     @include border-radius(calc(var(--bs-border-radius) - 1px));
   }
 
@@ -363,8 +364,8 @@
   }
 
   pre {
-    padding: .25rem 0 .875rem;
-    margin-top: .8125rem;
+    padding: 0.25rem 0 0.875rem;
+    margin-top: 0.8125rem;
     margin-bottom: 0;
     overflow: overlay;
     white-space: pre;

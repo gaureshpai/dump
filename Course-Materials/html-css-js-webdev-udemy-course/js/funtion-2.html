@@ -1,25 +1,29 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>functions in js</title>
     <script language="'javascript" type="text/javascript">
-        function sayHello(name,age) {
-            if(name == "" || age == "")
-                return;
-            document.write("Hello "+name+"! "+"Heard you are "+age+"yo!!");
-        }
+      function sayHello(name, age) {
+        if (name == "" || age == "") return;
+        document.write(
+          "Hello " + name + "! " + "Heard you are " + age + "yo!!",
+        );
+      }
     </script>
-</head>
+  </head>
 
-<body>
+  <body>
     <p>Click the following button to call the function</p>
-    <form><input type="text" name="t1" placeholder="Enter your name">
-        <input type="text" name="t2" placeholder="Enter your age">
-        <input type="button" value="say hello" onclick=sayHello(t1.value,t2.value)>
+    <form>
+      <input type="text" name="t1" placeholder="Enter your name" />
+      <input type="text" name="t2" placeholder="Enter your age" />
+      <input
+        type="button"
+        value="say hello"
+        onclick="sayHello(t1.value, t2.value)"
+      />
     </form>
-</body>
-
+  </body>
 </html>

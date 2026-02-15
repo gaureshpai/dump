@@ -15,6 +15,7 @@ Bootstrap's grid system uses a series of containers, rows, and columns to layout
 {{< /callout >}}
 
 {{< example class="bd-example-row" >}}
+
 <div class="container text-center">
   <div class="row">
     <div class="col">
@@ -36,7 +37,7 @@ The above example creates three equal-width columns across all devices and viewp
 
 Breaking it down, here's how the grid system comes together:
 
-- **Our grid supports [six responsive breakpoints]({{< docsref "/layout/breakpoints" >}}).**  Breakpoints are based on `min-width` media queries, meaning they affect that breakpoint and all those above it (e.g., `.col-sm-4` applies to `sm`, `md`, `lg`, `xl`, and `xxl`). This means you can control container and column sizing and behavior by each breakpoint.
+- **Our grid supports [six responsive breakpoints]({{< docsref "/layout/breakpoints" >}}).** Breakpoints are based on `min-width` media queries, meaning they affect that breakpoint and all those above it (e.g., `.col-sm-4` applies to `sm`, `md`, `lg`, `xl`, and `xxl`). This means you can control container and column sizing and behavior by each breakpoint.
 
 - **Containers center and horizontally pad your content.** Use `.container` for a responsive pixel width, `.container-fluid` for `width: 100%` across all viewports and devices, or a responsive container (e.g., `.container-md`) for a combination of fluid and pixel widths.
 
@@ -146,6 +147,7 @@ Utilize breakpoint-specific column classes for easy column sizing without an exp
 For example, here are two grid layouts that apply to every device and viewport, from `xs` to `xxl`. Add any number of unit-less classes for each breakpoint you need and every column will be the same width.
 
 {{< example class="bd-example-row" >}}
+
 <div class="container text-center">
   <div class="row">
     <div class="col">
@@ -174,6 +176,7 @@ For example, here are two grid layouts that apply to every device and viewport, 
 Auto-layout for flexbox grid columns also means you can set the width of one column and have the sibling columns automatically resize around it. You may use predefined grid classes (as shown below), grid mixins, or inline widths. Note that the other columns will resize no matter the width of the center column.
 
 {{< example class="bd-example-row" >}}
+
 <div class="container text-center">
   <div class="row">
     <div class="col">
@@ -205,6 +208,7 @@ Auto-layout for flexbox grid columns also means you can set the width of one col
 Use `col-{breakpoint}-auto` classes to size columns based on the natural width of their content.
 
 {{< example class="bd-example-row" >}}
+
 <div class="container text-center">
   <div class="row justify-content-md-center">
     <div class="col col-lg-2">
@@ -240,6 +244,7 @@ Bootstrap's grid includes six tiers of predefined classes for building complex r
 For grids that are the same from the smallest of devices to the largest, use the `.col` and `.col-*` classes. Specify a numbered class when you need a particularly sized column; otherwise, feel free to stick to `.col`.
 
 {{< example class="bd-example-row" >}}
+
 <div class="container text-center">
   <div class="row">
     <div class="col">col</div>
@@ -259,6 +264,7 @@ For grids that are the same from the smallest of devices to the largest, use the
 Using a single set of `.col-sm-*` classes, you can create a basic grid system that starts out stacked and becomes horizontal at the small breakpoint (`sm`).
 
 {{< example class="bd-example-row" >}}
+
 <div class="container text-center">
   <div class="row">
     <div class="col-sm-8">col-sm-8</div>
@@ -277,6 +283,7 @@ Using a single set of `.col-sm-*` classes, you can create a basic grid system th
 Don't want your columns to simply stack in some grid tiers? Use a combination of different classes for each tier as needed. See the example below for a better idea of how it all works.
 
 {{< example class="bd-example-row" >}}
+
 <div class="container text-center">
   <!-- Stack the columns on mobile by making one full-width and the other half-width -->
   <div class="row">
@@ -306,6 +313,7 @@ Use the responsive `.row-cols-*` classes to quickly set the number of columns th
 Use these row columns classes to quickly create basic grid layouts or to control your card layouts.
 
 {{< example class="bd-example-row" >}}
+
 <div class="container text-center">
   <div class="row row-cols-2">
     <div class="col">Column</div>
@@ -317,6 +325,7 @@ Use these row columns classes to quickly create basic grid layouts or to control
 {{< /example >}}
 
 {{< example class="bd-example-row" >}}
+
 <div class="container text-center">
   <div class="row row-cols-3">
     <div class="col">Column</div>
@@ -328,6 +337,7 @@ Use these row columns classes to quickly create basic grid layouts or to control
 {{< /example >}}
 
 {{< example class="bd-example-row" >}}
+
 <div class="container text-center">
   <div class="row row-cols-auto">
     <div class="col">Column</div>
@@ -339,6 +349,7 @@ Use these row columns classes to quickly create basic grid layouts or to control
 {{< /example >}}
 
 {{< example class="bd-example-row" >}}
+
 <div class="container text-center">
   <div class="row row-cols-4">
     <div class="col">Column</div>
@@ -350,6 +361,7 @@ Use these row columns classes to quickly create basic grid layouts or to control
 {{< /example >}}
 
 {{< example class="bd-example-row" >}}
+
 <div class="container text-center">
   <div class="row row-cols-4">
     <div class="col">Column</div>
@@ -361,6 +373,7 @@ Use these row columns classes to quickly create basic grid layouts or to control
 {{< /example >}}
 
 {{< example class="bd-example-row" >}}
+
 <div class="container text-center">
   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
     <div class="col">Column</div>
@@ -390,6 +403,7 @@ You can also use the accompanying Sass mixin, `row-cols()`:
 To nest your content with the default grid, add a new `.row` and set of `.col-sm-*` columns within an existing `.col-sm-*` column. Nested rows should include a set of columns that add up to 12 or fewer (it is not required that you use all 12 available columns).
 
 {{< example class="bd-example-row" >}}
+
 <div class="container text-center">
   <div class="row">
     <div class="col-sm-3">
@@ -418,9 +432,9 @@ When using Bootstrap's source Sass files, you have the option of using Sass vari
 Variables and maps determine the number of columns, the gutter width, and the media query point at which to begin floating columns. We use these to generate the predefined grid classes documented above, as well as for the custom mixins listed below.
 
 ```scss
-$grid-columns:      12;
+$grid-columns: 12;
 $grid-gutter-width: 1.5rem;
-$grid-row-columns:  6;
+$grid-row-columns: 6;
 ```
 
 {{< scss-docs name="grid-breakpoints" file="scss/_variables.scss" >}}
@@ -486,6 +500,7 @@ You can modify the variables to your own custom values, or just use the mixins w
 ```
 
 {{< example >}}
+
 <div class="example-container">
   <div class="example-row">
     <div class="example-content-main">Main content</div>
@@ -517,13 +532,13 @@ $grid-breakpoints: (
   xs: 0,
   sm: 480px,
   md: 768px,
-  lg: 1024px
+  lg: 1024px,
 );
 
 $container-max-widths: (
   sm: 420px,
   md: 720px,
-  lg: 960px
+  lg: 960px,
 );
 ```
 

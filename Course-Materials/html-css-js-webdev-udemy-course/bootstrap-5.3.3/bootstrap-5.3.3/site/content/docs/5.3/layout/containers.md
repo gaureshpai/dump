@@ -8,7 +8,7 @@ toc: true
 
 ## How they work
 
-Containers are the most basic layout element in Bootstrap and are **required when using our default grid system**. Containers are used to contain, pad, and (sometimes) center the content within them. While containers *can* be nested, most layouts do not require a nested container.
+Containers are the most basic layout element in Bootstrap and are **required when using our default grid system**. Containers are used to contain, pad, and (sometimes) center the content within them. While containers _can_ be nested, most layouts do not require a nested container.
 
 Bootstrap comes with three different containers:
 
@@ -21,7 +21,7 @@ The table below illustrates how each container's `max-width` compares to the ori
 See them in action and compare them in our [Grid example]({{< docsref "/examples/grid#containers" >}}).
 
 {{< bs-table "table" >}}
-|  | Extra small<div class="fw-normal">&lt;576px</div> | Small<div class="fw-normal">&ge;576px</div> | Medium<div class="fw-normal">&ge;768px</div> | Large<div class="fw-normal">&ge;992px</div> | X-Large<div class="fw-normal">&ge;1200px</div> | XX-Large<div class="fw-normal">&ge;1400px</div> |
+| | Extra small<div class="fw-normal">&lt;576px</div> | Small<div class="fw-normal">&ge;576px</div> | Medium<div class="fw-normal">&ge;768px</div> | Large<div class="fw-normal">&ge;992px</div> | X-Large<div class="fw-normal">&ge;1200px</div> | XX-Large<div class="fw-normal">&ge;1400px</div> |
 | --- | --- | --- | --- | --- | --- | --- |
 | `.container` | <span class="text-body-secondary">100%</span> | 540px | 720px | 960px | 1140px | 1320px |
 | `.container-sm` | <span class="text-body-secondary">100%</span> | 540px | 720px | 960px | 1140px | 1320px |
@@ -59,9 +59,7 @@ Responsive containers allow you to specify a class that is 100% wide until the s
 Use `.container-fluid` for a full width container, spanning the entire width of the viewport.
 
 ```html
-<div class="container-fluid">
-  ...
-</div>
+<div class="container-fluid">...</div>
 ```
 
 ## CSS

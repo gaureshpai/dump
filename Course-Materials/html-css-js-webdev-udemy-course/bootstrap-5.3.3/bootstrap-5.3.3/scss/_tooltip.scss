@@ -27,7 +27,9 @@
   word-wrap: break-word;
   opacity: 0;
 
-  &.show { opacity: var(--#{$prefix}tooltip-opacity); }
+  &.show {
+    opacity: var(--#{$prefix}tooltip-opacity);
+  }
 
   .tooltip-arrow {
     display: block;
@@ -44,24 +46,31 @@
 }
 
 .bs-tooltip-top .tooltip-arrow {
-  bottom: calc(-1 * var(--#{$prefix}tooltip-arrow-height)); // stylelint-disable-line function-disallowed-list
+  bottom: calc(
+    -1 * var(--#{$prefix}tooltip-arrow-height)
+  ); // stylelint-disable-line function-disallowed-list
 
   &::before {
     top: -1px;
-    border-width: var(--#{$prefix}tooltip-arrow-height) calc(var(--#{$prefix}tooltip-arrow-width) * .5) 0; // stylelint-disable-line function-disallowed-list
+    border-width: var(--#{$prefix}tooltip-arrow-height)
+      calc(var(--#{$prefix}tooltip-arrow-width) * 0.5) 0; // stylelint-disable-line function-disallowed-list
     border-top-color: var(--#{$prefix}tooltip-bg);
   }
 }
 
 /* rtl:begin:ignore */
 .bs-tooltip-end .tooltip-arrow {
-  left: calc(-1 * var(--#{$prefix}tooltip-arrow-height)); // stylelint-disable-line function-disallowed-list
+  left: calc(
+    -1 * var(--#{$prefix}tooltip-arrow-height)
+  ); // stylelint-disable-line function-disallowed-list
   width: var(--#{$prefix}tooltip-arrow-height);
   height: var(--#{$prefix}tooltip-arrow-width);
 
   &::before {
     right: -1px;
-    border-width: calc(var(--#{$prefix}tooltip-arrow-width) * .5) var(--#{$prefix}tooltip-arrow-height) calc(var(--#{$prefix}tooltip-arrow-width) * .5) 0; // stylelint-disable-line function-disallowed-list
+    border-width: calc(var(--#{$prefix}tooltip-arrow-width) * 0.5)
+      var(--#{$prefix}tooltip-arrow-height)
+      calc(var(--#{$prefix}tooltip-arrow-width) * 0.5) 0; // stylelint-disable-line function-disallowed-list
     border-right-color: var(--#{$prefix}tooltip-bg);
   }
 }
@@ -69,24 +78,31 @@
 /* rtl:end:ignore */
 
 .bs-tooltip-bottom .tooltip-arrow {
-  top: calc(-1 * var(--#{$prefix}tooltip-arrow-height)); // stylelint-disable-line function-disallowed-list
+  top: calc(
+    -1 * var(--#{$prefix}tooltip-arrow-height)
+  ); // stylelint-disable-line function-disallowed-list
 
   &::before {
     bottom: -1px;
-    border-width: 0 calc(var(--#{$prefix}tooltip-arrow-width) * .5) var(--#{$prefix}tooltip-arrow-height); // stylelint-disable-line function-disallowed-list
+    border-width: 0 calc(var(--#{$prefix}tooltip-arrow-width) * 0.5)
+      var(--#{$prefix}tooltip-arrow-height); // stylelint-disable-line function-disallowed-list
     border-bottom-color: var(--#{$prefix}tooltip-bg);
   }
 }
 
 /* rtl:begin:ignore */
 .bs-tooltip-start .tooltip-arrow {
-  right: calc(-1 * var(--#{$prefix}tooltip-arrow-height)); // stylelint-disable-line function-disallowed-list
+  right: calc(
+    -1 * var(--#{$prefix}tooltip-arrow-height)
+  ); // stylelint-disable-line function-disallowed-list
   width: var(--#{$prefix}tooltip-arrow-height);
   height: var(--#{$prefix}tooltip-arrow-width);
 
   &::before {
     left: -1px;
-    border-width: calc(var(--#{$prefix}tooltip-arrow-width) * .5) 0 calc(var(--#{$prefix}tooltip-arrow-width) * .5) var(--#{$prefix}tooltip-arrow-height); // stylelint-disable-line function-disallowed-list
+    border-width: calc(var(--#{$prefix}tooltip-arrow-width) * 0.5) 0
+      calc(var(--#{$prefix}tooltip-arrow-width) * 0.5)
+      var(--#{$prefix}tooltip-arrow-height); // stylelint-disable-line function-disallowed-list
     border-left-color: var(--#{$prefix}tooltip-bg);
   }
 }

@@ -21,7 +21,8 @@
   $icon,
   $tooltip-color: color-contrast($color),
   $tooltip-bg-color: rgba($color, $form-feedback-tooltip-opacity),
-  $focus-box-shadow: 0 0 $input-btn-focus-blur $input-focus-width rgba($color, $input-btn-focus-color-opacity),
+  $focus-box-shadow: 0 0 $input-btn-focus-blur $input-focus-width
+    rgba($color, $input-btn-focus-color-opacity),
   $border-color: $color
 ) {
   .#{$state}-feedback {
@@ -40,7 +41,7 @@
     display: none;
     max-width: 100%; // Contain to parent when possible
     padding: $form-feedback-tooltip-padding-y $form-feedback-tooltip-padding-x;
-    margin-top: .1rem;
+    margin-top: 0.1rem;
     @include font-size($form-feedback-tooltip-font-size);
     line-height: $form-feedback-tooltip-line-height;
     color: $tooltip-color;
@@ -84,7 +85,10 @@
     @include form-validation-state-selector($state) {
       @if $enable-validation-icons {
         padding-right: $input-height-inner;
-        background-position: top $input-height-inner-quarter right $input-height-inner-quarter;
+        background-position: top
+          $input-height-inner-quarter
+          right
+          $input-height-inner-quarter;
       }
     }
   }
@@ -98,8 +102,10 @@
         &:not([multiple])[size="1"] {
           --#{$prefix}form-select-bg-icon: #{escape-svg($icon)};
           padding-right: $form-select-feedback-icon-padding-end;
-          background-position: $form-select-bg-position, $form-select-feedback-icon-position;
-          background-size: $form-select-bg-size, $form-select-feedback-icon-size;
+          background-position:
+            $form-select-bg-position, $form-select-feedback-icon-position;
+          background-size:
+            $form-select-bg-size, $form-select-feedback-icon-size;
         }
       }
 
@@ -142,7 +148,7 @@
   }
   .form-check-inline .form-check-input {
     ~ .#{$state}-feedback {
-      margin-left: .5em;
+      margin-left: 0.5em;
     }
   }
 

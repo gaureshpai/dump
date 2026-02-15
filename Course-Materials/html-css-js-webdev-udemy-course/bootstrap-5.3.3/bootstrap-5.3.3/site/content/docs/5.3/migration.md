@@ -107,7 +107,7 @@ Learn more by reading the new [color modes documentation]({{< docsref "/customiz
 
 - **Global support for light (default) and dark color modes.** Set color mode globally on the `:root` element, on groups of elements and components with a wrapper class, or directly on components, with `data-bs-theme="light|dark"`. Also included is a new `color-mode()` mixin that can output a ruleset with the `data-bs-theme` selector or a media query, depending on your preference.
 
-  <span class="badge text-warning-emphasis bg-warning-subtle">Deprecated</span> Color modes replace dark variants for components, so  `.btn-close-white`, `.carousel-dark`, `.dropdown-menu-dark`, and `.navbar-dark` are deprecated.
+  <span class="badge text-warning-emphasis bg-warning-subtle">Deprecated</span> Color modes replace dark variants for components, so `.btn-close-white`, `.carousel-dark`, `.dropdown-menu-dark`, and `.navbar-dark` are deprecated.
 
 - **New extended color system.** We've added new theme colors (but not in `$theme-colors`) for a more nuanced, system-wide color palette with new secondary, tertiary, and emphasis colors for `color` and `background-color`. These new colors are available as Sass variables, CSS variables, and utilities.
 
@@ -181,11 +181,26 @@ While we recommend adopting the new markup for improved compatibility with all s
 ```html
 <!-- Previous markup -->
 <div class="progress">
-  <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+  <div
+    class="progress-bar"
+    role="progressbar"
+    aria-label="Basic example"
+    style="width: 25%"
+    aria-valuenow="25"
+    aria-valuemin="0"
+    aria-valuemax="100"
+  ></div>
 </div>
 
 <!-- New markup -->
-<div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+<div
+  class="progress"
+  role="progressbar"
+  aria-label="Basic example"
+  aria-valuenow="25"
+  aria-valuemin="0"
+  aria-valuemax="100"
+>
   <div class="progress-bar" style="width: 25%"></div>
 </div>
 ```
@@ -195,20 +210,68 @@ We've also introduced a new `.progress-stacked` class to more logically wrap [mu
 ```html
 <!-- Previous markup -->
 <div class="progress">
-  <div class="progress-bar" role="progressbar" aria-label="Segment one" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
-  <div class="progress-bar bg-success" role="progressbar" aria-label="Segment two" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-  <div class="progress-bar bg-info" role="progressbar" aria-label="Segment three" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+  <div
+    class="progress-bar"
+    role="progressbar"
+    aria-label="Segment one"
+    style="width: 15%"
+    aria-valuenow="15"
+    aria-valuemin="0"
+    aria-valuemax="100"
+  ></div>
+  <div
+    class="progress-bar bg-success"
+    role="progressbar"
+    aria-label="Segment two"
+    style="width: 30%"
+    aria-valuenow="30"
+    aria-valuemin="0"
+    aria-valuemax="100"
+  ></div>
+  <div
+    class="progress-bar bg-info"
+    role="progressbar"
+    aria-label="Segment three"
+    style="width: 20%"
+    aria-valuenow="20"
+    aria-valuemin="0"
+    aria-valuemax="100"
+  ></div>
 </div>
 
 <!-- New markup -->
 <div class="progress-stacked">
-  <div class="progress" role="progressbar" aria-label="Segment one" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%">
+  <div
+    class="progress"
+    role="progressbar"
+    aria-label="Segment one"
+    aria-valuenow="15"
+    aria-valuemin="0"
+    aria-valuemax="100"
+    style="width: 15%"
+  >
     <div class="progress-bar"></div>
   </div>
-  <div class="progress" role="progressbar" aria-label="Segment two" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
+  <div
+    class="progress"
+    role="progressbar"
+    aria-label="Segment two"
+    aria-valuenow="30"
+    aria-valuemin="0"
+    aria-valuemax="100"
+    style="width: 30%"
+  >
     <div class="progress-bar bg-success"></div>
   </div>
-  <div class="progress" role="progressbar" aria-label="Segment three" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+  <div
+    class="progress"
+    role="progressbar"
+    aria-label="Segment three"
+    aria-valuenow="20"
+    aria-valuemin="0"
+    aria-valuemax="100"
+    style="width: 20%"
+  >
     <div class="progress-bar bg-info"></div>
   </div>
 </div>
@@ -727,8 +790,8 @@ Want more information? [Read the v5.1.0 blog post.](https://blog.getbootstrap.co
 - **All plugins can now accept a CSS selector as the first argument.** You can either pass a DOM element or any valid CSS selector to create a new instance of the plugin:
 
   ```js
-  const modal = new bootstrap.Modal('#myModal')
-  const dropdown = new bootstrap.Dropdown('[data-bs-toggle="dropdown"]')
+  const modal = new bootstrap.Modal("#myModal");
+  const dropdown = new bootstrap.Dropdown('[data-bs-toggle="dropdown"]');
   ```
 
 - `popperConfig` can be passed as a function that accepts the Bootstrap's default Popper config as an argument, so that you can merge this default configuration in your way. **Applies to dropdowns, popovers, and tooltips.**

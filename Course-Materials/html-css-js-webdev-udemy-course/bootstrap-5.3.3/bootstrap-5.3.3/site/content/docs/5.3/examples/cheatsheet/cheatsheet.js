@@ -1,73 +1,69 @@
 /* global bootstrap: false */
 
 (() => {
-  'use strict'
+  "use strict";
 
   // Tooltip and popover demos
-  document.querySelectorAll('.tooltip-demo')
-    .forEach(tooltip => {
-      new bootstrap.Tooltip(tooltip, {
-        selector: '[data-bs-toggle="tooltip"]'
-      })
-    })
+  document.querySelectorAll(".tooltip-demo").forEach((tooltip) => {
+    new bootstrap.Tooltip(tooltip, {
+      selector: '[data-bs-toggle="tooltip"]',
+    });
+  });
 
-  document.querySelectorAll('[data-bs-toggle="popover"]')
-    .forEach(popover => {
-      new bootstrap.Popover(popover)
-    })
+  document.querySelectorAll('[data-bs-toggle="popover"]').forEach((popover) => {
+    new bootstrap.Popover(popover);
+  });
 
-  document.querySelectorAll('.toast')
-    .forEach(toastNode => {
-      const toast = new bootstrap.Toast(toastNode, {
-        autohide: false
-      })
+  document.querySelectorAll(".toast").forEach((toastNode) => {
+    const toast = new bootstrap.Toast(toastNode, {
+      autohide: false,
+    });
 
-      toast.show()
-    })
+    toast.show();
+  });
 
   // Disable empty links and submit buttons
-  document.querySelectorAll('[href="#"], [type="submit"]')
-    .forEach(link => {
-      link.addEventListener('click', event => {
-        event.preventDefault()
-      })
-    })
+  document.querySelectorAll('[href="#"], [type="submit"]').forEach((link) => {
+    link.addEventListener("click", (event) => {
+      event.preventDefault();
+    });
+  });
 
   function setActiveItem() {
-    const { hash } = window.location
+    const { hash } = window.location;
 
-    if (hash === '') {
-      return
+    if (hash === "") {
+      return;
     }
 
-    const link = document.querySelector(`.bd-aside a[href="${hash}"]`)
+    const link = document.querySelector(`.bd-aside a[href="${hash}"]`);
 
     if (!link) {
-      return
+      return;
     }
 
-    const active = document.querySelector('.bd-aside .active')
-    const parent = link.parentNode.parentNode.previousElementSibling
+    const active = document.querySelector(".bd-aside .active");
+    const parent = link.parentNode.parentNode.previousElementSibling;
 
-    link.classList.add('active')
+    link.classList.add("active");
 
-    if (parent.classList.contains('collapsed')) {
-      parent.click()
+    if (parent.classList.contains("collapsed")) {
+      parent.click();
     }
 
     if (!active) {
-      return
+      return;
     }
 
-    const expanded = active.parentNode.parentNode.previousElementSibling
+    const expanded = active.parentNode.parentNode.previousElementSibling;
 
-    active.classList.remove('active')
+    active.classList.remove("active");
 
     if (expanded && parent !== expanded) {
-      expanded.click()
+      expanded.click();
     }
   }
 
-  setActiveItem()
-  window.addEventListener('hashchange', setActiveItem)
-})()
+  setActiveItem();
+  window.addEventListener("hashchange", setActiveItem);
+})();

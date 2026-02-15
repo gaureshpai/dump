@@ -20,11 +20,11 @@
 
   > ul li,
   > ol li {
-    margin-bottom: .25rem;
+    margin-bottom: 0.25rem;
 
     // stylelint-disable selector-max-type, selector-max-compound-selectors
     > p ~ ul {
-      margin-top: -.5rem;
+      margin-top: -0.5rem;
       margin-bottom: 1rem;
     }
     // stylelint-enable selector-max-type, selector-max-compound-selectors
@@ -37,7 +37,7 @@
 
     max-width: 100%;
     margin-bottom: 1.5rem;
-    @include font-size(.875rem);
+    @include font-size(0.875rem);
 
     @include media-breakpoint-down(lg) {
       &.table-bordered {
@@ -115,7 +115,7 @@
 .bi {
   width: 1em;
   height: 1em;
-  vertical-align: -.125em;
+  vertical-align: -0.125em;
   fill: currentcolor;
 }
 
@@ -150,14 +150,14 @@
   }
 
   .btn-secondary {
-    --bs-btn-bg: #{mix($gray-600, $blue-400, .5)};
-    --bs-btn-border-color: #{rgba($white, .25)};
-    --bs-btn-hover-bg: #{darken(mix($gray-600, $blue-400, .5), 5%)};
-    --bs-btn-hover-border-color: #{rgba($white, .25)};
-    --bs-btn-active-bg: #{darken(mix($gray-600, $blue-400, .5), 10%)};
-    --bs-btn-active-border-color: #{rgba($white, .5)};
-    --bs-btn-focus-border-color: #{rgba($white, .5)};
-    --bs-btn-focus-box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .2);
+    --bs-btn-bg: #{mix($gray-600, $blue-400, 0.5)};
+    --bs-btn-border-color: #{rgba($white, 0.25)};
+    --bs-btn-hover-bg: #{darken(mix($gray-600, $blue-400, 0.5), 5%)};
+    --bs-btn-hover-border-color: #{rgba($white, 0.25)};
+    --bs-btn-active-bg: #{darken(mix($gray-600, $blue-400, 0.5), 10%)};
+    --bs-btn-active-border-color: #{rgba($white, 0.5)};
+    --bs-btn-focus-border-color: #{rgba($white, 0.5)};
+    --bs-btn-focus-box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.2);
   }
 }
 // scss-docs-end custom-color-mode

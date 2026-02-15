@@ -1,1 +1,3 @@
-.border-dashed { --bs-border-style: dashed; }
+.border-dashed {
+  --bs-border-style: dashed;
+}

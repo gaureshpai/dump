@@ -18,6 +18,7 @@ Color and background helpers combine the power of our [`.text-*` utilities]({{< 
 {{< example >}}
 {{< text-bg.inline >}}
 {{- range (index $.Site.Data "theme-colors") }}
+
 <div class="text-bg-{{ .name }} p-3">{{ .name | title }} with contrasting color</div>
 {{- end -}}
 {{< /text-bg.inline >}}
@@ -39,6 +40,7 @@ Use them in place of combined `.text-*` and `.bg-*` classes, like on [badges]({{
 Or on [cards]({{< docsref "/components/card#background-and-color" >}}):
 
 {{< example >}}
+
 <div class="card text-bg-primary mb-3" style="max-width: 18rem;">
   <div class="card-header">Header</div>
   <div class="card-body">

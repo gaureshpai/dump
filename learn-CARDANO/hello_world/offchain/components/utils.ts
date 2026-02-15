@@ -5,7 +5,8 @@ export async function getErrorMessage(error: any) {
   try {
     // KoiosError:
     const a = errorMessage.indexOf("{", 1);
-    const b = errorMessage.lastIndexOf("}", errorMessage.lastIndexOf("}") - 1) + 1;
+    const b =
+      errorMessage.lastIndexOf("}", errorMessage.lastIndexOf("}") - 1) + 1;
 
     const rpc = errorMessage.slice(a, b);
     const jsonrpc = JSON.parse(rpc);

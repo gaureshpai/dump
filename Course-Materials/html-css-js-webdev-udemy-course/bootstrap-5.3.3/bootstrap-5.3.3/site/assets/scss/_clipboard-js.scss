@@ -20,12 +20,12 @@
 .btn-clipboard,
 .btn-edit {
   display: block;
-  padding: .5em;
+  padding: 0.5em;
   line-height: 1;
   color: var(--bs-body-color);
   background-color: var(--bd-pre-bg);
   border: 0;
-  @include border-radius(.25rem);
+  @include border-radius(0.25rem);
 
   &:hover {
     color: var(--bs-link-hover-color);
@@ -40,5 +40,5 @@
   position: relative;
   z-index: 2;
   margin-top: 1.25rem;
-  margin-right: .75rem;
+  margin-right: 0.75rem;
 }

@@ -56,6 +56,7 @@ Change the border color using utilities built on our theme colors.
 Or modify the default `border-color` of a component:
 
 {{< example >}}
+
 <div class="mb-4">
   <label for="exampleFormControlInput1" class="form-label">Email address</label>
   <input type="email" class="form-control border-success" id="exampleFormControlInput1" placeholder="name@example.com">
@@ -83,7 +84,10 @@ Consider our default `.border-success` utility.
 ```css
 .border-success {
   --bs-border-opacity: 1;
-  border-color: rgba(var(--bs-success-rgb), var(--bs-border-opacity)) !important;
+  border-color: rgba(
+    var(--bs-success-rgb),
+    var(--bs-border-opacity)
+  ) !important;
 }
 ```
 
@@ -94,6 +98,7 @@ We use an RGB version of our `--bs-success` (with the value of `25, 135, 84`) CS
 To change that opacity, override `--bs-border-opacity` via custom styles or inline styles.
 
 {{< example >}}
+
 <div class="border border-success p-2 mb-2">This is default success border</div>
 <div class="border border-success p-2" style="--bs-border-opacity: .5;">This is 50% opacity success border</div>
 {{< /example >}}
@@ -101,6 +106,7 @@ To change that opacity, override `--bs-border-opacity` via custom styles or inli
 Or, choose from any of the `.border-opacity` utilities:
 
 {{< example >}}
+
 <div class="border border-success p-2 mb-2">This is default success border</div>
 <div class="border border-success p-2 mb-2 border-opacity-75">This is 75% opacity success border</div>
 <div class="border border-success p-2 mb-2 border-opacity-50">This is 50% opacity success border</div>

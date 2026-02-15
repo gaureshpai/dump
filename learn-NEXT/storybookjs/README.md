@@ -21,12 +21,12 @@ This project utilizes a modern web development stack:
 
 ## Scripts Overview
 
--   `dev`: Starts the Next.js development server.
--   `build`: Builds the Next.js application for production.
--   `start`: Starts the Next.js production server.
--   `lint`: Lints the project code.
--   `storybook`: Starts the Storybook development server.
--   `build-storybook`: Builds the Storybook static application.
+- `dev`: Starts the Next.js development server.
+- `build`: Builds the Next.js application for production.
+- `start`: Starts the Next.js production server.
+- `lint`: Lints the project code.
+- `storybook`: Starts the Storybook development server.
+- `build-storybook`: Builds the Storybook static application.
 
 ## Getting Started
 
@@ -50,11 +50,11 @@ To get a local copy up and running, follow these simple steps.
 
 ### Running the Application
 
--   To run the Next.js development server:
-    ```sh
-    npm run dev
-    ```
--   To run Storybook:
-    ```sh
-    npm run storybook
-    ```
+- To run the Next.js development server:
+  ```sh
+  npm run dev
+  ```
+- To run Storybook:
+  ```sh
+  npm run storybook
+  ```

@@ -9,6 +9,7 @@ toc: false
 For longer content, you can add a `.text-truncate` class to truncate the text with an ellipsis. **Requires `display: inline-block` or `display: block`.**
 
 {{< example >}}
+
 <!-- Block level -->
 <div class="row">
   <div class="col-2 text-truncate">

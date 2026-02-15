@@ -70,17 +70,31 @@ Scroll the area below the navbar and watch the active class change. Open the dro
       <a class="nav-link" href="#scrollspyHeading2">Second</a>
     </li>
     <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+      <a
+        class="nav-link dropdown-toggle"
+        data-bs-toggle="dropdown"
+        href="#"
+        role="button"
+        aria-expanded="false"
+        >Dropdown</a
+      >
       <ul class="dropdown-menu">
         <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
         <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
-        <li><hr class="dropdown-divider"></li>
+        <li><hr class="dropdown-divider" /></li>
         <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
       </ul>
     </li>
   </ul>
 </nav>
-<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+<div
+  data-bs-spy="scroll"
+  data-bs-target="#navbar-example2"
+  data-bs-root-margin="0px 0px -40%"
+  data-bs-smooth-scroll="true"
+  class="scrollspy-example bg-body-tertiary p-3 rounded-2"
+  tabindex="0"
+>
   <h4 id="scrollspyHeading1">First heading</h4>
   <p>...</p>
   <h4 id="scrollspyHeading2">Second heading</h4>
@@ -162,7 +176,10 @@ Scrollspy also works with nested `.nav`s. If a nested `.nav` is `.active`, its p
 ```html
 <div class="row">
   <div class="col-4">
-    <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+    <nav
+      id="navbar-example3"
+      class="h-100 flex-column align-items-stretch pe-4 border-end"
+    >
       <nav class="nav nav-pills flex-column">
         <a class="nav-link" href="#item-1">Item 1</a>
         <nav class="nav nav-pills flex-column">
@@ -180,7 +197,13 @@ Scrollspy also works with nested `.nav`s. If a nested `.nav` is `.active`, its p
   </div>
 
   <div class="col-8">
-    <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+    <div
+      data-bs-spy="scroll"
+      data-bs-target="#navbar-example3"
+      data-bs-smooth-scroll="true"
+      class="scrollspy-example-2"
+      tabindex="0"
+    >
       <div id="item-1">
         <h4>Item 1</h4>
         <p>...</p>
@@ -247,14 +270,28 @@ Scrollspy also works with `.list-group`s. Scroll the area next to the list group
 <div class="row">
   <div class="col-4">
     <div id="list-example" class="list-group">
-      <a class="list-group-item list-group-item-action" href="#list-item-1">Item 1</a>
-      <a class="list-group-item list-group-item-action" href="#list-item-2">Item 2</a>
-      <a class="list-group-item list-group-item-action" href="#list-item-3">Item 3</a>
-      <a class="list-group-item list-group-item-action" href="#list-item-4">Item 4</a>
+      <a class="list-group-item list-group-item-action" href="#list-item-1"
+        >Item 1</a
+      >
+      <a class="list-group-item list-group-item-action" href="#list-item-2"
+        >Item 2</a
+      >
+      <a class="list-group-item list-group-item-action" href="#list-item-3"
+        >Item 3</a
+      >
+      <a class="list-group-item list-group-item-action" href="#list-item-4"
+        >Item 4</a
+      >
     </div>
   </div>
   <div class="col-8">
-    <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+    <div
+      data-bs-spy="scroll"
+      data-bs-target="#list-example"
+      data-bs-smooth-scroll="true"
+      class="scrollspy-example"
+      tabindex="0"
+    >
       <h4 id="list-item-1">Item 1</h4>
       <p>...</p>
       <h4 id="list-item-2">Item 2</h4>
@@ -303,7 +340,10 @@ Scrollspy is not limited to nav components and list groups, so it will work on a
 ```html
 <div class="row">
   <div class="col-4">
-    <div id="simple-list-example" class="d-flex flex-column gap-2 simple-list-example-scrollspy text-center">
+    <div
+      id="simple-list-example"
+      class="d-flex flex-column gap-2 simple-list-example-scrollspy text-center"
+    >
       <a class="p-1 rounded" href="#simple-list-item-1">Item 1</a>
       <a class="p-1 rounded" href="#simple-list-item-2">Item 2</a>
       <a class="p-1 rounded" href="#simple-list-item-3">Item 3</a>
@@ -312,7 +352,14 @@ Scrollspy is not limited to nav components and list groups, so it will work on a
     </div>
   </div>
   <div class="col-8">
-    <div data-bs-spy="scroll" data-bs-target="#simple-list-example" data-bs-offset="0" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+    <div
+      data-bs-spy="scroll"
+      data-bs-target="#simple-list-example"
+      data-bs-offset="0"
+      data-bs-smooth-scroll="true"
+      class="scrollspy-example"
+      tabindex="0"
+    >
       <h4 id="simple-list-item-1">Item 1</h4>
       <p>...</p>
       <h4 id="simple-list-item-2">Item 2</h4>
@@ -333,13 +380,15 @@ Scrollspy is not limited to nav components and list groups, so it will work on a
 Target elements that aren’t visible will be ignored and their corresponding nav items won't receive an `.active` class. Scrollspy instances initialized in a non-visible wrapper will ignore all target elements. Use the `refresh` method to check for observable elements once the wrapper becomes visible.
 
 ```js
-document.querySelectorAll('#nav-tab>[data-bs-toggle="tab"]').forEach(el => {
-  el.addEventListener('shown.bs.tab', () => {
-    const target = el.getAttribute('data-bs-target')
-    const scrollElem = document.querySelector(`${target} [data-bs-spy="scroll"]`)
-    bootstrap.ScrollSpy.getOrCreateInstance(scrollElem).refresh()
-  })
-})
+document.querySelectorAll('#nav-tab>[data-bs-toggle="tab"]').forEach((el) => {
+  el.addEventListener("shown.bs.tab", () => {
+    const target = el.getAttribute("data-bs-target");
+    const scrollElem = document.querySelector(
+      `${target} [data-bs-spy="scroll"]`,
+    );
+    bootstrap.ScrollSpy.getOrCreateInstance(scrollElem).refresh();
+  });
+});
 ```
 
 ## Usage
@@ -364,8 +413,8 @@ To easily add scrollspy behavior to your topbar navigation, add `data-bs-spy="sc
 
 ```js
 const scrollSpy = new bootstrap.ScrollSpy(document.body, {
-  target: '#navbar-example'
-})
+  target: "#navbar-example",
+});
 ```
 
 ### Options
@@ -397,18 +446,18 @@ To keep backwards compatibility, we will continue to parse a given `offset` to `
 | Method | Description |
 | --- | --- |
 | `dispose` | Destroys an element's scrollspy. (Removes stored data on the DOM element) |
-| `getInstance` | *Static* method to get the scrollspy instance associated with a DOM element. |
-| `getOrCreateInstance` | *Static* method to get the scrollspy instance associated with a DOM element, or to create a new one in case it wasn't initialized. |
+| `getInstance` | _Static_ method to get the scrollspy instance associated with a DOM element. |
+| `getOrCreateInstance` | _Static_ method to get the scrollspy instance associated with a DOM element, or to create a new one in case it wasn't initialized. |
 | `refresh` | When adding or removing elements in the DOM, you'll need to call the refresh method. |
 {{< /bs-table >}}
 
 Here's an example using the refresh method:
 
 ```js
-const dataSpyList = document.querySelectorAll('[data-bs-spy="scroll"]')
-dataSpyList.forEach(dataSpyEl => {
-  bootstrap.ScrollSpy.getInstance(dataSpyEl).refresh()
-})
+const dataSpyList = document.querySelectorAll('[data-bs-spy="scroll"]');
+dataSpyList.forEach((dataSpyEl) => {
+  bootstrap.ScrollSpy.getInstance(dataSpyEl).refresh();
+});
 ```
 
 ### Events
@@ -420,8 +469,8 @@ dataSpyList.forEach(dataSpyEl => {
 {{< /bs-table >}}
 
 ```js
-const firstScrollSpyEl = document.querySelector('[data-bs-spy="scroll"]')
-firstScrollSpyEl.addEventListener('activate.bs.scrollspy', () => {
+const firstScrollSpyEl = document.querySelector('[data-bs-spy="scroll"]');
+firstScrollSpyEl.addEventListener("activate.bs.scrollspy", () => {
   // do something...
-})
+});
 ```

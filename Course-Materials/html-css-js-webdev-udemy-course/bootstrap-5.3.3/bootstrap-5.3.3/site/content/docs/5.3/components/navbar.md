@@ -37,6 +37,7 @@ Navbars come with built-in support for a handful of sub-components. Choose from 
 Here's an example of all the sub-components included in a responsive light-themed navbar that automatically collapses at the `lg` (large) breakpoint.
 
 {{< example >}}
+
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>
@@ -86,6 +87,7 @@ The `.navbar-brand` can be applied to most elements, but an anchor works best, a
 Add your text within an element with the `.navbar-brand` class.
 
 {{< example >}}
+
 <!-- As a link -->
 <nav class="navbar bg-body-tertiary">
   <div class="container-fluid">
@@ -106,6 +108,7 @@ Add your text within an element with the `.navbar-brand` class.
 You can replace the text within the `.navbar-brand` with an `<img>`.
 
 {{< example >}}
+
 <nav class="navbar bg-body-tertiary">
   <div class="container">
     <a class="navbar-brand" href="#">
@@ -120,6 +123,7 @@ You can replace the text within the `.navbar-brand` with an `<img>`.
 You can also make use of some additional utilities to add an image and text at the same time. Note the addition of `.d-inline-block` and `.align-text-top` on the `<img>`.
 
 {{< example >}}
+
 <nav class="navbar bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
@@ -139,6 +143,7 @@ Add the `.active` class on `.nav-link` to indicate the current page.
 Please note that you should also add the `aria-current` attribute on the active `.nav-link`.
 
 {{< example >}}
+
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>
@@ -168,6 +173,7 @@ Please note that you should also add the `aria-current` attribute on the active 
 And because we use classes for our navs, you can avoid the list-based approach entirely if you like.
 
 {{< example >}}
+
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>
@@ -189,6 +195,7 @@ And because we use classes for our navs, you can avoid the list-based approach e
 You can also use dropdowns in your navbar. Dropdown menus require a wrapping element for positioning, so be sure to use separate and nested elements for `.nav-item` and `.nav-link` as shown below.
 
 {{< example >}}
+
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>
@@ -227,6 +234,7 @@ You can also use dropdowns in your navbar. Dropdown menus require a wrapping ele
 Place various form controls and components within a navbar:
 
 {{< example >}}
+
 <nav class="navbar bg-body-tertiary">
   <div class="container-fluid">
     <form class="d-flex" role="search">
@@ -240,6 +248,7 @@ Place various form controls and components within a navbar:
 Immediate child elements of `.navbar` use flex layout and will default to `justify-content: space-between`. Use additional [flex utilities]({{< docsref "/utilities/flex" >}}) as needed to adjust this behavior.
 
 {{< example >}}
+
 <nav class="navbar bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand">Navbar</a>
@@ -254,6 +263,7 @@ Immediate child elements of `.navbar` use flex layout and will default to `justi
 Input groups work, too. If your navbar is an entire form, or mostly a form, you can use the `<form>` element as the container and save some HTML.
 
 {{< example >}}
+
 <nav class="navbar bg-body-tertiary">
   <form class="container-fluid">
     <div class="input-group">
@@ -267,6 +277,7 @@ Input groups work, too. If your navbar is an entire form, or mostly a form, you 
 Various buttons are supported as part of these navbar forms, too. This is also a great reminder that vertical alignment utilities can be used to align different sized elements.
 
 {{< example >}}
+
 <nav class="navbar bg-body-tertiary">
   <form class="container-fluid justify-content-start">
     <button class="btn btn-outline-success me-2" type="button">Main button</button>
@@ -280,6 +291,7 @@ Various buttons are supported as part of these navbar forms, too. This is also a
 Navbars may contain bits of text with the help of `.navbar-text`. This class adjusts vertical alignment and horizontal spacing for strings of text.
 
 {{< example >}}
+
 <nav class="navbar bg-body-tertiary">
   <div class="container-fluid">
     <span class="navbar-text">
@@ -292,6 +304,7 @@ Navbars may contain bits of text with the help of `.navbar-text`. This class adj
 Mix and match with other components and utilities as needed.
 
 {{< example >}}
+
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar w/ text</a>
@@ -325,7 +338,7 @@ Mix and match with other components and utilities as needed.
 
 ---
 
-**New in v5.2.0  —** Navbar theming is now powered by CSS variables and `.navbar-light` has been deprecated. CSS variables are applied to `.navbar`, defaulting to the "light" appearance, and can be overridden with `.navbar-dark`.
+**New in v5.2.0 —** Navbar theming is now powered by CSS variables and `.navbar-light` has been deprecated. CSS variables are applied to `.navbar`, defaulting to the "light" appearance, and can be overridden with `.navbar-dark`.
 {{< /callout >}}
 
 Navbar themes are easier than ever thanks to Bootstrap's combination of Sass and CSS variables. The default is our "light navbar" for use with light background colors, but you can also apply `data-bs-theme="dark"` to the `.navbar` parent for dark background colors. Then, customize with `.bg-*` and additional utilities.
@@ -438,6 +451,7 @@ Navbar themes are easier than ever thanks to Bootstrap's combination of Sass and
 Although it's not required, you can wrap a navbar in a `.container` to center it on a page–though note that an inner container is still required. Or you can add a container inside the `.navbar` to only center the contents of a [fixed or static top navbar](#placement).
 
 {{< example >}}
+
 <div class="container">
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
@@ -450,6 +464,7 @@ Although it's not required, you can wrap a navbar in a `.container` to center it
 Use any of the responsive containers to change how wide the content in your navbar is presented.
 
 {{< example >}}
+
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-md">
     <a class="navbar-brand" href="#">Navbar</a>
@@ -464,6 +479,7 @@ Use our [position utilities]({{< docsref "/utilities/position" >}}) to place nav
 Fixed navbars use `position: fixed`, meaning they're pulled from the normal flow of the DOM and may require custom CSS (e.g., `padding-top` on the `<body>`) to prevent overlap with other elements.
 
 {{< example >}}
+
 <nav class="navbar bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Default</a>
@@ -472,6 +488,7 @@ Fixed navbars use `position: fixed`, meaning they're pulled from the normal flow
 {{< /example >}}
 
 {{< example >}}
+
 <nav class="navbar fixed-top bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Fixed top</a>
@@ -480,6 +497,7 @@ Fixed navbars use `position: fixed`, meaning they're pulled from the normal flow
 {{< /example >}}
 
 {{< example >}}
+
 <nav class="navbar fixed-bottom bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Fixed bottom</a>
@@ -488,6 +506,7 @@ Fixed navbars use `position: fixed`, meaning they're pulled from the normal flow
 {{< /example >}}
 
 {{< example >}}
+
 <nav class="navbar sticky-top bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Sticky top</a>
@@ -496,6 +515,7 @@ Fixed navbars use `position: fixed`, meaning they're pulled from the normal flow
 {{< /example >}}
 
 {{< example >}}
+
 <nav class="navbar sticky-bottom bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Sticky bottom</a>
@@ -512,6 +532,7 @@ Please note that this behavior comes with a potential drawback of `overflow`—w
 Here's an example navbar using `.navbar-nav-scroll` with `style="--bs-scroll-height: 100px;"`, with some extra margin utilities for optimum spacing.
 
 {{< example >}}
+
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar scroll</a>
@@ -563,6 +584,7 @@ Navbar togglers are left-aligned by default, but should they follow a sibling el
 With no `.navbar-brand` shown at the smallest breakpoint:
 
 {{< example >}}
+
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -593,6 +615,7 @@ With no `.navbar-brand` shown at the smallest breakpoint:
 With a brand name shown on the left and toggler on the right:
 
 {{< example >}}
+
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>
@@ -623,6 +646,7 @@ With a brand name shown on the left and toggler on the right:
 With a toggler on the left and brand name on the right:
 
 {{< example >}}
+
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -655,6 +679,7 @@ With a toggler on the left and brand name on the right:
 Sometimes you want to use the collapse plugin to trigger a container element for content that structurally sits outside of the `.navbar` . Because our plugin works on the `id` and `data-bs-target` matching, that's easily done!
 
 {{< example >}}
+
 <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
   <div class="bg-dark p-4">
     <h5 class="text-body-emphasis h4">Collapsed content</h5>
@@ -670,7 +695,7 @@ Sometimes you want to use the collapse plugin to trigger a container element for
 </nav>
 {{< /example >}}
 
-When you do this, we recommend including additional JavaScript to move the focus programmatically to the container when it is opened. Otherwise, keyboard users and users of assistive technologies will likely have a hard time finding the newly revealed content - particularly if the container that was opened comes *before* the toggler in the document's structure. We also recommend making sure that the toggler has the `aria-controls` attribute, pointing to the `id` of the content container. In theory, this allows assistive technology users to jump directly from the toggler to the container it controls–but support for this is currently quite patchy.
+When you do this, we recommend including additional JavaScript to move the focus programmatically to the container when it is opened. Otherwise, keyboard users and users of assistive technologies will likely have a hard time finding the newly revealed content - particularly if the container that was opened comes _before_ the toggler in the document's structure. We also recommend making sure that the toggler has the `aria-controls` attribute, pointing to the `id` of the content container. In theory, this allows assistive technology users to jump directly from the toggler to the container it controls–but support for this is currently quite patchy.
 
 ### Offcanvas
 
@@ -679,6 +704,7 @@ Transform your expanding and collapsing navbar into an offcanvas drawer with the
 In the example below, to create an offcanvas navbar that is always collapsed across all breakpoints, omit the `.navbar-expand-*` class entirely.
 
 {{< example >}}
+
 <nav class="navbar bg-body-tertiary fixed-top">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Offcanvas navbar</a>
@@ -727,10 +753,22 @@ To create an offcanvas navbar that expands into a normal navbar at a specific br
 ```html
 <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
   <a class="navbar-brand" href="#">Offcanvas navbar</a>
-  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg" aria-label="Toggle navigation">
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-bs-toggle="offcanvas"
+    data-bs-target="#navbarOffcanvasLg"
+    aria-controls="navbarOffcanvasLg"
+    aria-label="Toggle navigation"
+  >
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
+  <div
+    class="offcanvas offcanvas-end"
+    tabindex="-1"
+    id="navbarOffcanvasLg"
+    aria-labelledby="navbarOffcanvasLgLabel"
+  >
     ...
   </div>
 </nav>
@@ -739,6 +777,7 @@ To create an offcanvas navbar that expands into a normal navbar at a specific br
 When using offcanvas in a dark navbar, be aware that you may need to have a dark background on the offcanvas content to avoid the text becoming illegible. In the example below, we add `.navbar-dark` and `.bg-dark` to the `.navbar`, `.text-bg-dark` to the `.offcanvas`, `.dropdown-menu-dark` to `.dropdown-menu`, and `.btn-close-white` to `.btn-close` for proper styling with a dark offcanvas.
 
 {{< example >}}
+
 <nav class="navbar navbar-dark bg-dark fixed-top">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Offcanvas dark navbar</a>

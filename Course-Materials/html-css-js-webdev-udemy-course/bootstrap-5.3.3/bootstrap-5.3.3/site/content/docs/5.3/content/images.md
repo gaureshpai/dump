@@ -31,17 +31,16 @@ Align images with the [helper float classes]({{< docsref "/utilities/float" >}})
 {{< placeholder width="200" height="200" class="rounded float-end" >}}
 {{< /example >}}
 
-
 {{< example >}}
 {{< placeholder width="200" height="200" class="rounded mx-auto d-block" >}}
 {{< /example >}}
 
 {{< example >}}
+
 <div class="text-center">
   {{< placeholder width="200" height="200" class="rounded" >}}
 </div>
 {{< /example >}}
-
 
 ## Picture
 
@@ -49,8 +48,8 @@ If you are using the `<picture>` element to specify multiple `<source>` elements
 
 ```html
 <picture>
-  <source srcset="..." type="image/svg+xml">
-  <img src="..." class="img-fluid img-thumbnail" alt="...">
+  <source srcset="..." type="image/svg+xml" />
+  <img src="..." class="img-fluid img-thumbnail" alt="..." />
 </picture>
 ```
 

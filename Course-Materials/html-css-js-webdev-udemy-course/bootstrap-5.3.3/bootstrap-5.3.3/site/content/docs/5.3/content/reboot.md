@@ -51,7 +51,7 @@ The `<html>` and `<body>` elements are updated to provide better page-wide defau
 
 ## Native font stack
 
-Bootstrap utilizes a "native font stack" or "system font stack" for optimum text rendering on every device and OS. These system fonts have been designed specifically with today's devices in mind, with improved rendering on screens, variable font support, and more. Read more about [native font stacks in this *Smashing Magazine* article](https://www.smashingmagazine.com/2015/11/using-system-ui-fonts-practical-guide/).
+Bootstrap utilizes a "native font stack" or "system font stack" for optimum text rendering on every device and OS. These system fonts have been designed specifically with today's devices in mind, with improved rendering on screens, variable font support, and more. Read more about [native font stacks in this _Smashing Magazine_ article](https://www.smashingmagazine.com/2015/11/using-system-ui-fonts-practical-guide/).
 
 ```scss
 $font-family-sans-serif:
@@ -73,7 +73,10 @@ $font-family-sans-serif:
   // Sans serif fallback
   sans-serif,
   // Emoji fonts
-  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+  "Apple Color Emoji",
+  "Segoe UI Emoji",
+  "Segoe UI Symbol",
+  "Noto Color Emoji" !default;
 ```
 
 Note that because the font stack includes emoji fonts, many common symbol/dingbat Unicode characters will be rendered as multicolored pictographs. Their appearance will vary, depending on the style used in the browser/platform's native emoji font, and they won't be affected by any CSS `color` styles.
@@ -100,6 +103,7 @@ All heading elements—`<h1>`—`<h6>` have their `margin-top` removed, `margin-
 All `<p>` elements have their `margin-top` removed and `margin-bottom: 1rem` set for easy spacing.
 
 {{< example >}}
+
 <p>This is an example paragraph.</p>
 {{< /example >}}
 
@@ -117,7 +121,6 @@ As of v5.3.x, link `color` is set using `rgba()` and new `-rgb` CSS variables, a
 <a href="#" style="--bs-link-opacity: .5">This is an example link</a>
 {{< /example >}}
 
-
 Placeholder links—those without an `href`—are targeted with a more specific selector and have their `color` and `text-decoration` reset to their default values.
 
 {{< example >}}
@@ -129,6 +132,7 @@ Placeholder links—those without an `href`—are targeted with a more specific 
 The `<hr>` element has been simplified. Similar to browser defaults, `<hr>`s are styled via `border-top`, have a default `opacity: .25`, and automatically inherit their `border-color` via `color`, including when `color` is set via the parent. They can be modified with text, border, and opacity utilities.
 
 {{< example >}}
+
 <hr>
 
 <div class="text-success">
@@ -186,9 +190,11 @@ For example, <code>&lt;section&gt;</code> should be wrapped as inline.
 Use `<pre>`s for multiple lines of code. Once again, be sure to escape any angle brackets in the code for proper rendering. The `<pre>` element is reset to remove its `margin-top` and use `rem` units for its `margin-bottom`.
 
 {{< example >}}
+
 <pre><code>&lt;p&gt;Sample text here...&lt;/p&gt;
 &lt;p&gt;And another line of sample text here...&lt;/p&gt;
 </code></pre>
+
 {{< /example >}}
 
 ## Variables
@@ -221,6 +227,7 @@ For indicating sample output from a program use the `<samp>` tag.
 Tables are slightly adjusted to style `<caption>`s, collapse borders, and ensure consistent `text-align` throughout. Additional changes for borders, padding, and more come with [the `.table` class]({{< docsref "/content/tables" >}}).
 
 {{< example >}}
+
 <table>
   <caption>
     This is an example table, and this is its caption to describe the contents.
@@ -463,7 +470,7 @@ The default `cursor` on summary is `text`, so we reset that to `pointer` to conv
 HTML5 adds [a new global attribute named `[hidden]`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/hidden), which is styled as `display: none` by default. Borrowing an idea from [PureCSS](https://purecss.io/), we improve upon this default by making `[hidden] { display: none !important; }` to help prevent its `display` from getting accidentally overridden.
 
 ```html
-<input type="text" hidden>
+<input type="text" hidden />
 ```
 
 {{< callout info >}}

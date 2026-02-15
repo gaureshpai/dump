@@ -10,10 +10,7 @@
   "rules": {
     "arrow-body-style": "off",
     "capitalized-comments": "off",
-    "comma-dangle": [
-      "error",
-      "never"
-    ],
+    "comma-dangle": ["error", "never"],
     "import/extensions": [
       "error",
       "ignorePackages",
@@ -38,9 +35,7 @@
     "import/no-named-as-default-member": "error",
     "import/no-named-default": "error",
     "import/no-self-import": "error",
-    "import/no-unassigned-import": [
-      "error"
-    ],
+    "import/no-unassigned-import": ["error"],
     "import/no-useless-path-segments": "error",
     "import/order": "error",
     "indent": [
@@ -52,14 +47,8 @@
       }
     ],
     "logical-assignment-operators": "off",
-    "max-params": [
-      "warn",
-      5
-    ],
-    "multiline-ternary": [
-      "error",
-      "always-multiline"
-    ],
+    "max-params": ["warn", 5],
+    "multiline-ternary": ["error", "always-multiline"],
     "new-cap": [
       "error",
       {
@@ -68,20 +57,11 @@
     ],
     "no-console": "error",
     "no-negated-condition": "off",
-    "object-curly-spacing": [
-      "error",
-      "always"
-    ],
-    "operator-linebreak": [
-      "error",
-      "after"
-    ],
+    "object-curly-spacing": ["error", "always"],
+    "operator-linebreak": ["error", "after"],
     "prefer-object-has-own": "off",
     "prefer-template": "error",
-    "semi": [
-      "error",
-      "never"
-    ],
+    "semi": ["error", "never"],
     "strict": "error",
     "unicorn/explicit-length-check": "off",
     "unicorn/filename-case": "off",
@@ -102,9 +82,7 @@
   },
   "overrides": [
     {
-      "files": [
-        "build/**"
-      ],
+      "files": ["build/**"],
       "env": {
         "browser": false,
         "node": true
@@ -118,18 +96,13 @@
       }
     },
     {
-      "files": [
-        "js/**"
-      ],
+      "files": ["js/**"],
       "parserOptions": {
         "sourceType": "module"
       }
     },
     {
-      "files": [
-        "js/tests/*.js",
-        "js/tests/integration/rollup*.js"
-      ],
+      "files": ["js/tests/*.js", "js/tests/integration/rollup*.js"],
       "env": {
         "node": true
       },
@@ -138,9 +111,7 @@
       }
     },
     {
-      "files": [
-        "js/tests/unit/**"
-      ],
+      "files": ["js/tests/unit/**"],
       "env": {
         "jasmine": true
       },
@@ -152,16 +123,10 @@
       }
     },
     {
-      "files": [
-        "js/tests/visual/**"
-      ],
-      "plugins": [
-        "html"
-      ],
+      "files": ["js/tests/visual/**"],
+      "plugins": ["html"],
       "settings": {
-        "html/html-extensions": [
-          ".html"
-        ]
+        "html/html-extensions": [".html"]
       },
       "rules": {
         "no-console": "off",
@@ -170,9 +135,7 @@
       }
     },
     {
-      "files": [
-        "scss/tests/**"
-      ],
+      "files": ["scss/tests/**"],
       "env": {
         "node": true
       },
@@ -181,9 +144,7 @@
       }
     },
     {
-      "files": [
-        "site/**"
-      ],
+      "files": ["site/**"],
       "env": {
         "browser": true,
         "node": false
@@ -198,18 +159,12 @@
       }
     },
     {
-      "files": [
-        "**/*.md"
-      ],
-      "plugins": [
-        "markdown"
-      ],
+      "files": ["**/*.md"],
+      "plugins": ["markdown"],
       "processor": "markdown/markdown"
     },
     {
-      "files": [
-        "**/*.md/*.js"
-      ],
+      "files": ["**/*.md/*.js"],
       "extends": "plugin:markdown/recommended",
       "parserOptions": {
         "sourceType": "module"

@@ -51,7 +51,7 @@
 }
 .cal-btn[disabled] {
   border: 0;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .w-220px {
@@ -67,5 +67,5 @@
 }
 
 .opacity-10 {
-  opacity: .1;
+  opacity: 0.1;
 }

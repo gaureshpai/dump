@@ -11,6 +11,7 @@ toc: true
 Wrap a pair of `<input class="form-control">` and `<label>` elements in `.form-floating` to enable floating labels with Bootstrap's textual form fields. A `placeholder` is required on each `<input>` as our method of CSS-only floating labels uses the `:placeholder-shown` pseudo-element. Also note that the `<input>` must come first so we can utilize a sibling selector (e.g., `~`).
 
 {{< example >}}
+
 <div class="form-floating mb-3">
   <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
   <label for="floatingInput">Email address</label>
@@ -24,6 +25,7 @@ Wrap a pair of `<input class="form-control">` and `<label>` elements in `.form-f
 When there's a `value` already defined, `<label>`s will automatically adjust to their floated position.
 
 {{< example >}}
+
 <form class="form-floating">
   <input type="email" class="form-control" id="floatingInputValue" placeholder="name@example.com" value="test@example.com">
   <label for="floatingInputValue">Input with value</label>
@@ -33,6 +35,7 @@ When there's a `value` already defined, `<label>`s will automatically adjust to 
 Form validation styles also work as expected.
 
 {{< example >}}
+
 <form class="form-floating">
   <input type="email" class="form-control is-invalid" id="floatingInputInvalid" placeholder="name@example.com" value="test@example.com">
   <label for="floatingInputInvalid">Invalid input</label>
@@ -44,6 +47,7 @@ Form validation styles also work as expected.
 By default, `<textarea>`s with `.form-control` will be the same height as `<input>`s.
 
 {{< example >}}
+
 <div class="form-floating">
   <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
   <label for="floatingTextarea">Comments</label>
@@ -53,6 +57,7 @@ By default, `<textarea>`s with `.form-control` will be the same height as `<inpu
 To set a custom height on your `<textarea>`, do not use the `rows` attribute. Instead, set an explicit `height` (either inline or via custom CSS).
 
 {{< example >}}
+
 <div class="form-floating">
   <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
   <label for="floatingTextarea2">Comments</label>
@@ -64,6 +69,7 @@ To set a custom height on your `<textarea>`, do not use the `rows` attribute. In
 Other than `.form-control`, floating labels are only available on `.form-select`s. They work in the same way, but unlike `<input>`s, they'll always show the `<label>` in its floated state. **Selects with `size` and `multiple` are not supported.**
 
 {{< example >}}
+
 <div class="form-floating">
   <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
     <option selected>Open this select menu</option>
@@ -80,6 +86,7 @@ Other than `.form-control`, floating labels are only available on `.form-select`
 Add the `disabled` boolean attribute on an input, a textarea or a select to give it a grayed out appearance, remove pointer events, and prevent focusing.
 
 {{< example >}}
+
 <div class="form-floating mb-3">
   <input type="email" class="form-control" id="floatingInputDisabled" placeholder="name@example.com" disabled>
   <label for="floatingInputDisabled">Email address</label>
@@ -108,6 +115,7 @@ Add the `disabled` boolean attribute on an input, a textarea or a select to give
 Floating labels also support `.form-control-plaintext`, which can be helpful for toggling from an editable `<input>` to a plaintext value without affecting the page layout.
 
 {{< example >}}
+
 <div class="form-floating mb-3">
   <input type="email" readonly class="form-control-plaintext" id="floatingEmptyPlaintextInput" placeholder="name@example.com">
   <label for="floatingEmptyPlaintextInput">Empty input</label>
@@ -123,6 +131,7 @@ Floating labels also support `.form-control-plaintext`, which can be helpful for
 Floating labels also support `.input-group`.
 
 {{< example >}}
+
 <div class="input-group mb-3">
   <span class="input-group-text">@</span>
   <div class="form-floating">
@@ -135,6 +144,7 @@ Floating labels also support `.input-group`.
 When using `.input-group` and `.form-floating` along with form validation, the `-feedback` should be placed outside of the `.form-floating`, but inside of the `.input-group`. This means that the feedback will need to be shown using javascript.
 
 {{< example >}}
+
 <div class="input-group has-validation">
   <span class="input-group-text">@</span>
   <div class="form-floating is-invalid">
@@ -152,6 +162,7 @@ When using `.input-group` and `.form-floating` along with form validation, the `
 When working with the Bootstrap grid system, be sure to place form elements within column classes.
 
 {{< example >}}
+
 <div class="row g-2">
   <div class="col-md">
     <div class="form-floating">

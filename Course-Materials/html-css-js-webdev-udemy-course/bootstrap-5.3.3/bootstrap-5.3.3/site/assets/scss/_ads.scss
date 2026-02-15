@@ -11,7 +11,7 @@
   padding: 15px 15px 15px 160px;
   margin: 2rem 0;
   overflow: hidden;
-  @include font-size(.8125rem);
+  @include font-size(0.8125rem);
   line-height: 1.4;
   text-align: left;
   background-color: var(--bs-tertiary-bg);
@@ -22,7 +22,7 @@
   }
 
   @include media-breakpoint-up(sm) {
-    @include border-radius(.5rem);
+    @include border-radius(0.5rem);
   }
 }
 
@@ -33,6 +33,6 @@
 
 .carbon-poweredby {
   display: block;
-  margin-top: .75rem;
+  margin-top: 0.75rem;
   color: var(--bs-body-color) !important;
 }

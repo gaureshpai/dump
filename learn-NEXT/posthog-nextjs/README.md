@@ -21,10 +21,10 @@ This project utilizes a modern web development stack:
 
 ## Scripts Overview
 
--   `dev`: Starts the Next.js development server.
--   `build`: Builds the Next.js application for production.
--   `start`: Starts the Next.js production server.
--   `lint`: Lints the project code using ESLint.
+- `dev`: Starts the Next.js development server.
+- `build`: Builds the Next.js application for production.
+- `start`: Starts the Next.js production server.
+- `lint`: Lints the project code using ESLint.
 
 ## Getting Started
 
@@ -49,7 +49,7 @@ To get a local copy up and running, follow these simple steps.
 
 ### Running the Application
 
--   To run the development server:
-    ```sh
-    npm run dev
-    ```
+- To run the development server:
+  ```sh
+  npm run dev
+  ```

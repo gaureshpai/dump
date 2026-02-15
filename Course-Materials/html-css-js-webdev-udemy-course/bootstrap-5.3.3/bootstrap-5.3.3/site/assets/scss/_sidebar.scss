@@ -7,8 +7,8 @@
     display: block !important;
     height: subtract(100vh, 6rem);
     // Prevent focus styles to be cut off:
-    padding-left: .25rem;
-    margin-left: -.25rem;
+    padding-left: 0.25rem;
+    margin-left: -0.25rem;
     overflow-y: auto;
   }
 
@@ -26,7 +26,7 @@
 
 .bd-links-nav {
   @include media-breakpoint-down(lg) {
-    font-size: .875rem;
+    font-size: 0.875rem;
   }
 
   @include media-breakpoint-between(xs, lg) {
@@ -44,8 +44,8 @@
 }
 
 .bd-links-link {
-  padding: .1875rem .5rem;
-  margin-top: .125rem;
+  padding: 0.1875rem 0.5rem;
+  margin-top: 0.125rem;
   margin-left: 1.125rem;
   color: var(--bs-body-color);
   text-decoration: if($link-decoration == none, null, none);

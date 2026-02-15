@@ -1,20 +1,18 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Redirect in javascript</title>
     <script lang="javascript" type="text/javascript">
-        function Redirect(){
-            window.location = "https://gauresh.vercel.app";
-        }
+      function Redirect() {
+        window.location = "https://gauresh.vercel.app";
+      }
     </script>
-</head>
+  </head>
 
-<body onload="setTimeout('Redirect()',5000)">
+  <body onload="setTimeout('Redirect()', 5000)">
     <button onclick="Redirect()">Click me</button>
     <p>You will be redirected in 5000 ms if the button is not clicked!</p>
-</body>
-
+  </body>
 </html>

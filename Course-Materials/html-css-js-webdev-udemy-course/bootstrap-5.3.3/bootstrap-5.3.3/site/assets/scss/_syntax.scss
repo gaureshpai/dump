@@ -44,85 +44,211 @@
   }
 }
 
-.hl { background-color: var(--base02); }
-.c { color: var(--base03); }
-.err { color: var(--base08); }
-.k { color: var(--base0E); }
-.l { color: var(----base09); }
-.n { color: var(--base08); }
-.o { color: var(--base05); }
-.p { color: var(--base05); }
-.cm { color: var(--base04); }
-.cp { color: var(--base08); }
-.c1 { color: var(--base03); }
-.cs { color: var(--base04); }
-.gd { color: var(--base08); }
-.ge { font-style: italic; }
+.hl {
+  background-color: var(--base02);
+}
+.c {
+  color: var(--base03);
+}
+.err {
+  color: var(--base08);
+}
+.k {
+  color: var(--base0E);
+}
+.l {
+  color: var(----base09);
+}
+.n {
+  color: var(--base08);
+}
+.o {
+  color: var(--base05);
+}
+.p {
+  color: var(--base05);
+}
+.cm {
+  color: var(--base04);
+}
+.cp {
+  color: var(--base08);
+}
+.c1 {
+  color: var(--base03);
+}
+.cs {
+  color: var(--base04);
+}
+.gd {
+  color: var(--base08);
+}
+.ge {
+  font-style: italic;
+}
 .gh {
   font-weight: 600;
   color: var(--base0A);
 }
-.gi { color: var(--bs-success); }
+.gi {
+  color: var(--bs-success);
+}
 .gp {
   font-weight: 600;
   color: var(--base04);
 }
-.gs { font-weight: 600; }
+.gs {
+  font-weight: 600;
+}
 .gu {
   font-weight: 600;
   color: var(--base0C);
 }
-.kc { color: var(--base0E); }
-.kd { color: var(--base0E); }
-.kn { color: var(--base0C); }
-.kp { color: var(--base0E); }
-.kr { color: var(--base0E); }
-.kt { color: var(--base0A); }
-.ld { color: var(--base0C); }
-.m { color: var(--base09); }
-.s { color: var(--base0C); }
-.na { color: var(--base0A); }
-.nb { color: var(--base05); }
-.nc { color: var(--base07); }
-.no { color: var(--base08); }
-.nd { color: var(--base07); }
-.ni { color: var(--base08); }
-.ne { color: var(--base08); }
-.nf { color: var(--base0B); }
-.nl { color: var(--base05); }
-.nn { color: var(--base0A); }
-.nx { color: var(--base0A); }
-.py { color: var(--base08); }
-.nt { color: var(--base08); }
-.nv { color: var(--base08); }
-.ow { color: var(--base0C); }
-.w { color: #fff; }
-.mf { color: var(--base09); }
-.mh { color: var(--base09); }
-.mi { color: var(--base09); }
-.mo { color: var(--base09); }
-.sb { color: var(--base0C); }
-.sc { color: #fff; }
-.sd { color: var(--base04); }
-.s2 { color: var(--base0C); }
-.se { color: var(--base09); }
-.sh { color: var(--base0C); }
-.si { color: var(--base09); }
-.sx { color: var(--base0C); }
-.sr { color: var(--base0C); }
-.s1 { color: var(--base0C); }
-.ss { color: var(--base0C); }
-.bp { color: var(--base05); }
-.vc { color: var(--base08); }
-.vg { color: var(--base08); }
-.vi { color: var(--base08); }
-.il { color: var(--base09); }
+.kc {
+  color: var(--base0E);
+}
+.kd {
+  color: var(--base0E);
+}
+.kn {
+  color: var(--base0C);
+}
+.kp {
+  color: var(--base0E);
+}
+.kr {
+  color: var(--base0E);
+}
+.kt {
+  color: var(--base0A);
+}
+.ld {
+  color: var(--base0C);
+}
+.m {
+  color: var(--base09);
+}
+.s {
+  color: var(--base0C);
+}
+.na {
+  color: var(--base0A);
+}
+.nb {
+  color: var(--base05);
+}
+.nc {
+  color: var(--base07);
+}
+.no {
+  color: var(--base08);
+}
+.nd {
+  color: var(--base07);
+}
+.ni {
+  color: var(--base08);
+}
+.ne {
+  color: var(--base08);
+}
+.nf {
+  color: var(--base0B);
+}
+.nl {
+  color: var(--base05);
+}
+.nn {
+  color: var(--base0A);
+}
+.nx {
+  color: var(--base0A);
+}
+.py {
+  color: var(--base08);
+}
+.nt {
+  color: var(--base08);
+}
+.nv {
+  color: var(--base08);
+}
+.ow {
+  color: var(--base0C);
+}
+.w {
+  color: #fff;
+}
+.mf {
+  color: var(--base09);
+}
+.mh {
+  color: var(--base09);
+}
+.mi {
+  color: var(--base09);
+}
+.mo {
+  color: var(--base09);
+}
+.sb {
+  color: var(--base0C);
+}
+.sc {
+  color: #fff;
+}
+.sd {
+  color: var(--base04);
+}
+.s2 {
+  color: var(--base0C);
+}
+.se {
+  color: var(--base09);
+}
+.sh {
+  color: var(--base0C);
+}
+.si {
+  color: var(--base09);
+}
+.sx {
+  color: var(--base0C);
+}
+.sr {
+  color: var(--base0C);
+}
+.s1 {
+  color: var(--base0C);
+}
+.ss {
+  color: var(--base0C);
+}
+.bp {
+  color: var(--base05);
+}
+.vc {
+  color: var(--base08);
+}
+.vg {
+  color: var(--base08);
+}
+.vi {
+  color: var(--base08);
+}
+.il {
+  color: var(--base09);
+}
 
 // Color commas in rgba() values
-.m + .o { color: var(--base03); }
+.m + .o {
+  color: var(--base03);
+}
 
 // Fix bash
-.language-sh .c { color: var(--base03); }
+.language-sh .c {
+  color: var(--base03);
+}
 
 .chroma {
   .language-bash,

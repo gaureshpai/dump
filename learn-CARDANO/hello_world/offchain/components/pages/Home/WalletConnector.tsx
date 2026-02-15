@@ -3,7 +3,9 @@ import { Button } from "@heroui/button";
 import {} from "@evolution-sdk/lucid";
 import { Wallet } from "@/types/cardano";
 
-export default function WalletConnector(props: { onConnectWallet: (wallet: Wallet) => void; }) {
+export default function WalletConnector(props: {
+  onConnectWallet: (wallet: Wallet) => void;
+}) {
   function getWallets() {
     const wallets: Wallet[] = [];
     const { cardano } = window;
@@ -23,7 +25,8 @@ export default function WalletConnector(props: { onConnectWallet: (wallet: Walle
 
   const wallets = getWallets();
 
-  if (!wallets.length) return <span className="uppercase">No Cardano Wallet</span>;
+  if (!wallets.length)
+    return <span className="uppercase">No Cardano Wallet</span>;
 
   return (
     <div className="flex flex-wrap gap-2">

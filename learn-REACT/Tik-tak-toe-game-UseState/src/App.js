@@ -1,12 +1,12 @@
-import React from 'react'
-import Game from './Tiktaktoe'
+import React from "react";
+import Game from "./Tiktaktoe";
 
 const App = () => {
   return (
     <div>
-      <Game/>
+      <Game />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

@@ -1,101 +1,101 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
 }
 
 .header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
 }
 
 .menu {
-    list-style-type: none;
-    text-align: center;
-    padding: 0;
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
 }
 
 .menu li {
-    display: inline;
-    margin: 0 10px;
+  display: inline;
+  margin: 0 10px;
 }
 
 .menu a {
-    text-decoration: none;
-    color: #333;
-    font-size: 18px;
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
 }
 
 .menu a:hover {
-    color: #8a2be2;
+  color: #8a2be2;
 }
 
 .content {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .hidden-content {
-    display: none;
+  display: none;
 }
 
 .hidden-content:target {
-    display: block;
+  display: block;
 }
 
 .info {
-    margin-top: 30px;
-    border-collapse: collapse;
-    width: 100%;
+  margin-top: 30px;
+  border-collapse: collapse;
+  width: 100%;
 }
 
 .info td {
-    border: 1px solid #ddd;
-    padding: 10px;
-    font-size: 18px;
-    line-height: 1.6;
+  border: 1px solid #ddd;
+  padding: 10px;
+  font-size: 18px;
+  line-height: 1.6;
 }
 
 .info .a1 {
-    font-weight: bold;
-    background-color: #f8f8f8;
+  font-weight: bold;
+  background-color: #f8f8f8;
 }
 
 .section-title {
-    font-size: 24px;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 10px;
-    line-height: 1.6;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+  line-height: 1.6;
 }
 
 .school-name {
-    font-size: 20px;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 5px;
-    line-height: 1.6;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+  line-height: 1.6;
 }
 
 .details {
-    font-size: 18px;
-    color: #666;
-    margin-bottom: 5px;
-    line-height: 1.6;
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 5px;
+  line-height: 1.6;
 }
 
 .link {
-    text-decoration: none;
-    color: #8a2be2;
-    line-height: 1.6;
+  text-decoration: none;
+  color: #8a2be2;
+  line-height: 1.6;
 }
 
 .link:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }

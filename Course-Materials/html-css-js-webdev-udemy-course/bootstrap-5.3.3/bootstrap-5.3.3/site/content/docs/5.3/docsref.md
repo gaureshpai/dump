@@ -17,15 +17,15 @@ sitemap_exclude: true
 ## Callouts
 
 {{< callout >}}
-  Default callout
+Default callout
 {{< /callout >}}
 
 {{< callout warning >}}
-  Warning callout
+Warning callout
 {{< /callout >}}
 
 {{< callout danger >}}
-  Danger callout
+Danger callout
 {{< /callout >}}
 
 ## Code example
@@ -41,6 +41,7 @@ sitemap_exclude: true
 </div>
 
 {{< example >}}
+
 <div class="test">This is a test.</div>
 {{< /example >}}
 

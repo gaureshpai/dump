@@ -1,5 +1,9 @@
 import { useState } from "react";
-import { Lucid, paymentCredentialOf, stakeCredentialOf } from "@evolution-sdk/lucid";
+import {
+  Lucid,
+  paymentCredentialOf,
+  stakeCredentialOf,
+} from "@evolution-sdk/lucid";
 
 import { Wallet } from "@/types/cardano";
 import { Connection, useWallet } from "@/components/connection/context";
@@ -13,11 +17,17 @@ export default function Home() {
   const [connection, setConnection] = useWallet();
 
   async function connectWallet(wallet: Wallet): Promise<Connection> {
-    const [api, lucid] = await Promise.all([wallet.enable(), Lucid(provider, network)]);
+    const [api, lucid] = await Promise.all([
+      wallet.enable(),
+      Lucid(provider, network),
+    ]);
 
     lucid.selectWallet.fromAPI(api);
 
-    const [address, stakeAddress] = await Promise.all([lucid.wallet().address(), lucid.wallet().rewardAddress()]);
+    const [address, stakeAddress] = await Promise.all([
+      lucid.wallet().address(),
+      lucid.wallet().rewardAddress(),
+    ]);
 
     const pkh = paymentCredentialOf(address).hash;
     const skh = stakeAddress ? stakeCredentialOf(stakeAddress).hash : null;
@@ -25,12 +35,14 @@ export default function Home() {
     return { api, lucid, address, pkh, stakeAddress, skh };
   }
 
-  const onConnectWallet = (wallet: Wallet) => connectWallet(wallet).then(setConnection).catch(handleError);
+  const onConnectWallet = (wallet: Wallet) =>
+    connectWallet(wallet).then(setConnection).catch(handleError);
   //#endregion
 
   const [result, setResult] = useState("");
 
-  const handleError = (error: any) => getErrorMessage(error).then(setResult).catch(console.error);
+  const handleError = (error: any) =>
+    getErrorMessage(error).then(setResult).catch(console.error);
 
   return (
     <div className="flex justify-center overflow-hidden">
@@ -42,7 +54,9 @@ export default function Home() {
           // no wallet connected yet: Show Wallet button List
           <WalletConnector onConnectWallet={onConnectWallet} />
         )}
-        <span className="font-mono break-words whitespace-pre-wrap">{result}</span>
+        <span className="font-mono break-words whitespace-pre-wrap">
+          {result}
+        </span>
       </div>
     </div>
   );

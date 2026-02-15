@@ -22,6 +22,7 @@ Alternatively, you can also switch to a media query implementation thanks to our
 For example, to change the color mode of a dropdown menu, add `data-bs-theme="light"` or `data-bs-theme="dark"` to the parent `.dropdown`. Now, no matter the global color mode, these dropdowns will display with the specified theme value.
 
 {{< example class="d-flex justify-content-between" >}}
+
 <div class="dropdown" data-bs-theme="light">
   <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButtonLight" data-bs-toggle="dropdown" aria-expanded="false">
     Default dropdown
@@ -112,7 +113,7 @@ $color-mode-type: data;
 Outputs to:
 
 ```css
-[data-bs-theme=dark] .element {
+[data-bs-theme="dark"] .element {
   color: var(--bs-primary-text-emphasis);
   background-color: var(--bs-primary-bg-subtle);
 }
@@ -172,9 +173,7 @@ For example, you can create a "blue theme" with the selector `data-bs-theme="blu
 </div>
 
 ```html
-<div data-bs-theme="blue">
-  ...
-</div>
+<div data-bs-theme="blue">...</div>
 ```
 
 ## JavaScript
@@ -203,7 +202,7 @@ This is a manual process because Sass cannot generate its own Sass variables fro
 
 // Add a custom color to $theme-colors
 $custom-colors: (
-  "custom-color": #712cf9
+  "custom-color": #712cf9,
 );
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
@@ -214,22 +213,49 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 // Add a custom color to new theme maps
 
 // Light mode
-$custom-colors-text: ("custom-color": #712cf9);
-$custom-colors-bg-subtle: ("custom-color": #e1d2fe);
-$custom-colors-border-subtle: ("custom-color": #bfa1fc);
+$custom-colors-text: (
+  "custom-color": #712cf9,
+);
+$custom-colors-bg-subtle: (
+  "custom-color": #e1d2fe,
+);
+$custom-colors-border-subtle: (
+  "custom-color": #bfa1fc,
+);
 
 $theme-colors-text: map-merge($theme-colors-text, $custom-colors-text);
-$theme-colors-bg-subtle: map-merge($theme-colors-bg-subtle, $custom-colors-bg-subtle);
-$theme-colors-border-subtle: map-merge($theme-colors-border-subtle, $custom-colors-border-subtle);
+$theme-colors-bg-subtle: map-merge(
+  $theme-colors-bg-subtle,
+  $custom-colors-bg-subtle
+);
+$theme-colors-border-subtle: map-merge(
+  $theme-colors-border-subtle,
+  $custom-colors-border-subtle
+);
 
 // Dark mode
-$custom-colors-text-dark: ("custom-color": #e1d2f2);
-$custom-colors-bg-subtle-dark: ("custom-color": #8951fa);
-$custom-colors-border-subtle-dark: ("custom-color": #e1d2f2);
+$custom-colors-text-dark: (
+  "custom-color": #e1d2f2,
+);
+$custom-colors-bg-subtle-dark: (
+  "custom-color": #8951fa,
+);
+$custom-colors-border-subtle-dark: (
+  "custom-color": #e1d2f2,
+);
 
-$theme-colors-text-dark: map-merge($theme-colors-text-dark, $custom-colors-text-dark);
-$theme-colors-bg-subtle-dark: map-merge($theme-colors-bg-subtle-dark, $custom-colors-bg-subtle-dark);
-$theme-colors-border-subtle-dark: map-merge($theme-colors-border-subtle-dark, $custom-colors-border-subtle-dark);
+$theme-colors-text-dark: map-merge(
+  $theme-colors-text-dark,
+  $custom-colors-text-dark
+);
+$theme-colors-bg-subtle-dark: map-merge(
+  $theme-colors-bg-subtle-dark,
+  $custom-colors-bg-subtle-dark
+);
+$theme-colors-border-subtle-dark: map-merge(
+  $theme-colors-border-subtle-dark,
+  $custom-colors-border-subtle-dark
+);
 
 // Remainder of Bootstrap imports
 @import "root";

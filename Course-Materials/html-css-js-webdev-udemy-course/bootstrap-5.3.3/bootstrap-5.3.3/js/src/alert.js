@@ -5,23 +5,23 @@
  * --------------------------------------------------------------------------
  */
 
-import BaseComponent from './base-component.js'
-import EventHandler from './dom/event-handler.js'
-import { enableDismissTrigger } from './util/component-functions.js'
-import { defineJQueryPlugin } from './util/index.js'
+import BaseComponent from "./base-component.js";
+import EventHandler from "./dom/event-handler.js";
+import { enableDismissTrigger } from "./util/component-functions.js";
+import { defineJQueryPlugin } from "./util/index.js";
 
 /**
  * Constants
  */
 
-const NAME = 'alert'
-const DATA_KEY = 'bs.alert'
-const EVENT_KEY = `.${DATA_KEY}`
+const NAME = "alert";
+const DATA_KEY = "bs.alert";
+const EVENT_KEY = `.${DATA_KEY}`;
 
-const EVENT_CLOSE = `close${EVENT_KEY}`
-const EVENT_CLOSED = `closed${EVENT_KEY}`
-const CLASS_NAME_FADE = 'fade'
-const CLASS_NAME_SHOW = 'show'
+const EVENT_CLOSE = `close${EVENT_KEY}`;
+const EVENT_CLOSED = `closed${EVENT_KEY}`;
+const CLASS_NAME_FADE = "fade";
+const CLASS_NAME_SHOW = "show";
 
 /**
  * Class definition
@@ -30,45 +30,53 @@ const CLASS_NAME_SHOW = 'show'
 class Alert extends BaseComponent {
   // Getters
   static get NAME() {
-    return NAME
+    return NAME;
   }
 
   // Public
   close() {
-    const closeEvent = EventHandler.trigger(this._element, EVENT_CLOSE)
+    const closeEvent = EventHandler.trigger(this._element, EVENT_CLOSE);
 
     if (closeEvent.defaultPrevented) {
-      return
+      return;
     }
 
-    this._element.classList.remove(CLASS_NAME_SHOW)
+    this._element.classList.remove(CLASS_NAME_SHOW);
 
-    const isAnimated = this._element.classList.contains(CLASS_NAME_FADE)
-    this._queueCallback(() => this._destroyElement(), this._element, isAnimated)
+    const isAnimated = this._element.classList.contains(CLASS_NAME_FADE);
+    this._queueCallback(
+      () => this._destroyElement(),
+      this._element,
+      isAnimated,
+    );
   }
 
   // Private
   _destroyElement() {
-    this._element.remove()
-    EventHandler.trigger(this._element, EVENT_CLOSED)
-    this.dispose()
+    this._element.remove();
+    EventHandler.trigger(this._element, EVENT_CLOSED);
+    this.dispose();
   }
 
   // Static
   static jQueryInterface(config) {
     return this.each(function () {
-      const data = Alert.getOrCreateInstance(this)
+      const data = Alert.getOrCreateInstance(this);
 
-      if (typeof config !== 'string') {
-        return
+      if (typeof config !== "string") {
+        return;
       }
 
-      if (data[config] === undefined || config.startsWith('_') || config === 'constructor') {
-        throw new TypeError(`No method named "${config}"`)
+      if (
+        data[config] === undefined ||
+        config.startsWith("_") ||
+        config === "constructor"
+      ) {
+        throw new TypeError(`No method named "${config}"`);
       }
 
-      data[config](this)
-    })
+      data[config](this);
+    });
   }
 }
 
@@ -76,12 +84,12 @@ class Alert extends BaseComponent {
  * Data API implementation
  */
 
-enableDismissTrigger(Alert, 'close')
+enableDismissTrigger(Alert, "close");
 
 /**
  * jQuery
  */
 
-defineJQueryPlugin(Alert)
+defineJQueryPlugin(Alert);
 
-export default Alert
+export default Alert;

@@ -10,7 +10,6 @@ the developers managing and developing this open source project. In return,
 they should reciprocate that respect in addressing your issue or assessing
 patches and features.
 
-
 ## Using the issue tracker
 
 The [issue tracker](https://github.com/twbs/bootstrap/issues) is
@@ -30,13 +29,11 @@ restrictions:
 - Please **do not** open issues regarding the official themes offered on <https://themes.getbootstrap.com/>.
   Instead, please email any questions or feedback regarding those themes to `themes AT getbootstrap DOT com`.
 
-
 ## Issues assignment
 
 The core team will be looking at the open issues, analyze them, and provide guidance on how to proceed. **Issues won't be assigned to anyone outside the core team.** However, contributors are welcome to participate in the discussion and provide their input on how to best solve the issue, and even submit a PR if they want to. Please wait that the issue is ready to be worked on before submitting a PR, we don't want to waste your time.
 
 Please keep in mind that the core team is small, has limited resources and that we are not always able to respond immediately. We will try to provide feedback as soon as possible, but please be patient. If you don't get a response immediately, it doesn't mean that we are ignoring you or that we don't care about your issue or PR. We will get back to you as soon as we can.
-
 
 ## Issues and labels
 
@@ -54,7 +51,6 @@ Our bug tracker utilizes several labels to help organize and identify issues. He
 - `meta` - Issues with the project itself or our GitHub repository.
 
 For a complete look at our labels, see the [project labels page](https://github.com/twbs/bootstrap/labels).
-
 
 ## Bug reports
 
@@ -75,7 +71,6 @@ Guidelines for bug reports:
 3. **Isolate the problem** &mdash; ideally create a [reduced test
    case](https://css-tricks.com/reduced-test-cases/) and a live example.
    These [v4 CodePen](https://codepen.io/team/bootstrap/pen/yLabNQL) and [v5 CodePen](https://codepen.io/team/bootstrap/pen/qBamdLj) are helpful templates.
-
 
 A good bug report shouldn't leave others needing to chase you up for more
 information. Please try to be as detailed as possible in your report. What is
@@ -106,13 +101,12 @@ Example:
 
 Sometimes bugs reported to us are actually caused by bugs in the browser(s) themselves, not bugs in Bootstrap per se.
 
-| Vendor(s)     | Browser(s)                   | Rendering engine | Bug reporting website(s)                               | Notes                                                    |
-| ------------- | ---------------------------- | ---------------- | ------------------------------------------------------ | -------------------------------------------------------- |
-| Mozilla       | Firefox                      | Gecko            | <https://bugzilla.mozilla.org/enter_bug.cgi>             | "Core" is normally the right product option to choose.   |
-| Apple         | Safari                       | WebKit           | <https://bugs.webkit.org/enter_bug.cgi?product=WebKit>   | In Apple's bug reporter, choose "Safari" as the product. |
-| Google, Opera | Chrome, Chromium, Opera v15+ | Blink            | <https://bugs.chromium.org/p/chromium/issues/list>       | Click the "New issue" button.                            |
-| Microsoft     | Edge                         | Blink            | <https://developer.microsoft.com/en-us/microsoft-edge/>  | Go to "Help > Send Feedback" from the browser            |
-
+| Vendor(s)     | Browser(s)                   | Rendering engine | Bug reporting website(s)                                | Notes                                                    |
+| ------------- | ---------------------------- | ---------------- | ------------------------------------------------------- | -------------------------------------------------------- |
+| Mozilla       | Firefox                      | Gecko            | <https://bugzilla.mozilla.org/enter_bug.cgi>            | "Core" is normally the right product option to choose.   |
+| Apple         | Safari                       | WebKit           | <https://bugs.webkit.org/enter_bug.cgi?product=WebKit>  | In Apple's bug reporter, choose "Safari" as the product. |
+| Google, Opera | Chrome, Chromium, Opera v15+ | Blink            | <https://bugs.chromium.org/p/chromium/issues/list>      | Click the "New issue" button.                            |
+| Microsoft     | Edge                         | Blink            | <https://developer.microsoft.com/en-us/microsoft-edge/> | Go to "Help > Send Feedback" from the browser            |
 
 ## Feature requests
 
@@ -120,7 +114,6 @@ Feature requests are welcome. But take a moment to find out whether your idea
 fits with the scope and aims of the project. It's up to _you_ to make a strong
 case to convince the project's developers of the merits of this feature. Please
 provide as much detail and context as possible.
-
 
 ## Pull requests
 
@@ -198,14 +191,13 @@ included in the project:
    ```
 
 7. [Open a Pull Request](https://help.github.com/articles/about-pull-requests/)
-    with a clear title and description against the `main` branch.
+   with a clear title and description against the `main` branch.
 
 **IMPORTANT**: By submitting a patch, you agree to allow the project owners to
 license your work under the terms of the [MIT License](../LICENSE) (if it
 includes code changes) and under the terms of the
 [Creative Commons Attribution 3.0 Unported License](https://creativecommons.org/licenses/by/3.0/)
 (if it includes documentation changes).
-
 
 ## Code guidelines
 
@@ -234,7 +226,6 @@ includes code changes) and under the terms of the
 ### Checking coding style
 
 Run `npm run test` before committing to ensure your changes follow our coding standards.
-
 
 ## License
 

@@ -1,7 +1,7 @@
-declare module '*.css' {
+declare module "*.css" {
   interface CSSModule {
-    [className: string]: string
+    [className: string]: string;
   }
-  const cssModule: CSSModule
-  export default cssModule
+  const cssModule: CSSModule;
+  export default cssModule;
 }

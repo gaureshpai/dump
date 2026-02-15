@@ -19,7 +19,7 @@ As such, the classes are named using the format:
 - `.d-{value}` for `xs`
 - `.d-{breakpoint}-{value}` for `sm`, `md`, `lg`, `xl`, and `xxl`.
 
-Where *value* is one of:
+Where _value_ is one of:
 
 - `none`
 - `inline`
@@ -35,11 +35,12 @@ Where *value* is one of:
 
 The display values can be altered by changing the `display` values defined in `$utilities` and recompiling the SCSS.
 
-The media queries affect screen widths with the given breakpoint *or larger*. For example, `.d-lg-none` sets `display: none;` on `lg`, `xl`, and `xxl` screens.
+The media queries affect screen widths with the given breakpoint _or larger_. For example, `.d-lg-none` sets `display: none;` on `lg`, `xl`, and `xxl` screens.
 
 ## Examples
 
 {{< example >}}
+
 <div class="d-inline p-2 text-bg-primary">d-inline</div>
 <div class="d-inline p-2 text-bg-dark">d-inline</div>
 {{< /example >}}
@@ -77,6 +78,7 @@ To show an element only on a given interval of screen sizes you can combine one 
 {{< /bs-table >}}
 
 {{< example >}}
+
 <div class="d-lg-none">hide on lg and wider screens</div>
 <div class="d-none d-lg-block">hide on screens smaller than lg</div>
 {{< /example >}}
@@ -100,6 +102,7 @@ Change the `display` value of elements when printing with our print display util
 The print and display classes can be combined.
 
 {{< example >}}
+
 <div class="d-print-none">Screen Only (Hide on print only)</div>
 <div class="d-none d-print-block">Print Only (Hide on screen only)</div>
 <div class="d-none d-lg-block d-print-block">Hide up to large on screen, but always show on print</div>

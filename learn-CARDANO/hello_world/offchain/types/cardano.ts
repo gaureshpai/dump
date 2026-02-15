@@ -7,7 +7,10 @@ export type WalletApi = {
   getChangeAddress(): Promise<string>;
   getRewardAddresses(): Promise<string[]>;
   signTx(tx: string, partialSign: boolean): Promise<string>;
-  signData(address: string, payload: string): Promise<{ signature: string; key: string; }>;
+  signData(
+    address: string,
+    payload: string,
+  ): Promise<{ signature: string; key: string }>;
   submitTx(tx: string): Promise<string>;
   getCollateral(): Promise<string[]>;
   experimental: {
@@ -25,6 +28,10 @@ export declare type Wallet = {
   isEnabled(): Promise<boolean>;
 };
 
-export declare type Cardano = { [key: string]: Wallet; };
+export declare type Cardano = { [key: string]: Wallet };
 
-declare global { interface Window { cardano: Cardano; } }
+declare global {
+  interface Window {
+    cardano: Cardano;
+  }
+}

@@ -91,7 +91,7 @@ You can even roll your own custom sizing with CSS variables:
 {{< example >}}
 <button type="button" class="btn btn-primary"
         style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-  Custom button
+Custom button
 </button>
 {{< /example >}}
 
@@ -111,7 +111,7 @@ Disabled buttons using the `<a>` element behave a bit different:
 - `<a>`s don't support the `disabled` attribute, so you must add the `.disabled` class to make it visually appear disabled.
 - Some future-friendly styles are included to disable all `pointer-events` on anchor buttons.
 - Disabled buttons using `<a>` should include the `aria-disabled="true"` attribute to indicate the state of the element to assistive technologies.
-- Disabled buttons using `<a>` *should not* include the `href` attribute.
+- Disabled buttons using `<a>` _should not_ include the `href` attribute.
 
 {{< example >}}
 <a class="btn btn-primary disabled" role="button" aria-disabled="true">Primary link</a>
@@ -132,6 +132,7 @@ To cover cases where you have to keep the `href` attribute on a disabled link, t
 Create responsive stacks of full-width, "block buttons" like those in Bootstrap 4 with a mix of our display and gap utilities. By using utilities instead of button-specific classes, we have much greater control over spacing, alignment, and responsive behaviors.
 
 {{< example >}}
+
 <div class="d-grid gap-2">
   <button class="btn btn-primary" type="button">Button</button>
   <button class="btn btn-primary" type="button">Button</button>
@@ -141,6 +142,7 @@ Create responsive stacks of full-width, "block buttons" like those in Bootstrap 
 Here we create a responsive variation, starting with vertically stacked buttons until the `md` breakpoint, where `.d-md-block` replaces the `.d-grid` class, thus nullifying the `gap-2` utility. Resize your browser to see them change.
 
 {{< example >}}
+
 <div class="d-grid gap-2 d-md-block">
   <button class="btn btn-primary" type="button">Button</button>
   <button class="btn btn-primary" type="button">Button</button>
@@ -150,6 +152,7 @@ Here we create a responsive variation, starting with vertically stacked buttons 
 You can adjust the width of your block buttons with grid column width classes. For example, for a half-width "block button", use `.col-6`. Center it horizontally with `.mx-auto`, too.
 
 {{< example >}}
+
 <div class="d-grid gap-2 col-6 mx-auto">
   <button class="btn btn-primary" type="button">Button</button>
   <button class="btn btn-primary" type="button">Button</button>
@@ -159,6 +162,7 @@ You can adjust the width of your block buttons with grid column width classes. F
 Additional utilities can be used to adjust the alignment of buttons when horizontal. Here we've taken our previous responsive example and added some flex utilities and a margin utility on the button to right-align the buttons when they're no longer stacked.
 
 {{< example >}}
+
 <div class="d-grid gap-2 d-md-flex justify-content-md-end">
   <button class="btn btn-primary me-md-2" type="button">Button</button>
   <button class="btn btn-primary" type="button">Button</button>
@@ -178,6 +182,7 @@ Visually, these toggle buttons are identical to the [checkbox toggle buttons]({{
 Add `data-bs-toggle="button"` to toggle a button's `active` state. If you're pre-toggling a button, you must manually add the `.active` class **and** `aria-pressed="true"` to ensure that it is conveyed appropriately to assistive technologies.
 
 {{< example >}}
+
 <p class="d-inline-flex gap-1">
   <button type="button" class="btn" data-bs-toggle="button">Toggle button</button>
   <button type="button" class="btn active" data-bs-toggle="button" aria-pressed="true">Active toggle button</button>
@@ -191,6 +196,7 @@ Add `data-bs-toggle="button"` to toggle a button's `active` state. If you're pre
 {{< /example >}}
 
 {{< example >}}
+
 <p class="d-inline-flex gap-1">
   <a href="#" class="btn" role="button" data-bs-toggle="button">Toggle link</a>
   <a href="#" class="btn active" role="button" data-bs-toggle="button" aria-pressed="true">Active toggle link</a>
@@ -208,7 +214,7 @@ Add `data-bs-toggle="button"` to toggle a button's `active` state. If you're pre
 You can create a button instance with the button constructor, for example:
 
 ```js
-const bsButton = new bootstrap.Button('#myButton')
+const bsButton = new bootstrap.Button("#myButton");
 ```
 
 {{< bs-table "table" >}}
@@ -223,10 +229,10 @@ const bsButton = new bootstrap.Button('#myButton')
 For example, to toggle all buttons
 
 ```js
-document.querySelectorAll('.btn').forEach(buttonElement => {
-  const button = bootstrap.Button.getOrCreateInstance(buttonElement)
-  button.toggle()
-})
+document.querySelectorAll(".btn").forEach((buttonElement) => {
+  const button = bootstrap.Button.getOrCreateInstance(buttonElement);
+  button.toggle();
+});
 ```
 
 ## CSS

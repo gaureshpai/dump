@@ -23,6 +23,7 @@ Progress components are built with two HTML elements, some CSS to set the width,
 Put that all together, and you have the following examples.
 
 {{< example >}}
+
 <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
   <div class="progress-bar" style="width: 0%"></div>
 </div>
@@ -47,6 +48,7 @@ Put that all together, and you have the following examples.
 Bootstrap provides a handful of [utilities for setting width]({{< docsref "/utilities/sizing" >}}). Depending on your needs, these may help with quickly configuring the width of the `.progress-bar`.
 
 {{< example >}}
+
 <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
   <div class="progress-bar w-75"></div>
 </div>
@@ -57,6 +59,7 @@ Bootstrap provides a handful of [utilities for setting width]({{< docsref "/util
 You only set a `height` value on the `.progress` container, so if you change that value, the inner `.progress-bar` will automatically resize accordingly.
 
 {{< example >}}
+
 <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 1px">
   <div class="progress-bar" style="width: 25%"></div>
 </div>
@@ -70,6 +73,7 @@ You only set a `height` value on the `.progress` container, so if you change tha
 Add labels to your progress bars by placing text within the `.progress-bar`.
 
 {{< example >}}
+
 <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
   <div class="progress-bar" style="width: 25%">25%</div>
 </div>
@@ -78,6 +82,7 @@ Add labels to your progress bars by placing text within the `.progress-bar`.
 Note that by default, the content inside the `.progress-bar` is controlled with `overflow: hidden`, so it doesn't bleed out of the bar. If your progress bar is shorter than its label, the content will be capped and may become unreadable. To change this behavior, you can use `.overflow-visible` from the [overflow utilities]({{< docsref "/utilities/overflow" >}}), but make sure to also define an explicit [text color]({{< docsref "/utilities/colors#colors" >}}) so the text remains readable. Be aware though that currently this approach does not take into account [color modes]({{< docsref "/customize/color-modes" >}}).
 
 {{< example >}}
+
 <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
   <div class="progress-bar overflow-visible text-dark" style="width: 10%">Long label text for the progress bar, set to a dark color</div>
 </div>
@@ -88,6 +93,7 @@ Note that by default, the content inside the `.progress-bar` is controlled with 
 Use background utility classes to change the appearance of individual progress bars.
 
 {{< example >}}
+
 <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
   <div class="progress-bar bg-success" style="width: 25%"></div>
 </div>
@@ -109,6 +115,7 @@ Use background utility classes to change the appearance of individual progress b
 If you're adding labels to progress bars with a custom background color, make sure to also set an appropriate [text color]({{< docsref "/utilities/colors#colors" >}}), so the labels remain readable and have sufficient contrast.
 
 {{< example >}}
+
 <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
   <div class="progress-bar bg-success" style="width: 25%">25%</div>
 </div>
@@ -126,6 +133,7 @@ If you're adding labels to progress bars with a custom background color, make su
 Alternatively, you can use the new combined [color and background]({{< docsref "/helpers/color-background" >}}) helper classes.
 
 {{< example >}}
+
 <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
   <div class="progress-bar text-bg-warning" style="width: 75%">75%</div>
 </div>
@@ -133,9 +141,10 @@ Alternatively, you can use the new combined [color and background]({{< docsref "
 
 ## Multiple bars
 
-You can include multiple progress components inside a container with `.progress-stacked` to create a single stacked progress bar. Note that in this case, the styling to set the visual width of the progress bar *must* be applied to the `.progress` elements, rather than the `.progress-bar`s.
+You can include multiple progress components inside a container with `.progress-stacked` to create a single stacked progress bar. Note that in this case, the styling to set the visual width of the progress bar _must_ be applied to the `.progress` elements, rather than the `.progress-bar`s.
 
 {{< example >}}
+
 <div class="progress-stacked">
   <div class="progress" role="progressbar" aria-label="Segment one" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%">
     <div class="progress-bar"></div>
@@ -154,6 +163,7 @@ You can include multiple progress components inside a container with `.progress-
 Add `.progress-bar-striped` to any `.progress-bar` to apply a stripe via CSS gradient over the progress bar's background color.
 
 {{< example >}}
+
 <div class="progress" role="progressbar" aria-label="Default striped example" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
   <div class="progress-bar progress-bar-striped" style="width: 10%"></div>
 </div>
@@ -176,6 +186,7 @@ Add `.progress-bar-striped` to any `.progress-bar` to apply a stripe via CSS gra
 The striped gradient can also be animated. Add `.progress-bar-animated` to `.progress-bar` to animate the stripes right to left via CSS3 animations.
 
 {{< example >}}
+
 <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
   <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%"></div>
 </div>

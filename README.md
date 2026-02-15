@@ -28,19 +28,21 @@ Welcome to my digital garden of knowledge! This repository is a living archive o
 Embark on this learning journey with me:
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/gaureshpai/dump.git
-    ```
+   ```
 
 2. Navigate to the project cosmos:
-    ```shellscript
-    cd dump
-    ```
+
+   ```shellscript
+   cd dump
+   ```
 
 3. Explore and learn:
-    1. Dive into `Android-Studio-Apps/` for mobile development insights.
-    2. Traverse `BE-Sem*/` for academic wisdom.
-    3. Uncover learning gems in `Course-Materials/`.
+   1. Dive into `Android-Studio-Apps/` for mobile development insights.
+   2. Traverse `BE-Sem*/` for academic wisdom.
+   3. Uncover learning gems in `Course-Materials/`.
 
 ## 🌟 Highlights
 
@@ -62,7 +64,6 @@ This repository is more than just code; it's a testament to continuous learning 
 - 🐛 [Open an issue](https://github.com/gaureshpai/dump/issues) for discussions or bug reports.
 - 🔀 Submit a pull request to contribute improvements.
 - 📫 Reach out for collaborations or questions.
-
 
 ## 🎉 Acknowledgements
 

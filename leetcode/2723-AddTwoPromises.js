@@ -7,10 +7,10 @@ Given two promises promise1 and promise2, return a new promise. promise1 and pro
  * @param {Promise} promise2
  * @return {Promise}
  */
-var addTwoPromises = async function(promise1, promise2) {
-    const [res1, res2] = await Promise.all([promise1, promise2])
+var addTwoPromises = async function (promise1, promise2) {
+  const [res1, res2] = await Promise.all([promise1, promise2]);
 
-    return res1 + res2;
+  return res1 + res2;
 };
 
 /**

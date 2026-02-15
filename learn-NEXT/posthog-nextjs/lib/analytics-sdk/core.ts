@@ -1,4 +1,4 @@
-import { analytics } from './proto/analytics';
+import { analytics } from "./proto/analytics";
 
 export interface AnalyticsConfig {
   apiEndpoint: string;
@@ -9,7 +9,7 @@ export interface AnalyticsConfig {
 export class Analytics {
   private config: AnalyticsConfig;
   private queue: analytics.IEvent[] = [];
-  private distinctId: string = 'anonymous';
+  private distinctId: string = "anonymous";
   private flushTimer: NodeJS.Timeout | null = null;
 
   constructor(config: AnalyticsConfig) {
@@ -53,21 +53,21 @@ export class Analytics {
       // Let's send them one by one for simplicity with the current proto definition,
       // or we could define a Batch message.
       // Sending one by one is inefficient but easiest for this demo without changing proto.
-      
+
       // Wait, let's just send the raw bytes of each event in a loop or Promise.all
       // Or better, let's change the proto to support a Batch if we want to be "good".
       // But sticking to the plan: "Send events to an API endpoint".
-      
+
       const promises = eventsToSend.map(async (event) => {
         const message = analytics.Event.create(event);
         const buffer = analytics.Event.encode(message).finish();
         const arrayBuffer = buffer.slice().buffer;
 
         await fetch(this.config.apiEndpoint, {
-          method: 'POST',
+          method: "POST",
           body: arrayBuffer,
           headers: {
-            'Content-Type': 'application/x-protobuf',
+            "Content-Type": "application/x-protobuf",
           },
         });
       });
@@ -75,7 +75,7 @@ export class Analytics {
       await Promise.all(promises);
       console.log(`[Analytics] Flushed ${eventsToSend.length} events.`);
     } catch (error) {
-      console.error('[Analytics] Failed to flush events:', error);
+      console.error("[Analytics] Failed to flush events:", error);
       // Re-queue events? For simplicity, we drop them here.
     }
   }
@@ -88,6 +88,9 @@ export class Analytics {
   }
 
   private generateId(): string {
-    return Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
+    return (
+      Math.random().toString(36).substring(2, 15) +
+      Math.random().toString(36).substring(2, 15)
+    );
   }
 }

@@ -54,12 +54,16 @@ In your CSS, you'd have something like the following where the bulk of the styli
 
 ```scss
 // Base class
-.callout {}
+.callout {
+}
 
 // Modifier classes
-.callout-info {}
-.callout-warning {}
-.callout-danger {}
+.callout-info {
+}
+.callout-warning {
+}
+.callout-danger {
+}
 ```
 
 For the callouts, that unique styling is just a `border-left-color`. When you combine that base class with one of those modifier classes, you get your complete component family:

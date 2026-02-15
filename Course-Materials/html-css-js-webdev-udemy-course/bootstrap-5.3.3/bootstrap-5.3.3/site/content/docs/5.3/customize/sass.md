@@ -115,10 +115,10 @@ Once your CSS is compiled, you can include it in your HTML files. Inside your `i
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Custom Bootstrap</title>
-    <link href="/css/custom.css" rel="stylesheet">
+    <link href="/css/custom.css" rel="stylesheet" />
   </head>
   <body>
     <h1>Hello, world!</h1>
@@ -183,7 +183,7 @@ Later on, these variables are set in Bootstrap's `$theme-colors` map:
 ```scss
 $theme-colors: (
   "primary": $primary,
-  "danger": $danger
+  "danger": $danger,
 );
 ```
 
@@ -194,7 +194,7 @@ Add new colors to `$theme-colors`, or any other map, by creating a new Sass map 
 ```scss
 // Create your own map
 $custom-colors: (
-  "custom-color": #900
+  "custom-color": #900,
 );
 
 // Merge the maps
@@ -308,7 +308,7 @@ We use the `add` and `subtract` functions to wrap the CSS `calc` function. The p
 Example where the calc is valid:
 
 ```scss
-$border-radius: .25rem;
+$border-radius: 0.25rem;
 $border-width: 1px;
 
 .element {
@@ -325,7 +325,7 @@ $border-width: 1px;
 Example where the calc is invalid:
 
 ```scss
-$border-radius: .25rem;
+$border-radius: 0.25rem;
 $border-width: 0;
 
 .element {

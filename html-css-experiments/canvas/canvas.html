@@ -1,77 +1,75 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Canvas Animation</title>
-    <link href="canvas.css" rel="stylesheet">
-</head>
-<body>
+    <link href="canvas.css" rel="stylesheet" />
+  </head>
+  <body>
     <canvas id="canvas1"></canvas>
     <script>
-        let x1 = 260;
-        let y1 = 1;
-        let r1 = 5;
-        let x2 = 260;
-        let y2 = 1;
-        let r2 = 5;
+      let x1 = 260;
+      let y1 = 1;
+      let r1 = 5;
+      let x2 = 260;
+      let y2 = 1;
+      let r2 = 5;
 
-        const canvas = document.getElementById("canvas1");
-        const context = canvas.getContext("2d");
+      const canvas = document.getElementById("canvas1");
+      const context = canvas.getContext("2d");
 
-        function draw1() {
-            context.fillStyle = "rgba(0, 0, 0, 0.05)";
-            context.fillRect(0, 0, canvas.width, canvas.height);
+      function draw1() {
+        context.fillStyle = "rgba(0, 0, 0, 0.05)";
+        context.fillRect(0, 0, canvas.width, canvas.height);
 
-            context.beginPath();
-            context.arc(x1, y1, r1, 0, 2 * Math.PI);
-            context.fillStyle = "orange";
-            context.fill();
+        context.beginPath();
+        context.arc(x1, y1, r1, 0, 2 * Math.PI);
+        context.fillStyle = "orange";
+        context.fill();
 
-            if (y1 < 110) {
-                x1 -= 7;
-            } else if (y1 < 260) {
-                x1 += 7;
-            } else if (y1 < 400) {
-                x1 -= 7;
-            } else {
-                x1 += 7;
-            }
-            y1 += 3;
-            r1 += 0.3;
-
-            requestAnimationFrame(draw1);
+        if (y1 < 110) {
+          x1 -= 7;
+        } else if (y1 < 260) {
+          x1 += 7;
+        } else if (y1 < 400) {
+          x1 -= 7;
+        } else {
+          x1 += 7;
         }
+        y1 += 3;
+        r1 += 0.3;
 
-        function draw2() {
-            context.beginPath();
-            context.arc(x2, y2, r2, 0, 2 * Math.PI);
-            context.fillStyle = "red";
-            context.fill();
+        requestAnimationFrame(draw1);
+      }
 
-            if (y2 < 110) {
-                x2 += 7;
-            } else if (y2 < 260) {
-                x2 -= 7;
-            } else if (y2 < 400) {
-                x2 += 7;
-            } else {
-                x2 -= 7;
-            }
-            y2 += 3;
-            r2 += 0.3;
+      function draw2() {
+        context.beginPath();
+        context.arc(x2, y2, r2, 0, 2 * Math.PI);
+        context.fillStyle = "red";
+        context.fill();
 
-            requestAnimationFrame(draw2);
+        if (y2 < 110) {
+          x2 += 7;
+        } else if (y2 < 260) {
+          x2 -= 7;
+        } else if (y2 < 400) {
+          x2 += 7;
+        } else {
+          x2 -= 7;
         }
+        y2 += 3;
+        r2 += 0.3;
 
-        function startAnimation() {
-            draw1();
-            draw2();
-        }
+        requestAnimationFrame(draw2);
+      }
 
-        startAnimation();
+      function startAnimation() {
+        draw1();
+        draw2();
+      }
+
+      startAnimation();
     </script>
-</body>
-
+  </body>
 </html>

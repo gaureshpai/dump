@@ -21,11 +21,14 @@ $enable-important-utilities: false;
     @include test-generate-utility(
       (
         property: "padding",
-        values: (small: .5rem, large: 2rem)
+        values: (
+          small: 0.5rem,
+          large: 2rem,
+        ),
       )
     ) {
       .padding-small {
-        padding: .5rem;
+        padding: 0.5rem;
       }
 
       .padding-large {
@@ -41,11 +44,14 @@ $enable-important-utilities: false;
       @include test-generate-utility(
         (
           property: "padding",
-          values: (small: .5rem, large: 2rem)
+          values: (
+            small: 0.5rem,
+            large: 2rem,
+          ),
         )
       ) {
         .padding-small {
-          padding: .5rem !important;
+          padding: 0.5rem !important;
         }
 
         .padding-large {
@@ -63,15 +69,19 @@ $enable-important-utilities: false;
         @include test-generate-utility(
           (
             property: "padding",
-            values: (null: 1rem, small: .5rem, large: 2rem)
-          ),
+            values: (
+              null: 1rem,
+              small: 0.5rem,
+              large: 2rem,
+            ),
+          )
         ) {
           .padding {
             padding: 1rem;
           }
 
           .padding-small {
-            padding: .5rem;
+            padding: 0.5rem;
           }
 
           .padding-large {
@@ -84,7 +94,10 @@ $enable-important-utilities: false;
         @include test-generate-utility(
           (
             property: "padding",
-            values: (small: null, large: 2rem)
+            values: (
+              small: null,
+              large: 2rem,
+            ),
           )
         ) {
           .padding-large {
@@ -97,7 +110,7 @@ $enable-important-utilities: false;
         @include test-generate-utility(
           (
             property: "padding",
-            values: 1rem 2rem
+            values: 1rem 2rem,
           )
         ) {
           .padding-1rem {
@@ -114,7 +127,7 @@ $enable-important-utilities: false;
         @include test-generate-utility(
           (
             property: padding,
-            values: 1rem
+            values: 1rem,
           )
         ) {
           .padding-1rem {
@@ -130,7 +143,7 @@ $enable-important-utilities: false;
           (
             class: padding-x,
             property: padding-inline-start padding-inline-end,
-            values: 1rem
+            values: 1rem,
           )
         ) {
           .padding-x-1rem {
@@ -144,7 +157,7 @@ $enable-important-utilities: false;
         @include test-generate-utility(
           (
             property: padding-inline-start padding-inline-end,
-            values: 1rem
+            values: 1rem,
           )
         ) {
           .padding-inline-start-1rem {
@@ -154,7 +167,9 @@ $enable-important-utilities: false;
         }
       }
 
-      @include it("supports a null class to create classes straight from the values") {
+      @include it(
+        "supports a null class to create classes straight from the values"
+      ) {
         @include test-generate-utility(
           (
             property: visibility,
@@ -162,7 +177,7 @@ $enable-important-utilities: false;
             values: (
               visible: visible,
               invisible: hidden,
-            )
+            ),
           )
         ) {
           .visible {
@@ -200,14 +215,14 @@ $enable-important-utilities: false;
       }
     }
 
-    @include describe("css-var"){
+    @include describe("css-var") {
       @include it("sets a CSS variable instead of the property") {
         @include test-generate-utility(
           (
             property: padding,
             css-variable-name: padding,
             css-var: true,
-            values: 1rem 2rem
+            values: 1rem 2rem,
           )
         ) {
           .padding-1rem {
@@ -226,7 +241,7 @@ $enable-important-utilities: false;
             property: padding,
             class: padding,
             css-var: true,
-            values: 1rem 2rem
+            values: 1rem 2rem,
           )
         ) {
           .padding-1rem {
@@ -248,11 +263,16 @@ $enable-important-utilities: false;
             class: desaturated-color,
             local-vars: (
               color-opacity: 1,
-              color-saturation: .25
+              color-saturation: 0.25,
             ),
             values: (
-              blue: hsla(192deg, var(--bs-color-saturation), 0, var(--bs-color-opacity))
-            )
+              blue: hsla(
+                  192deg,
+                  var(--bs-color-saturation),
+                  0,
+                  var(--bs-color-opacity)
+                ),
+            ),
           )
         ) {
           .desaturated-color-blue {
@@ -260,7 +280,12 @@ $enable-important-utilities: false;
             // Sass compilation will put a leading zero so we want to keep that one
             // stylelint-disable-next-line @stylistic/number-leading-zero
             --bs-color-saturation: 0.25;
-            color: hsla(192deg, var(--bs-color-saturation), 0, var(--bs-color-opacity));
+            color: hsla(
+              192deg,
+              var(--bs-color-saturation),
+              0,
+              var(--bs-color-opacity)
+            );
           }
         }
       }
@@ -298,7 +323,7 @@ $enable-important-utilities: false;
           (
             property: padding,
             values: 1rem,
-            rtl: false
+            rtl: false,
           )
         ) {
           /* rtl:begin:remove */
@@ -308,7 +333,6 @@ $enable-important-utilities: false;
           }
 
           /* rtl:end:remove */
-
         }
       }
     }
@@ -319,7 +343,7 @@ $enable-important-utilities: false;
           (
             property: padding,
             values: 1rem,
-            rfs: true
+            rfs: true,
           )
         ) {
           .padding-1rem {
@@ -333,7 +357,7 @@ $enable-important-utilities: false;
           (
             property: padding,
             values: 1rem,
-            rfs: true
+            rfs: true,
           ),
           $is-rfs-media-query: true
         ) {
@@ -350,7 +374,11 @@ $enable-important-utilities: false;
       @include test-generate-utility(
         (
           property: "padding",
-          values: (null: 1rem, small: .5rem, large: 2rem)
+          values: (
+            null: 1rem,
+            small: 0.5rem,
+            large: 2rem,
+          ),
         ),
         $infix: -sm
       ) {
@@ -359,7 +387,7 @@ $enable-important-utilities: false;
         }
 
         .padding-sm-small {
-          padding: .5rem;
+          padding: 0.5rem;
         }
 
         .padding-sm-large {
@@ -376,7 +404,7 @@ $enable-important-utilities: false;
           values: (
             visible: visible,
             invisible: hidden,
-          )
+          ),
         ),
         -sm
       ) {

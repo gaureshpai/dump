@@ -73,10 +73,10 @@ With dependencies installed and our project folder ready for us to start coding,
    <!doctype html>
    <html lang="en">
      <head>
-       <meta charset="utf-8">
-       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <meta charset="utf-8" />
+       <meta name="viewport" content="width=device-width, initial-scale=1" />
        <title>Bootstrap w/ Parcel</title>
-       <link rel="stylesheet" href="scss/styles.scss">
+       <link rel="stylesheet" href="scss/styles.scss" />
        <script type="module" src="js/main.js"></script>
      </head>
      <body>
@@ -96,12 +96,12 @@ With dependencies installed and our project folder ready for us to start coding,
 
    ```json
    {
-      // ...
-      "scripts": {
-        "start": "parcel serve src/index.html --public-url / --dist-dir dist",
-        "test": "echo \"Error: no test specified\" && exit 1"
-      },
-      // ...
+     // ...
+     "scripts": {
+       "start": "parcel serve src/index.html --public-url / --dist-dir dist",
+       "test": "echo \"Error: no test specified\" && exit 1"
+     }
+     // ...
    }
    ```
 
@@ -126,27 +126,29 @@ Importing Bootstrap into Parcel requires two imports, one into our `styles.scss`
    @import "bootstrap/scss/bootstrap";
    ```
 
-   *You can also import our stylesheets individually if you want. [Read our Sass import docs]({{< docsref "/customize/sass#importing" >}}) for details.*
+   _You can also import our stylesheets individually if you want. [Read our Sass import docs]({{< docsref "/customize/sass#importing" >}}) for details._
 
 2. **Import Bootstrap's JS.** Add the following to `src/js/main.js` to import all of Bootstrap's JS. Popper will be imported automatically through Bootstrap.
 
    <!-- eslint-skip -->
+
    ```js
    // Import all of Bootstrap's JS
-   import * as bootstrap from 'bootstrap'
+   import * as bootstrap from "bootstrap";
    ```
 
    You can also import JavaScript plugins individually as needed to keep bundle sizes down:
 
    <!-- eslint-skip -->
+
    ```js
-   import Alert from 'bootstrap/js/dist/alert'
+   import Alert from "bootstrap/js/dist/alert";
 
    // or, specify which plugins you need:
-   import { Tooltip, Toast, Popover } from 'bootstrap'
+   import { Tooltip, Toast, Popover } from "bootstrap";
    ```
 
-   *[Read our JavaScript docs]({{< docsref "/getting-started/javascript/" >}}) for more information on how to use Bootstrap's plugins.*
+   _[Read our JavaScript docs]({{< docsref "/getting-started/javascript/" >}}) for more information on how to use Bootstrap's plugins._
 
 3. **And you're done! 🎉** With Bootstrap's source Sass and JS fully loaded, your local development server should now look like this:
 

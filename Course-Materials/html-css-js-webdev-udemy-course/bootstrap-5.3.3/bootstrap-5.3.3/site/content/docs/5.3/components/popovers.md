@@ -38,8 +38,12 @@ Keep reading to see how popovers work with some examples.
 As mentioned above, you must initialize popovers before they can be used. One way to initialize all popovers on a page would be to select them by their `data-bs-toggle` attribute, like so:
 
 ```js
-const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
-const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+const popoverTriggerList = document.querySelectorAll(
+  '[data-bs-toggle="popover"]',
+);
+const popoverList = [...popoverTriggerList].map(
+  (popoverTriggerEl) => new bootstrap.Popover(popoverTriggerEl),
+);
 ```
 
 ### Live demo
@@ -60,16 +64,16 @@ Four options are available: top, right, bottom, and left. Directions are mirrore
 
 {{< example stackblitz_add_js="true" >}}
 <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Top popover">
-  Popover on top
+Popover on top
 </button>
 <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Right popover">
-  Popover on right
+Popover on right
 </button>
 <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Bottom popover">
-  Popover on bottom
+Popover on bottom
 </button>
 <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Left popover">
-  Popover on left
+Popover on left
 </button>
 {{< /example >}}
 
@@ -78,17 +82,17 @@ Four options are available: top, right, bottom, and left. Directions are mirrore
 When you have some styles on a parent element that interfere with a popover, you'll want to specify a custom `container` so that the popover's HTML appears within that element instead. This is common in responsive tables, input groups, and the like.
 
 ```js
-const popover = new bootstrap.Popover('.example-popover', {
-  container: 'body'
-})
+const popover = new bootstrap.Popover(".example-popover", {
+  container: "body",
+});
 ```
 
 Another situation where you'll want to set an explicit custom `container` are popovers inside a [modal dialog]({{< docsref "/components/modal" >}}), to make sure that the popover itself is appended to the modal. This is particularly important for popovers that contain interactive elements – modal dialogs will trap focus, so unless the popover is a child element of the modal, users won't be able to focus or activate these interactive elements.
 
 ```js
-const popover = new bootstrap.Popover('.example-popover', {
-  container: '.modal-body'
-})
+const popover = new bootstrap.Popover(".example-popover", {
+  container: ".modal-body",
+});
 ```
 
 ### Custom popovers
@@ -105,7 +109,7 @@ You can customize the appearance of popovers using [CSS variables](#variables). 
         data-bs-custom-class="custom-popover"
         data-bs-title="Custom popover"
         data-bs-content="This popover is themed via CSS variables.">
-  Custom popover
+Custom popover
 </button>
 {{< /example >}}
 
@@ -122,9 +126,9 @@ Use the `focus` trigger to dismiss popovers on the user's next click of an eleme
 {{< /example >}}
 
 ```js
-const popover = new bootstrap.Popover('.popover-dismiss', {
-  trigger: 'focus'
-})
+const popover = new bootstrap.Popover(".popover-dismiss", {
+  trigger: "focus",
+});
 ```
 
 ### Disabled elements
@@ -135,7 +139,7 @@ For disabled popover triggers, you may also prefer `data-bs-trigger="hover focus
 
 {{< example stackblitz_add_js="true" >}}
 <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="Disabled popover">
-  <button class="btn btn-primary" type="button" disabled>Disabled button</button>
+<button class="btn btn-primary" type="button" disabled>Disabled button</button>
 </span>
 {{< /example >}}
 
@@ -158,8 +162,8 @@ As part of Bootstrap’s evolving CSS variables approach, popovers now use local
 Enable popovers via JavaScript:
 
 ```js
-const exampleEl = document.getElementById('example')
-const popover = new bootstrap.Popover(exampleEl, options)
+const exampleEl = document.getElementById("example");
+const popover = new bootstrap.Popover(exampleEl, options);
 ```
 
 {{< callout warning >}}
@@ -204,6 +208,7 @@ Note that for security reasons the `sanitize`, `sanitizeFn`, and `allowList` opt
 {{< /bs-table >}}
 
 {{< callout info >}}
+
 #### Data attributes for individual popovers
 
 Options for individual popovers can alternatively be specified through the use of data attributes, as explained above.
@@ -217,8 +222,8 @@ const popover = new bootstrap.Popover(element, {
     // const newPopperConfig = {...}
     // use defaultBsPopperConfig if needed...
     // return newPopperConfig
-  }
-})
+  },
+});
 ```
 
 ### Methods
@@ -243,17 +248,15 @@ const popover = new bootstrap.Popover(element, {
 | `update` | Updates the position of an element's popover. |
 {{< /bs-table >}}
 
-
 ```js
 // getOrCreateInstance example
-const popover = bootstrap.Popover.getOrCreateInstance('#example') // Returns a Bootstrap popover instance
+const popover = bootstrap.Popover.getOrCreateInstance("#example"); // Returns a Bootstrap popover instance
 
 // setContent example
 popover.setContent({
-  '.popover-header': 'another title',
-  '.popover-body': 'another content'
-})
-
+  ".popover-header": "another title",
+  ".popover-body": "another content",
+});
 ```
 
 {{< callout info >}}
@@ -273,8 +276,8 @@ The `setContent` method accepts an `object` argument, where each property-key is
 {{< /bs-table >}}
 
 ```js
-const myPopoverTrigger = document.getElementById('myPopover')
-myPopoverTrigger.addEventListener('hidden.bs.popover', () => {
+const myPopoverTrigger = document.getElementById("myPopover");
+myPopoverTrigger.addEventListener("hidden.bs.popover", () => {
   // do something...
-})
+});
 ```

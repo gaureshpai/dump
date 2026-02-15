@@ -21,6 +21,7 @@ Color utilities like `.text-*` that generated from our original `$theme-colors` 
 {{< example >}}
 {{< colors.inline >}}
 {{- range (index $.Site.Data "theme-colors") }}
+
 <p class="text-{{ .name }}{{ with .contrast_color }} bg-{{ . }}{{ end }}">.text-{{ .name }}</p>
 <p class="text-{{ .name }}-emphasis">.text-{{ .name }}-emphasis</p>
 {{- end -}}
@@ -69,6 +70,7 @@ We use an RGB version of our `--bs-primary` (with the value of `13, 110, 253`) C
 To change that opacity, override `--bs-text-opacity` via custom styles or inline styles.
 
 {{< example >}}
+
 <div class="text-primary">This is default primary text</div>
 <div class="text-primary" style="--bs-text-opacity: .5;">This is 50% opacity primary text</div>
 {{< /example >}}
@@ -76,6 +78,7 @@ To change that opacity, override `--bs-text-opacity` via custom styles or inline
 Or, choose from any of the `.text-opacity` utilities:
 
 {{< example >}}
+
 <div class="text-primary">This is default primary text</div>
 <div class="text-primary text-opacity-75">This is 75% opacity primary text</div>
 <div class="text-primary text-opacity-50">This is 50% opacity primary text</div>

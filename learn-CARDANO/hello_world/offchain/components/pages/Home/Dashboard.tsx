@@ -19,10 +19,14 @@ import { useWallet } from "@/components/connection/context";
 import BasicTransfer from "@/components/actions/BasicTransfer";
 import HelloWorld from "@/components/actions/HelloWorld";
 
-export default function Dashboard(props: { setActionResult: (result: string) => void; onError: (error: any) => void; }) {
+export default function Dashboard(props: {
+  setActionResult: (result: string) => void;
+  onError: (error: any) => void;
+}) {
   const [connection] = useWallet();
 
-  if (!connection) return <span className="uppercase">Wallet Disconnected</span>;
+  if (!connection)
+    return <span className="uppercase">Wallet Disconnected</span>;
 
   const { api, lucid, address, pkh } = connection;
 
@@ -36,7 +40,15 @@ export default function Dashboard(props: { setActionResult: (result: string) => 
   const actions: Record<string, ActionGroup> = {
     //#region No smart-contract interaction
     BasicTransaction: {
-      transfer: async ({ toAddress, lovelace, changeAddress }: { toAddress: Address; lovelace: Lovelace; changeAddress: Address; }) => {
+      transfer: async ({
+        toAddress,
+        lovelace,
+        changeAddress,
+      }: {
+        toAddress: Address;
+        lovelace: Lovelace;
+        changeAddress: Address;
+      }) => {
         try {
           if (!lucid.wallet()) lucid.selectWallet.fromAPI(api);
 
@@ -60,7 +72,10 @@ export default function Dashboard(props: { setActionResult: (result: string) => 
         try {
           if (!lucid.wallet()) lucid.selectWallet.fromAPI(api);
 
-          const validator: Validator = { type: "PlutusV3", script: Script.HelloWorld };
+          const validator: Validator = {
+            type: "PlutusV3",
+            script: Script.HelloWorld,
+          };
           const validatorAddress = validatorToAddress(network, validator);
 
           const tx = await lucid
@@ -80,11 +95,20 @@ export default function Dashboard(props: { setActionResult: (result: string) => 
         }
       },
 
-      mint: async ({ tokenName, imageURL }: { tokenName: string; imageURL: string; }) => {
+      mint: async ({
+        tokenName,
+        imageURL,
+      }: {
+        tokenName: string;
+        imageURL: string;
+      }) => {
         try {
           if (!lucid.wallet()) lucid.selectWallet.fromAPI(api);
 
-          const validator: Validator = { type: "PlutusV3", script: Script.HelloWorld };
+          const validator: Validator = {
+            type: "PlutusV3",
+            script: Script.HelloWorld,
+          };
           const validatorAddress = validatorToAddress(network, validator);
           const mintingPolicy: PolicyId = mintingPolicyToId(validator);
 
@@ -94,7 +118,9 @@ export default function Dashboard(props: { setActionResult: (result: string) => 
           const redeemer = Data.to(assetName);
 
           const utxos = await lucid.utxosAt(validatorAddress);
-          const refUTxO = utxos.find(({ scriptRef }) => validator.script === scriptRef?.script);
+          const refUTxO = utxos.find(
+            ({ scriptRef }) => validator.script === scriptRef?.script,
+          );
 
           const newTx = lucid.newTx();
 
@@ -102,21 +128,15 @@ export default function Dashboard(props: { setActionResult: (result: string) => 
           else newTx.attach.Script(validator);
 
           const tx = await newTx
-            .mintAssets(
-              { [assetUnit]: 1n },
-              redeemer,
-            )
-            .attachMetadata(
-              721,
-              {
-                [mintingPolicy]: {
-                  [assetName]: {
-                    name: tokenName,
-                    image: imageURL,
-                  },
+            .mintAssets({ [assetUnit]: 1n }, redeemer)
+            .attachMetadata(721, {
+              [mintingPolicy]: {
+                [assetName]: {
+                  name: tokenName,
+                  image: imageURL,
                 },
               },
-            )
+            })
             .validTo(new Date().getTime() + 15 * 60_000) // ~15 minutes
             .complete();
 
@@ -130,7 +150,10 @@ export default function Dashboard(props: { setActionResult: (result: string) => 
         try {
           if (!lucid.wallet()) lucid.selectWallet.fromAPI(api);
 
-          const validator: Validator = { type: "PlutusV3", script: Script.HelloWorld };
+          const validator: Validator = {
+            type: "PlutusV3",
+            script: Script.HelloWorld,
+          };
           const validatorAddress = validatorToAddress(network, validator);
 
           // const redeemer = Data.to("abcd");
@@ -161,13 +184,24 @@ export default function Dashboard(props: { setActionResult: (result: string) => 
 
       <Accordion variant="splitted">
         {/* No SC */}
-        <AccordionItem key="0" aria-label="Accordion 0" title="Basic Transaction (no smart-contract interaction)">
-          <BasicTransfer defaultChangeAddress={address} onTransfer={actions.BasicTransaction.transfer} />
+        <AccordionItem
+          key="0"
+          aria-label="Accordion 0"
+          title="Basic Transaction (no smart-contract interaction)"
+        >
+          <BasicTransfer
+            defaultChangeAddress={address}
+            onTransfer={actions.BasicTransaction.transfer}
+          />
         </AccordionItem>
 
         {/* Hello World */}
         <AccordionItem key="1" aria-label="Accordion 1" title="Hello World">
-          <HelloWorld onDeploy={actions.HelloWorld.deploy} onMint={actions.HelloWorld.mint} onSpend={actions.HelloWorld.spend} />
+          <HelloWorld
+            onDeploy={actions.HelloWorld.deploy}
+            onMint={actions.HelloWorld.mint}
+            onSpend={actions.HelloWorld.spend}
+          />
         </AccordionItem>
       </Accordion>
     </div>

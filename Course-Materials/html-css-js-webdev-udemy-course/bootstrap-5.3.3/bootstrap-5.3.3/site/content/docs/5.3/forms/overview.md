@@ -33,6 +33,7 @@ Be sure to use an appropriate `type` attribute on all inputs (e.g., `email` for 
 Here's a quick example to demonstrate Bootstrap's form styles. Keep reading for documentation on required classes, form layout, and more.
 
 {{< example >}}
+
 <form>
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Email address</label>
@@ -56,7 +57,13 @@ Here's a quick example to demonstrate Bootstrap's form styles. Keep reading for 
 Add the `disabled` boolean attribute on an input to prevent user interactions and make it appear lighter.
 
 ```html
-<input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled>
+<input
+  class="form-control"
+  id="disabledInput"
+  type="text"
+  placeholder="Disabled input here..."
+  disabled
+/>
 ```
 
 Add the `disabled` attribute to a `<fieldset>` to disable all the controls within. Browsers treat all native form controls (`<input>`, `<select>`, and `<button>` elements) inside a `<fieldset disabled>` as disabled, preventing both keyboard and mouse interactions on them.
@@ -64,6 +71,7 @@ Add the `disabled` attribute to a `<fieldset>` to disable all the controls withi
 However, if your form also includes custom button-like elements such as `<a class="btn btn-*">...</a>`, these will only be given a style of `pointer-events: none`, meaning they are still focusable and operable using the keyboard. In this case, you must manually modify these controls by adding `tabindex="-1"` to prevent them from receiving focus and `aria-disabled="disabled"` to signal their state to assistive technologies.
 
 {{< example >}}
+
 <form>
   <fieldset disabled>
     <legend>Disabled fieldset example</legend>

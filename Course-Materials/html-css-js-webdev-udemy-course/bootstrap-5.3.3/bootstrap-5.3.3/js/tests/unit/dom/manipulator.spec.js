@@ -1,135 +1,146 @@
-import Manipulator from '../../../src/dom/manipulator.js'
-import { clearFixture, getFixture } from '../../helpers/fixture.js'
+import Manipulator from "../../../src/dom/manipulator.js";
+import { clearFixture, getFixture } from "../../helpers/fixture.js";
 
-describe('Manipulator', () => {
-  let fixtureEl
+describe("Manipulator", () => {
+  let fixtureEl;
 
   beforeAll(() => {
-    fixtureEl = getFixture()
-  })
+    fixtureEl = getFixture();
+  });
 
   afterEach(() => {
-    clearFixture()
-  })
+    clearFixture();
+  });
 
-  describe('setDataAttribute', () => {
-    it('should set data attribute prefixed with bs', () => {
-      fixtureEl.innerHTML = '<div></div>'
+  describe("setDataAttribute", () => {
+    it("should set data attribute prefixed with bs", () => {
+      fixtureEl.innerHTML = "<div></div>";
 
-      const div = fixtureEl.querySelector('div')
+      const div = fixtureEl.querySelector("div");
 
-      Manipulator.setDataAttribute(div, 'key', 'value')
-      expect(div.getAttribute('data-bs-key')).toEqual('value')
-    })
+      Manipulator.setDataAttribute(div, "key", "value");
+      expect(div.getAttribute("data-bs-key")).toEqual("value");
+    });
 
-    it('should set data attribute in kebab case', () => {
-      fixtureEl.innerHTML = '<div></div>'
+    it("should set data attribute in kebab case", () => {
+      fixtureEl.innerHTML = "<div></div>";
 
-      const div = fixtureEl.querySelector('div')
+      const div = fixtureEl.querySelector("div");
 
-      Manipulator.setDataAttribute(div, 'testKey', 'value')
-      expect(div.getAttribute('data-bs-test-key')).toEqual('value')
-    })
-  })
+      Manipulator.setDataAttribute(div, "testKey", "value");
+      expect(div.getAttribute("data-bs-test-key")).toEqual("value");
+    });
+  });
 
-  describe('removeDataAttribute', () => {
-    it('should only remove bs-prefixed data attribute', () => {
-      fixtureEl.innerHTML = '<div data-bs-key="value" data-key-bs="postfixed" data-key="value"></div>'
+  describe("removeDataAttribute", () => {
+    it("should only remove bs-prefixed data attribute", () => {
+      fixtureEl.innerHTML =
+        '<div data-bs-key="value" data-key-bs="postfixed" data-key="value"></div>';
 
-      const div = fixtureEl.querySelector('div')
+      const div = fixtureEl.querySelector("div");
 
-      Manipulator.removeDataAttribute(div, 'key')
-      expect(div.getAttribute('data-bs-key')).toBeNull()
-      expect(div.getAttribute('data-key-bs')).toEqual('postfixed')
-      expect(div.getAttribute('data-key')).toEqual('value')
-    })
+      Manipulator.removeDataAttribute(div, "key");
+      expect(div.getAttribute("data-bs-key")).toBeNull();
+      expect(div.getAttribute("data-key-bs")).toEqual("postfixed");
+      expect(div.getAttribute("data-key")).toEqual("value");
+    });
 
-    it('should remove data attribute in kebab case', () => {
-      fixtureEl.innerHTML = '<div data-bs-test-key="value"></div>'
+    it("should remove data attribute in kebab case", () => {
+      fixtureEl.innerHTML = '<div data-bs-test-key="value"></div>';
 
-      const div = fixtureEl.querySelector('div')
+      const div = fixtureEl.querySelector("div");
 
-      Manipulator.removeDataAttribute(div, 'testKey')
-      expect(div.getAttribute('data-bs-test-key')).toBeNull()
-    })
-  })
+      Manipulator.removeDataAttribute(div, "testKey");
+      expect(div.getAttribute("data-bs-test-key")).toBeNull();
+    });
+  });
 
-  describe('getDataAttributes', () => {
-    it('should return an empty object for null', () => {
-      expect(Manipulator.getDataAttributes(null)).toEqual({})
-      expect().nothing()
-    })
+  describe("getDataAttributes", () => {
+    it("should return an empty object for null", () => {
+      expect(Manipulator.getDataAttributes(null)).toEqual({});
+      expect().nothing();
+    });
 
-    it('should get only bs-prefixed data attributes without bs namespace', () => {
-      fixtureEl.innerHTML = '<div data-bs-toggle="tabs" data-bs-target="#element" data-another="value" data-target-bs="#element" data-in-bs-out="in-between"></div>'
+    it("should get only bs-prefixed data attributes without bs namespace", () => {
+      fixtureEl.innerHTML =
+        '<div data-bs-toggle="tabs" data-bs-target="#element" data-another="value" data-target-bs="#element" data-in-bs-out="in-between"></div>';
 
-      const div = fixtureEl.querySelector('div')
-
-      expect(Manipulator.getDataAttributes(div)).toEqual({
-        toggle: 'tabs',
-        target: '#element'
-      })
-    })
-
-    it('should omit `bs-config` data attribute', () => {
-      fixtureEl.innerHTML = '<div data-bs-toggle="tabs" data-bs-target="#element" data-bs-config=\'{"testBool":false}\'></div>'
-
-      const div = fixtureEl.querySelector('div')
+      const div = fixtureEl.querySelector("div");
 
       expect(Manipulator.getDataAttributes(div)).toEqual({
-        toggle: 'tabs',
-        target: '#element'
-      })
-    })
-  })
+        toggle: "tabs",
+        target: "#element",
+      });
+    });
 
-  describe('getDataAttribute', () => {
-    it('should only get bs-prefixed data attribute', () => {
-      fixtureEl.innerHTML = '<div data-bs-key="value" data-test-bs="postFixed" data-toggle="tab"></div>'
+    it("should omit `bs-config` data attribute", () => {
+      fixtureEl.innerHTML =
+        '<div data-bs-toggle="tabs" data-bs-target="#element" data-bs-config=\'{"testBool":false}\'></div>';
 
-      const div = fixtureEl.querySelector('div')
+      const div = fixtureEl.querySelector("div");
 
-      expect(Manipulator.getDataAttribute(div, 'key')).toEqual('value')
-      expect(Manipulator.getDataAttribute(div, 'test')).toBeNull()
-      expect(Manipulator.getDataAttribute(div, 'toggle')).toBeNull()
-    })
+      expect(Manipulator.getDataAttributes(div)).toEqual({
+        toggle: "tabs",
+        target: "#element",
+      });
+    });
+  });
 
-    it('should get data attribute in kebab case', () => {
-      fixtureEl.innerHTML = '<div data-bs-test-key="value" ></div>'
+  describe("getDataAttribute", () => {
+    it("should only get bs-prefixed data attribute", () => {
+      fixtureEl.innerHTML =
+        '<div data-bs-key="value" data-test-bs="postFixed" data-toggle="tab"></div>';
 
-      const div = fixtureEl.querySelector('div')
+      const div = fixtureEl.querySelector("div");
 
-      expect(Manipulator.getDataAttribute(div, 'testKey')).toEqual('value')
-    })
+      expect(Manipulator.getDataAttribute(div, "key")).toEqual("value");
+      expect(Manipulator.getDataAttribute(div, "test")).toBeNull();
+      expect(Manipulator.getDataAttribute(div, "toggle")).toBeNull();
+    });
 
-    it('should normalize data', () => {
-      fixtureEl.innerHTML = '<div data-bs-test="false" ></div>'
+    it("should get data attribute in kebab case", () => {
+      fixtureEl.innerHTML = '<div data-bs-test-key="value" ></div>';
 
-      const div = fixtureEl.querySelector('div')
+      const div = fixtureEl.querySelector("div");
 
-      expect(Manipulator.getDataAttribute(div, 'test')).toBeFalse()
+      expect(Manipulator.getDataAttribute(div, "testKey")).toEqual("value");
+    });
 
-      div.setAttribute('data-bs-test', 'true')
-      expect(Manipulator.getDataAttribute(div, 'test')).toBeTrue()
+    it("should normalize data", () => {
+      fixtureEl.innerHTML = '<div data-bs-test="false" ></div>';
 
-      div.setAttribute('data-bs-test', '1')
-      expect(Manipulator.getDataAttribute(div, 'test')).toEqual(1)
-    })
+      const div = fixtureEl.querySelector("div");
 
-    it('should normalize json data', () => {
-      fixtureEl.innerHTML = '<div data-bs-test=\'{"delay":{"show":100,"hide":10}}\'></div>'
+      expect(Manipulator.getDataAttribute(div, "test")).toBeFalse();
 
-      const div = fixtureEl.querySelector('div')
+      div.setAttribute("data-bs-test", "true");
+      expect(Manipulator.getDataAttribute(div, "test")).toBeTrue();
 
-      expect(Manipulator.getDataAttribute(div, 'test')).toEqual({ delay: { show: 100, hide: 10 } })
+      div.setAttribute("data-bs-test", "1");
+      expect(Manipulator.getDataAttribute(div, "test")).toEqual(1);
+    });
 
-      const objectData = { 'Super Hero': ['Iron Man', 'Super Man'], testNum: 90, url: 'http://localhost:8080/test?foo=bar' }
-      const dataStr = JSON.stringify(objectData)
-      div.setAttribute('data-bs-test', encodeURIComponent(dataStr))
-      expect(Manipulator.getDataAttribute(div, 'test')).toEqual(objectData)
+    it("should normalize json data", () => {
+      fixtureEl.innerHTML =
+        '<div data-bs-test=\'{"delay":{"show":100,"hide":10}}\'></div>';
 
-      div.setAttribute('data-bs-test', dataStr)
-      expect(Manipulator.getDataAttribute(div, 'test')).toEqual(objectData)
-    })
-  })
-})
+      const div = fixtureEl.querySelector("div");
+
+      expect(Manipulator.getDataAttribute(div, "test")).toEqual({
+        delay: { show: 100, hide: 10 },
+      });
+
+      const objectData = {
+        "Super Hero": ["Iron Man", "Super Man"],
+        testNum: 90,
+        url: "http://localhost:8080/test?foo=bar",
+      };
+      const dataStr = JSON.stringify(objectData);
+      div.setAttribute("data-bs-test", encodeURIComponent(dataStr));
+      expect(Manipulator.getDataAttribute(div, "test")).toEqual(objectData);
+
+      div.setAttribute("data-bs-test", dataStr);
+      expect(Manipulator.getDataAttribute(div, "test")).toEqual(objectData);
+    });
+  });
+});

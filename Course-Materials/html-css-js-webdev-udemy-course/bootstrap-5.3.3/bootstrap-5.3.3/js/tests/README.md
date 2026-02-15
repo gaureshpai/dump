@@ -32,42 +32,43 @@ Currently we're aiming for at least 90% test coverage for our code. To ensure yo
 
 ```js
 // Synchronous test
-describe('getInstance', () => {
-  it('should return null if there is no instance', () => {
+describe("getInstance", () => {
+  it("should return null if there is no instance", () => {
     // Make assertion
-    expect(Tab.getInstance(fixtureEl)).toBeNull()
-  })
+    expect(Tab.getInstance(fixtureEl)).toBeNull();
+  });
 
-  it('should return this instance', () => {
-    fixtureEl.innerHTML = '<div></div>'
+  it("should return this instance", () => {
+    fixtureEl.innerHTML = "<div></div>";
 
-    const divEl = fixtureEl.querySelector('div')
-    const tab = new Tab(divEl)
+    const divEl = fixtureEl.querySelector("div");
+    const tab = new Tab(divEl);
 
     // Make assertion
-    expect(Tab.getInstance(divEl)).toEqual(tab)
-  })
-})
+    expect(Tab.getInstance(divEl)).toEqual(tab);
+  });
+});
 
 // Asynchronous test
-it('should show a tooltip without the animation', () => {
-  return new Promise(resolve => {
-    fixtureEl.innerHTML = '<a href="#" rel="tooltip" title="Another tooltip"></a>'
+it("should show a tooltip without the animation", () => {
+  return new Promise((resolve) => {
+    fixtureEl.innerHTML =
+      '<a href="#" rel="tooltip" title="Another tooltip"></a>';
 
-    const tooltipEl = fixtureEl.querySelector('a')
+    const tooltipEl = fixtureEl.querySelector("a");
     const tooltip = new Tooltip(tooltipEl, {
-      animation: false
-    })
+      animation: false,
+    });
 
-    tooltipEl.addEventListener('shown.bs.tooltip', () => {
-      const tip = document.querySelector('.tooltip')
+    tooltipEl.addEventListener("shown.bs.tooltip", () => {
+      const tip = document.querySelector(".tooltip");
 
-      expect(tip).not.toBeNull()
-      expect(tip.classList.contains('fade')).toEqual(false)
-      resolve()
-    })
+      expect(tip).not.toBeNull();
+      expect(tip.classList.contains("fade")).toEqual(false);
+      resolve();
+    });
 
-    tooltip.show()
-  })
-})
+    tooltip.show();
+  });
+});
 ```

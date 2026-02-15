@@ -11,24 +11,26 @@ $utilities: ();
     $utilities: (
       margin: (
         property: margin,
-        values: auto
+        values: auto,
       ),
       padding: (
         property: padding,
         responsive: true,
-        values: 1rem
+        values: 1rem,
       ),
       font-size: (
         property: font-size,
-        values: (large: 1.25rem),
-        print: true
-      )
+        values: (
+          large: 1.25rem,
+        ),
+        print: true,
+      ),
     ) !global;
 
     $grid-breakpoints: (
       xs: 0,
       sm: 333px,
-      md: 666px
+      md: 666px,
     ) !global;
 
     @include assert() {
@@ -69,7 +71,6 @@ $utilities: ();
           }
         }
       }
-
     }
   }
 }

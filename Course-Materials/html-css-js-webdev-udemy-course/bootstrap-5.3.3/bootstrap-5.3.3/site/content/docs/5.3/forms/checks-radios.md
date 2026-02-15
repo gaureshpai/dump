@@ -18,6 +18,7 @@ Our checks use custom Bootstrap icons to indicate checked or indeterminate state
 ## Checks
 
 {{< example >}}
+
 <div class="form-check">
   <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
   <label class="form-check-label" for="flexCheckDefault">
@@ -37,6 +38,7 @@ Our checks use custom Bootstrap icons to indicate checked or indeterminate state
 Checkboxes can utilize the `:indeterminate` pseudo class when manually set via JavaScript (there is no available HTML attribute for specifying it).
 
 {{< example class="bd-example-indeterminate" stackblitz_add_js="true" >}}
+
 <div class="form-check">
   <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
   <label class="form-check-label" for="flexCheckIndeterminate">
@@ -50,6 +52,7 @@ Checkboxes can utilize the `:indeterminate` pseudo class when manually set via J
 Add the `disabled` attribute and the associated `<label>`s are automatically styled to match with a lighter color to help indicate the input's state.
 
 {{< example class="bd-example-indeterminate" stackblitz_add_js="true" >}}
+
 <div class="form-check">
   <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminateDisabled" disabled>
   <label class="form-check-label" for="flexCheckIndeterminateDisabled">
@@ -73,6 +76,7 @@ Add the `disabled` attribute and the associated `<label>`s are automatically sty
 ## Radios
 
 {{< example >}}
+
 <div class="form-check">
   <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
   <label class="form-check-label" for="flexRadioDefault1">
@@ -92,6 +96,7 @@ Add the `disabled` attribute and the associated `<label>`s are automatically sty
 Add the `disabled` attribute and the associated `<label>`s are automatically styled to match with a lighter color to help indicate the input's state.
 
 {{< example >}}
+
 <div class="form-check">
   <input class="form-check-input" type="radio" name="flexRadioDisabled" id="flexRadioDisabled" disabled>
   <label class="form-check-label" for="flexRadioDisabled">
@@ -111,6 +116,7 @@ Add the `disabled` attribute and the associated `<label>`s are automatically sty
 A switch has the markup of a custom checkbox but uses the `.form-switch` class to render a toggle switch. Consider using `role="switch"` to more accurately convey the nature of the control to assistive technologies that support this role. In older assistive technologies, it will simply be announced as a regular checkbox as a fallback. Switches also support the `disabled` attribute.
 
 {{< example >}}
+
 <div class="form-check form-switch">
   <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
   <label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox input</label>
@@ -134,6 +140,7 @@ A switch has the markup of a custom checkbox but uses the `.form-switch` class t
 By default, any number of checkboxes and radios that are immediate sibling will be vertically stacked and appropriately spaced with `.form-check`.
 
 {{< example >}}
+
 <div class="form-check">
   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
   <label class="form-check-label" for="defaultCheck1">
@@ -149,6 +156,7 @@ By default, any number of checkboxes and radios that are immediate sibling will 
 {{< /example >}}
 
 {{< example >}}
+
 <div class="form-check">
   <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
   <label class="form-check-label" for="exampleRadios1">
@@ -174,6 +182,7 @@ By default, any number of checkboxes and radios that are immediate sibling will 
 Group checkboxes or radios on the same horizontal row by adding `.form-check-inline` to any `.form-check`.
 
 {{< example >}}
+
 <div class="form-check form-check-inline">
   <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
   <label class="form-check-label" for="inlineCheckbox1">1</label>
@@ -189,6 +198,7 @@ Group checkboxes or radios on the same horizontal row by adding `.form-check-inl
 {{< /example >}}
 
 {{< example >}}
+
 <div class="form-check form-check-inline">
   <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
   <label class="form-check-label" for="inlineRadio1">1</label>
@@ -208,6 +218,7 @@ Group checkboxes or radios on the same horizontal row by adding `.form-check-inl
 Put your checkboxes, radios, and switches on the opposite side with the `.form-check-reverse` modifier class.
 
 {{< example >}}
+
 <div class="form-check form-check-reverse">
   <input class="form-check-input" type="checkbox" value="" id="reverseCheck1">
   <label class="form-check-label" for="reverseCheck1">
@@ -232,6 +243,7 @@ Put your checkboxes, radios, and switches on the opposite side with the `.form-c
 Omit the wrapping `.form-check` for checkboxes and radios that have no label text. Remember to still provide some form of accessible name for assistive technologies (for instance, using `aria-label`). See the [forms overview accessibility]({{< docsref "/forms/overview#accessibility" >}}) section for details.
 
 {{< example >}}
+
 <div>
   <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
 </div>

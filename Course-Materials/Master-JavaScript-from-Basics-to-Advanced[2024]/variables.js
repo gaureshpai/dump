@@ -6,6 +6,6 @@ var sum = num1 + num2 + num3;
 
 console.log(sum);
 
-var firstName = 'Gauresh'
+var firstName = "Gauresh";
 
 console.log(firstName);

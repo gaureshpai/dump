@@ -4,7 +4,7 @@ const nextConfig = {
     return [
       {
         source: "/koios/:path",
-        destination: "https://preview.koios.rest/api/v1/:path"
+        destination: "https://preview.koios.rest/api/v1/:path",
       },
     ];
   },

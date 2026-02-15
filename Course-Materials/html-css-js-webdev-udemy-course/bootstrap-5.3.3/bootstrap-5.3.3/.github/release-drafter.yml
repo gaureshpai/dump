@@ -1,60 +1,60 @@
-name-template: 'v$NEXT_MAJOR_VERSION'
-tag-template: 'v$NEXT_MAJOR_VERSION'
+name-template: "v$NEXT_MAJOR_VERSION"
+tag-template: "v$NEXT_MAJOR_VERSION"
 prerelease: true
 exclude-labels:
-  - 'skip-changelog'
+  - "skip-changelog"
 categories:
-  - title: '❗ Breaking Changes'
+  - title: "❗ Breaking Changes"
     labels:
-      - 'breaking-change'
-  - title: '🚀 Highlights'
+      - "breaking-change"
+  - title: "🚀 Highlights"
     labels:
-      - 'release-highlight'
-  - title: '🚀 Features'
+      - "release-highlight"
+  - title: "🚀 Features"
     labels:
-      - 'new-feature'
-      - 'feature'
-      - 'enhancement'
-  - title: '🐛 Bug fixes'
+      - "new-feature"
+      - "feature"
+      - "enhancement"
+  - title: "🐛 Bug fixes"
     labels:
-      - 'fix'
-      - 'bugfix'
-      - 'bug'
-  - title: '⚡ Performance improvements'
+      - "fix"
+      - "bugfix"
+      - "bug"
+  - title: "⚡ Performance improvements"
     labels:
-      - 'performance'
-  - title: '🎨 CSS'
+      - "performance"
+  - title: "🎨 CSS"
     labels:
-      - 'css'
-  - title: '☕️ JavaScript'
+      - "css"
+  - title: "☕️ JavaScript"
     labels:
-      - 'js'
-  - title: '📖 Docs'
+      - "js"
+  - title: "📖 Docs"
     labels:
-      - 'docs'
-  - title: '🛠 Examples'
+      - "docs"
+  - title: "🛠 Examples"
     labels:
-      - 'examples'
-  - title: '🌎 Accessibility'
+      - "examples"
+  - title: "🌎 Accessibility"
     labels:
-      - 'accessibility'
-  - title: '🔧 Utility API'
+      - "accessibility"
+  - title: "🔧 Utility API"
     labels:
-      - 'utility API'
-      - 'utilities'
-  - title: '🏭 Tests'
+      - "utility API"
+      - "utilities"
+  - title: "🏭 Tests"
     labels:
-      - 'tests'
-  - title: '🧰 Misc'
+      - "tests"
+  - title: "🧰 Misc"
     labels:
-      - 'build'
-      - 'meta'
-      - 'chore'
-      - 'CI'
-  - title: '📦 Dependencies'
+      - "build"
+      - "meta"
+      - "chore"
+      - "CI"
+  - title: "📦 Dependencies"
     labels:
-      - 'dependencies'
-change-template: '- #$NUMBER: $TITLE'
+      - "dependencies"
+change-template: "- #$NUMBER: $TITLE"
 template: |
   ## Changes
   $CHANGES

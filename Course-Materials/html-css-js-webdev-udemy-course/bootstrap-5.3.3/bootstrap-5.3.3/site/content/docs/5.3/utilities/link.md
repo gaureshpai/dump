@@ -12,6 +12,7 @@ added: 5.3
 Change the alpha opacity of the link `rgba()` color value with utilities. Please be aware that changes to a color's opacity can lead to links with [*insufficient* contrast]({{< docsref "getting-started/accessibility#color-contrast" >}}).
 
 {{< example >}}
+
 <p><a class="link-opacity-10" href="#">Link opacity 10</a></p>
 <p><a class="link-opacity-25" href="#">Link opacity 25</a></p>
 <p><a class="link-opacity-50" href="#">Link opacity 50</a></p>
@@ -22,6 +23,7 @@ Change the alpha opacity of the link `rgba()` color value with utilities. Please
 You can even change the opacity level on hover.
 
 {{< example >}}
+
 <p><a class="link-opacity-10-hover" href="#">Link hover opacity 10</a></p>
 <p><a class="link-opacity-25-hover" href="#">Link hover opacity 25</a></p>
 <p><a class="link-opacity-50-hover" href="#">Link hover opacity 50</a></p>
@@ -38,6 +40,7 @@ Change the underline's color independent of the link text color.
 {{< example >}}
 {{< link-underline-colors.inline >}}
 {{- range (index $.Site.Data "theme-colors") }}
+
 <p><a href="#" class="link-underline-{{ .name }}">{{ .name | title }} underline</a></p>
 {{- end -}}
 {{< /link-underline-colors.inline >}}
@@ -48,6 +51,7 @@ Change the underline's color independent of the link text color.
 Change the underline's distance from your text. Offset is set in `em` units to automatically scale with the element's current `font-size`.
 
 {{< example >}}
+
 <p><a href="#">Default link</a></p>
 <p><a class="link-offset-1" href="#">Offset 1 link</a></p>
 <p><a class="link-offset-2" href="#">Offset 2 link</a></p>
@@ -59,6 +63,7 @@ Change the underline's distance from your text. Offset is set in `em` units to a
 Change the underline's opacity. Requires adding `.link-underline` to first set an `rgba()` color we use to then modify the alpha opacity.
 
 {{< example >}}
+
 <p><a class="link-offset-2 link-underline link-underline-opacity-0" href="#">Underline opacity 0</a></p>
 <p><a class="link-offset-2 link-underline link-underline-opacity-10" href="#">Underline opacity 10</a></p>
 <p><a class="link-offset-2 link-underline link-underline-opacity-25" href="#">Underline opacity 25</a></p>
@@ -73,7 +78,7 @@ Just like the `.link-opacity-*-hover` utilities, `.link-offset` and `.link-under
 
 {{< example >}}
 <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
-  Underline opacity 0
+Underline opacity 0
 </a>
 {{< /example >}}
 
@@ -84,6 +89,7 @@ Just like the `.link-opacity-*-hover` utilities, `.link-offset` and `.link-under
 {{< example >}}
 {{< colored-links.inline >}}
 {{- range (index $.Site.Data "theme-colors") }}
+
 <p><a href="#" class="link-{{ .name }} link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">{{ .name | title }} link</a></p>
 {{- end -}}
 {{< /colored-links.inline >}}

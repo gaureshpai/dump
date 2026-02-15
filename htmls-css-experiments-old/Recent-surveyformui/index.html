@@ -1,88 +1,126 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Survey Form</title>
-    <link href="style.css" rel="stylesheet">
-</head>
+    <link href="style.css" rel="stylesheet" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <h1>Survey Form</h1>
+      <h1>Survey Form</h1>
     </header>
 
     <div class="content">
-        <form>
-            <div class="marginfix1">
-                <strong>Personal Details</strong>
-            </div>
-            <table class="marginfix1">
-                <tr>
-                    <td class="marginfix2"><label for="name">Name:</label></td>
-                    <td class="marginfix3"><input type="text" id="name" placeholder="Enter your name" name="name"
-                            required></td>
-                </tr>
-                <tr>
-                    <td class="marginfix2"><label for="address">Address:</label></td>
-                    <td class="marginfix3"><input type="text" id="address" placeholder="Enter your address"
-                            name="address" required></td>
-                </tr>
-                <tr>
-                    <td class="marginfix2"><label for="email">Email:</label></td>
-                    <td class="marginfix3"><input type="email" id="email" placeholder="Enter your email" name="email"
-                            required></td>
-                </tr>
-                <tr>
-                    <td class="marginfix2"><label for="number">Number:</label></td>
-                    <td class="marginfix3"><input type="number" id="number" placeholder="Enter your number"
-                            name="number" required></td>
-                </tr>
-            </table>
-            <div class="marginfix1">
-                Please select your gender:
-            </div>
-            <table class="marginfix1">
-                <tr>
-                    <td class="marginfix2"><input type="radio" id="male" name="gender" value="m"><label
-                            for="male">Male</label></td>
-                </tr>
-                <tr>
-                    <td class="marginfix2"><input type="radio" id="female" name="gender" value="f"><label
-                            for="female">Female</label></td>
-                </tr>
-                <tr>
-                    <td class="marginfix2"><input type="radio" id="other" name="gender" value="o"><label
-                            for="other">Prefer Not to Say</label></td>
-                </tr>
-            </table>
-            <hr class="headline">
-            <div class="marginfix1">
-                Additional Information
-            </div>
-            <table class="headline">
-                <tr>
-                    <td class="marginfix5">
-                        <textarea id="additionalInfo" name="additionalInfo" placeholder="Enter additional information"
-                            required></textarea>
-                    </td>
-                </tr>
-            </table>
-            <table class="marginfix4">
-                <tr>
-                    <td>
-                        <input type="submit">
-                    </td>
-                </tr>
-            </table>
-        </form>
-        <hr class="headline">
+      <form>
+        <div class="marginfix1">
+          <strong>Personal Details</strong>
+        </div>
+        <table class="marginfix1">
+          <tr>
+            <td class="marginfix2"><label for="name">Name:</label></td>
+            <td class="marginfix3">
+              <input
+                type="text"
+                id="name"
+                placeholder="Enter your name"
+                name="name"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td class="marginfix2"><label for="address">Address:</label></td>
+            <td class="marginfix3">
+              <input
+                type="text"
+                id="address"
+                placeholder="Enter your address"
+                name="address"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td class="marginfix2"><label for="email">Email:</label></td>
+            <td class="marginfix3">
+              <input
+                type="email"
+                id="email"
+                placeholder="Enter your email"
+                name="email"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td class="marginfix2"><label for="number">Number:</label></td>
+            <td class="marginfix3">
+              <input
+                type="number"
+                id="number"
+                placeholder="Enter your number"
+                name="number"
+                required
+              />
+            </td>
+          </tr>
+        </table>
+        <div class="marginfix1">Please select your gender:</div>
+        <table class="marginfix1">
+          <tr>
+            <td class="marginfix2">
+              <input type="radio" id="male" name="gender" value="m" /><label
+                for="male"
+                >Male</label
+              >
+            </td>
+          </tr>
+          <tr>
+            <td class="marginfix2">
+              <input type="radio" id="female" name="gender" value="f" /><label
+                for="female"
+                >Female</label
+              >
+            </td>
+          </tr>
+          <tr>
+            <td class="marginfix2">
+              <input type="radio" id="other" name="gender" value="o" /><label
+                for="other"
+                >Prefer Not to Say</label
+              >
+            </td>
+          </tr>
+        </table>
+        <hr class="headline" />
+        <div class="marginfix1">Additional Information</div>
+        <table class="headline">
+          <tr>
+            <td class="marginfix5">
+              <textarea
+                id="additionalInfo"
+                name="additionalInfo"
+                placeholder="Enter additional information"
+                required
+              ></textarea>
+            </td>
+          </tr>
+        </table>
+        <table class="marginfix4">
+          <tr>
+            <td>
+              <input type="submit" />
+            </td>
+          </tr>
+        </table>
+      </form>
+      <hr class="headline" />
     </div>
 
     <footer>
-        <p>&copy; 2023 Survey Form</p>
+      <p>&copy; 2023 Survey Form</p>
     </footer>
-</body>
-
+  </body>
 </html>

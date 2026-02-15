@@ -77,27 +77,25 @@ With dependencies installed and our project folder ready for us to start coding,
 1. **Open `webpack.config.js` in your editor.** Since it's blank, we'll need to add some boilerplate config to it so we can start our server. This part of the config tells Webpack where to look for our project's JavaScript, where to output the compiled code to (`dist`), and how the development server should behave (pulling from the `dist` folder with hot reload).
 
    ```js
-   'use strict'
+   "use strict";
 
-   const path = require('path')
-   const HtmlWebpackPlugin = require('html-webpack-plugin')
+   const path = require("path");
+   const HtmlWebpackPlugin = require("html-webpack-plugin");
 
    module.exports = {
-     mode: 'development',
-     entry: './src/js/main.js',
+     mode: "development",
+     entry: "./src/js/main.js",
      output: {
-       filename: 'main.js',
-       path: path.resolve(__dirname, 'dist')
+       filename: "main.js",
+       path: path.resolve(__dirname, "dist"),
      },
      devServer: {
-       static: path.resolve(__dirname, 'dist'),
+       static: path.resolve(__dirname, "dist"),
        port: 8080,
-       hot: true
+       hot: true,
      },
-     plugins: [
-       new HtmlWebpackPlugin({ template: './src/index.html' })
-     ]
-   }
+     plugins: [new HtmlWebpackPlugin({ template: "./src/index.html" })],
+   };
    ```
 
 2. **Next we fill in our `src/index.html`.** This is the HTML page Webpack will load in the browser to utilize the bundled CSS and JS we'll add to it in later steps. Before we can do that, we have to give it something to render and include the `output` JS from the previous step.
@@ -106,8 +104,8 @@ With dependencies installed and our project folder ready for us to start coding,
    <!doctype html>
    <html lang="en">
      <head>
-       <meta charset="utf-8">
-       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <meta charset="utf-8" />
+       <meta name="viewport" content="width=device-width, initial-scale=1" />
        <title>Bootstrap w/ Webpack</title>
      </head>
      <body>
@@ -130,7 +128,7 @@ With dependencies installed and our project folder ready for us to start coding,
        "start": "webpack serve",
        "build": "webpack build --mode=production",
        "test": "echo \"Error: no test specified\" && exit 1"
-     },
+     }
      // ...
    }
    ```
@@ -152,27 +150,25 @@ Importing Bootstrap into Webpack requires the loaders we installed in the first 
 1. **Set up the loaders in `webpack.config.js`.** Your configuration file is now complete and should match the snippet below. The only new part here is the `module` section.
 
    ```js
-   'use strict'
+   "use strict";
 
-   const path = require('path')
-   const autoprefixer = require('autoprefixer')
-   const HtmlWebpackPlugin = require('html-webpack-plugin')
+   const path = require("path");
+   const autoprefixer = require("autoprefixer");
+   const HtmlWebpackPlugin = require("html-webpack-plugin");
 
    module.exports = {
-     mode: 'development',
-     entry: './src/js/main.js',
+     mode: "development",
+     entry: "./src/js/main.js",
      output: {
-       filename: 'main.js',
-       path: path.resolve(__dirname, 'dist')
+       filename: "main.js",
+       path: path.resolve(__dirname, "dist"),
      },
      devServer: {
-       static: path.resolve(__dirname, 'dist'),
+       static: path.resolve(__dirname, "dist"),
        port: 8080,
-       hot: true
+       hot: true,
      },
-     plugins: [
-       new HtmlWebpackPlugin({ template: './src/index.html' })
-     ],
+     plugins: [new HtmlWebpackPlugin({ template: "./src/index.html" })],
      module: {
        rules: [
          {
@@ -180,32 +176,30 @@ Importing Bootstrap into Webpack requires the loaders we installed in the first 
            use: [
              {
                // Adds CSS to the DOM by injecting a `<style>` tag
-               loader: 'style-loader'
+               loader: "style-loader",
              },
              {
                // Interprets `@import` and `url()` like `import/require()` and will resolve them
-               loader: 'css-loader'
+               loader: "css-loader",
              },
              {
                // Loader for webpack to process CSS with PostCSS
-               loader: 'postcss-loader',
+               loader: "postcss-loader",
                options: {
                  postcssOptions: {
-                   plugins: [
-                     autoprefixer
-                   ]
-                 }
-               }
+                   plugins: [autoprefixer],
+                 },
+               },
              },
              {
                // Loads a SASS/SCSS file and compiles it to CSS
-               loader: 'sass-loader'
-             }
-           ]
-         }
-       ]
-     }
-   }
+               loader: "sass-loader",
+             },
+           ],
+         },
+       ],
+     },
+   };
    ```
 
    Here's a recap of why we need all these loaders. `style-loader` injects the CSS into a `<style>` element in the `<head>` of the HTML page, `css-loader` helps with using `@import` and `url()`, `postcss-loader` is required for Autoprefixer, and `sass-loader` allows us to use Sass.
@@ -217,30 +211,32 @@ Importing Bootstrap into Webpack requires the loaders we installed in the first 
    @import "bootstrap/scss/bootstrap";
    ```
 
-   *You can also import our stylesheets individually if you want. [Read our Sass import docs]({{< docsref "/customize/sass#importing" >}}) for details.*
+   _You can also import our stylesheets individually if you want. [Read our Sass import docs]({{< docsref "/customize/sass#importing" >}}) for details._
 
 3. **Next we load the CSS and import Bootstrap's JavaScript.** Add the following to `src/js/main.js` to load the CSS and import all of Bootstrap's JS. Popper will be imported automatically through Bootstrap.
 
    <!-- eslint-skip -->
+
    ```js
    // Import our custom CSS
-   import '../scss/styles.scss'
+   import "../scss/styles.scss";
 
    // Import all of Bootstrap's JS
-   import * as bootstrap from 'bootstrap'
+   import * as bootstrap from "bootstrap";
    ```
 
    You can also import JavaScript plugins individually as needed to keep bundle sizes down:
 
    <!-- eslint-skip -->
+
    ```js
-   import Alert from 'bootstrap/js/dist/alert'
+   import Alert from "bootstrap/js/dist/alert";
 
    // or, specify which plugins you need:
-   import { Tooltip, Toast, Popover } from 'bootstrap'
+   import { Tooltip, Toast, Popover } from "bootstrap";
    ```
 
-   *[Read our JavaScript docs]({{< docsref "/getting-started/javascript/" >}}) for more information on how to use Bootstrap's plugins.*
+   _[Read our JavaScript docs]({{< docsref "/getting-started/javascript/" >}}) for more information on how to use Bootstrap's plugins._
 
 4. **And you're done! 🎉** With Bootstrap's source Sass and JS fully loaded, your local development server should now look like this:
 

@@ -3,7 +3,6 @@
 }
 
 .bd-layout {
-
   @include media-breakpoint-up(lg) {
     display: grid;
     grid-template-areas: "sidebar main";

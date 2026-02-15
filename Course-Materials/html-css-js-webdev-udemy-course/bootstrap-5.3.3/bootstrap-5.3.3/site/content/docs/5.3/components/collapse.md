@@ -25,6 +25,7 @@ Click the buttons below to show and hide another element via class changes:
 Generally, we recommend using a `<button>` with the `data-bs-target` attribute. While not recommended from a semantic point of view, you can also use an `<a>` link with the `href` attribute (and a `role="button"`). In both cases, the `data-bs-toggle="collapse"` is required.
 
 {{< example >}}
+
 <p class="d-inline-flex gap-1">
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
     Link with href
@@ -49,6 +50,7 @@ Please note that while the example below has a `min-height` set to avoid excessi
 {{< /callout >}}
 
 {{< example >}}
+
 <p>
   <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
     Toggle width collapse
@@ -69,6 +71,7 @@ A `<button>` or `<a>` element can show and hide multiple elements by referencing
 Conversely, multiple `<button>` or `<a>` elements can show and hide the same element if they each reference it with their `data-bs-target` or `href` attribute.
 
 {{< example >}}
+
 <p class="d-inline-flex gap-1">
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
   <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Toggle second element</button>
@@ -98,7 +101,7 @@ Be sure to add `aria-expanded` to the control element. This attribute explicitly
 
 If your control element is targeting a single collapsible element – i.e. the `data-bs-target` attribute is pointing to an `id` selector – you should add the `aria-controls` attribute to the control element, containing the `id` of the collapsible element. Modern screen readers and similar assistive technologies make use of this attribute to provide users with additional shortcuts to navigate directly to the collapsible element itself.
 
-Note that Bootstrap's current implementation does not cover the various *optional* keyboard interactions described in the [ARIA Authoring Practices Guide accordion pattern](https://www.w3.org/WAI/ARIA/apg/patterns/accordion/) - you will need to include these yourself with custom JavaScript.
+Note that Bootstrap's current implementation does not cover the various _optional_ keyboard interactions described in the [ARIA Authoring Practices Guide accordion pattern](https://www.w3.org/WAI/ARIA/apg/patterns/accordion/) - you will need to include these yourself with custom JavaScript.
 
 ## CSS
 
@@ -133,8 +136,10 @@ To add accordion-like group management to a collapsible area, add the data attri
 Enable manually with:
 
 ```js
-const collapseElementList = document.querySelectorAll('.collapse')
-const collapseList = [...collapseElementList].map(collapseEl => new bootstrap.Collapse(collapseEl))
+const collapseElementList = document.querySelectorAll(".collapse");
+const collapseList = [...collapseElementList].map(
+  (collapseEl) => new bootstrap.Collapse(collapseEl),
+);
 ```
 
 ### Options
@@ -161,9 +166,9 @@ Activates your content as a collapsible element. Accepts an optional options `ob
 You can create a collapse instance with the constructor, for example:
 
 ```js
-const bsCollapse = new bootstrap.Collapse('#myCollapse', {
-  toggle: false
-})
+const bsCollapse = new bootstrap.Collapse("#myCollapse", {
+  toggle: false,
+});
 ```
 
 {{< bs-table >}}
@@ -191,8 +196,8 @@ Bootstrap's collapse class exposes a few events for hooking into collapse functi
 {{< /bs-table >}}
 
 ```js
-const myCollapsible = document.getElementById('myCollapsible')
-myCollapsible.addEventListener('hidden.bs.collapse', event => {
+const myCollapsible = document.getElementById("myCollapsible");
+myCollapsible.addEventListener("hidden.bs.collapse", (event) => {
   // do something...
-})
+});
 ```

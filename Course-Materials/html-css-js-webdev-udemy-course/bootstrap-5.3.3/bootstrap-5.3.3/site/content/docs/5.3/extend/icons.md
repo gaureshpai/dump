@@ -26,10 +26,11 @@ We've tested and used these icon sets ourselves as preferred alternatives to Boo
 {{- $type := .Get "type" | default "preferred" -}}
 
 {{- range (index .Site.Data.icons $type) }}
+
 - [{{ .name }}]({{ .website }})
-{{- end }}
-{{< /icons.inline >}}
-{{< /markdown >}}
+  {{- end }}
+  {{< /icons.inline >}}
+  {{< /markdown >}}
 
 ## More options
 

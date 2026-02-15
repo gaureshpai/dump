@@ -13,6 +13,7 @@ Badges scale to match the size of the immediate parent element by using relative
 ### Headings
 
 {{< example >}}
+
 <h1>Example heading <span class="badge text-bg-secondary">New</span></h1>
 <h2>Example heading <span class="badge text-bg-secondary">New</span></h2>
 <h3>Example heading <span class="badge text-bg-secondary">New</span></h3>
@@ -27,7 +28,7 @@ Badges can be used as part of links or buttons to provide a counter.
 
 {{< example >}}
 <button type="button" class="btn btn-primary">
-  Notifications <span class="badge text-bg-secondary">4</span>
+Notifications <span class="badge text-bg-secondary">4</span>
 </button>
 {{< /example >}}
 
@@ -41,11 +42,11 @@ Use utilities to modify a `.badge` and position it in the corner of a link or bu
 
 {{< example >}}
 <button type="button" class="btn btn-primary position-relative">
-  Inbox
-  <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-    99+
-    <span class="visually-hidden">unread messages</span>
-  </span>
+Inbox
+<span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+99+
+<span class="visually-hidden">unread messages</span>
+</span>
 </button>
 {{< /example >}}
 
@@ -53,10 +54,10 @@ You can also replace the `.badge` class with a few more utilities without a coun
 
 {{< example >}}
 <button type="button" class="btn btn-primary position-relative">
-  Profile
-  <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
-    <span class="visually-hidden">New alerts</span>
-  </span>
+Profile
+<span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+<span class="visually-hidden">New alerts</span>
+</span>
 </button>
 {{< /example >}}
 

@@ -1,10 +1,10 @@
 .anchor-link {
-  padding: 0 .175rem;
+  padding: 0 0.175rem;
   font-weight: 400;
-  color: rgba($link-color, .5);
+  color: rgba($link-color, 0.5);
   text-decoration: none;
   opacity: 0;
-  @include transition(color .15s ease-in-out, opacity .15s ease-in-out);
+  @include transition(color 0.15s ease-in-out, opacity 0.15s ease-in-out);
 
   &::after {
     content: "#";
