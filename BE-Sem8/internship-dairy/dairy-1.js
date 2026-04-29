@@ -12,8 +12,7 @@ async function fetchAndSaveDiaries() {
       method: "GET",
       headers: {
         Accept: "application/json",
-        Cookie:
-          "REPLACE_WITH_YOUR_COOKIE_HERE", // <-- Replace with your actual cookie
+        Cookie: "your_cookie_here",
       },
     });
 
