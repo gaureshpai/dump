@@ -1,9 +1,9 @@
 # Internship Diary
 
-****NAME:**** Jnanesh  
-****USN:**** 4JK22CS020  
-****COMPANY:**** InUnity Pvt Ltd  
-****DESIGNATION:**** Frontend Developer  
+\***\*NAME:\*\*** Jnanesh  
+\***\*USN:\*\*** 4JK22CS020  
+\***\*COMPANY:\*\*** InUnity Pvt Ltd  
+\***\*DESIGNATION:\*\*** Frontend Developer
 
 ---
 
@@ -1202,4 +1202,3 @@
 **Blockers:** None
 
 ---
-

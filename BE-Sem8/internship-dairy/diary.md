@@ -1,9 +1,9 @@
 # Internship Diary
 
-****NAME:**** Gauresh G Pai  
-****USN:**** 4JK22CS016  
-****COMPANY:**** InUnity Pvt Ltd  
-****DESIGNATION:**** Frontend Developer  
+\***\*NAME:\*\*** Gauresh G Pai  
+\***\*USN:\*\*** 4JK22CS016  
+\***\*COMPANY:\*\*** InUnity Pvt Ltd  
+\***\*DESIGNATION:\*\*** Frontend Developer
 
 ---
 
@@ -139,7 +139,7 @@ learnings would be a revision on known and studied concepts to be applied on rea
 
 **Entry:** Got tasks assigned. Started to work on the frontend for Control Plane.
 
-**Learnings:** TanStack Router is better and good for routing and  data caching.
+**Learnings:** TanStack Router is better and good for routing and data caching.
 
 **Hours:** 8 hours
 **Total Hours:** 96
@@ -217,15 +217,15 @@ learnings would be a revision on known and studied concepts to be applied on rea
 ## 16 February 2026
 
 **Entry:** Did go through a lot of documentation for Shopify app dev and was blocked by PR to work further on both Cp and Shopify app
-https://shopify.dev/docs/apps/launch/built-for-shopify#apply-for-built-for-shopify-status 
-https://shopify.dev/docs/apps/launch/built-for-shopify/requirements 
+https://shopify.dev/docs/apps/launch/built-for-shopify#apply-for-built-for-shopify-status
+https://shopify.dev/docs/apps/launch/built-for-shopify/requirements
 
-https://shopify.dev/changelog?filter=built_for_shopify 
-https://www.shopify.com/in/partners/terms 
-https://www.shopify.com/in/legal/api-terms 
-https://shopify.dev/docs/apps/launch/built-for-shopify/regain-lost-status 
-https://shopify.dev/docs/apps/launch/shopify-app-store/app-store-requirements 
-https://shopify.dev/docs/apps/launch/shopify-app-store/best-practices 
+https://shopify.dev/changelog?filter=built_for_shopify
+https://www.shopify.com/in/partners/terms
+https://www.shopify.com/in/legal/api-terms
+https://shopify.dev/docs/apps/launch/built-for-shopify/regain-lost-status
+https://shopify.dev/docs/apps/launch/shopify-app-store/app-store-requirements
+https://shopify.dev/docs/apps/launch/shopify-app-store/best-practices
 https://help.shopify.com/en/partners/faq/removal
 
 **Learnings:** Shockingly I had forgotten that React is owned by Facebook.
@@ -1032,4 +1032,3 @@ https://shopify.dev/docs/apps/build/functions ✅
 **Total Hours:** 704
 
 ---
-

@@ -1,9 +1,9 @@
 # Internship Diary
 
-****NAME:**** Harshitha  
-****USN:**** 4JK22CS017  
-****COMPANY:**** (UniCourt India) Mangalore Infotech Solutions Private Limited.  
-****DESIGNATION:**** Software Engineer Intern  
+\***\*NAME:\*\*** Harshitha  
+\***\*USN:\*\*** 4JK22CS017  
+\***\*COMPANY:\*\*** (UniCourt India) Mangalore Infotech Solutions Private Limited.  
+\***\*DESIGNATION:\*\*** Software Engineer Intern
 
 ---
 
@@ -187,7 +187,7 @@
 
 ## 4 February 2026
 
-**Entry:** explored system sequence diagrams inorder to understand the flow of different functionalities  of the company's website. explored the different API's getting used and how the request and responses flow across the different API's and how these API"s are different
+**Entry:** explored system sequence diagrams inorder to understand the flow of different functionalities of the company's website. explored the different API's getting used and how the request and responses flow across the different API's and how these API"s are different
 
 **Learnings:** Learnt how different software components interact using API's and How the system sequence diagrams help to visualise the flow of different functionalities of the system and the products of the company
 
@@ -202,7 +202,7 @@
 
 **Entry:** Installed an end-to-end testing framework and ran a sample testcase to understand it's flow and execution.wrote and executed basic automated tests to observe browser navigation in the headed mode .
 
-**Learnings:** learned the basic automated testing setup and execution. gained hands-on experience on how ui mode can be used to visualise the flow of  automated tests
+**Learnings:** learned the basic automated testing setup and execution. gained hands-on experience on how ui mode can be used to visualise the flow of automated tests
 
 **Hours:** 9 hours
 **Total Hours:** 144
@@ -215,7 +215,7 @@
 
 **Entry:** Completed the task given by mentor that involved writing tests for login authentication using the valid credentials and asserting the login page and also asserting go to dashboard page
 
-**Learnings:** improved understanding of validating the automated tests and writing the tests for real  world scenarios
+**Learnings:** improved understanding of validating the automated tests and writing the tests for real world scenarios
 
 **Hours:** 9 hours
 **Total Hours:** 153
@@ -254,7 +254,7 @@
 
 **Entry:** Started with documenting the task done on the previous day including the workflow of the automation test script and then did a sample exercises practicing automation test writing and attended the KT session on widgets and practiced it with the application
 
-**Learnings:** Improved the understanding of end to end test scenarios and automation test writing , gained the basic understanding of widgets and how the widgets are integrated into the  webapplications
+**Learnings:** Improved the understanding of end to end test scenarios and automation test writing , gained the basic understanding of widgets and how the widgets are integrated into the webapplications
 
 **Hours:** 9 hours
 **Total Hours:** 180
@@ -393,7 +393,7 @@
 
 ## 20 February 2026
 
-**Entry:** Updated the specific sections of the SCRUM Sheet maintained for the team and wrote the queries to query the superset  and get the desired table entries
+**Entry:** Updated the specific sections of the SCRUM Sheet maintained for the team and wrote the queries to query the superset and get the desired table entries
 
 **Learnings:** learnt to update the SCRUM sheet daily and also got an practice of writing the sql queries for the superset db
 
@@ -472,8 +472,8 @@ Wrote the test cases for the given JIRA ticket in the confluence and created the
 
 ## 26 February 2026
 
-**Entry:** Updated the SCRUM sheet for the day, Added the test cases 	
-Had to go over the ticket- create a documentation of  contact creation for application Users, got a task to test the ticket- for which the test cases were written
+**Entry:** Updated the SCRUM sheet for the day, Added the test cases
+Had to go over the ticket- create a documentation of contact creation for application Users, got a task to test the ticket- for which the test cases were written
 
 **Learnings:** Learnt to write systematic test cases and testing an application
 
@@ -486,7 +486,7 @@ Had to go over the ticket- create a documentation of  contact creation for appli
 
 ## 27 February 2026
 
-**Entry:** Updated the SCRUM sheet for the day, testing the ticket 
+**Entry:** Updated the SCRUM sheet for the day, testing the ticket
 completed testing according to the test cases prepared, added the missing test cases, going over the ticket
 
 **Learnings:** Completed the entire testing for the test cases written
@@ -1329,4 +1329,3 @@ completed testing according to the test cases prepared, added the missing test c
 **Blockers:** none
 
 ---
-

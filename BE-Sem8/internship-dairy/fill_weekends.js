@@ -4,8 +4,10 @@ const entriesPath = "diary_entries.json";
 const today = new Date("2026-05-01");
 const startDate = new Date("2026-01-29");
 
-const description = "A full-stack Todo application built with modern technologies including Protocol Buffers, Connect RPC, React, TypeScript, Express.js, and MongoDB. with the link https://todo-with-protobuf.vercel.app/ Modern Todo Application (Monorepo)";
-const learnings = "A high-performance, type-safe Todo application built with a modern tech stack. This monorepo demonstrates the integration of Protocol Buffers (Connect RPC), React 19, and a TypeScript backend with MongoDB. Tech Stack: React 19, Vite, TanStack Router, TanStack Query, Tailwind CSS, shadcn/ui, Biome, Node.js, Express, Connect-RPC, Mongoose, TypeScript, pnpm, Turborepo.";
+const description =
+  "A full-stack Todo application built with modern technologies including Protocol Buffers, Connect RPC, React, TypeScript, Express.js, and MongoDB. with the link https://todo-with-protobuf.vercel.app/ Modern Todo Application (Monorepo)";
+const learnings =
+  "A high-performance, type-safe Todo application built with a modern tech stack. This monorepo demonstrates the integration of Protocol Buffers (Connect RPC), React 19, and a TypeScript backend with MongoDB. Tech Stack: React 19, Vite, TanStack Router, TanStack Query, Tailwind CSS, shadcn/ui, Biome, Node.js, Express, Connect-RPC, Mongoose, TypeScript, pnpm, Turborepo.";
 
 function getDatesInRange(start, end) {
   const dates = [];
@@ -29,11 +31,11 @@ try {
   console.error("Error reading entries:", e);
 }
 
-const existingDates = new Set(entries.map(e => e.date));
+const existingDates = new Set(entries.map((e) => e.date));
 const allDates = getDatesInRange(startDate, today);
 
 let addedCount = 0;
-allDates.forEach(date => {
+allDates.forEach((date) => {
   if (isWeekend(date) && !existingDates.has(date)) {
     entries.push({
       date: date,
@@ -43,7 +45,7 @@ allDates.forEach(date => {
       blockers: "None",
       mood_slider: 5,
       status: 2,
-      internship: { name: "Frontend Developer" }
+      internship: { name: "Frontend Developer" },
     });
     addedCount++;
     console.log(`Added entry for ${date}`);

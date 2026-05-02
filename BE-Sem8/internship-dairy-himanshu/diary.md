@@ -1,9 +1,9 @@
 # Internship Diary
 
-****NAME:**** Himanshu Hegde  
-****USN:**** 4JK22CS018  
-****COMPANY:**** InUnity Pvt Ltd  
-****DESIGNATION:**** Frontend Developer  
+\***\*NAME:\*\*** Himanshu Hegde  
+\***\*USN:\*\*** 4JK22CS018  
+\***\*COMPANY:\*\*** InUnity Pvt Ltd  
+\***\*DESIGNATION:\*\*** Frontend Developer
 
 ---
 
@@ -1202,4 +1202,3 @@
 **Blockers:** None
 
 ---
-

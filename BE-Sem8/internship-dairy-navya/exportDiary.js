@@ -28,11 +28,11 @@ const formatDate = (dateStr) => {
 
 const generateMarkdown = () => {
   let md = "# Internship Diary\n\n";
-  md += "****NAME:**** Harshitha  \n";
-  md += "****USN:**** 4JK22CS017  \n";
+  md += "****NAME:**** Navya N  \n";
+  md += "****USN:**** 4JK22CS032  \n";
   md +=
-    "****COMPANY:**** (UniCourt India) Mangalore Infotech Solutions Private Limited.  \n";
-  md += "****DESIGNATION:**** Software Engineer Intern  \n\n---\n\n";
+    "****COMPANY:**** Centre of Excellence Digital Forensics Intelligence  \n";
+  md += "****DESIGNATION:**** Cybersecurity Internship Program  \n\n---\n\n";
 
   let runningTotal = 0;
 
@@ -91,17 +91,16 @@ const generatePDF = () => {
   doc
     .fontSize(12)
     .font("Helvetica-Bold")
-    .text("Name: Harshitha", { align: "center" });
-  doc.font("Helvetica-Bold").text("USN: 4JK22CS017", { align: "center" });
+    .text("Name: Navya N", { align: "center" });
+  doc.font("Helvetica-Bold").text("USN: 4JK22CS032", { align: "center" });
   doc
     .font("Helvetica-Bold")
-    .text(
-      "Company: (UniCourt India) Mangalore Infotech Solutions Private Limited.",
-      { align: "center" },
-    );
+    .text("Company: Centre of Excellence Digital Forensics Intelligence", {
+      align: "center",
+    });
   doc
     .font("Helvetica-Bold")
-    .text("Designation: Software Engineer Intern", { align: "center" });
+    .text("Designation: Cybersecurity Internship Program", { align: "center" });
   doc.moveDown();
   doc
     .strokeColor("black")

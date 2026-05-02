@@ -1,9 +1,9 @@
 # Internship Diary
 
-****NAME:**** Dhanya V Shetty  
-****USN:**** 4JK22CS014  
-****COMPANY:**** Centre of Excellence Digital Forensics Intelligence  
-****DESIGNATION:**** Cybersecurity Internship Program  
+\***\*NAME:\*\*** Dhanya V Shetty  
+\***\*USN:\*\*** 4JK22CS014  
+\***\*COMPANY:\*\*** Centre of Excellence Digital Forensics Intelligence  
+\***\*DESIGNATION:\*\*** Cybersecurity Internship Program
 
 ---
 
@@ -1155,4 +1155,3 @@ Continued configuring Caldera and explored its features including agents and adv
 **Total Hours:** 611.5
 
 ---
-

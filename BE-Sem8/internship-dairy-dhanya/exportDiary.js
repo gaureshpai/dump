@@ -30,7 +30,8 @@ const generateMarkdown = () => {
   let md = "# Internship Diary\n\n";
   md += "****NAME:**** Dhanya V Shetty  \n";
   md += "****USN:**** 4JK22CS014  \n";
-  md += "****COMPANY:**** Centre of Excellence Digital Forensics Intelligence  \n";
+  md +=
+    "****COMPANY:**** Centre of Excellence Digital Forensics Intelligence  \n";
   md += "****DESIGNATION:**** Cybersecurity Internship Program  \n\n---\n\n";
 
   let runningTotal = 0;
@@ -94,7 +95,9 @@ const generatePDF = () => {
   doc.font("Helvetica-Bold").text("USN: 4JK22CS014", { align: "center" });
   doc
     .font("Helvetica-Bold")
-    .text("Company: Centre of Excellence Digital Forensics Intelligence", { align: "center" });
+    .text("Company: Centre of Excellence Digital Forensics Intelligence", {
+      align: "center",
+    });
   doc
     .font("Helvetica-Bold")
     .text("Designation: Cybersecurity Internship Program", { align: "center" });
