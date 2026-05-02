@@ -1,0 +1,1472 @@
+[
+  {
+    "id": 4535052,
+    "date": "2026-05-02",
+    "description": "Installed OWASP Juice Shop on the Metasploitable2 machine. Verified that the application was running and accessible within the target subnet.",
+    "hours": 6,
+    "links": null,
+    "blockers": null,
+    "learnings": "Learned about vulnerable web applications used for practicing web security testing. Understood deployment and access within isolated environments.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T03:20:49.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 4535021,
+    "date": "2026-05-01",
+    "description": "Installed Metasploitable 2 as a target machine in the virtual lab. Configured it to be on the target subnet and ensured proper communication with other machines.",
+    "hours": 6,
+    "links": null,
+    "blockers": null,
+    "learnings": "Learned about intentionally vulnerable systems used for penetration testing practice. Understood subnet configuration in a controlled lab.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T03:19:51.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 4534996,
+    "date": "2026-04-30",
+    "description": "Continued configuring Wazuh–OPNsense integration and tested log collection by generating traffic through the firewall. Verified whether logs were properly reflected in the Wazuh dashboard.",
+    "hours": 6,
+    "links": null,
+    "blockers": null,
+    "learnings": "Gained understanding of how firewall logs help in identifying suspicious activities. Learned how to validate integration through log analysis.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T03:19:11.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 4534973,
+    "date": "2026-04-29",
+    "description": "Started working on integrating Wazuh with OPNsense to enable centralized log monitoring from the firewall. Explored log forwarding methods and configured initial settings to allow OPNsense logs to be sent to the Wazuh manager.",
+    "hours": 6,
+    "links": null,
+    "blockers": null,
+    "learnings": "Learned how SIEM tools collect logs from network devices like firewalls. Understood the importance of log forwarding for real-time monitoring and threat detection.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T03:18:35.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 4534882,
+    "date": "2026-04-28",
+    "description": "Worked on creating seminar content with proper examples and diagrams. Focused on making explanations clear and engaging.",
+    "hours": 6,
+    "links": null,
+    "blockers": null,
+    "learnings": "Enhanced ability to communicate complex technical concepts. Learned effective content structuring.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T03:16:02.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 4534847,
+    "date": "2026-04-27",
+    "description": "Prepared for internship seminar by selecting relevant cybersecurity topics. Planned demonstrations and structured explanations.",
+    "hours": 6,
+    "links": null,
+    "blockers": null,
+    "learnings": "Improved conceptual clarity and presentation planning. Learned how to simplify technical topics.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T03:15:00.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 4534834,
+    "date": "2026-04-26",
+    "description": "Reviewed the overall lab performance and verified log consistency across Wazuh and Zeek. Prepared technical notes for the upcoming seminar preparation.",
+    "hours": 6,
+    "links": null,
+    "blockers": null,
+    "learnings": "Understood the importance of cross-tool validation in ensuring data accuracy within a security operations environment.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-26T09:00:00.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 4534821,
+    "date": "2026-04-25",
+    "description": "Performed additional testing to ensure stability of configurations. Verified network communication and monitoring outputs.",
+    "hours": 6,
+    "links": null,
+    "blockers": null,
+    "learnings": "Learned the importance of repeated testing in maintaining system reliability. Strengthened troubleshooting abilities.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T03:14:10.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 4534794,
+    "date": "2026-04-24",
+    "description": "Reviewed the complete cybersecurity lab including Wazuh, Zeek, and Caldera. Verified that all tools were functioning correctly together.",
+    "hours": 6,
+    "links": null,
+    "blockers": null,
+    "learnings": "Developed a holistic understanding of integrated cybersecurity systems. Learned how multiple tools complement each other.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T03:13:31.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 4534765,
+    "date": "2026-04-23",
+    "description": "Documented all observations from simulations and monitoring tools. Organized results for reporting and future reference.",
+    "hours": 6,
+    "links": null,
+    "blockers": null,
+    "learnings": "Improved documentation skills and structured reporting. Learned importance of clear record keeping.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T03:12:29.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 4534728,
+    "date": "2026-04-22",
+    "description": "Correlated attack simulations with alerts generated in Wazuh. Observed detection and logging of malicious activities.",
+    "hours": 6,
+    "links": null,
+    "blockers": null,
+    "learnings": "Understood integration of red teaming and blue teaming tools. Learned how detection systems respond to simulated attacks.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T03:11:29.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 4534710,
+    "date": "2026-04-21",
+    "description": "Executed basic adversary simulations using Caldera. Observed system responses and monitored behavior during simulated attacks.",
+    "hours": 6,
+    "links": null,
+    "blockers": null,
+    "learnings": "Learned how real-world attack techniques are simulated. Understood attacker behavior patterns.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T03:10:49.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 4534680,
+    "date": "2026-04-20",
+    "description": "What I worked on?\nContinued configuring Caldera and explored its features including agents and adversary profiles. Prepared the environment for simulation.",
+    "hours": 6,
+    "links": null,
+    "blockers": null,
+    "learnings": "Understood how attack scenarios are structured and executed. Learned about automated adversary behavior.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T03:09:55.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 4534657,
+    "date": "2026-04-19",
+    "description": "Researched different adversary emulation profiles in MITRE Caldera and studied how they map to the ATT&CK framework.",
+    "hours": 6,
+    "links": null,
+    "blockers": null,
+    "learnings": "Gained a deeper understanding of how structured attack patterns help in improving detection capabilities.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-19T09:00:00.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 4534635,
+    "date": "2026-04-18",
+    "description": "Started installation of MITRE Caldera for adversary simulation. Understood its purpose in red teaming.",
+    "hours": 6,
+    "links": null,
+    "blockers": null,
+    "learnings": "Learned basics of adversary emulation and attack simulation.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T03:08:14.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 4534598,
+    "date": "2026-04-17",
+    "description": "Verified if Wazuh setup was functioning correctly. Checked logs, alerts, and agent status.",
+    "hours": 6,
+    "links": null,
+    "blockers": null,
+    "learnings": "Learned system validation and monitoring techniques.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T03:07:01.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 4534569,
+    "date": "2026-04-16",
+    "description": "Tested connectivity using ping and other tools. Ensured attacker and target machines were properly communicating.",
+    "hours": 6,
+    "links": null,
+    "blockers": null,
+    "learnings": "Strengthened understanding of network communication validation.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T03:06:02.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 4532627,
+    "date": "2026-04-15",
+    "description": "Configured Kali Linux network settings. Attempted to change IP address to ensure proper communication with other machines.",
+    "hours": 6,
+    "links": null,
+    "blockers": null,
+    "learnings": "Learned manual IP configuration and its importance in controlled lab environments.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T01:05:32.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 4532618,
+    "date": "2026-04-14",
+    "description": "Worked on improving virtual lab setup by modifying network adapters. Experimented with NAT and host-only networks for better communication.",
+    "hours": 6,
+    "links": null,
+    "blockers": null,
+    "learnings": "Gained deeper understanding of VM networking models.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T01:04:35.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 4532616,
+    "date": "2026-04-13",
+    "description": "Explored advanced features of Wazuh including rule sets and alert severity levels. Analyzed different types of alerts.",
+    "hours": 6,
+    "links": null,
+    "blockers": null,
+    "learnings": "Understood how SIEM tools classify and prioritize threats.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T01:03:52.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 4532612,
+    "date": "2026-04-12",
+    "description": "Explored advanced SIEM concepts including log normalization and correlation rules. Studied how Wazuh handles different log formats from various sources.",
+    "hours": 6,
+    "links": null,
+    "blockers": null,
+    "learnings": "Learned about the backend processing of logs and how normalized data helps in efficient threat hunting.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-12T09:00:00.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 4532608,
+    "date": "2026-04-11",
+    "description": "Tested Wazuh by generating logs and monitoring alerts on dashboard. Verified that agent logs were successfully reaching manager.",
+    "hours": 6,
+    "links": null,
+    "blockers": null,
+    "learnings": "Learned real-time log monitoring and alert generation.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T01:03:00.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 4532602,
+    "date": "2026-04-10",
+    "description": "Troubleshot connectivity issues between machines. Worked on fixing IP configuration and ensuring systems could ping each other successfully.",
+    "hours": 6,
+    "links": null,
+    "blockers": null,
+    "learnings": "Improved understanding of network troubleshooting and VM communication.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T01:02:14.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 4532594,
+    "date": "2026-04-09",
+    "description": "Worked on installing Wazuh agent on the target machine. Connected agent to manager by configuring IP and authentication keys.",
+    "hours": 6,
+    "links": null,
+    "blockers": null,
+    "learnings": "Learned how endpoint monitoring works through agents.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T01:01:07.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 4532589,
+    "date": "2026-04-08",
+    "description": "Installed Wazuh manager on the management machine. Configured basic settings and ensured services were running properly. Verified installation through dashboard access.",
+    "hours": 6,
+    "links": null,
+    "blockers": null,
+    "learnings": "Understood backend components of Wazuh and how logs are processed centrally.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T01:00:16.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 4532583,
+    "date": "2026-04-07",
+    "description": "Started exploring SIEM tools and began setup of Wazuh. Understood its architecture including manager, agent, and dashboard components. Prepared virtual machines for deployment.",
+    "hours": 6,
+    "links": null,
+    "blockers": "Initial confusion in architecture setup.",
+    "learnings": "Learned the role of SIEM in cybersecurity and how Wazuh helps in threat detection and log analysis.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T00:59:12.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 2950657,
+    "date": "2026-04-06",
+    "description": "Summarized the entire learning experience and reviewed key concepts including firewall configuration, IDS challenges, and network monitoring tools.",
+    "hours": 7,
+    "links": null,
+    "blockers": null,
+    "learnings": "Developed a strong foundation in practical cybersecurity lab setup and analysis.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-06T06:43:42.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 2950563,
+    "date": "2026-04-05",
+    "description": "Summarized the findings from Zeek log analysis and practiced identifying common network attack patterns in the logs.",
+    "hours": 7,
+    "links": null,
+    "blockers": null,
+    "learnings": "Improved ability to distinguish between normal traffic and potentially malicious network activity.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-05T09:00:00.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 2950469,
+    "date": "2026-04-04",
+    "description": "Reviewed complete setup including OPNsense and Zeek integration. Verified firewall rules and monitoring outputs.",
+    "hours": 7,
+    "links": null,
+    "blockers": null,
+    "learnings": "Gained confidence in end-to-end lab setup and validation.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-06T06:40:37.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 2950257,
+    "date": "2026-04-03",
+    "description": "Documented all configurations and findings from firewall and monitoring tools. Organized observations for better understanding and future reference.",
+    "hours": 7,
+    "links": null,
+    "blockers": null,
+    "learnings": "Improved documentation practices and structured reporting skills.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-06T06:37:49.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 2950100,
+    "date": "2026-04-02",
+    "description": "Generated network traffic using attacker machine to test monitoring capabilities. Observed how Zeek logs different activities such as DNS queries and connections.",
+    "hours": 7,
+    "links": null,
+    "blockers": null,
+    "learnings": "Learned practical testing of monitoring tools in simulated attack scenarios.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-06T06:35:57.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 2949980,
+    "date": "2026-04-01",
+    "description": "Studied concepts of IDS, IPS, and network monitoring. Compared Suricata and Zeek in terms of functionality and use cases.",
+    "hours": 7,
+    "links": null,
+    "blockers": null,
+    "learnings": "Understood differences between signature-based detection and behavioral analysis.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-06T06:34:26.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 2949550,
+    "date": "2026-03-31",
+    "description": "Analyzed suspicious traffic patterns using Zeek logs. Identified anomalies and studied network behavior under different conditions.",
+    "hours": 7,
+    "links": null,
+    "blockers": null,
+    "learnings": "Improved ability to detect unusual activity in network traffic.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-06T06:28:39.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 2949439,
+    "date": "2026-03-30",
+    "description": "Integrated Zeek with firewall setup. Observed real-time traffic and analyzed logs for different types of network activities.",
+    "hours": 7,
+    "links": null,
+    "blockers": null,
+    "learnings": "Understood integration of monitoring tools with firewall systems.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-06T06:27:18.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 2949353,
+    "date": "2026-03-29",
+    "description": "Self-study on network traffic analysis using Zeek and explored additional plugins for enhanced protocol detection.",
+    "hours": 4,
+    "links": null,
+    "blockers": null,
+    "learnings": "Learned how event-based monitoring provides more granular visibility compared to traditional signature-based systems.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-29T09:00:00.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 2949268,
+    "date": "2026-03-28",
+    "description": "Configured Zeek in the lab environment. Monitored network traffic and explored generated logs such as connection, DNS, and HTTP logs.",
+    "hours": 4,
+    "links": null,
+    "blockers": null,
+    "learnings": "Learned how network logs provide deep insights into traffic behavior.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-06T06:25:18.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 2949164,
+    "date": "2026-03-27",
+    "description": "Started learning and setting up Zeek. Understood its architecture and how it differs from traditional IDS tools.",
+    "hours": 7,
+    "links": null,
+    "blockers": "Initial learning curve.",
+    "learnings": "Gained knowledge of network security monitoring and event-based analysis.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-06T06:24:02.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 2948945,
+    "date": "2026-03-26",
+    "description": "Paused Suricata setup due to ongoing issues and decided to explore alternative tools. Researched different network monitoring solutions for better visibility.",
+    "hours": 7,
+    "links": null,
+    "blockers": null,
+    "learnings": "Learned importance of tool selection and adaptability in cybersecurity workflows.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-06T06:21:21.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 2948736,
+    "date": "2026-03-25",
+    "description": "Continued resolving Suricata issues by checking logs, rule compatibility, and system performance. Attempted multiple configurations and tested detection mechanisms.",
+    "hours": 7,
+    "links": null,
+    "blockers": "Persistent configuration issues.",
+    "learnings": "Improved understanding of IDS limitations and dependency on proper rule configuration.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-06T06:18:40.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 2947668,
+    "date": "2026-03-24",
+    "description": "Worked on troubleshooting Suricata configuration. Verified rule updates, interface selection, and alert settings. Tried generating test traffic to trigger alerts.",
+    "hours": 7,
+    "links": null,
+    "blockers": "Alerts were not triggering as expected.",
+    "learnings": "Learned debugging techniques for IDS systems and importance of correct configuration.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-06T06:05:57.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 2947161,
+    "date": "2026-03-23",
+    "description": "Started installation and configuration of Suricata IDS/IPS in OPNsense. Downloaded Emerging Threat (ET Open) rules and enabled intrusion detection features.",
+    "hours": 7,
+    "links": null,
+    "blockers": "Faced difficulty in proper rule activation.",
+    "learnings": "Understood how IDS/IPS systems detect malicious traffic using rule sets.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-06T06:00:14.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 2947035,
+    "date": "2026-03-22",
+    "description": "Reviewed firewall configuration best practices and practiced designing complex rule sets for multi-tier network architectures.",
+    "hours": 7,
+    "links": null,
+    "blockers": null,
+    "learnings": "Strengthened understanding of the 'least privilege' principle in network security and firewall management.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-22T09:00:00.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 2946909,
+    "date": "2026-03-21",
+    "description": "Configured firewall rules in OPNsense to control traffic flow. Created rules to allow and block specific traffic and tested them using different network scenarios. Observed how packets are filtered based on rules.",
+    "hours": 7,
+    "links": null,
+    "blockers": null,
+    "learnings": "Learned rule-based packet filtering and importance of firewall policies in securing networks.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-06T05:57:16.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 2946752,
+    "date": "2026-03-20",
+    "description": "Installed and configured OPNsense firewall in a virtual machine. Assigned WAN and LAN interfaces, configured IP addressing, and accessed the web interface for further setup. Verified connectivity between internal and external networks.",
+    "hours": 7,
+    "links": null,
+    "blockers": "Initial confusion in interface mapping, later resolved.",
+    "learnings": "Understood firewall architecture, interface assignment, and basic routing concept",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-06T05:55:18.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 2946355,
+    "date": "2026-03-19",
+    "description": "Set up the cybersecurity virtual lab environment by installing and configuring virtual machines. Established network connectivity between systems (attacker and target machines) and verified communication through basic network testing tools. Ensured proper allocation of system resources for smooth performance.",
+    "hours": 7,
+    "links": null,
+    "blockers": "Minor network configuration issues which were resolved through troubleshooting.",
+    "learnings": "Gained understanding of virtual lab architecture, VM networking (NAT, bridged), and importance of isolated environments for security testing.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-06T05:50:41.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 2290691,
+    "date": "2026-03-18",
+    "description": "Reviewed machine setup, CTF challenges, and lab configurations. Ensured all systems were functioning correctly and documented findings.",
+    "hours": 7,
+    "links": null,
+    "blockers": null,
+    "learnings": "Consolidated knowledge of lab setup, file analysis, and security testing techniques.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-23T02:14:13.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 2290679,
+    "date": "2026-03-17",
+    "description": "Performed scanning and enumeration on lab machines after firewall implementation to observe changes in accessibility and security.",
+    "hours": 7,
+    "links": null,
+    "blockers": null,
+    "learnings": "Understood how security controls impact system visibility and attack surface.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-23T02:13:21.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 2290668,
+    "date": "2026-03-16",
+    "description": "Worked on firewall configuration within the virtual lab. Tested different rules to control traffic between machines.",
+    "hours": 7,
+    "links": null,
+    "blockers": null,
+    "learnings": "Learned how firewall rules affect communication and help secure systems by filtering unwanted traffic.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-23T02:12:05.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 2290664,
+    "date": "2026-03-15",
+    "description": "Practiced file analysis techniques and researched common methods used to hide data within image and document headers.",
+    "hours": 7,
+    "links": null,
+    "blockers": null,
+    "learnings": "Enhanced skills in digital forensics and understanding of steganography basics.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-15T09:00:00.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 2290660,
+    "date": "2026-03-14",
+    "description": "Continued solving the flight ticket CTF challenge. Explored file structure, metadata, and possible hidden content.",
+    "hours": 7,
+    "links": null,
+    "blockers": null,
+    "learnings": "Improved understanding of how data can be concealed in different formats and how to analyze it systematically.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-23T02:11:17.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 2290651,
+    "date": "2026-03-13",
+    "description": "Worked on a CTF challenge based on flight ticket data. Analyzed files to identify hidden information using file inspection techniques.",
+    "hours": 7,
+    "links": null,
+    "blockers": null,
+    "learnings": "Learned how hidden data can be embedded in files and how to extract useful information through analysis.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-23T02:10:09.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 2290644,
+    "date": "2026-03-12",
+    "description": "Performed enumeration on the newly set up machine. Identified running services, open ports, and possible entry points",
+    "hours": 7,
+    "links": null,
+    "blockers": null,
+    "learnings": "Understood the importance of information gathering before attempting any exploitation.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-23T02:09:10.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 2290637,
+    "date": "2026-03-11",
+    "description": "Worked on downloading and setting up vulnerable machines in the virtual lab environment. Configured network settings and ensured proper connectivity between attacker and target systems.",
+    "hours": 7,
+    "links": null,
+    "blockers": null,
+    "learnings": "Learned the complete process of setting up vulnerable machines and integrating them into a controlled lab for testing.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-23T02:08:20.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 2290626,
+    "date": "2026-03-10",
+    "description": "Implemented firewall rules within the lab setup and tested traffic flow between attacker and target systems.",
+    "hours": 7,
+    "links": null,
+    "blockers": "Incorrect rules initially blocked required communication.",
+    "learnings": "Learned how rule-based filtering impacts connectivity and prevents unauthorized access.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-23T02:06:10.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 2290617,
+    "date": "2026-03-09",
+    "description": "Attended a session on building a virtual cybersecurity lab with firewall integration. Learned how to configure firewall rules for controlling traffic between machines.",
+    "hours": 7,
+    "links": null,
+    "blockers": "Understanding rule configuration required practice.",
+    "learnings": "Understood how firewalls filter traffic using defined rules and enhance lab security.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-23T02:04:31.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 2290613,
+    "date": "2026-03-08",
+    "description": "Continued working on Linux-based security challenges and reviewed common privilege escalation vectors in misconfigured systems.",
+    "hours": 7,
+    "links": null,
+    "blockers": null,
+    "learnings": "Improved understanding of system hardening and the importance of proper file permissions.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-08T09:00:00.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 2290609,
+    "date": "2026-03-07",
+    "description": "Worked on solving CTF challenges related to Linux file permissions and hidden data extraction.",
+    "hours": 7,
+    "links": null,
+    "blockers": null,
+    "learnings": "Improved skills in identifying hidden files and understanding permission-based vulnerabilities.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-23T02:03:27.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 2290600,
+    "date": "2026-03-06",
+    "description": "Performed network scanning and basic enumeration within the lab environment to identify active services on the target machine.",
+    "hours": 7,
+    "links": null,
+    "blockers": null,
+    "learnings": "Understood how open ports and services provide insights into potential vulnerabilities.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-23T02:02:25.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 2290593,
+    "date": "2026-03-05",
+    "description": "Continued working on the virtual cybersecurity lab setup. Verified connectivity between attacker and target machines and tested communication using network utilities.",
+    "hours": 7,
+    "links": null,
+    "blockers": "Minor connectivity issues during testing.",
+    "learnings": "Strengthened understanding of IP configuration and machine-to-machine communication in an isolated lab.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-23T02:01:27.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 1488313,
+    "date": "2026-03-04",
+    "description": "Continued working on the cybersecurity lab setup and reviewing previous exercises including CTF tasks and enumeration techniques.",
+    "hours": 6,
+    "links": null,
+    "blockers": null,
+    "learnings": "Strengthened practical understanding of penetration testing workflow and lab-based experimentation.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-04T06:19:56.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 1488235,
+    "date": "2026-03-03",
+    "description": "Revisited subnetting and network segmentation concepts while analyzing communication between virtual machines.",
+    "hours": 6,
+    "links": null,
+    "blockers": null,
+    "learnings": "Improved understanding of CIDR notation and subnet range calculation.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-04T06:18:33.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 1488148,
+    "date": "2026-03-02",
+    "description": "Continued working on CTF practice challenges and Linux-based problem solving tasks. Worked on improving lab documentation and recording configurations used for the cybersecurity testing environment.",
+    "hours": 6,
+    "links": null,
+    "blockers": null,
+    "learnings": "Improved analytical thinking and command-line efficiency. Learned importance of documenting configurations for reproducibility and troubleshooting.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-04T06:17:19.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 1488092,
+    "date": "2026-03-01",
+    "description": "Researched different virtualization networking models and their impact on lab isolation and performance.",
+    "hours": 6,
+    "links": null,
+    "blockers": null,
+    "learnings": "Gained clarity on the trade-offs between NAT, bridged, and host-only networking for security testing.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-01T09:00:00.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 1488037,
+    "date": "2026-02-28",
+    "description": "Reviewed cybersecurity concepts covered during the internship and connected them with practical lab activities.",
+    "hours": 6,
+    "links": null,
+    "blockers": null,
+    "learnings": "Consolidated knowledge of networking, virtualization, and system security.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-04T06:15:46.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 1487970,
+    "date": "2026-02-27",
+    "description": "Continued working on lab environment stability and practiced scanning and enumeration exercises within the isolated network.",
+    "hours": 6,
+    "links": null,
+    "blockers": "Interpreting scan results required additional research.",
+    "learnings": "Understood importance of systematic information gathering in penetration testing.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-04T06:14:50.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 1487821,
+    "date": "2026-02-26",
+    "description": "Worked on troubleshooting VM networking issues and ensuring proper connectivity between attacker and target machines.",
+    "hours": 6,
+    "links": null,
+    "blockers": "Temporary connectivity failures during configuration.",
+    "learnings": "Improved understanding of IP addressing, subnet masks, and network adapter configuration.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-04T06:12:59.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 1487728,
+    "date": "2026-02-25",
+    "description": "Performed additional practice with Linux commands and system navigation while working within the lab environment.",
+    "hours": 6,
+    "links": null,
+    "blockers": null,
+    "learnings": "Strengthened Linux command-line proficiency and file system navigation skills.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-04T06:11:33.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 1487574,
+    "date": "2026-02-24",
+    "description": "Continued exploring the vulnerable system and documenting findings from enumeration activities.",
+    "hours": 6,
+    "links": null,
+    "blockers": "Large amount of data required filtering.",
+    "learnings": "Developed a structured approach for vulnerability identification and documentation.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-04T06:09:14.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 1487454,
+    "date": "2026-02-23",
+    "description": "Reviewed asymmetric cryptography concepts including public and private key mechanisms used in secure communication.\nWorked on improving the cybersecurity lab setup by optimizing VM networking and ensuring stable communication between machines.",
+    "hours": 0,
+    "links": null,
+    "blockers": "Subnet configuration required repeated testing.",
+    "learnings": "Understood how asymmetric encryption enables secure authentication and data exchange.\nLearned how network segmentation and subnetting improve lab isolation and security.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-04T06:07:17.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 1487514,
+    "date": "2026-02-22",
+    "description": "Reviewed asymmetric encryption mechanisms and practiced generating and managing PGP keys for secure communication.",
+    "hours": 3,
+    "links": null,
+    "blockers": null,
+    "learnings": "Deepened understanding of public-key infrastructure (PKI) and its role in modern digital security.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-22T09:00:00.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 1487291,
+    "date": "2026-02-21",
+    "description": "Practiced solving additional CTF challenges related to file analysis and hidden data detection.",
+    "hours": 6,
+    "links": null,
+    "blockers": "Some challenges required external research.",
+    "learnings": "Improved problem-solving skills and understanding of digital evidence patterns.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-04T06:05:08.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 1487168,
+    "date": "2026-02-20",
+    "description": "Studied firewall concepts and how network traffic is filtered using security rules.",
+    "hours": 6,
+    "links": null,
+    "blockers": "Understanding rule priority and filtering logic required clarification.",
+    "learnings": "Understood packet filtering, firewall rules, and how firewalls help prevent unauthorized access.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-04T06:03:18.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 1487078,
+    "date": "2026-02-19",
+    "description": "Continued enumeration on the vulnerable machine and practiced identifying potential security misconfigurations.",
+    "hours": 6,
+    "links": null,
+    "blockers": "Limited initial information required deeper investigation.",
+    "learnings": "Learned how attackers gather information before attempting exploitation.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-04T06:01:49.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 1486956,
+    "date": "2026-02-18",
+    "description": "Explored the Stapler vulnerable machine inside the lab environment and reviewed system services and accessible directories.",
+    "hours": 7,
+    "links": null,
+    "blockers": "Some services required additional research to interpret.",
+    "learnings": "Understood how vulnerable machines are designed to simulate real-world security weaknesses for practice.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-04T05:59:16.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 1486873,
+    "date": "2026-02-17",
+    "description": "Continued configuring the virtual lab and troubleshooting issues related to VM networking and system boot behavior.",
+    "hours": 7,
+    "links": null,
+    "blockers": "VM boot issues required configuration adjustments.",
+    "learnings": "Learned how virtualization drivers and system resources affect VM performance and connectivity.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-04T05:57:30.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 1486690,
+    "date": "2026-02-16",
+    "description": "Performed basic network discovery and enumeration within the lab environment. Identified active machines and services running on the network.\nWorked on CTF exercises focusing on Linux command-line skills and privilege escalation concepts.",
+    "hours": 7,
+    "links": null,
+    "blockers": "Some services required deeper analysis to understand their purpose.",
+    "learnings": "Understood how reconnaissance helps identify possible attack surfaces in a system.\nImproved understanding of file permissions, hidden files, and command chaining in Linux.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-04T05:54:04.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 1486596,
+    "date": "2026-02-15",
+    "description": "Conducted a review of the virtual lab setup and ensured that all security controls were properly implemented and functioning as expected.",
+    "hours": 7,
+    "links": null,
+    "blockers": null,
+    "learnings": "Reinforced the importance of regular environment audits to maintain lab integrity.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-15T09:00:00.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 1486502,
+    "date": "2026-02-14",
+    "description": "Configured network settings for communication between attacker and target machines. Verified connectivity using basic network commands.",
+    "hours": 7,
+    "links": null,
+    "blockers": "Incorrect network adapter configuration caused connectivity issues.",
+    "learnings": "Learned how proper IP configuration and subnet alignment are necessary for machine communication.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-04T05:50:22.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 1486320,
+    "date": "2026-02-13",
+    "description": "Continued setting up the virtual cybersecurity lab environment. Configured attacker and target machines in VirtualBox and reviewed different network adapter modes.",
+    "hours": 6.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Understood how host-only and NAT networking help create an isolated penetration testing environment.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-04T05:46:42.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 556648,
+    "date": "2026-02-12",
+    "description": "In-depth session on subnetting, CIDR notation, IP range calculation, and network segmentation. Studied asymmetric cryptography concepts including public and private key mechanisms and their role in secure communication.",
+    "hours": 7,
+    "links": null,
+    "blockers": "Subnet calculations required repeated practice for accuracy.",
+    "learnings": "Learned how subnetting improves network security through segmentation. Understood asymmetric encryption, key pairs, and how they are used in secure protocols like HTTPS and SSH.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-12T03:49:53.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 556596,
+    "date": "2026-02-11",
+    "description": "Attended a session on creating a Virtual Cybersecurity Lab. Studied lab architecture design, attacker-target setup, and safe isolation practices. Also learned about virtualization concepts including hypervisors and resource allocation",
+    "hours": 7,
+    "links": null,
+    "blockers": "Complexity in understanding resource management and networking modes initially",
+    "learnings": "Understood Type 1 and Type 2 hypervisors, benefits of virtualization in cybersecurity testing, and importance of isolated environments for ethical hacking practice",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-12T03:47:48.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 556535,
+    "date": "2026-02-10",
+    "description": "Installation and configuration of the Stapler vulnerable VM. Troubleshot boot and driver issues. Configured networking settings in virtualization software. Performed basic reconnaissance and enumeration on the Stapler VM in a controlled lab environment. Studied firewall basics and how traffic filtering works.",
+    "hours": 7,
+    "links": null,
+    "blockers": "Network adapter configuration issues during setup. Understanding firewall rule logic required clarification.",
+    "learnings": "Understood how virtualization platforms simulate real systems. Learned difference between NAT, Bridged, and Host-only networking. Learned how firewalls monitor and filter incoming and outgoing traffic based on rules. Understood packet filtering, stateful inspection, and role of firewalls in preventing unauthorized acces",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-12T03:45:51.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 556437,
+    "date": "2026-02-09",
+    "description": "Practiced challenges on OverTheWire (Bandit levels). Used Linux commands to navigate files, manage permissions, search hidden data, and understand privilege escalation basics.",
+    "hours": 7,
+    "links": null,
+    "blockers": "Some levels required combining multiple commands effectively.",
+    "learnings": "Improved Linux proficiency and understood how misconfigured permissions can lead to security vulnerabilities.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-12T03:41:53.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 556411,
+    "date": "2026-02-08",
+    "description": "Explored advanced file signature analysis and practiced identifying unknown file types using hex editors and magic bytes.",
+    "hours": 6,
+    "links": null,
+    "blockers": null,
+    "learnings": "Gained practical experience in low-level file analysis and its application in forensics.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-08T09:00:00.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 556386,
+    "date": "2026-02-07",
+    "description": "Solved a CTF challenge based on Magic Bytes. Analyzed file headers and identified correct file formats using signature bytes. Manipulated file headers to retrieve hidden content.",
+    "hours": 6,
+    "links": null,
+    "blockers": "Initial difficulty identifying correct byte sequences.",
+    "learnings": "Understood how file signatures help in digital forensics and how attackers can disguise malicious files by altering headers.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-12T03:39:44.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 556339,
+    "date": "2026-02-06",
+    "description": "ntegrated permission checks into the Shell project and studied process management (fork, exec concepts). Explored how privilege levels affect command execution.",
+    "hours": 7,
+    "links": null,
+    "blockers": "Understanding process creation workflow required additional practice.",
+    "learnings": "Learned about privilege escalation risks and how access control mechanisms prevent unauthorized operations.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-12T03:37:48.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 556259,
+    "date": "2026-02-05",
+    "description": "Continued development of the Shell project. Focused on command parsing, built-in commands, execution flow, and improving error handling. Tested edge cases and invalid input scenarios.",
+    "hours": 7,
+    "links": null,
+    "blockers": "Debugging command parsing logic required multiple iterations.",
+    "learnings": "Understood how shells interact with the operating system using system calls. Learned importance of input validation and secure execution practices.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-12T03:34:26.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 316489,
+    "date": "2026-02-04",
+    "description": "Final refinement of Shell and File System projects. Cleaned code, improved documentation, and reviewed security mechanisms implemented.",
+    "hours": 6,
+    "links": null,
+    "blockers": null,
+    "learnings": "Strengthened understanding of secure coding and documentation practices.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-06T05:31:29.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 316440,
+    "date": "2026-02-03",
+    "description": "Integrated security concepts into the Shell project, including permission checks and safe execution of commands. Worked on Terminal User Interface (TUI) for the shell project. Focused on usability while maintaining security and command isolation.",
+    "hours": 6,
+    "links": null,
+    "blockers": "UI alignment and command mapping issues.",
+    "learnings": "Learned how shells enforce security boundaries to prevent misuse. Understood the balance between usability and security in system tools",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-06T05:30:15.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 316359,
+    "date": "2026-02-02",
+    "description": "Worked on Shell (CLI) project. Studied command parsing, execution flow, and handling user input securely. Enhanced Shell project by adding command execution features and error handling. Explored how system calls interact with the operating system.",
+    "hours": 0,
+    "links": null,
+    "blockers": "Command parsing complexity. Permission-related execution issues.",
+    "learnings": "Learned how shells interpret commands and how improper handling can lead to security vulnerabilities. Improved understanding of OS-level command execution and error management.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-06T05:28:06.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 316316,
+    "date": "2026-02-01",
+    "description": "Self-study on file system security and access control lists (ACLs). Researched how different operating systems enforce file-level permissions.",
+    "hours": 6,
+    "links": null,
+    "blockers": null,
+    "learnings": "Understood the fundamental differences between Windows and Linux permission models.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-01T09:00:00.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 316273,
+    "date": "2026-01-31",
+    "description": "Worked on designing and developing a Virtual File System using Python with support for file and directory operations, virtual storage persistence, and user interaction through both GUI and terminal interfaces.",
+    "hours": 6,
+    "links": null,
+    "blockers": null,
+    "learnings": "Gained practical understanding of file system concepts by implementing a Python-based Virtual File System, including inode structures, directory management, and file operations, along with experience in GUI and TUI development",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-06T05:25:49.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 316085,
+    "date": "2026-01-30",
+    "description": "Implemented core features of the Virtual File System including file creation, deletion, and directory navigation. Focused on maintaining isolation and preventing unauthorized access.",
+    "hours": 6,
+    "links": null,
+    "blockers": null,
+    "learnings": "Understood how process isolation and permission checks enhance system security.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-06T05:20:24.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 315999,
+    "date": "2026-01-29",
+    "description": "Studied operating system security with focus on Windows and Linux security concepts including user permissions and access control.",
+    "hours": 6,
+    "links": null,
+    "blockers": null,
+    "learnings": "Learned how OS-level security helps prevent unauthorized access and system compromise.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-06T05:18:17.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 315952,
+    "date": "2026-01-28",
+    "description": "Introduction to networking basics relevant to cybersecurity such as IP addressing, DNS, HTTP/HTTPS, and network attacks.",
+    "hours": 6,
+    "links": null,
+    "blockers": null,
+    "learnings": "Improved understanding of how networks function and how network vulnerabilities can be exploited.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-06T05:17:15.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 315868,
+    "date": "2026-01-27",
+    "description": "Started working on Virtual File System Management project. Designed the basic structure for file and folder operations and studied access control concepts.",
+    "hours": 6,
+    "links": null,
+    "blockers": "Debugging logical errors in file handling.",
+    "learnings": "Understood how process isolation and permission checks enhance system security.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-06T05:15:23.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 315725,
+    "date": "2026-01-24",
+    "description": "Studied core cybersecurity concepts such as CIA triad, types of cyber threats, malware, and system vulnerabilities.",
+    "hours": 6,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Learned how security principles protect systems and how attackers exploit weaknesses.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-06T05:12:24.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  },
+  {
+    "id": 315605,
+    "date": "2026-01-23",
+    "description": "Internship orientation and introduction to cybersecurity and digital forensics. Overview of internship structure, expectations, and tools used in cybersecurity investigations.",
+    "hours": 6,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Understood the scope of cybersecurity, digital forensics, and ethical responsibilities in handling systems and data.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-06T05:09:44.000000Z",
+    "internship": {
+      "name": "Cybersecurity Internship Program"
+    }
+  }
+]

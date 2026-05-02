@@ -1,0 +1,1274 @@
+[
+  {
+    "id": 4318851,
+    "date": "2026-04-28",
+    "description": "Worked on a new blog for the landing page and announcement banner update",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Nothing much",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-04-28T13:10:39.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 4254107,
+    "date": "2026-04-27",
+    "description": "Worked on the Shopify intervention server and also on the backend server to trigger the same",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "The blockers for today included the limitations of Shopify applications and their regulations",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-04-27T11:49:58.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "date": "2026-04-26",
+    "description": "Finalized the deployment pipeline using GitHub Actions to deploy the frontend to Vercel and the backend to a cloud provider.",
+    "hours": 8,
+    "learnings": "Learned how to configure CI/CD pipelines for monorepos, ensuring that only the changed packages are built and deployed.",
+    "blockers": "None",
+    "mood_slider": 5,
+    "status": 2,
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "date": "2026-04-25",
+    "description": "Implemented end-to-end testing for critical user flows using Playwright. Verified the Todo creation and deletion cycle.",
+    "hours": 8,
+    "learnings": "Understood the importance of E2E tests in catching regressions that unit tests might miss, especially in a full-stack environment.",
+    "blockers": "None",
+    "mood_slider": 5,
+    "status": 2,
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 4096592,
+    "date": "2026-04-24",
+    "description": "Worked on multiple issues, resolved multiple production issues. Researched and worked on the GDPR checks and also checked for the CHANGELOG and AGENTS.md file based changes and made sure all the changes are intact",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "CHANGELOGs are the best way to streamline/identify the changes/bugs",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-24T13:01:11.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 4035590,
+    "date": "2026-04-23",
+    "description": "Worked on the landing page and cp",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Nothing much",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-23T14:57:56.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 3984644,
+    "date": "2026-04-22",
+    "description": "Assist on the review of the Pull request",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Pull requests are sometimes tedious to review",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-22T15:14:09.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 3948829,
+    "date": "2026-04-21",
+    "description": "Did complete the work and publish and resolved multiple issues in the Shopify inshop application",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Nothing much",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-21T21:57:54.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 3877247,
+    "date": "2026-04-20",
+    "description": "Worked o the beautification of the frontend of the Shopify App",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Using Shopify dev MCP to validate the stack is must for an Shopify application",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-20T10:47:27.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "date": "2026-04-19",
+    "description": "Set up automated testing for the backend services using Vitest. Wrote unit tests for the Connect-RPC logic.",
+    "hours": 8,
+    "learnings": "Gained experience in writing testable RPC handlers and mocking database connections for reliable unit testing.",
+    "blockers": "None",
+    "mood_slider": 5,
+    "status": 2,
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 3822139,
+    "date": "2026-04-18",
+    "description": "Did create the navbar component for the shopify application",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Nothing much",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-18T14:59:41.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 3781538,
+    "date": "2026-04-17",
+    "description": "Did refactor the code",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "nothing much",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-17T14:23:50.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 3747708,
+    "date": "2026-04-16",
+    "description": "Got few PRs on refactoring of the code merged",
+    "hours": 8,
+    "links": null,
+    "blockers": "Blocked by backend",
+    "learnings": "Nothing much",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-16T18:59:55.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 3703550,
+    "date": "2026-04-15",
+    "description": "Research and learnt about Shopify chat agent and also created multiple PRs for the landing page",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "React Tailwind CSS is the teach stack beauty combination",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-16T05:15:33.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 3540277,
+    "date": "2026-04-14",
+    "description": "Did write the documentation for the Shopify intervention server",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Technical documentation is the best skill an SDE can have and an essential skill as well",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-14T10:04:16.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 3458322,
+    "date": "2026-04-13",
+    "description": "Worked on writing backend contract and documentation for intervention",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "nothing much",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-13T12:19:56.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "date": "2026-04-12",
+    "description": "Spent the day optimizing the application's performance, focusing on minimizing bundle size and improving First Contentful Paint.",
+    "hours": 8,
+    "learnings": "Learned about Vite's build optimizations and how to analyze bundle sizes to identify and remove redundant dependencies.",
+    "blockers": "None",
+    "mood_slider": 5,
+    "status": 2,
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "date": "2026-04-11",
+    "description": "Added support for dark mode using Tailwind CSS and integrated a theme switcher component from shadcn/ui.",
+    "hours": 8,
+    "learnings": "Mastered the use of 'dark:' variants in Tailwind and how to persist user theme preferences in local storage.",
+    "blockers": "None",
+    "mood_slider": 5,
+    "status": 2,
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 3207977,
+    "date": "2026-04-10",
+    "description": "Worked on the landing page AEO and SEO and also refactored and fixed a bug in the hydration and the header manipulation in the Shopify app",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Many types of exports exist in react",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-10T11:35:26.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 3178482,
+    "date": "2026-04-09",
+    "description": "Refactored the AEO of the landing page",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "AEO means Answer Engine Optimization",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-10T05:08:34.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 3178091,
+    "date": "2026-04-08",
+    "description": "Worked on the finalization of the design and implementation of the landing page",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Nothing much",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-10T05:01:57.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 3024905,
+    "date": "2026-04-07",
+    "description": "Worked on the SPA bit of the application and changing the ui to be more in vision with the native side of Shopify",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Nothing much but preserving the session token is a big deal",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-07T11:24:57.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 3000584,
+    "date": "2026-04-06",
+    "description": "Worked on the Shopify app frontend focusing on the SPA bit",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "SPA stands for Single page application",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-07T04:21:08.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "date": "2026-04-05",
+    "description": "Implemented real-time notifications for task deadlines using a combination of backend cron jobs and frontend alerts.",
+    "hours": 8,
+    "learnings": "Explored strategies for managing scheduled tasks in Node.js and providing timely feedback to users without constant polling.",
+    "blockers": "None",
+    "mood_slider": 5,
+    "status": 2,
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "date": "2026-04-04",
+    "description": "Enhanced the Todo application with task categorization and filtering based on priority and due dates.",
+    "hours": 8,
+    "learnings": "Learned complex MongoDB aggregation queries for filtering and how to reflect these filters in the TanStack Router search parameters.",
+    "blockers": "None",
+    "mood_slider": 5,
+    "status": 2,
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 2831807,
+    "date": "2026-04-02",
+    "description": "worked on researching about the Shopify app publish",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Nothing much",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-02T19:09:24.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 2777248,
+    "date": "2026-04-01",
+    "description": "Completed the work on the landing page of the site",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Nothing much",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-02T04:14:11.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 2770528,
+    "date": "2026-03-31",
+    "description": "Worked on the landing page of the site",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Nothing much",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-01T13:59:55.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 2683689,
+    "date": "2026-03-30",
+    "description": "Worked on the new landing page design implementation",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "overflow and paddings are much needed utils in CSS",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-30T11:24:18.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "date": "2026-03-29",
+    "description": "Refined the frontend authentication flow, adding login and signup pages with form validation powered by Biome's linting rules.",
+    "hours": 8,
+    "learnings": "Observed how Biome can replace multiple tools like ESLint and Prettier, offering faster performance and simplified configuration.",
+    "blockers": "None",
+    "mood_slider": 5,
+    "status": 2,
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "date": "2026-03-28",
+    "description": "Worked on implementing authentication logic using JWT and securing the Connect-RPC endpoints in the Express backend.",
+    "hours": 8,
+    "learnings": "Understood the flow of stateless authentication and how to use middleware in Express to validate tokens for RPC calls.",
+    "blockers": "None",
+    "mood_slider": 5,
+    "status": 2,
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 2537501,
+    "date": "2026-03-27",
+    "description": "Worked on fixing the bug of Shopify admin app",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Nothing much",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-27T11:28:28.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 2481951,
+    "date": "2026-03-26",
+    "description": "Worked on the Shopify application part of the application",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Shopify integrations are divided into many types",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-26T12:51:09.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 2423595,
+    "date": "2026-03-25",
+    "description": "Worked on shopify admin app and did tailor a few ui updates",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "react router has its own issues",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-25T11:07:23.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 2390056,
+    "date": "2026-03-24",
+    "description": "Worked on the Shopify admin app frontend for onboarding",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Java script is the most used language for web worldwide",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-24T16:36:25.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 2317883,
+    "date": "2026-03-23",
+    "description": "Worked on intervention script for fetching product client side and server side both. also fixed a bug in the landing page",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Nothing much",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-23T12:52:30.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "date": "2026-03-22",
+    "description": "Integrated TanStack Query on the frontend to handle data fetching from the Connect-RPC backend. Implemented optimistic UI updates for task completion.",
+    "hours": 8,
+    "learnings": "Learned how TanStack Query's mutation hooks can be used with 'onMutate' to provide an instantaneous user experience while background syncing.",
+    "blockers": "None",
+    "mood_slider": 5,
+    "status": 2,
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 2257893,
+    "date": "2026-03-21",
+    "description": "Got the landing page done and tailored well for shoptalk",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Nothing much",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-21T15:29:31.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 2227315,
+    "date": "2026-03-20",
+    "description": "Did get 4 PRs accepted. Worked on improvement of the landing page and fixed the overall approach of the shopify admin app",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "nothing much",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-20T11:33:33.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 2182177,
+    "date": "2026-03-18",
+    "description": "Worked on debugging of the Shopify admin app",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Bugs with redis to handle storage are really inconsistent with persistent connection",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-18T13:52:19.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 2137886,
+    "date": "2026-03-17",
+    "description": "Worked on the refactoring of the theme into bootstrap script",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Nothing much",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-17T12:09:36.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 2092578,
+    "date": "2026-03-16",
+    "description": "Worked on checking the ability of Shopify store - Admin Graphql API and REST.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Nothing much",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-16T12:30:56.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "date": "2026-03-15",
+    "description": "Developed the core Todo list UI components using Tailwind CSS and shadcn/ui. Focused on creating a clean, responsive design.",
+    "hours": 8,
+    "learnings": "Deepened knowledge of Tailwind CSS utility classes and how shadcn/ui provides accessible, unstyled components that are easy to customize.",
+    "blockers": "None",
+    "mood_slider": 5,
+    "status": 2,
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 2072956,
+    "date": "2026-03-14",
+    "description": "Worked on the change of stack for js-sdk from eslint, prettier to biome",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Biome single handedly can be used as a replacement for more than 4 packages",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-16T05:07:23.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 1967223,
+    "date": "2026-03-13",
+    "description": "Worked on refactoring and cleanup of the codebase",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Nothing much",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-13T15:36:25.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 1895424,
+    "date": "2026-03-12",
+    "description": "Worked on the config settings for each store",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "nothing much",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-12T12:23:17.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 1849026,
+    "date": "2026-03-11",
+    "description": "Worked on the intervention script and tracking and also got the observe linter PR accepted",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Nothing much",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-11T14:20:29.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 1807727,
+    "date": "2026-03-10",
+    "description": "Worked on the Shopify storefront - specially the Storefront intervention script and got the expected result",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "nothing much",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-10T16:31:54.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 1748713,
+    "date": "2026-03-09",
+    "description": "Got 2 PRs merged to main in one repository",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "GitHub Actions ci usually needs write permissions most of the time",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-09T15:15:33.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "date": "2026-03-08",
+    "description": "Bootstrapped the React 19 frontend using Vite and SWC. Integrated TanStack Router for file-based routing and planned the layout.",
+    "hours": 8,
+    "learnings": "Explored the new features of React 19 and the benefits of file-based routing in TanStack Router for better code organization and type safety.",
+    "blockers": "None",
+    "mood_slider": 5,
+    "status": 2,
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 1664428,
+    "date": "2026-03-07",
+    "description": "Worked on the refactoring and reporting of multiple projects",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Shopify App development",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-07T11:25:28.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 1630729,
+    "date": "2026-03-06",
+    "description": "Worked on the theme change and the refactoring of the ecom demo repo.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "The tailwind CSS classes are widely used",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-06T15:52:27.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 1552880,
+    "date": "2026-03-05",
+    "description": "Reported the work and the refactoring details in the technical documentations",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Nothing much",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-05T11:03:06.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 1552851,
+    "date": "2026-03-04",
+    "description": "Worked on the documentation part and learnt about Notions and it's usages",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Writing technical documentation is a skill",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-05T11:02:30.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 1448085,
+    "date": "2026-03-03",
+    "description": "Worked on refactoring the code with coderabbit AI",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Cderabbit ai is an incremental modal",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-03T11:13:19.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 1448048,
+    "date": "2026-03-02",
+    "description": "Worked on the designs of the landing page",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "learnt figma and its own kicks",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-03T11:12:35.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "date": "2026-03-01",
+    "description": "Implemented the Express.js backend shell and integrated the generated Connect-RPC handlers. Connected the backend to a MongoDB instance using Mongoose.",
+    "hours": 8,
+    "learnings": "Learned how to map Protobuf service definitions to actual Express route handlers and how Mongoose schemas can align with Protobuf types.",
+    "blockers": "None",
+    "mood_slider": 5,
+    "status": 2,
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 1310361,
+    "date": "2026-02-28",
+    "description": "Worked on the portfolio website updating a few things.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "The biome config is not always reliable",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-28T11:13:03.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 1252961,
+    "date": "2026-02-27",
+    "description": "Worked on the role based access for specific pages and also create the Pull Request for the same",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "No blockers",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-27T13:25:54.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 1194687,
+    "date": "2026-02-26",
+    "description": "Worked on the role based access and did restrict specific access to viewers and members",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "nothing much",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-26T12:06:05.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 1146652,
+    "date": "2026-02-25",
+    "description": "Worked on refactoring the cp code and role based access",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "React is the most widely used open source framework",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-25T13:33:06.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 1087157,
+    "date": "2026-02-24",
+    "description": "Worked on the refactoring of the Control Plane and also on the inshop Shopify admin application mock data ui.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Did face few issues with Polaris and also with the Shopify specific issue during development.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-24T10:41:09.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 1039236,
+    "date": "2026-02-23",
+    "description": "Worked on creating a new MCP server to validate the API endpoints and the schemas and types",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "MCP servers are essential for the agents nowadays",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-23T12:30:53.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "date": "2026-02-22",
+    "description": "Defined the initial .proto schemas for the Todo service, including Create, Read, Update, and Delete operations for tasks.",
+    "hours": 8,
+    "learnings": "Understood the syntax of Protobuf messages and services, and how Connect-RPC generates TypeScript interfaces from these definitions.",
+    "blockers": "None",
+    "mood_slider": 5,
+    "status": 2,
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 983419,
+    "date": "2026-02-21",
+    "description": "Worked on the control plane and also resolved the IOS based issues",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "The IOS iPhone has specific restrictions about the browser length",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-21T16:07:22.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 929590,
+    "date": "2026-02-20",
+    "description": "Worked on the Shopify app dev fixing the inshop issues using coderabbit",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Coderabbit ai deos have a few bugs that could have been resolved if it was open source",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-20T11:39:17.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 882920,
+    "date": "2026-02-19",
+    "description": "Looked into html css js caching and other browser specific approaches.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Caching in Apple iPhones is a hectic out of bound issue that has a lot of issues",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-19T12:42:42.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 837930,
+    "date": "2026-02-18",
+    "description": "Learned about setting up DNS and configuring domains using godaddy and Vercel.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "the CNAME and txt records are configured with the Anchor records.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-18T14:28:38.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 779569,
+    "date": "2026-02-17",
+    "description": "looked into docs of Shopify\nhttps://help.shopify.com/en/partners/faq/removal ✅\nhttps://shopify.dev/docs/apps/build/performance ✅\nhttps://web.dev/articles/vitals ✅\nhttps://shopify.dev/docs/apps/build/integrating-with-shopify ✅\nhttps://shopify.dev/docs/apps/build/discounts#build-with-shopify-functions ✅\nhttps://shopify.dev/docs/apps/launch/distribution/select-distribution-method - Public distribution ✅\nhttps://shopify.dev/docs/apps/launch/billing ✅\nhttps://blog.logrocket.com/5-things-you-can-do-with-css-instead-of-javascript/ ✅\nhttps://shopify.dev/docs/apps/build/functions ✅",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Web vitals are better viewed and judged via lighthouse scores",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-17T12:30:27.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 727394,
+    "date": "2026-02-16",
+    "description": "Did go through a lot of documentation for Shopify app dev and was blocked by PR to work further on both Cp and Shopify app\nhttps://shopify.dev/docs/apps/launch/built-for-shopify#apply-for-built-for-shopify-status \nhttps://shopify.dev/docs/apps/launch/built-for-shopify/requirements \n\nhttps://shopify.dev/changelog?filter=built_for_shopify \nhttps://www.shopify.com/in/partners/terms \nhttps://www.shopify.com/in/legal/api-terms \nhttps://shopify.dev/docs/apps/launch/built-for-shopify/regain-lost-status \nhttps://shopify.dev/docs/apps/launch/shopify-app-store/app-store-requirements \nhttps://shopify.dev/docs/apps/launch/shopify-app-store/best-practices \nhttps://help.shopify.com/en/partners/faq/removal",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Shockingly I had forgotten that React is owned by Facebook.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-16T12:40:03.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "date": "2026-02-15",
+    "description": "Configured the monorepo tooling using pnpm Workspaces and Turborepo. Set up the basic structure for 'backend', 'frontend', and 'proto' directories.",
+    "hours": 8,
+    "learnings": "Gained insights into Turborepo's caching mechanisms and how pnpm workspaces manage shared dependencies efficiently across different packages.",
+    "blockers": "None",
+    "mood_slider": 5,
+    "status": 2,
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 669085,
+    "date": "2026-02-14",
+    "description": "Looked into the Shopify storefront intervention script and also refactoring the code quality for the control plane components and different files",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Apparently there is no difference in importing from one big file or bits and pieces of smaller ones",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-14T13:26:08.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 628695,
+    "date": "2026-02-13",
+    "description": "Worked on Shopify embed liquid app dev, fixed the intervention script and also refactored the existing control plane project for types and Interfaces.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Didn't use AI but did self.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-13T13:56:17.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 588112,
+    "date": "2026-02-12",
+    "description": "Worked on the refactoring of the code moving the interfaces and types to have better code standards and readability",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Code standards are really important to be maintained.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-12T15:30:18.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 526812,
+    "date": "2026-02-11",
+    "description": "Refactored the existing codebase to fix the existing formatting issues in the cp repository.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Had to migrate from eslint to biome",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-11T11:53:29.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 491827,
+    "date": "2026-02-10",
+    "description": "Looked into Shopify App Admin embedded apps.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Shopify embedded apps",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-10T15:33:35.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 431328,
+    "date": "2026-02-09",
+    "description": "Got tasks assigned. Started to work on the frontend for Control Plane.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "TanStack Router is better and good for routing and  data caching.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-09T12:54:24.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "date": "2026-02-08",
+    "description": "Started architectural planning for the modern Todo monorepo, focusing on the integration of Protocol Buffers (Connect RPC) for type-safe communication between React and Node.js.",
+    "hours": 8,
+    "learnings": "Learned how Protobuf can enforce strict contracts between frontend and backend, reducing runtime errors and improving developer productivity in a monorepo setup.",
+    "blockers": "None",
+    "mood_slider": 5,
+    "status": 2,
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 370760,
+    "date": "2026-02-07",
+    "description": "Glanced and understood the basics of Next.js and React.js. Got tasks assigned to study about React and Next.js over the weekend and get the work to start from Monday.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "React is a single page application.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-07T12:51:14.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 329745,
+    "date": "2026-02-06",
+    "description": "Studied React hooks and State management and glanced on React components and Nextjs",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "The react components should always start with capital letters to be imported and exported. React components are widely used and reused across the application.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-06T12:12:32.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 283770,
+    "date": "2026-02-05",
+    "description": "Learnt the basics of JavaScript and Introduction to React.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "react is the most widely used and maintained open source frameworks and libraries and widely accepted by the companies",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-05T12:25:36.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 234612,
+    "date": "2026-02-04",
+    "description": "Looked into the components and advantages of JavaScript.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "JavaScript",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-04T11:28:15.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 195184,
+    "date": "2026-02-03",
+    "description": "Looked into Javascript. Understood and glanced into the concepts of var, let and other data types, basic for loops and other basic programming approaches using JavaScript.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "JavaScript has to be the Jack of All trade of Languages.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-03T12:53:07.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 168401,
+    "date": "2026-02-02",
+    "description": "Briefed about the work to the in charge. Got a session on JavaScript and it's usage and what JS actually is and brushed of concepts of all HTML CSS JS and Git.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "JS is the brain of the web.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-02T15:14:23.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 148064,
+    "date": "2026-02-01",
+    "description": "Studied HTML CSS and understood the basics of web and how to build web pages. Did go through the overall documentations and the web basics. Understood about the HTTP communication and also the semantic and other important tags and basics of HTML CSS.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Blockers were the sleep increase in complexity from HTML to CSS to complex web vitals. Learnings were the sheer complexity and the importance of understanding how web renders in low level and also how HTML and CSS makes the basics of the whole web",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-01T11:34:24.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 143089,
+    "date": "2026-01-31",
+    "description": "Used the learnings from the last 4 days of HTML and CSS to work on a basic web page. Used HTML tags for the body and CSS for styling. Used and got introduced to open source and their widespread usage in the industries. Did get assigned tasks and to learn more about HTML CSS over the weekend.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Blockers would be the docs websites not being concise.\nlearnings would be a revision on known and studied concepts to be applied on real web pages development.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-01-31T12:55:15.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 134651,
+    "date": "2026-01-30",
+    "description": "Looked into CSS and its quirks the whole day. Did understand the basics and the importance of CSS and its usage. Looked into existing codebase and understood the basics of the same. Did work on a timetable html CSS page using table and coloring the panel with border colors and more.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "CSS is definitely the cloth of the website. As easy as it sounds, its quirks definitely makes a frontend developer to panic at times understanding the difference between absolute relative and fixed with their usage and the different tags took the day.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-01-30T12:22:41.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 130298,
+    "date": "2026-01-29",
+    "description": "Third day of the Internship. Learning day again. Learnt and dived deep into Advanced concepts of HTML and did get introduced to the tech stack used in the company.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "https://learn.shayhowe.com/advanced-html-css/\n\nhttps://www.w3.org/MarkUp/Guide/Advanced.html\n\nLearnt further about the HTML tags and semantics",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-01-30T04:38:43.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  }
+]

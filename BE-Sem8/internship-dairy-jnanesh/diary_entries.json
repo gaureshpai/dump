@@ -1,0 +1,1382 @@
+[
+  {
+    "id": 5000000,
+    "date": "2026-01-29",
+    "description": "Commenced the internship by setting up the professional development environment. Architected a monorepo structure using pnpm and Turborepo.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Learned how Turborepo leverages remote caching to significantly speed up CI/CD and local development.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-01-29T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000001,
+    "date": "2026-01-30",
+    "description": "Deep-dived into the existing codebase and optimized the workspace configuration for better dependency isolation.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Mastered the configuration of pnpm workspaces for managing complex internal dependencies.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-01-30T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000002,
+    "date": "2026-01-31",
+    "description": "Established the monorepo workflow. Focused on configuring pnpm workspaces to share local UI components across packages.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Understood the importance of monorepo scalability and its impact on large-team productivity.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-01-31T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000003,
+    "date": "2026-02-01",
+    "description": "Implemented Turborepo caching to streamline the build process and reduce task execution times during development.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Gained insights into the trade-offs of different monorepo management tools and why Turborepo was selected.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-01T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000004,
+    "date": "2026-02-02",
+    "description": "Finalized the onboarding phase. Documented the architectural decisions regarding the monorepo and toolchain for the team.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Reflected on the necessity of clear architectural documentation from day one of a project.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-02T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000005,
+    "date": "2026-02-03",
+    "description": "Integrated the Biome toolchain for unified linting and formatting. Scaffolded the project using Next.js 15 App Router.",
+    "hours": 8,
+    "links": null,
+    "blockers": "Minor integration issue with third-party SDK, resolved after debugging.",
+    "learnings": "Learned how Biome simplifies the development environment by providing a single, fast tool for linting and formatting.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-03T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000006,
+    "date": "2026-02-04",
+    "description": "Refined the frontend coding standards. Leveraged Biome to enforce strict formatting rules across all TypeScript files.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Mastered the latest features of Next.js 15, specifically the shift towards asynchronous server-side rendering.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-04T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000007,
+    "date": "2026-02-05",
+    "description": "Architected the primary application layout in Next.js 15. Utilized Server Components for optimized initial page loads.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Understood how to use TypeScript interfaces to enforce data integrity across the frontend layer.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-05T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000008,
+    "date": "2026-02-06",
+    "description": "Migrated legacy ESLint configurations to Biome. Observed a significant reduction in linting time during pre-commit checks.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Gained a deep understanding of the performance benefits of Rust-based tooling in the JS ecosystem.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-06T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000009,
+    "date": "2026-02-07",
+    "description": "Finalized the frontend project structure. Focused on implementing Next.js 15 streaming and suspense boundaries.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Deepened knowledge of the React 19 features integrated within Next.js 15 for better UI management.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-07T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000010,
+    "date": "2026-02-08",
+    "description": "Defined the initial Protobuf service schemas. Generated the corresponding Connect-RPC TypeScript interfaces.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Understood the power of contract-first development in reducing runtime errors and integration bugs.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-08T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000011,
+    "date": "2026-02-09",
+    "description": "Established the API contract layer. Focused on creating type-safe communication channels between the UI and backend.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Mastered the Protobuf IDL (Interface Definition Language) for defining robust and extensible APIs.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-09T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000012,
+    "date": "2026-02-10",
+    "description": "Integrated the generated RPC clients into the frontend. Ensured all service calls are strictly typed and documented.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Learned how Connect-RPC provides a modern, type-safe alternative to traditional REST and GraphQL.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-10T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000013,
+    "date": "2026-02-11",
+    "description": "Optimized the Protobuf compilation pipeline. Automated the generation of client and server stubs within the monorepo.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Gained expertise in defining complex message structures and services using Protocol Buffers.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-11T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000014,
+    "date": "2026-02-12",
+    "description": "Audited the service definitions for consistency. Ensured all RPC methods align with the application s functional requirements.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Reflected on how strict API contracts improve the developer experience and system reliability.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-12T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000015,
+    "date": "2026-02-13",
+    "description": "Developed the Express.js backend infrastructure and connected it to MongoDB using Mongoose.",
+    "hours": 8,
+    "links": null,
+    "blockers": "Minor integration issue with third-party SDK, resolved after debugging.",
+    "learnings": "Mastered Mongoose schema design and the use of middleware for automated data processing.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-13T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000016,
+    "date": "2026-02-14",
+    "description": "Architected the database schema. Implemented Mongoose models with strict validation and advanced indexing.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Understood the impact of MongoDB indexing on application performance and scalability.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-14T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000017,
+    "date": "2026-02-15",
+    "description": "Engineered the backend service layer. Focused on creating reusable Mongoose plugins for common data operations.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Learned how to structure large-scale Express applications for maintainability and testability.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-15T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000018,
+    "date": "2026-02-16",
+    "description": "Optimized MongoDB interactions. Implemented efficient querying and data normalization strategies.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Gained insights into the intricacies of Mongoose connection management and error handling.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-16T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000019,
+    "date": "2026-02-17",
+    "description": "Finalized the backend setup. Ensured the Express server is configured for high availability and secure connections.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Reflected on the benefits of using an ODM like Mongoose for maintaining a structured data layer.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-17T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000020,
+    "date": "2026-02-18",
+    "description": "Implemented the Connect-RPC service handlers in the backend. Verified all business logic through unit testing.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Learned how to handle complex business logic within RPC handlers while maintaining service performance.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-18T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000021,
+    "date": "2026-02-19",
+    "description": "Refined the API error handling. Integrated structured error responses for improved client-side debugging and logging.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Mastered the use of custom interceptors for logging and auditing RPC calls in the backend.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-19T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000022,
+    "date": "2026-02-20",
+    "description": "Validated the RPC endpoints using Postman. Conducted comprehensive tests for all unary and streaming methods.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Understood the best practices for testing RPC-based APIs in a professional development environment.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-20T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000023,
+    "date": "2026-02-21",
+    "description": "Optimized the data fetching logic within the handlers. Leveraged Mongoose features for efficient data aggregation.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Gained expertise in mapping Mongoose query results to Protobuf message structures.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-21T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000024,
+    "date": "2026-02-22",
+    "description": "Finalized the core backend services. Ensured all RPC handlers correctly implement the defined Protobuf contracts.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Reflected on the importance of robust error handling in distributed systems for system resilience.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-22T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000025,
+    "date": "2026-02-23",
+    "description": "Integrated TanStack Query for advanced client-side data management. Configured custom query providers.",
+    "hours": 8,
+    "links": null,
+    "blockers": "Minor integration issue with third-party SDK, resolved after debugging.",
+    "learnings": "Mastered the TanStack Query caching model and how to optimize data freshness across the application.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-23T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000026,
+    "date": "2026-02-24",
+    "description": "Developed a suite of custom React hooks for data fetching. Implemented optimistic updates for critical UI actions.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Learned how to implement seamless optimistic UI patterns that improve user satisfaction.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-24T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000027,
+    "date": "2026-02-25",
+    "description": "Refined the cache synchronization logic. Established patterns for manual cache invalidation and refetching.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Gained insights into the power of the TanStack Query Devtools for monitoring and debugging cache state.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-25T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000028,
+    "date": "2026-02-26",
+    "description": "Optimized the frontend data layer. Leveraged query prefetching to enhance the perceived performance of the app.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Understood how to handle complex server-state synchronization without manual useEffect management.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-26T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000029,
+    "date": "2026-02-27",
+    "description": "Implemented complex data management features like pagination and search using TanStack Query hooks.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Reflected on the role of specialized data fetching libraries in modern React application architecture.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-27T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000030,
+    "date": "2026-02-28",
+    "description": "Engineered the application UI using Shopify Polaris and Tailwind CSS. Focused on design system consistency.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Mastered the Shopify Polaris component library and its application in building merchant-centric tools.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-28T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000031,
+    "date": "2026-03-01",
+    "description": "Developed a library of reusable UI components. Prioritized accessibility (A11y) and mobile responsiveness.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Understood the technical requirements for building accessible and inclusive web applications.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-01T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000032,
+    "date": "2026-03-02",
+    "description": "Polished the embedded app experience. Utilized Polaris components to ensure a native look and feel within Shopify.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Learned how to customize Polaris themes to align with specific branding while maintaining usability.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-02T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000033,
+    "date": "2026-03-03",
+    "description": "Optimized the styling workflow. Leveraged Tailwind CSS utility classes within a Polaris-themed environment.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Gained insights into the challenges of building responsive UIs for embedded environments.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-03T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000034,
+    "date": "2026-03-04",
+    "description": "Finalized the UI components. Conducted extensive accessibility testing using screen readers and keyboard navigation.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Reflected on the importance of adhering to industry-standard design systems for user trust.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-04T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000035,
+    "date": "2026-03-05",
+    "description": "Implemented TanStack Router for file-based, type-safe navigation. Configured the route tree and loaders.",
+    "hours": 8,
+    "links": null,
+    "blockers": "Minor integration issue with third-party SDK, resolved after debugging.",
+    "learnings": "Understood the benefits of type-safe routing in large-scale React applications for preventing broken links.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-05T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000036,
+    "date": "2026-03-06",
+    "description": "Refined the navigation logic. Integrated route-level data prefetching to eliminate loading states during transitions.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Mastered the use of route loaders for managing data dependencies at the routing level.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-06T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000037,
+    "date": "2026-03-07",
+    "description": "Developed complex search parameter validation using Zod. Ensured the URL state is always synchronized with the UI.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Learned how to leverage URL search parameters for managing complex application state effectively.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-07T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000038,
+    "date": "2026-03-08",
+    "description": "Optimized the routing experience. Implemented custom pending components and error boundaries for all routes.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Gained expertise in configuring TanStack Router for nested routing and advanced navigation patterns.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-08T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000039,
+    "date": "2026-03-09",
+    "description": "Finalized the application routing. Verified the type safety of all navigation links and search parameters.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Reflected on how type-safe routing improves the overall developer experience and application stability.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-09T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000040,
+    "date": "2026-03-10",
+    "description": "Engineered the Role-Based Access Control (RBAC) system. Defined the permission matrix for the dashboard.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Mastered the implementation of granular RBAC systems using modern security best practices.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-10T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000041,
+    "date": "2026-03-11",
+    "description": "Implemented secure JWT authentication. Developed middleware for token verification and role-based authorization.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Understood the nuances of JWT-based authentication and how to secure session data in the browser.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-11T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000042,
+    "date": "2026-03-12",
+    "description": "Enforced permission checks across the application. Restricted access to sensitive data and critical actions.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Learned how to implement cross-cutting security concerns using Express middleware and React context.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-12T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000043,
+    "date": "2026-03-13",
+    "description": "Optimized the authentication flow. Implemented secure cookie storage and CSRF mitigation strategies.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Gained insights into the latest web security threats and how to build resilient applications.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-13T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000044,
+    "date": "2026-03-14",
+    "description": "Audited the security implementation. Conducted thorough testing to ensure robust protection against unauthorized access.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Reflected on the responsibility of a senior developer in ensuring the security and privacy of user data.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-14T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000045,
+    "date": "2026-03-15",
+    "description": "Integrated Redis for distributed session management and API rate limiting. Optimized the caching layer.",
+    "hours": 8,
+    "links": null,
+    "blockers": "Minor integration issue with third-party SDK, resolved after debugging.",
+    "learnings": "Mastered the use of Redis for building high-performance, scalable web backends.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-15T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000046,
+    "date": "2026-03-16",
+    "description": "Implemented a backend caching strategy for frequently requested resources. Reduced database load and latency.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Understood the trade-offs of various caching strategies and how to implement them effectively.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-16T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000047,
+    "date": "2026-03-17",
+    "description": "Refined the Redis service. Implemented intelligent cache invalidation and data TTL (Time-To-Live) management.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Learned how to use Redis for real-time data processing and session synchronization in a cluster.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-17T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000048,
+    "date": "2026-03-18",
+    "description": "Developed advanced rate limiting patterns to protect the application from traffic bursts and abuse.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Gained expertise in implementing rate limiting to ensure the availability of mission-critical services.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-18T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000049,
+    "date": "2026-03-19",
+    "description": "Verified the Redis integration. Monitored performance metrics to ensure efficient memory and connection usage.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Reflected on the role of in-memory data stores in optimizing modern web application performance.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-19T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000050,
+    "date": "2026-03-20",
+    "description": "Explored the Shopify Admin GraphQL API. Developed synchronization logic for large-scale merchant datasets.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Mastered the Shopify Admin GraphQL API for performing complex data operations at scale.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-20T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000051,
+    "date": "2026-03-21",
+    "description": "Optimized the GraphQL query architecture. Implemented fragments and pagination to handle thousands of records.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Understood how to navigate Shopify s API rate limits using advanced batching and queuing techniques.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-21T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000052,
+    "date": "2026-03-22",
+    "description": "Integrated Shopify webhooks for real-time state synchronization. Ensured the local database is always up to date.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Learned the importance of reliable webhook handling for maintaining data consistency in real-time.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-22T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000053,
+    "date": "2026-03-23",
+    "description": "Refined the data sync pipeline. Implemented retry logic and error handling for robust Shopify API interactions.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Gained insights into the Shopify platform and the requirements for building professional-grade apps.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-23T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000054,
+    "date": "2026-03-24",
+    "description": "Verified the data integrity. Conducted comprehensive end-to-end tests for the Shopify synchronization engine.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Reflected on the power of GraphQL in simplifying complex data integrations for e-commerce tools.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-24T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000055,
+    "date": "2026-03-25",
+    "description": "Developed the Shopify Storefront intervention script. Focused on efficient script delivery and non-blocking execution.",
+    "hours": 8,
+    "links": null,
+    "blockers": "Minor integration issue with third-party SDK, resolved after debugging.",
+    "learnings": "Mastered the challenges of third-party script development and how to ensure performance and stability.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-25T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000056,
+    "date": "2026-03-26",
+    "description": "Refined the script architecture. Implemented a light-weight templating system for rendering UI on the guest storefront.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Understood the impact of storefront scripts on the Core Web Vitals of a merchant s site.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-26T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000057,
+    "date": "2026-03-27",
+    "description": "Optimized the storefront script. Minimized the footprint to ensure zero impact on the merchant s page speed metrics.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Learned how to build resilient frontend components that operate reliably in diverse storefront contexts.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-27T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000058,
+    "date": "2026-03-28",
+    "description": "Engineered a secure cross-domain communication channel between the guest storefront and our backend services.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Gained expertise in cross-origin data management and secure script execution patterns.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-28T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000059,
+    "date": "2026-03-29",
+    "description": "Verified the storefront script compatibility. Tested across multiple Shopify themes and browser environments.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Reflected on the importance of maintaining a low overhead for storefront-facing integrations.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-29T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000060,
+    "date": "2026-03-30",
+    "description": "Conducted an exhaustive performance audit using Lighthouse and WebVitals. Identified critical optimization areas.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Mastered the use of browser profiling tools to identify and resolve performance bottlenecks.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-30T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000061,
+    "date": "2026-03-31",
+    "description": "Optimized the Largest Contentful Paint (LCP) and First Contentful Paint (FCP) through advanced resource loading.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Understood the technical factors that influence search engine rankings and user engagement.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-31T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000062,
+    "date": "2026-04-01",
+    "description": "Addressed Cumulative Layout Shift (CLS) issues. Ensured UI stability during dynamic content rendering.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Learned how to leverage modern performance optimization techniques like code splitting and lazy loading.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-01T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000063,
+    "date": "2026-04-02",
+    "description": "Optimized Total Blocking Time (TBT). Analyzed the main thread execution and refactored long-running tasks.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Gained insights into the relationship between application performance and business metrics.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-02T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000064,
+    "date": "2026-04-04",
+    "description": "Finalized the performance improvements. Verified that the app meets the highest standards for speed and usability.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Reflected on the role of performance engineering in creating high-quality, professional web software.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-04T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000065,
+    "date": "2026-04-05",
+    "description": "Implemented a modern SEO and Answer Engine Optimization (AEO) strategy. Integrated structured data (JSON-LD).",
+    "hours": 8,
+    "links": null,
+    "blockers": "Minor integration issue with third-party SDK, resolved after debugging.",
+    "learnings": "Understood the shift from traditional SEO to AI-focused Answer Engine Optimization.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-05T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000066,
+    "date": "2026-04-06",
+    "description": "Refined the application s semantic markup. Focused on improving visibility in modern AI-driven search environments.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Mastered the implementation of Schema.org types to enhance the visibility of web content in search results.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-06T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000067,
+    "date": "2026-04-07",
+    "description": "Optimized the metadata management. Implemented dynamic meta tag generation for all public-facing pages.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Learned how structured data improves the ability of search engines to understand complex page content.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-07T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000068,
+    "date": "2026-04-08",
+    "description": "Engineered a scalable sitemap and robots.txt generation system for improved crawlability and indexability.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Gained insights into the technical requirements for maintaining a highly indexable web presence.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-08T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000069,
+    "date": "2026-04-09",
+    "description": "Verified the SEO implementation. Monitored search performance and rich snippet representation using various tools.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Reflected on the importance of semantic clarity in the evolving landscape of search and discovery.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-09T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000070,
+    "date": "2026-04-10",
+    "description": "Audited the application for GDPR compliance. Implemented a robust Consent Management Platform (CMP).",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Mastered the technical and legal requirements for building GDPR-compliant software applications.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-10T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000071,
+    "date": "2026-04-11",
+    "description": "Refined the data privacy layer. Ensured all user data is handled securely and in accordance with privacy regulations.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Understood the importance of data privacy by design and the role of transparency in user trust.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-04-11T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000072,
+    "date": "2026-04-12",
+    "description": "Developed automated workflows for processing Data Subject Access Requests (DSAR) and erasure requests.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Learned how to implement complex consent tracking mechanisms without impacting page performance.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-04-12T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000073,
+    "date": "2026-04-13",
+    "description": "Optimized the privacy-related UI components. Provided clear and transparent data usage disclosures to users.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Gained expertise in secure data handling and encryption techniques for protecting personal information.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-04-13T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000074,
+    "date": "2026-04-14",
+    "description": "Verified the compliance status. Conducted a thorough privacy audit to ensure all data practices align with GDPR.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Reflected on the responsibility of software engineers in protecting user privacy in a data-driven world.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-04-14T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000075,
+    "date": "2026-04-15",
+    "description": "Enhanced the system security by implementing a strict Content Security Policy (CSP) and secure headers.",
+    "hours": 8,
+    "links": null,
+    "blockers": "Minor integration issue with third-party SDK, resolved after debugging.",
+    "learnings": "Mastered the configuration of CSP to prevent data exfiltration and cross-site scripting attacks.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-04-15T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000076,
+    "date": "2026-04-16",
+    "description": "Integrated security scanning tools into the CI/CD pipeline. Focused on mitigating XSS and other web vulnerabilities.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Understood the importance of a security-first approach in the modern software development lifecycle.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-04-16T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000077,
+    "date": "2026-04-17",
+    "description": "Refined the data sanitization logic. Implemented robust input validation for all user-contributed content.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Learned how to use automated tools to maintain a secure and trustworthy application environment.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-04-17T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000078,
+    "date": "2026-04-18",
+    "description": "Optimized the server security configuration. Enforced HSTS and secure transport protocols across all environments.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Gained insights into the latest security best practices and industry-standard protection mechanisms.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-04-18T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000079,
+    "date": "2026-04-19",
+    "description": "Finalized the security audit. Conducted rigorous penetration testing to identify and address potential risks.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Reflected on the continuous nature of security monitoring and the importance of proactive defense.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-04-19T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000080,
+    "date": "2026-04-20",
+    "description": "Developed a comprehensive testing suite using Vitest and Playwright. Focused on unit and end-to-end testing.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Mastered the implementation of robust, automated tests that ensure long-term application stability.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-04-20T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000081,
+    "date": "2026-04-21",
+    "description": "Engineered resilient E2E test cases for critical business flows. Verified the stability of the Shopify integration.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Understood the benefits of E2E testing in catching complex integration regressions in full-stack apps.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-04-21T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000082,
+    "date": "2026-04-22",
+    "description": "Expanded the test coverage. Implemented integration tests to validate the data flow between services and MongoDB.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Learned how to build maintainable test suites that adapt to evolving application requirements.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-04-22T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000083,
+    "date": "2026-04-23",
+    "description": "Optimized the test suite performance. Leveraged parallelization to maintain a fast and efficient CI/CD pipeline.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Gained expertise in analyzing code coverage and using it to drive improvements in software quality.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-04-23T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000084,
+    "date": "2026-04-24",
+    "description": "Verified the application s reliability. Achieved superior code coverage across all mission-critical modules.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Reflected on the role of automated testing in enabling confident and frequent software releases.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-04-24T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000085,
+    "date": "2026-04-25",
+    "description": "Architected the CI/CD pipeline using GitHub Actions. Automated the build, test, and deployment phases.",
+    "hours": 8,
+    "links": null,
+    "blockers": "Minor integration issue with third-party SDK, resolved after debugging.",
+    "learnings": "Mastered GitHub Actions for building professional-grade CI/CD pipelines for complex monorepos.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-04-25T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000086,
+    "date": "2026-04-26",
+    "description": "Implemented an automated deployment workflow to Vercel. Established staging and production environments.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Understood the advantages of automated deployments in maintaining high development velocity and uptime.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-04-26T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000087,
+    "date": "2026-04-27",
+    "description": "Optimized the release process. Integrated automated preview URLs to facilitate collaborative testing and review.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Learned how to manage multi-stage release cycles using modern cloud deployment platforms.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-04-27T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000088,
+    "date": "2026-04-28",
+    "description": "Refined the CI/CD configurations. Leveraged advanced GitHub Actions features to minimize deployment time.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Gained expertise in monitoring the health of automated pipelines and resolving deployment issues.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-04-28T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000089,
+    "date": "2026-04-29",
+    "description": "Finalized the deployment architecture. Ensured the entire process is fully automated and production-ready.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Reflected on the importance of a reliable and automated release strategy in modern software engineering.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-04-29T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000090,
+    "date": "2026-04-30",
+    "description": "Conducted the final project retrospective. Organized all technical documentation and architecture guides in Notion.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Reflected on the technical journey and the successful delivery of senior-level engineering milestones.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-04-30T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  },
+  {
+    "id": 5000091,
+    "date": "2026-05-01",
+    "description": "Finalized the project handoff. Completed knowledge transfer sessions and ensured all PRs were merged and deployed.",
+    "hours": 8,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Understood the importance of thorough project handoffs and documentation for long-term maintainability.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-05-01T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend developer"
+    }
+  }
+]

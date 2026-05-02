@@ -1,0 +1,1532 @@
+[
+  {
+    "id": 4546303,
+    "date": "2026-01-24",
+    "description": "Reviewed Docker fundamentals and practiced container management commands. Refined understanding of volumes and port forwarding.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Gained better command over Docker CLI and networking concepts.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-05-02T06:15:31.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4546295,
+    "date": "2026-01-25",
+    "description": "Researched modern UI/UX principles and their impact on user engagement.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Learned about accessibility standards and responsive design patterns.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-05-02T06:15:27.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4546289,
+    "date": "2026-01-26",
+    "description": "Reviewed Docker fundamentals and practiced container management commands. Refined understanding of volumes and port forwarding.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Gained better command over Docker CLI and networking concepts.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-05-02T06:15:22.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4546266,
+    "date": "2026-01-31",
+    "description": "Reviewed Docker fundamentals and practiced container management commands. Refined understanding of volumes and port forwarding.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Gained better command over Docker CLI and networking concepts.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-05-02T06:15:03.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4546255,
+    "date": "2026-02-01",
+    "description": "Focused on personal professional growth by attending virtual tech seminars and reading industry reports.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Stayed informed about current trends and future directions in technology.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-05-02T06:14:59.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4546214,
+    "date": "2026-02-07",
+    "description": "Studied API documentation and explored network request patterns in the application. Practiced creating visualizations in Kibana.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Improved ability to analyze system logs and visualize data patterns.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-05-02T06:14:37.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4546207,
+    "date": "2026-02-08",
+    "description": "Researched modern UI/UX principles and their impact on user engagement.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Learned about accessibility standards and responsive design patterns.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-05-02T06:14:33.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4546171,
+    "date": "2026-02-14",
+    "description": "Studied API documentation and explored network request patterns in the application. Practiced creating visualizations in Kibana.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Improved ability to analyze system logs and visualize data patterns.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-05-02T06:14:13.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4546166,
+    "date": "2026-02-15",
+    "description": "Focused on personal professional growth by attending virtual tech seminars and reading industry reports.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Stayed informed about current trends and future directions in technology.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-05-02T06:14:08.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4545722,
+    "date": "2026-02-21",
+    "description": "Experimented with K6 load testing scripts and analyzed performance metrics. Documented observations on API response times.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Learned how to interpret performance bottlenecks using K6 metrics.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-05-02T06:09:17.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4545708,
+    "date": "2026-02-22",
+    "description": "Dedicated time to learning new programming paradigms and practicing coding challenges.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Improved logical reasoning and code efficiency.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-05-02T06:09:06.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4545640,
+    "date": "2026-02-28",
+    "description": "Experimented with K6 load testing scripts and analyzed performance metrics. Documented observations on API response times.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Learned how to interpret performance bottlenecks using K6 metrics.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-05-02T06:08:21.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4545616,
+    "date": "2026-03-01",
+    "description": "Researched modern UI/UX principles and their impact on user engagement.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Learned about accessibility standards and responsive design patterns.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-05-02T06:08:11.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4545562,
+    "date": "2026-03-07",
+    "description": "Refined automation scripts and worked on handling dynamic elements in tests. Updated the tracking sheet with new test cases.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Enhanced skills in writing robust automation scripts for complex UI components.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-05-02T06:07:28.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4545540,
+    "date": "2026-03-08",
+    "description": "Studied documentation for various open-source libraries to understand their implementation details.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Understood the importance of well-structured code and thorough documentation.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-05-02T06:07:18.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4545481,
+    "date": "2026-03-14",
+    "description": "Refined automation scripts and worked on handling dynamic elements in tests. Updated the tracking sheet with new test cases.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Enhanced skills in writing robust automation scripts for complex UI components.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-05-02T06:06:35.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4545460,
+    "date": "2026-03-15",
+    "description": "Focused on personal professional growth by attending virtual tech seminars and reading industry reports.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Stayed informed about current trends and future directions in technology.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-05-02T06:06:25.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4545399,
+    "date": "2026-03-21",
+    "description": "Conducted a comprehensive review of manual test cases and ensured alignment with the latest project requirements. Finalized documentation for recent modules.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Understood the importance of keeping test documentation in sync with product changes.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-05-02T06:05:41.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4545381,
+    "date": "2026-03-22",
+    "description": "Explored advanced concepts in software engineering and cloud computing through independent study.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Gained insights into scalable architecture and microservices.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-05-02T06:05:30.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4545316,
+    "date": "2026-03-29",
+    "description": "Dedicated time to learning new programming paradigms and practicing coding challenges.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Improved logical reasoning and code efficiency.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-05-02T06:04:41.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4545237,
+    "date": "2026-04-05",
+    "description": "Explored advanced concepts in software engineering and cloud computing through independent study.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Gained insights into scalable architecture and microservices.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-05-02T06:03:47.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4545152,
+    "date": "2026-04-12",
+    "description": "Researched modern UI/UX principles and their impact on user engagement.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Learned about accessibility standards and responsive design patterns.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-05-02T06:02:56.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4545071,
+    "date": "2026-04-19",
+    "description": "Explored advanced concepts in software engineering and cloud computing through independent study.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Gained insights into scalable architecture and microservices.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-05-02T06:02:00.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4544999,
+    "date": "2026-04-26",
+    "description": "Focused on personal professional growth by attending virtual tech seminars and reading industry reports.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Stayed informed about current trends and future directions in technology.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-05-02T06:01:07.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4540607,
+    "date": "2026-05-02",
+    "description": "Summarized overall work completed during the period and ensured all documentation was properly maintained. Organized records for clarity and completeness.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Learned how to present consolidated work in a structured manner.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-05-02T05:07:14.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4540553,
+    "date": "2026-05-01",
+    "description": "Reviewed previous work and ensured consistency in all documented results. Re-validated key scenarios to confirm expected behavior and accuracy.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Improved consistency checking and validation skills.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T05:06:29.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4540493,
+    "date": "2026-04-30",
+    "description": "Performed final checks on all testing activities and ensured that all scenarios were executed successfully. Verified completeness of work and readiness for closure.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Learned how to finalize testing cycles and ensure completeness.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T05:05:53.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4540437,
+    "date": "2026-04-29",
+    "description": "Analyzed overall testing outcomes and ensured consistency across results. Cross-checked executed scenarios and validated that all requirements were properly covered.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Enhanced analytical thinking and ability to verify test coverage.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T05:05:08.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4540382,
+    "date": "2026-04-28",
+    "description": "Reviewed all completed work and ensured that documentation was up to date. Verified that all test cases, results, and observations were clearly recorded and organized.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Improved documentation accuracy and organization.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T05:04:24.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4540316,
+    "date": "2026-04-27",
+    "description": "Worked on final validation of completed testing tasks. Re-checked important scenarios to ensure consistency and confirmed that all expected behaviors were achieved before completion.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Understood the importance of final validation before closing testing activities.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T05:03:36.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4540261,
+    "date": "2026-04-25",
+    "description": "Reviewed testing activities carried out during the week and summarized key observations. Ensured that all executed test cases and their results were properly documented and aligned with expected outcomes.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Learned how to consolidate and review testing work effectively.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T05:02:50.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4540209,
+    "date": "2026-04-24",
+    "description": "Validated system behavior across different workflows by testing multiple input variations. Ensured that the system handled each scenario correctly and maintained consistency in outputs.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Improved understanding of workflow-based testing and system behavior under varied conditions.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T05:02:08.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4540151,
+    "date": "2026-04-23",
+    "description": "Reviewed test execution results and ensured that all scenarios were properly covered. Analyzed outputs and updated documentation to reflect accurate and complete information for each case.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Improved skills in analyzing test results and maintaining clear documentation.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T05:01:18.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4540089,
+    "date": "2026-04-22",
+    "description": "Performed regression testing to ensure that recent updates did not impact existing functionalities. Re-executed key test cases and compared results with previous outcomes to confirm stability and consistency.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Gained deeper understanding of regression testing and its role in maintaining system reliability.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T05:00:29.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4540045,
+    "date": "2026-04-21",
+    "description": "Executed test cases across multiple scenarios and recorded detailed observations. Focused on verifying system responses under different conditions and ensured proper handling of inputs. Maintained structured documentation for all results.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Enhanced ability to perform consistent and structured test execution.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T04:59:41.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4539991,
+    "date": "2026-04-20",
+    "description": "Worked on additional test scenarios by analyzing requirements and identifying different input combinations. Executed test cases to validate system behavior and ensured that outputs were consistent with expectations. Carefully documented observations for each scenario and reviewed results for accuracy.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Improved ability to derive test scenarios from requirements and validate system behavior effectively.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T04:58:58.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4539915,
+    "date": "2026-04-18",
+    "description": "Reviewed overall testing progress and ensured all work was up to date. Verified that all executed test cases and results were properly documented and aligned with requirements.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Learned how to track and review progress effectively.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T04:57:52.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4539860,
+    "date": "2026-04-17",
+    "description": "Performed validation across multiple scenarios to ensure consistent system behavior. Cross-checked outputs with expected results and ensured that all variations were properly handled and documented.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Improved ability to validate system consistency across different conditions.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T04:56:58.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4539817,
+    "date": "2026-04-16",
+    "description": "Worked on improving and organizing test documentation to ensure clarity and completeness. Updated records to reflect accurate execution results and ensured all scenarios were well documented for future reference.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Understood how well-structured documentation improves traceability and communication.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T04:56:14.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4539766,
+    "date": "2026-04-15",
+    "description": "Performed re-testing of scenarios to confirm that previously observed issues were resolved and expected behavior was achieved. Verified outputs carefully and ensured consistency across repeated executions.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Learned the importance of re-testing in confirming fixes and maintaining reliability.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T04:55:31.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4539718,
+    "date": "2026-04-14",
+    "description": "Continued executing test cases for new scenarios and ensured that all results were accurately recorded. Paid attention to variations in system behavior across inputs and documented findings in a structured manner.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Enhanced attention to detail while validating outputs and documenting results.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T04:54:50.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4539675,
+    "date": "2026-04-13",
+    "description": "Started working on additional scenarios by analyzing requirements and executing relevant test cases. Verified system responses for different inputs and documented observations clearly for each scenario.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Improved ability to handle new testing scenarios and adapt to changing requirements.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T04:54:08.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4539623,
+    "date": "2026-04-11",
+    "description": "Reviewed all testing activities carried out during the week and ensured consistency in results. Cross-checked documentation and verified that all executed test cases were properly recorded and aligned with expected outcomes.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Understood the importance of reviewing completed work to ensure accuracy and completeness.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T04:53:15.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4539564,
+    "date": "2026-04-10",
+    "description": "Worked on validating system behavior for multiple workflows by testing different input combinations. Ensured that the system handled each scenario correctly and that outputs matched expectations. Focused on understanding how different flows interact within the system.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Improved understanding of workflow-based testing and system behavior across scenarios.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T04:52:33.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4539493,
+    "date": "2026-04-09",
+    "description": "Analyzed the results obtained from testing and ensured that all outcomes were properly documented. Reviewed test cases and execution results to confirm that all scenarios were covered and clearly recorded. Made necessary updates to improve clarity and completeness of documentation.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Learned how proper documentation supports traceability and helps in future validations.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T04:51:28.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4539414,
+    "date": "2026-04-08",
+    "description": "Performed regression testing to verify that recent updates did not affect existing functionalities. Re-executed previously validated test cases and compared results with earlier outputs to ensure consistency. Paid close attention to areas that were modified to confirm stability across workflows.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Gained clarity on the importance of regression testing in maintaining system stability after changes.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T04:50:17.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4539367,
+    "date": "2026-04-07",
+    "description": "Executed the updated test cases prepared earlier and validated system behavior across multiple scenarios, including both expected and edge conditions. Carefully observed outputs for each case and compared them against expected results to ensure accuracy. Documented the results in detail and noted any inconsistencies for further analysis.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Developed a better understanding of how structured test execution helps in identifying inconsistencies and ensuring system reliability.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T04:49:34.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4539296,
+    "date": "2026-04-06",
+    "description": "Worked on improving test cases and refining scenarios based on observations.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Understood how to enhance test quality.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T04:48:21.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4539244,
+    "date": "2026-04-04",
+    "description": "Reviewed test coverage and ensured all scenarios were executed.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Learned to verify completeness of testing cycles.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T04:47:40.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4539148,
+    "date": "2026-04-03",
+    "description": "Re-tested identified issues and validated fixes. Updated test results accordingly.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Learned importance of re-testing after fixes.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T04:46:24.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4539093,
+    "date": "2026-04-02",
+    "description": "Continued testing and documented observations. Verified behavior across multiple inputs.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Improved validation skills.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T04:45:35.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4539043,
+    "date": "2026-04-01",
+    "description": "Started executing test cases and validating outputs for different scenarios.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Understood practical execution of planned test cases.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T04:44:50.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4538985,
+    "date": "2026-03-31",
+    "description": "Continued writing test cases and ensured coverage of positive and negative scenarios.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Learned importance of covering edge cases.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T04:43:50.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4538938,
+    "date": "2026-03-30",
+    "description": "Started working on new testing requirements. Analyzed scenarios and prepared initial test cases.",
+    "hours": 9,
+    "links": null,
+    "blockers": "none",
+    "learnings": "Improved understanding of requirement analysis.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T04:43:02.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 4538867,
+    "date": "2026-03-28",
+    "description": "Reviewed results from completed manual testing and cross-checked scenarios to ensure full coverage. Made minor updates to test documentation.",
+    "hours": 9,
+    "links": null,
+    "blockers": "None",
+    "learnings": "Learned how to validate completeness of testing work.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-02T04:42:01.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 2645015,
+    "date": "2026-03-27",
+    "description": "Completed manual testing for both tasks. Verified all scenarios, ensured expected behavior, and finalized documentation of test results.",
+    "hours": 9,
+    "links": null,
+    "blockers": "no major blockers",
+    "learnings": "Learned how to complete end-to-end manual testing and ensure proper documentation of results.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-29T13:28:05.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 2644985,
+    "date": "2026-03-26",
+    "description": "Continued manual testing for both tasks. Covered additional scenarios and validated system behavior across different conditions. Documented observations during execution.",
+    "hours": 9,
+    "links": null,
+    "blockers": "no major blockers",
+    "learnings": "Improved ability to identify inconsistencies and validate outputs across different scenarios.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-29T13:27:28.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 2644957,
+    "date": "2026-03-25",
+    "description": "Started manual testing for two assigned tasks. Reviewed the test cases for both and began executing them step by step, ensuring each scenario was validated properly.",
+    "hours": 9,
+    "links": null,
+    "blockers": "no major blockers",
+    "learnings": "Understood how to handle multiple tasks simultaneously and manage test execution efficiently.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-29T13:26:53.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 2644884,
+    "date": "2026-03-24",
+    "description": "Performed regression testing to ensure recent changes did not impact existing functionality.",
+    "hours": 9,
+    "links": null,
+    "blockers": "no major blockers",
+    "learnings": "Understood how regression testing helps maintain system stability.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-29T13:24:57.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 2644857,
+    "date": "2026-03-23",
+    "description": "Reviewed test results and ensured all executed test cases were properly documented. Made minor updates to test scenarios.",
+    "hours": 9,
+    "links": null,
+    "blockers": "no major blockers",
+    "learnings": "Learned the importance of maintaining clear and complete test documentation.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-29T13:24:14.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 2644825,
+    "date": "2026-03-20",
+    "description": "Continued executing test cases and verified system behavior across different scenarios. Documented observations and ensured consistency in results.",
+    "hours": 9,
+    "links": null,
+    "blockers": "no major blockers",
+    "learnings": "Improved ability to validate outputs across multiple scenarios.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-29T13:23:16.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 2644776,
+    "date": "2026-03-19",
+    "description": "Continued testing and ensured consistency in results across different scenarios.",
+    "hours": 9,
+    "links": null,
+    "blockers": "no major blockers",
+    "learnings": "Improved attention to detail during validation.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-29T13:22:02.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 2644754,
+    "date": "2026-03-18",
+    "description": "Executed testing based on prepared test cases and recorded observations.",
+    "hours": 9,
+    "links": null,
+    "blockers": "no major blockers",
+    "learnings": "Learned practical execution and validation of test cases.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-29T13:21:25.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 2644724,
+    "date": "2026-03-17",
+    "description": "Prepared detailed test cases for assigned tasks.",
+    "hours": 9,
+    "links": null,
+    "blockers": "no major blockers",
+    "learnings": "Improved ability to design structured test scenarios.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-29T13:20:45.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 2644694,
+    "date": "2026-03-16",
+    "description": "Completed automation script development. Changes were reviewed and approved. Identified issues during testing and documented them.",
+    "hours": 9,
+    "links": null,
+    "blockers": "No major blockers",
+    "learnings": "Understood full automation lifecycle from development to issue reporting.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-29T13:20:01.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 2644586,
+    "date": "2026-03-13",
+    "description": "Enhanced automation scripts by adding additional validations and improving reliability of test execution.",
+    "hours": 9,
+    "links": null,
+    "blockers": "no major blockers",
+    "learnings": "Improved understanding of validation techniques in testing.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-29T13:17:06.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 2644532,
+    "date": "2026-03-12",
+    "description": "Worked on debugging issues in automation scripts and fixing failing test cases. Verified results after fixes.",
+    "hours": 9,
+    "links": null,
+    "blockers": "Time spent on debugging",
+    "learnings": "Learned how to debug failures and handle unexpected test behavior.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-29T13:15:39.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 2644443,
+    "date": "2026-03-11",
+    "description": "Reviewed existing test scenarios and aligned them with requirements. Continued refining automation scripts and ensured proper coverage of key flows.",
+    "hours": 9,
+    "links": null,
+    "blockers": "No major blockers",
+    "learnings": "Understood how to improve test coverage and identify missing scenarios.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-29T13:13:15.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 2644311,
+    "date": "2026-03-10",
+    "description": "Worked on understanding the existing implementation and continued improving automation scripts.",
+    "hours": 9,
+    "links": null,
+    "blockers": "No major blockers",
+    "learnings": "Improved understanding of workflow and system behavior.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-29T13:10:00.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 2644233,
+    "date": "2026-03-09",
+    "description": "Worked on improving and stabilizing the automation script. Updated daily tracking sheet accordingly.",
+    "hours": 9,
+    "links": null,
+    "blockers": "Some time spent debugging issues",
+    "learnings": "Learned how to debug automation failures and improve script reliability.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-29T13:08:02.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 2644127,
+    "date": "2026-03-06",
+    "description": "Updated the daily tracking sheet and refined the automation script based on testing observations.",
+    "hours": 9,
+    "links": null,
+    "blockers": "No major blockers",
+    "learnings": "Improved understanding of script optimization and handling edge cases in automation.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-29T13:04:56.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 2644095,
+    "date": "2026-03-05",
+    "description": "Updated the daily tracking sheet. Started writing automation tests for the assigned task. After review approval, continued developing automation scripts and performed initial testing.",
+    "hours": 9,
+    "links": null,
+    "blockers": "Minor delays due to review dependency",
+    "learnings": "Learned how to translate test cases into automation scripts and understood the importance of approval before proceeding with implementation.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-29T13:04:09.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 2644018,
+    "date": "2026-03-04",
+    "description": "Updated the daily tracking sheet by adding a case tracking section. Created a test plan for the assigned task, reviewed it, and incorporated necessary changes. Updated the flowchart in the test plan based on different scenarios and understood how the sorting functionality works.",
+    "hours": 9,
+    "links": null,
+    "blockers": "No major blocker",
+    "learnings": "Gained better understanding of how to structure a test plan and represent workflows using flowcharts. Learned how sorting functionality behaves across different scenarios.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-29T13:01:52.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 1468024,
+    "date": "2026-03-03",
+    "description": "Updated the SCRUM sheet for the day and also got to update the new section of the scrum sheet,received a new ticket for which the test plan was written.",
+    "hours": 9,
+    "links": null,
+    "blockers": "No major blockers",
+    "learnings": "Got to know how to match the different tables and datas.received a new ticket for which the test plan was written.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-03T16:20:40.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 1413310,
+    "date": "2026-03-02",
+    "description": "Updated the SCRUM sheet for the day , tested the recent application release,learnt using rancher.",
+    "hours": 9,
+    "links": null,
+    "blockers": "No major blockers",
+    "learnings": "Testing of the application to be released and rancher usage",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-02T16:13:05.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 1413164,
+    "date": "2026-02-27",
+    "description": "Updated the SCRUM sheet for the day, testing the ticket \ncompleted testing according to the test cases prepared, added the missing test cases, going over the ticket",
+    "hours": 9,
+    "links": null,
+    "blockers": "No major blockers",
+    "learnings": "Completed the entire testing for the test cases written",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-02T16:11:14.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 1413009,
+    "date": "2026-02-26",
+    "description": "Updated the SCRUM sheet for the day, Added the test cases \t\nHad to go over the ticket- create a documentation of  contact creation for application Users, got a task to test the ticket- for which the test cases were written",
+    "hours": 9,
+    "links": null,
+    "blockers": "No major blockers",
+    "learnings": "Learnt to write systematic test cases and testing an application",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-02T16:09:31.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 1145813,
+    "date": "2026-02-25",
+    "description": "Updated the SCRUM sheet for the day,updated the automation script for the task given on previous day but the task was kept hold due to internal issues , therefore moved forward with the next task assigned by mentor which involved writing test cases for the ticket",
+    "hours": 9,
+    "links": null,
+    "blockers": "No major blockers",
+    "learnings": "Wrote the test cases for the ticket assigned , updated the automation script written for the previous task assigned",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-25T13:19:09.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 1103019,
+    "date": "2026-02-24",
+    "description": "Updated the SCRUM sheet for the day and updated the format for the test cases as mentioned by mentor and then created the documentation for the automation script that has to be written for the given task",
+    "hours": 9,
+    "links": null,
+    "blockers": "Understanding the exact flow",
+    "learnings": "Learnt to write the automation script for getting the kibana reports and then accessing the nocodb and adding the details into that table .",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-24T15:10:13.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 1102770,
+    "date": "2026-02-23",
+    "description": "Updated the SCRUM sheet for the day.\nWrote the test cases for the given JIRA ticket in the confluence and created the dashboard for the given task by mentor",
+    "hours": 9,
+    "links": null,
+    "blockers": "No major blockers",
+    "learnings": "Learnt the exact format for writing the test cases and used the kibana visualizations",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-24T15:07:07.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 977909,
+    "date": "2026-02-20",
+    "description": "Updated the specific sections of the SCRUM Sheet maintained for the team and wrote the queries to query the superset  and get the desired table entries",
+    "hours": 9,
+    "links": null,
+    "blockers": "no major blockers",
+    "learnings": "learnt to update the SCRUM sheet daily and also got an practice of writing the sql queries for the superset db",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-21T14:17:57.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 977754,
+    "date": "2026-02-18",
+    "description": "continued with the k6 script writing and testing the scripts run without any errors",
+    "hours": 9,
+    "links": null,
+    "blockers": "no major blockers",
+    "learnings": "learnt the proper usage of the different metrics in the k6 script",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-21T14:14:58.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 977664,
+    "date": "2026-02-17",
+    "description": "wrote the tests for the different end points that are used by the company and also debugged the errors in the tests",
+    "hours": 9,
+    "links": null,
+    "blockers": "errors that occurred during the running of the tests",
+    "learnings": "learnt to write the test scripts for the different API's",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-21T14:13:00.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 977444,
+    "date": "2026-02-13",
+    "description": "corrected the tests written for the login and the dashboard with proper storage state usage and tried with more sample test cases using different metrics and thresholds.",
+    "hours": 9,
+    "links": null,
+    "blockers": "no major blockers",
+    "learnings": "learnt how to systematically write a k6 test script",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-21T14:09:11.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 883451,
+    "date": "2026-02-19",
+    "description": "Worked on creating the kibana dashboard visualization for daily scrum reports..Got an task to update the scrum sheet for certain sections of the report",
+    "hours": 9,
+    "links": null,
+    "blockers": "No major blockers",
+    "learnings": "Learnt to create the visualization of the different metrics that are used in the company's products using kibana dashboard visualization",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-19T12:55:46.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 883352,
+    "date": "2026-02-16",
+    "description": "Corrected the k6 test scripts as mentioned by the mentor and looked into the more concepts of k6",
+    "hours": 9,
+    "links": null,
+    "blockers": "No major blockers",
+    "learnings": "Learnt how the method of using different metrics matter and how they differ in the results",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-19T12:52:59.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 590907,
+    "date": "2026-02-12",
+    "description": "Further continued with the different features of k6 , and then received an task to test different API end points available on the company's application",
+    "hours": 9,
+    "links": null,
+    "blockers": null,
+    "learnings": "Successfully learnt to test the different API end points",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-12T16:01:29.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 534810,
+    "date": "2026-02-11",
+    "description": "Worked on installation of k6 , a load generator and performance testing tool.looked into the documentation of k6 inorder to understand the different metrics that are present in it.",
+    "hours": 9,
+    "links": null,
+    "blockers": "No major blockers",
+    "learnings": "Understood the working and use case of k6 grafana and wrote sample test cases to understand the performance output",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-11T14:23:05.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 480091,
+    "date": "2026-02-10",
+    "description": "Received the feedback from mentor about the actual structure and format of doing the documentation of automation tests followed the same format and also did a flowchart , followed by the installation of k6",
+    "hours": 9,
+    "links": null,
+    "blockers": "No major blockers",
+    "learnings": "Learnt the actual format of documenting a automation test and how different tests are written for different functionalities instead of writing a single test for everything and also learnt to use the storage state for the tests that does not require authentication",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-10T13:06:58.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 437372,
+    "date": "2026-02-09",
+    "description": "Started with documenting the task done on the previous day including the workflow of the automation test script and then did a sample exercises practicing automation test writing and attended the KT session on widgets and practiced it with the application",
+    "hours": 9,
+    "links": null,
+    "blockers": "No major blockers",
+    "learnings": "Improved the understanding of end to end test scenarios and automation test writing , gained the basic understanding of widgets and how the widgets are integrated into the  webapplications",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-09T14:27:45.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 401204,
+    "date": "2026-02-06",
+    "description": "Completed the task given by mentor that involved writing tests for login authentication using the valid credentials and asserting the login page and also asserting go to dashboard page",
+    "hours": 9,
+    "links": null,
+    "blockers": "assertions required more carefull observation",
+    "learnings": "improved understanding of validating the automated tests and writing the tests for real  world scenarios",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-08T14:08:53.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 400684,
+    "date": "2026-02-05",
+    "description": "Installed an end-to-end testing framework and ran a sample testcase to understand it's flow and execution.wrote and executed basic automated tests to observe browser navigation in the headed mode .",
+    "hours": 9,
+    "links": null,
+    "blockers": "no major blockers",
+    "learnings": "learned the basic automated testing setup and execution. gained hands-on experience on how ui mode can be used to visualise the flow of  automated tests",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-08T13:53:34.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 400457,
+    "date": "2026-02-04",
+    "description": "explored system sequence diagrams inorder to understand the flow of different functionalities  of the company's website. explored the different API's getting used and how the request and responses flow across the different API's and how these API\"s are different",
+    "hours": 9,
+    "links": null,
+    "blockers": "Understanding the API's flow required additional analysis",
+    "learnings": "Learnt how different software components interact using API's and How the system sequence diagrams help to visualise the flow of different functionalities of the system and the products of the company",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-08T13:47:46.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 206591,
+    "date": "2026-02-03",
+    "description": "Worked on understanding the API requests that are sent and received when an particular feature is used in the UI side also learnt to create visualization from the kibana logs",
+    "hours": 9,
+    "links": null,
+    "blockers": "Understanding kibana required more attention",
+    "learnings": "Learnt to create visualization tables from the kibana logs for the API requests",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-03T15:41:23.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 176034,
+    "date": "2026-02-02",
+    "description": "Explored the application by observing network requests and payloads triggered by user actions in the UI. Attended a KT session on SCRUM and continued learning agile concepts and workflows",
+    "hours": 9,
+    "links": null,
+    "blockers": null,
+    "learnings": "Learned how UI actions interact with backend APIs and gained an understanding of SCRUM methodology and agile practices.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-02T16:42:29.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 175929,
+    "date": "2026-01-30",
+    "description": "Reviewed emails related to document tracking workflows. Explored the API application and generated an access token to authorize. Attended a KT session. Tested multiple API endpoints using Postman to understand request and response behavior.",
+    "hours": 9,
+    "links": null,
+    "blockers": "Understanding API authentication required additional attention.",
+    "learnings": "Learned how token-based authentication works and how APIs are tested using Postman. Gained basic exposure to monitoring tools like Kibana.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-02T16:41:30.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 175628,
+    "date": "2026-01-29",
+    "description": "Explored the application in detail to understand its features and navigation. Attended a KT session and application team sync to gain clarity on workflows. Practically tried features discussed during the KT sessions to strengthen product understanding.",
+    "hours": 9,
+    "links": null,
+    "blockers": null,
+    "learnings": "Improved familiarity with the application and gained better understanding of feature behavior through hands-on exploration.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-02T16:38:01.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 175384,
+    "date": "2026-01-28",
+    "description": "Reviewed and summarized the previous day’s work and familiarized myself with domain-related terminology used in the application. Attended a KT session on containerization fundamentals. Explored an API-based application and reviewed key concepts related to APIs, endpoints, and enterprise-level data access. Documented high-level API concepts, versioning, and basic workflows for accessing case-related data.",
+    "hours": 9,
+    "links": null,
+    "blockers": "No major blockers; required time to understand new technical concepts.",
+    "learnings": "Learned basic Docker concepts and gained an introduction to APIs and how legal data can be accessed programmatically. Improved understanding of technical terminology related to APIs.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-02T16:35:15.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 175199,
+    "date": "2026-01-27",
+    "description": "Explored the company’s public-facing application and reviewed key features related to case search, tracking, and litigation data. Attended a knowledge transfer (KT) session to understand the company’s products and overall workflows",
+    "hours": 9,
+    "links": null,
+    "blockers": "no major blockers",
+    "learnings": "Gained an understanding of the product ecosystem, user workflows, and how different application versions vary in functionality and usability.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-02T16:32:56.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 174137,
+    "date": "2026-01-23",
+    "description": "I performed my second task on Docker where I had to make changes in HTML and API files. I observed the updates inside the running Docker container without stopping it.",
+    "hours": 9,
+    "links": null,
+    "blockers": "no major blockers",
+    "learnings": "I understood how updates reflect automatically in the container when changes are made.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-02T16:21:07.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 173979,
+    "date": "2026-01-22",
+    "description": "I attended a session on Docker Port Forwarding and Volumes. The session focused on understanding how ports are mapped between the host machine and Docker containers to access applications running inside containers. I also learned about Docker volumes and how they are used to persist data independently of the container lifecycle.",
+    "hours": 9,
+    "links": null,
+    "blockers": "There were no major blockers. Since the topic was new, it required careful attention to understand networking and storage concepts.",
+    "learnings": "I learned how Docker port forwarding works and how port mapping allows external access to applications running inside containers. I also understood the concept of Docker volumes, their importance in data persistence, and how volumes help retain data even when containers are stopped or removed",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-02T16:19:29.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  },
+  {
+    "id": 173624,
+    "date": "2026-01-21",
+    "description": "I attended a knowledge transfer (KT) session on Docker fundamentals. During the session I learned what Docker is, why it is used, and how it helps in running applications in isolated environments using containers. The session also introduced basic Docker terminology and an overview of Docker Compose, including how applications are exposed using ports while running containers.",
+    "hours": 9,
+    "links": null,
+    "blockers": "No major blockers were faced during the session as it was an introductory learning session.",
+    "learnings": "I learned the basics of Docker as a containerization platform and understood the difference between Docker images and containers. I gained an overview of important Docker concepts such as images, containers, volumes, networks, and Docker Compose. I also understood how Docker helps in faster deployment of applications and how port mapping works when running applications inside containers.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-02T16:15:29.000000Z",
+    "internship": {
+      "name": "Software Engineer Intern"
+    }
+  }
+]

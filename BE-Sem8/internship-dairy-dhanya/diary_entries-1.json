@@ -1,0 +1,1082 @@
+[
+  {
+    "id": 1,
+    "date": "2026-01-27",
+    "description": "First day as a Frontend Developer Intern at InUnity Pvt Ltd. Onboarded with the team and received a briefing from Project Manager Chaithanya Ma'am regarding company policies and the professional work culture. Introduced to the core tech stack, including React and Next.js, and established a learning roadmap for the internship.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Gained a clear understanding of the project's architectural goals and the importance of effective communication and leadership in a collaborative engineering environment.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-01-27T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 2,
+    "date": "2026-01-28",
+    "description": "Deep dive into HTML fundamentals and document structure. Explored various HTML5 semantic elements and their role in improving accessibility and SEO, which are critical for Next.js applications.",
+    "hours": 8,
+    "links": "https://developer.mozilla.org/en-US/docs/Web/HTML https://www.w3schools.com/html/html_intro.asp",
+    "blockers": null,
+    "learnings": "Mastered the use of semantic tags like <header>, <footer>, <article>, and <section> to create well-structured, accessible web documents.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-01-28T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 3,
+    "date": "2026-01-29",
+    "description": "Explored advanced HTML concepts and their integration within modern frontend frameworks. Focused on the importance of semantic markup for SEO and its impact on Next.js hydration and rendering.",
+    "hours": 8,
+    "links": "https://learn.shayhowe.com/advanced-html-css/ https://www.w3.org/MarkUp/Guide/Advanced.htm",
+    "blockers": null,
+    "learnings": "Deepened understanding of HTML semantics and how they form the backbone of a performant and accessible web application.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-01-29T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 4,
+    "date": "2026-01-30",
+    "description": "Focused on CSS fundamentals, including the box model, positioning (absolute, relative, fixed), and layout techniques. Developed a timetable using HTML tables and custom CSS styling to practice visual hierarchy.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Learned the nuances of CSS layout positioning and how to effectively style complex components while maintaining design consistency.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-01-30T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 7,
+    "date": "2026-02-02",
+    "description": "Introduction to JavaScript and its role as the 'brain' of the web. Reviewed fundamental concepts across HTML, CSS, JS, and Git to ensure a solid foundation for upcoming project tasks.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Solidified understanding of how JavaScript drives interactivity and state changes within the DOM.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-02T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 8,
+    "date": "2026-02-03",
+    "description": "In-depth study of JavaScript basics, including variable scoping (var, let, const), data types, loops, and functional programming approaches. Explored how these form the basis for React's declarative style.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Gained proficiency in modern JavaScript syntax and logic patterns essential for developing complex frontend applications.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-03T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 9,
+    "date": "2026-02-04",
+    "description": "Explored the core components of JavaScript and its widespread advantages in modern web development. Analyzed why it remains the industry standard for client-side and server-side logic.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Recognized JavaScript's versatility and its critical role in the evolution of modern web frameworks.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-04T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 10,
+    "date": "2026-02-05",
+    "description": "Tasked with building a functional calculator using HTML, CSS, and Vanilla JavaScript. Focused on event handling and state updates without external libraries. Transitioned into React development. Studied the history of React and its position as a leading library for building reusable UI components and its ecosystem advantages.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Successfully implemented complex logic for calculations and UI updates, demonstrating a clear understanding of JS event-driven programming. Understood the benefits of component-based architecture and why React is favored for large-scale application development.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-05T09:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 12,
+    "date": "2026-02-06",
+    "description": "Focused on React Hooks (useState, useEffect) and the principles of state management. Explored component lifecycle and the importance of capitalization in React naming conventions.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Mastered the basics of stateful logic and the power of reusable components in building scalable user interfaces.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-06T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 13,
+    "date": "2026-02-07",
+    "description": "Reviewed React fundamentals and established a plan for the next phase of development. Focused on the Single Page Application (SPA) model and its impact on user experience.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Solidified the concept of virtual DOM and how React optimizes rendering in SPAs.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-07T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 14,
+    "date": "2026-02-09",
+    "description": "Built a Todo application in React to practice state hooks and local storage integration. Focused on persistent data handling on the client side.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Learned to manage application state effectively and leverage browser APIs like LocalStorage for simple data persistence.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-09T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 15,
+    "date": "2026-02-10",
+    "description": "Developed a 'Guess the Number' game using React. Focused on complex conditional rendering and handling multiple state transitions within a single component.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Gained hands-on experience in managing game logic and user feedback within a React-driven UI.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-10T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 16,
+    "date": "2026-02-11",
+    "description": "Introduction to Next.js and its architectural differences from standard React. Focused on Server-Side Rendering (SSR) and how it improves performance and SEO.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Understood the trade-offs between Client-Side Rendering (CSR) and SSR, and how Next.js provides a hybrid approach.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-11T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 17,
+    "date": "2026-02-12",
+    "description": "Deep dive into the Next.js project structure, including the pages directory, public assets, and configuration files. Analyzed existing projects to understand industry-standard folder organization.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Familiarized with the Next.js file-system based routing and its impact on project scalability.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-12T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 18,
+    "date": "2026-02-13",
+    "description": "Setup a new Next.js project and implemented dynamic routing for various page components. Focused on data fetching strategies including getServerSideProps and getStaticProps.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Mastered dynamic routes in Next.js and gained a solid understanding of when to use Static Site Generation (SSG) vs Server-Side Rendering (SSR) for data fetching.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-13T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 19,
+    "date": "2026-02-14",
+    "description": "Researched and implemented the deployment workflow for a Next.js application using Vercel. Analyzed the build process and environment configuration requirements.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Learned the core architectural differences between SSG and SSR in a production environment and how Vercel optimizes deployment pipelines.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-14T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 20,
+    "date": "2026-02-16",
+    "description": "Investigated performance optimization techniques in Next.js, focusing on next/image and next/font. Researched best practices for integrating frontend components with backend services.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Gained knowledge on optimizing Largest Contentful Paint (LCP) and Cumulative Layout Shift (CLS) through framework-specific features.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-16T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 21,
+    "date": "2026-02-17",
+    "description": "Began learning TypeScript, focusing on its integration with React/Next.js component structures. Analyzed how static typing improves the handling of web vitals and developer experience.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Understood the fundamental shift from dynamic to static typing and its role in catching errors during development rather than runtime.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-17T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 22,
+    "date": "2026-02-18",
+    "description": "Continued TypeScript study by applying interfaces and type definitions to configuration data. This was critical for maintaining consistent DNS and Vercel environment setup across the application.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Learned to define predictable data shapes using interfaces, which is key for maintaining robust and maintainable application configurations.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-18T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 23,
+    "date": "2026-02-19",
+    "description": "Focused on TypeScript utility types and generics. Explored how they can be used when designing complex functions that handle caching and browser-specific logic, specifically for iOS-related caching issues.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Generics allowed for the creation of reusable, type-safe components and functions, significantly improving code maintainability.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-19T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 24,
+    "date": "2026-02-20",
+    "description": "Migrated a small section of the web application's development files to TypeScript. Focused on typing components where we previously encountered Coderabbit AI-related bugs.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "The refactoring process highlighted the power of explicit typing in reducing bugs and improving collaboration on large codebases in Next.js.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-20T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 25,
+    "date": "2026-02-21",
+    "description": "Applied TypeScript typing to the Control Plane (CP) logic. Successfully resolved multiple type-mismatch errors that could have led to runtime issues in the management interface.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "TypeScript significantly improved code clarity and helped define the expected input/output for complex state and data flow across different environments.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-21T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 26,
+    "date": "2026-02-23",
+    "description": "Used TypeScript to define strict schemas for the new MCP server's API endpoints. Validated request and response data types before integration with the backend services.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Creating type definitions for API contracts ensures strictly enforced data exchange, reducing integration and validation bugs significantly.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-23T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 27,
+    "date": "2026-02-24",
+    "description": "Applied TypeScript to core Control Plane components, specifically for typing state management and critical API service calls to enforce robustness in the main dashboard.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Successfully enforced strict typing on complex state objects, immediately identifying potential type-mismatch bugs that would occur at runtime.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-24T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 28,
+    "date": "2026-02-25",
+    "description": "Integrated Tailwind CSS into the in-shop web application UI. Focused on transitioning from legacy CSS to utility-first styling for better customization and rapid UI development.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Learned to configure and extend Tailwind CSS in a Next.js project and recognized its efficiency compared to traditional CSS methodologies.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-25T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 29,
+    "date": "2026-02-26",
+    "description": "Continued the UI refactoring for the admin dashboard. Applied Tailwind classes to standardize form elements and mock tables, improving accessibility and visual consistency.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Deepened understanding of utility-first CSS and how to use custom utility classes for responsive design without extensive custom CSS modules.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-26T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 30,
+    "date": "2026-02-27",
+    "description": "Began implementing Role-Based Access Control (RBAC) in the Control Plane. Defined and enforced viewer and member permissions on different API routes and client-side navigation elements.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Focused on securing API endpoints using a middleware layer to validate user roles extracted from JWT tokens before allowing access.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-27T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 31,
+    "date": "2026-02-28",
+    "description": "Completed the initial RBAC implementation across the system and created a Pull Request. Restricted access for viewer roles to read-only pages and disabled critical actions on the frontend.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Gained experience structuring a major security feature across both backend validation and frontend presentation layers in Next.js.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-28T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 32,
+    "date": "2026-03-02",
+    "description": "Collaborated with the design team to review and implement high-fidelity mockups in Figma for the main company landing page. Focused on reusable component architecture.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Learned to translate complex design system requirements into structured, reusable frontend components and the importance of design-developer synchronization.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-02T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 33,
+    "date": "2026-03-03",
+    "description": "Initiated a large-scale refactoring pass on the js-sdk repository. Used Coderabbit AI for incremental code review suggestions focusing on complex, non-typed component logic.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Explored how incremental AI models analyze large codebases and provide real-time suggestions to improve maintainability and adherence to best practices.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-03T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 34,
+    "date": "2026-03-04",
+    "description": "Documented the recent refactoring decisions, new TypeScript utility types, and the RBAC structure in Notion. Ensured all technical documentation was up-to-date for future maintenance.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Solidified the understanding that clear, concise technical documentation is as critical as the code itself for long-term project health.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-04T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 35,
+    "date": "2026-03-05",
+    "description": "Continued documentation efforts, specifically detailing the usage of new TypeScript interfaces and the RBAC structure. Updated README files to assist in onboarding new team members.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Practical application of technical writing skills to create comprehensive guides for internal development teams.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-05T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 36,
+    "date": "2026-03-06",
+    "description": "Started a theme change and refactoring initiative on the e-commerce demo repository. Migrated the project from a legacy CSS framework to utility-first Tailwind CSS classes.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Experienced the challenge of converting monolithic stylesheets into a component-based approach, confirming Tailwind's flexibility.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-06T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 37,
+    "date": "2026-03-07",
+    "description": "Completed the primary UI refactor of the e-commerce demo to Tailwind. Logged hours and reported on the refactoring status for multiple side projects.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Successfully finalized the transition, resulting in a cleaner component structure and a significant reduction in the CSS bundle size.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-07T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 38,
+    "date": "2026-03-09",
+    "description": "Managed the merge of two major Pull Requests into the main branch. Addressed CI pipeline issues in the GitHub Actions workflow related to write permissions and automated checks.",
+    "hours": 8,
+    "links": null,
+    "blockers": "Encountered issues with GitHub Actions CI pipeline permissions.",
+    "learnings": "Gained insight into CI/CD automation and the importance of correct permission levels for automated testing and artifact publishing.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-09T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 39,
+    "date": "2026-03-10",
+    "description": "Began development of a complex Client-Side Widget Script. The goal was to dynamically fetch and display product data based on real-time client-side events in an embedded context.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Started to understand the intricacies of script injection and how to reliably interact with an embedded server from a guest site.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-10T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 40,
+    "date": "2026-03-11",
+    "description": "Continued work on the client-side script, focusing on event tracking integration for analytics. Improved the linter configuration to maintain strict code consistency across the project.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Gained insight into client-side event tracking implementation and the importance of strict linter rules for reducing technical debt.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-11T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 41,
+    "date": "2026-03-12",
+    "description": "Finalized the core logic for the Client-Side Widget Script. Implemented dynamic configuration settings to allow per-site customization of the script's behavior.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Learned how to manage and access per-store configuration settings efficiently across the entire application stack.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-12T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 42,
+    "date": "2026-03-13",
+    "description": "Conducted a general refactoring and cleanup pass across the codebase. Addressed technical debt and modularized utility functions to improve performance and readability.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Focused on the Single Responsibility Principle (SRP) to decouple redundant logic and significantly improve the codebase health.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-13T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 43,
+    "date": "2026-03-14",
+    "description": "Led the migration of the linting/formatting stack for the js-sdk repository. Replaced the ESLint/Prettier combination with Biome for faster build times and unified tooling.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Discovered that Biome streamlines the development environment by replacing multiple separate packages with a single, highly performant tool.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-14T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 44,
+    "date": "2026-03-16",
+    "description": "Conducted a research spike on the Admin Dashboard API. Compared GraphQL and REST API capabilities for future data synchronization features and real-time updates.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Gained a clear understanding of when to leverage GraphQL for flexible queries versus REST for standard resource access and bulk actions.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-16T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 45,
+    "date": "2026-03-17",
+    "description": "Finalized the refactor of a legacy theme using the new Tailwind CSS setup. Replaced old Bootstrap components with custom Tailwind equivalents to reduce the CSS bundle size.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Deepened practical understanding of utility-first vs component-based styling and the performance benefits of minimizing external CSS dependencies.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-17T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 46,
+    "date": "2026-03-18",
+    "description": "Debugged an intermittent issue in the admin application where cached user data became inconsistent. Traced the root cause to Redis connection pooling in a serverless environment.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Learned about the non-persistent nature of connection handling in distributed environments and the necessity of robust reconnection logic for external storage.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-18T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 47,
+    "date": "2026-03-20",
+    "description": "Merged multiple cleanup and component typing PRs. Started work on improving the primary marketing landing page, specifically focusing on A/B testing implementation using feature flags in Next.js.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Explored A/B testing methodologies and how feature flags control the dynamic rollout of UI changes without redeploying the application.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-20T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 48,
+    "date": "2026-03-21",
+    "description": "Completed structural enhancements for the 'shoptalk' marketing landing page. Ensured full responsiveness and adherence to the new Tailwind design system.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Solidified understanding of semantic HTML and responsive design patterns using Tailwind's grid and flexbox utilities for rapid iteration.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-21T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 49,
+    "date": "2026-03-23",
+    "description": "Began implementing a critical feature for the client-side script: merging product data from client-side context (template engine) and server-side APIs (GraphQL).",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Grappled with complex client-server hydration issues in a Next.js context, ensuring data consistency between the initial render and client-side takeover.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-23T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 50,
+    "date": "2026-03-24",
+    "description": "Finalized the dynamic data fetching logic for the client-side script. Implemented robust error handling for GraphQL failures and added client-side template fallbacks.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Applied TypeScript conditional types to create predictable data shapes for script payloads, minimizing potential runtime errors during integration.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-24T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 51,
+    "date": "2026-03-25",
+    "description": "Worked on the admin application's onboarding flow. Tailored UI updates to integrate marketing content and tracked user progress using React Router and state management.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Identified and resolved issues with deep linking and state management within a React SPA embedded inside an external framework's frame.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-25T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 52,
+    "date": "2026-03-26",
+    "description": "Ensured the web application adhered to Admin Client SDK standards for embedded apps. Focused on standardizing navigation and modal behavior within the host platform's UI.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Detailed study of the Admin Client SDK and its role in creating a seamless, native-like experience for embedded applications.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-26T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 53,
+    "date": "2026-03-27",
+    "description": "Fixed a high-priority bug in the admin app where RBAC permissions were not refreshing after a subscription change. This led to incorrect UI element visibility for several users.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Debugged RBAC state synchronization between the backend (token validation) and the frontend, highlighting the importance of immutable state updates.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-27T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 54,
+    "date": "2026-03-30",
+    "description": "Began implementing a new, complex hero section for the landing page. Used deeply nested Tailwind CSS grid and flex utilities to achieve pixel-perfect alignment and responsiveness.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Mastered advanced CSS layouts using only Tailwind, focusing on handling complex media query breakpoints for fluid responsiveness across devices.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-30T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 55,
+    "date": "2026-03-31",
+    "description": "Performed extensive cross-browser testing for the new landing page sections. Focused on identifying and fixing layout inconsistencies in older versions of Safari and iOS.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Learned about common cross-browser rendering inconsistencies in modern CSS flex and grid implementations and how to apply standard workarounds.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-31T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 56,
+    "date": "2026-04-01",
+    "description": "Achieved final sign-off on the landing page design implementation. Prepared the code for production deployment and added ARIA attributes to improve overall accessibility.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Successfully navigated the final review process, focusing on accessibility standards and minor design system edge cases for a polished user experience.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-01T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 57,
+    "date": "2026-04-02",
+    "description": "Researched requirements for publishing the application to the App Store. Documented all pre-submission checks, including security reviews and performance metrics.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Gained a comprehensive understanding of the app submission checklist and the compliance policies required for production-ready applications.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-02T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 58,
+    "date": "2026-04-06",
+    "description": "Optimized the SPA frontend performance in the Next.js context. Focused on minimizing the main bundle size through lazy loading and strategic code splitting.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Deep dive into React lazy and Suspense for optimizing component loading and improving the perceived load time for end users.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-06T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 59,
+    "date": "2026-04-07",
+    "description": "Refactored key UI components to align with the host platform's native Admin UI design system. Leveraged official component libraries to maintain visual consistency.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Learned to use standardized UI libraries effectively to ensure built-in accessibility and a native-like experience within the admin interface.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-07T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 60,
+    "date": "2026-04-08",
+    "description": "Finalized all landing page assets and content. Prepared the production deployment pipeline on Vercel, including environment variable management and deployment previews.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Leveraged Vercel's platform features to ensure a smooth transition from development to production for the Next.js application.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-08T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 61,
+    "date": "2026-04-09",
+    "description": "Refactored landing page metadata and content for Answer Engine Optimization (AEO) and traditional SEO. Implemented structured schema markup and targeted meta tags.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Learned the distinction between traditional SEO and AEO and how structured data impacts visibility in direct answer snippets.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-09T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 62,
+    "date": "2026-04-10",
+    "description": "Addressed critical production bugs, including a hydration error in the application header caused by environment-specific data fetching on the server.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Diagnosed complex hydration mismatches and learned strategies for ensuring consistency between server-rendered and client-rendered content.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-10T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 63,
+    "date": "2026-04-13",
+    "description": "Began formalizing the backend API contract for new client integration endpoints. Drafted comprehensive Swagger/OpenAPI documentation to ensure team alignment.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Focused on API design best practices, including RESTful resource naming and versioning strategies using the OpenAPI specification.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-13T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 64,
+    "date": "2026-04-14",
+    "description": "Completed technical documentation for the client integration server. Included detailed use cases and example payloads for frontend consumers.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Reinforced the importance of maintaining up-to-date API documentation as the single source of truth for cross-functional development teams.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-14T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 65,
+    "date": "2026-04-15",
+    "description": "Researched third-party customer support and chat agent integrations for the client property. Created multiple small cleanup PRs for the landing page to address minor UI feedback.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Investigated script injection methods and how to integrate external widgets safely into a Next.js environment without impacting performance.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-15T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 66,
+    "date": "2026-04-16",
+    "description": "Collaborated on code reviews for frontend refactoring PRs. Helped resolve a critical circular dependency identified during the production build process.",
+    "hours": 8,
+    "links": null,
+    "blockers": "Blocked by backend on specific integration tasks.",
+    "learnings": "Learned strategies for mitigating circular dependencies in large TypeScript codebases using barrel files and the Single Responsibility Principle.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-16T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 67,
+    "date": "2026-04-17",
+    "description": "Conducted a general refactoring pass across the js-sdk repository. Integrated new Biome linter and formatter rules to ensure code consistency across all sub-packages.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Applied automated code hygiene rules using Biome, reducing mental overhead during peer reviews and maintaining high code quality standards.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-17T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 68,
+    "date": "2026-04-18",
+    "description": "Designed and implemented a reusable NavBar component. Focused on efficient state management for active links and user authentication status using custom React hooks.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Explored the Context API for managing global UI themes and session data across the application, improving component decoupling.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-18T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 69,
+    "date": "2026-04-20",
+    "description": "Focused on the 'beautification' of the frontend application. Applied final design polish and addressed UI/UX feedback items from the product manager to ensure production readiness.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Used the Multi-Client Platform (MCP) to validate application behavior against production standards and ensured consistent appearance across clients.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-20T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 70,
+    "date": "2026-04-21",
+    "description": "Finalized all outstanding issues for the current release cycle. Assisted with the final build and production deployment process for the client web application.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Experienced the full software development lifecycle from initial design to production release and real-time issue resolution.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-21T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 71,
+    "date": "2026-04-22",
+    "description": "Assisted the team lead with a comprehensive review of a large Control Plane backend PR. Focused on TypeScript type safety and the application of RBAC middleware.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Learned to provide constructive feedback in code reviews, specifically spotting pitfalls related to security and data contract integrity.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-22T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 72,
+    "date": "2026-04-23",
+    "description": "Updated landing page content and integrated new structured logging features into the Control Plane API routes for better runtime error tracking.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Configured structured logging using industry-standard libraries to improve observability and debugging in a serverless environment.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-23T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 73,
+    "date": "2026-04-24",
+    "description": "Resolved multiple production bugs and conducted a deep dive into GDPR compliance for frontend applications. Focused on consent management and data privacy standards.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Gained detailed knowledge of GDPR requirements, including the integration of Consent Management Platforms (CMP) and secure user data handling.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-24T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 74,
+    "date": "2026-04-27",
+    "description": "Finalized the handshake protocol between the client integration server and the main backend. Navigated strict third-party API rate limits by implementing a queuing mechanism.",
+    "hours": 8,
+    "links": null,
+    "blockers": "Navigating strict third-party API rate limits.",
+    "learnings": "Recognized the real-world challenge of working with rate-limited APIs and the necessity of designing throttling mechanisms for reliable service delivery.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-27T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  },
+  {
+    "id": 75,
+    "date": "2026-04-28",
+    "description": "Conducted a final project retrospective and hand-over session with the engineering team. Verified all documentation was updated in Notion and ensured all pending Pull Requests were merged or properly handed off.",
+    "hours": 8,
+    "links": null,
+    "blockers": null,
+    "learnings": "Gained a holistic view of the software development lifecycle and the importance of thorough documentation and knowledge transfer for project sustainability.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-28T10:00:00.000000Z",
+    "internship": {
+      "name": "Frontend Developer"
+    }
+  }
+]

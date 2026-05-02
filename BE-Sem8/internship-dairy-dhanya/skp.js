@@ -1,14 +1,13 @@
 import fs from "fs";
 
-const internship_id = 6581;
+const internship_id = 7027;
 const baseUrl = "https://vtuapi.internyet.in/api/v1/student/internship-diaries";
 const skillsUrl = "https://vtuapi.internyet.in/api/v1/student/skills";
 const headers = {
   Accept: "application/json",
   "Content-Type": "application/json",
   Cookie:
-    "_ga=GA1.1.1298826862.1768596501; _ga_FRQJNHYVRZ=GS2.1.s1769845317$o9$g0$t1769845317$j60$l0$h0; twk_uuid_689c7188a7ee3319309bdeae=%7B%22uuid%22%3A%221.Sx09s0L7l9KgWQxU0sDaD8eYWdEB8E5QDveNO178rskXD5PId1dGOdN9bztWXYKdX8zk4XqwEJ3GOurxUWWojUpx8xPKifsrBUAfbWLxFZPuGPQ3rn0yE%22%2C%22version%22%3A3%2C%22domain%22%3A%22internyet.in%22%2C%22ts%22%3A1777646235070%7D; access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3Z0dWFwaS5pbnRlcm55ZXQuaW4vYXBpL3YxL2F1dGgvbG9naW4iLCJpYXQiOjE3Nzc2NDYyNDIsImV4cCI6MTc3NzY0OTg0MiwibmJmIjoxNzc3NjQ2MjQyLCJqdGkiOiJyRFJaRnFhUlRxcWdtaFphIiwic3ViIjoiNjk4MjMiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.3J6lHgZffQ4npx2rjgwU4TuWWUbGmvX-k6rg35u1tVc; refresh_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3Z0dWFwaS5pbnRlcm55ZXQuaW4vYXBpL3YxL2F1dGgvbG9naW4iLCJpYXQiOjE3Nzc2NDYyNDIsImV4cCI6MTc3NzY2NjQwMiwibmJmIjoxNzc3NjQ2MjQyLCJqdGkiOiJHYnZLTlNsNVlvTXVVR3owIiwic3ViIjoiNjk4MjMiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3IiwidHlwZSI6InJlZnJlc2gifQ.MwRhzA1T8t2Nho9pHDUw2J2n0J7NVr39DRiPEtaQm7E"
-  };
+        "_ga=GA1.1.1298826862.1768596501; _ga_FRQJNHYVRZ=GS2.1.s1769845317$o9$g0$t1769845317$j60$l0$h0; twk_uuid_689c7188a7ee3319309bdeae=%7B%22uuid%22%3A%221.Sx09s0L7l9KgWQxU0sDaD8eYWdEB8E5QDveNO178rskXD5PId1dGOdN9bztWXYKdX8zk4XqwEJ3GOurxUWWojUpx8xPKifsrBUAfbWLxFZPuGPQ3rn0yE%22%2C%22version%22%3A3%2C%22domain%22%3A%22internyet.in%22%2C%22ts%22%3A1777733556472%7D; access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3Z0dWFwaS5pbnRlcm55ZXQuaW4vYXBpL3YxL2F1dGgvbG9naW4iLCJpYXQiOjE3Nzc3MzM2NzksImV4cCI6MTc3NzczNzI3OSwibmJmIjoxNzc3NzMzNjc5LCJqdGkiOiJDaHR5cGpkVlJaTG0xanpsIiwic3ViIjoiNjk5NjMiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.igQkXxwnygXdnokOU281b88vIiJF7UBFYm9iWoyX-98; refresh_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3Z0dWFwaS5pbnRlcm55ZXQuaW4vYXBpL3YxL2F1dGgvbG9naW4iLCJpYXQiOjE3Nzc3MzM2NzksImV4cCI6MTc3Nzc1MzgzOSwibmJmIjoxNzc3NzMzNjc5LCJqdGkiOiJZa0JVU2xXYVR5dW1KOXJiIiwic3ViIjoiNjk5NjMiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3IiwidHlwZSI6InJlZnJlc2gifQ.qIT2wn_VhixJzvcdg0LrXv3MR6_lQBDSj526B_vmp-M"};
 
 async function safeJson(res) {
   const text = await res.text();
@@ -84,8 +83,8 @@ async function processDiaries() {
 
     try {
       // Small delay before check
-      await new Promise((resolve) => setTimeout(resolve, 5000));
-      
+      await new Promise((resolve) => setTimeout(resolve, 2000));
+
       const existingId = await checkEntry(entry.date);
 
       if (existingId === "RATE_LIMIT") {
@@ -94,41 +93,7 @@ async function processDiaries() {
       }
 
       if (existingId) {
-        console.log(`Entry exists (ID: ${existingId}). Updating...`);
-        // Delay before update
-        await new Promise((resolve) => setTimeout(resolve, 5000));
-        
-        const updatePayload = {
-          id: existingId,
-          internship_id: internship_id,
-          date: entry.date,
-          description: entry.description,
-          hours: entry.hours,
-          learnings: entry.learnings,
-          blockers: entry.blockers,
-          mood_slider: entry.mood_slider || 5,
-          status: 2,
-          skill_ids: skillIds,
-        };
-
-        const res = await fetch(`${baseUrl}/store`, {
-          method: "POST",
-          headers,
-          body: JSON.stringify(updatePayload),
-        });
-        const resJson = await safeJson(res);
-        if (res.ok) {
-          console.log(
-            `✅ Updated ${entry.date}: ${resJson?.message || "Success"}`
-          );
-        } else {
-          console.error(`❌ Failed to update ${entry.date}: ${res.status}`);
-          console.error("Response:", JSON.stringify(resJson));
-          if (res.status === 429) {
-            console.error("Rate limit hit during update. Stopping execution.");
-            return;
-          }
-        }
+        console.log(`Entry exists (ID: ${existingId}). Skipping...`);
         continue;
       }
 
@@ -146,8 +111,8 @@ async function processDiaries() {
 
       console.log("Entry does not exist. Creating...");
       // Another delay before create
-      await new Promise((resolve) => setTimeout(resolve, 5000));
-      
+      await new Promise((resolve) => setTimeout(resolve, 2000));
+
       const res = await fetch(`${baseUrl}/store`, {
         method: "POST",
         headers,
