@@ -1,0 +1,1427 @@
+[
+  {
+    "id": 4614905,
+    "date": "2026-05-07",
+    "description": "Worked on implementing and testing various machine learning modules. Focused on data preprocessing, model execution, and validating results to ensure accuracy and consistency.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Improved understanding of data science workflows and model performance validation. Learned how to handle datasets effectively and interpret model outputs for better decision making.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-07T10:00:00.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4614904,
+    "date": "2026-05-06",
+    "description": "Worked on implementing and testing various machine learning modules. Focused on data preprocessing, model execution, and validating results to ensure accuracy and consistency.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Improved understanding of data science workflows and model performance validation. Learned how to handle datasets effectively and interpret model outputs for better decision making.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-06T10:00:00.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4614903,
+    "date": "2026-05-05",
+    "description": "Worked on implementing and testing various machine learning modules. Focused on data preprocessing, model execution, and validating results to ensure accuracy and consistency.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Improved understanding of data science workflows and model performance validation. Learned how to handle datasets effectively and interpret model outputs for better decision making.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-05T10:00:00.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4614902,
+    "date": "2026-05-04",
+    "description": "Worked on implementing and testing various machine learning modules. Focused on data preprocessing, model execution, and validating results to ensure accuracy and consistency.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Improved understanding of data science workflows and model performance validation. Learned how to handle datasets effectively and interpret model outputs for better decision making.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-04T10:00:00.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4609606,
+    "date": "2026-05-03",
+    "description": "Dedicated the day to self-learning and revising core concepts related to Data Science Internship – Learn, Build & Launch Your Career. Studied advanced topics, explored new libraries, and worked on improving practical implementation skills through independent research and practice.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Gained deeper insights into Data Science Internship – Learn, Build & Launch Your Career workflows and refined problem-solving techniques. Learned about new tools and methodologies through self-paced learning and revision of key concepts.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-03T05:35:54.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4614878,
+    "date": "2026-05-02",
+    "description": "Dedicated the day to self-learning and revising core concepts related to Data Science Internship – Learn, Build & Launch Your Career. Studied advanced topics, explored new libraries, and worked on improving practical implementation skills through independent research and practice.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Gained deeper insights into Data Science Internship – Learn, Build & Launch Your Career workflows and refined problem-solving techniques. Learned about new tools and methodologies through self-paced learning and revision of key concepts.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-03T06:40:05.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4609178,
+    "date": "2026-05-01",
+    "description": "Worked on machine learning model implementation using Python in a Jupyter Notebook environment. Performed dataset handling, preprocessing, and applied classification algorithms using Scikit-learn. Focused on understanding model behavior, predictions, and improving accuracy through experimentation.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Gained practical experience in implementing machine learning models using Scikit-learn. Improved understanding of classification techniques, data preprocessing, and evaluation of model performance. Learned how to analyze outputs and refine models for better accuracy.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-05-03T05:29:23.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4614683,
+    "date": "2026-04-30",
+    "description": "Worked on executing and validating machine learning workflow in a Jupyter Notebook. Ran code cells, observed outputs, and verified prediction results. Focused on ensuring proper execution and consistency across multiple runs.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Improved understanding of execution flow in machine learning notebooks. Learned how to validate outputs and ensure consistency in model predictions through repeated testing.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-05-03T06:37:54.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4614528,
+    "date": "2026-04-29",
+    "description": "Worked on implementing and executing the main application file using Python. Focused on integrating different components of the system, handling user inputs, and ensuring proper execution flow. Tested the application to verify functionality and output correctness.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Learned how to structure and run a complete Python application by combining multiple components. Gained understanding of execution flow, input handling, and integration of different modules in a working system.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-03T06:36:24.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4614390,
+    "date": "2026-04-28",
+    "description": "Worked on developing an AI-based application using Python by implementing backend logic in a script file. Focused on integrating model APIs, handling user input, and generating responses through the application. Ensured proper execution of the program and tested functionality for different inputs",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Learned how to build and execute a Python-based AI application by integrating external model services. Gained understanding of API handling, input processing, and response generation. Improved knowledge of how real-world AI applications are structured.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-05-03T06:34:53.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4614248,
+    "date": "2026-04-27",
+    "description": "Executed machine learning notebook and reviewed outputs. Ran multiple code cells, validated results, and ensured proper execution of the workflow. Focused on checking consistency and correctness of model predictions.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Improved understanding of model execution flow and output validation. Learned how to identify inconsistencies in predictions and ensure stable results through repeated testing.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-05-03T06:33:15.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4614901,
+    "date": "2026-04-26",
+    "description": "Dedicated the day to self-learning and revising core concepts related to Data Science Internship – Learn, Build & Launch Your Career. Studied advanced topics, explored new libraries, and worked on improving practical implementation skills through independent research and practice.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Gained deeper insights into Data Science Internship – Learn, Build & Launch Your Career workflows and refined problem-solving techniques. Learned about new tools and methodologies through self-paced learning and revision of key concepts.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-26T10:00:00.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4614101,
+    "date": "2026-04-25",
+    "description": "Dedicated the day to self-learning and revising core concepts related to Data Science Internship – Learn, Build & Launch Your Career. Studied advanced topics, explored new libraries, and worked on improving practical implementation skills through independent research and practice.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Gained deeper insights into Data Science Internship – Learn, Build & Launch Your Career workflows and refined problem-solving techniques. Learned about new tools and methodologies through self-paced learning and revision of key concepts.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-03T06:31:40.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4612962,
+    "date": "2026-04-24",
+    "description": "Executed and reviewed notebook containing machine learning workflow. Ran all cells, observed outputs, and verified execution correctness. Checked consistency of results across runs.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Understood how repeated execution affects output stability in notebooks. Improved ability to validate results and follow execution flow in machine learning pipelines.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-03T06:18:36.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4612816,
+    "date": "2026-04-23",
+    "description": "Executed and analyzed machine learning notebook. Ran multiple cells, verified outputs, and ensured proper execution flow. Observed results and checked for consistency across runs.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Gained better understanding of notebook execution flow and how outputs change with repeated runs. Improved ability to verify results and identify inconsistencies in execution.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-05-03T06:16:54.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4612675,
+    "date": "2026-04-22",
+    "description": "Executed machine learning notebook and verified outputs. Ran different cells multiple times to observe results, ensured code execution without errors, and analyzed output consistency.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Understood how repeated execution of notebook cells can affect outputs. Improved observation of model behavior and result validation. Learned to identify minor inconsistencies and ensure stable execution.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-05-03T06:15:10.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4612527,
+    "date": "2026-04-21",
+    "description": "Executed and tested machine learning code in Jupyter Notebook. Ran multiple iterations of the notebook, observed outputs, and verified consistency of results. Checked model behavior with different executions and ensured proper functioning.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Gained better understanding of how model outputs can vary slightly across executions. Improved ability to validate results and identify inconsistencies during testing. Strengthened debugging and observation skills in ML workflows.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-05-03T06:13:22.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4612385,
+    "date": "2026-04-20",
+    "description": "Executed machine learning code in Jupyter Notebook and verified outputs across multiple runs. Tested different inputs and observed prediction behavior. Ensured proper execution flow and consistency in results.",
+    "hours": 3,
+    "links": null,
+    "blockers": null,
+    "learnings": "Understood how repeated executions can produce slight variations in outputs. Improved ability to trace execution flow and validate model predictions. Gained better confidence in debugging inconsistencies during testing.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-05-03T06:11:40.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4614900,
+    "date": "2026-04-19",
+    "description": "Dedicated the day to self-learning and revising core concepts related to Data Science Internship – Learn, Build & Launch Your Career. Studied advanced topics, explored new libraries, and worked on improving practical implementation skills through independent research and practice.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Gained deeper insights into Data Science Internship – Learn, Build & Launch Your Career workflows and refined problem-solving techniques. Learned about new tools and methodologies through self-paced learning and revision of key concepts.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-19T10:00:00.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4612148,
+    "date": "2026-04-18",
+    "description": "Dedicated the day to self-learning and revising core concepts related to Data Science Internship – Learn, Build & Launch Your Career. Studied advanced topics, explored new libraries, and worked on improving practical implementation skills through independent research and practice.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Gained deeper insights into Data Science Internship – Learn, Build & Launch Your Career workflows and refined problem-solving techniques. Learned about new tools and methodologies through self-paced learning and revision of key concepts.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-03T06:08:32.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4612286,
+    "date": "2026-04-17",
+    "description": "Executed machine learning code in Jupyter Notebook and verified outputs across multiple runs. Tested different inputs and observed prediction behavior. Ensured proper execution flow and consistency in results",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Understood how repeated executions can produce slight variations in outputs. Improved ability to trace execution flow and validate model predictions. Gained better confidence in debugging inconsistencies during testing.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-03T06:10:23.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4611959,
+    "date": "2026-04-16",
+    "description": "Continued implementation of machine learning workflow in Jupyter Notebook. Executed and verified code cells, analyzed model outputs, and performed iterative testing with different input variations. Focused on improving model performance and ensuring stable execution of the pipeline.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Improved understanding of model behavior through repeated execution and testing. Learned how small changes in input and parameters can affect prediction outcomes. Strengthened practical skills in debugging and refining machine learning workflows.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-05-03T06:06:21.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4611696,
+    "date": "2026-04-15",
+    "description": "Continued working on machine learning model implementation using Python in Jupyter Notebook. Executed code cells, validated outputs, and tested model behavior with different input data. Focused on improving prediction consistency and ensuring smooth execution of the workflow.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Gained better understanding of how machine learning models respond to different inputs. Learned the importance of repeated testing and validation for achieving consistent and reliable outputs. Improved practical knowledge in model execution and result interpretation.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-05-03T06:03:21.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4611560,
+    "date": "2026-04-14",
+    "description": "Continued working on machine learning implementation using Python in a Jupyter Notebook environment. Executed model workflows, tested different inputs, and analyzed prediction outputs. Focused on ensuring correct execution and improving overall model performance through repeated testing",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Improved understanding of machine learning model execution and output analysis. Learned how testing with different inputs affects predictions and helps in validating model performance. Strengthened practical skills in handling ML workflows.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-03T06:01:52.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4611445,
+    "date": "2026-04-13",
+    "description": "Worked on developing a Transformer-based application using Python. Implemented model logic for handling text-based input and generating outputs using transformer architecture. Focused on integrating the model into an application workflow and testing its performance with different inputs.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Learned how transformer-based models work for handling text data and generating meaningful outputs. Gained understanding of modern NLP techniques and how they are applied in real-world applications. Improved knowledge of integrating advanced models into functional applications.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-05-03T06:00:21.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4614899,
+    "date": "2026-04-12",
+    "description": "Dedicated the day to self-learning and revising core concepts related to Data Science Internship – Learn, Build & Launch Your Career. Studied advanced topics, explored new libraries, and worked on improving practical implementation skills through independent research and practice.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Gained deeper insights into Data Science Internship – Learn, Build & Launch Your Career workflows and refined problem-solving techniques. Learned about new tools and methodologies through self-paced learning and revision of key concepts.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-12T10:00:00.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4610749,
+    "date": "2026-04-11",
+    "description": "Dedicated the day to self-learning and revising core concepts related to Data Science Internship – Learn, Build & Launch Your Career. Studied advanced topics, explored new libraries, and worked on improving practical implementation skills through independent research and practice.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Gained deeper insights into Data Science Internship – Learn, Build & Launch Your Career workflows and refined problem-solving techniques. Learned about new tools and methodologies through self-paced learning and revision of key concepts.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-03T05:50:50.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4610663,
+    "date": "2026-04-10",
+    "description": "Continued working on machine learning tasks using Python in a Jupyter Notebook. Executed model workflows, tested predictions, and analyzed output results. Focused on ensuring correct implementation and improving overall execution of the code",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Enhanced understanding of machine learning execution flow and model behavior. Gained more confidence in running models, analyzing outputs, and validating results through repeated testing.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-05-03T05:49:33.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4610518,
+    "date": "2026-04-09",
+    "description": "Worked on developing a Movie Recommender System using Python and Streamlit. Implemented recommendation logic to suggest movies based on user input. Built an interactive user interface using Streamlit and integrated the backend model to display relevant movie recommendations.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Learned how to build a real-time recommendation system and deploy it using Streamlit. Gained experience in connecting backend machine learning logic with a frontend interface. Improved understanding of recommendation algorithms and user interaction design.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-03T05:47:37.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4610342,
+    "date": "2026-04-08",
+    "description": "Worked on implementing and executing machine learning code in a Jupyter Notebook. Focused on running model-related operations, testing outputs, and verifying prediction results. Ensured proper execution of code and analyzed results for correctness.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Improved understanding of how machine learning models generate predictions and how outputs vary with different inputs. Gained hands-on experience in executing code, analyzing results, and validating model behavior.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-05-03T05:45:25.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4610172,
+    "date": "2026-04-07",
+    "description": "Worked on machine learning implementation using Python in a Jupyter Notebook environment. Focused on executing model workflows, validating outputs, and analyzing prediction results. Performed testing with different inputs and ensured proper functioning of the implemented logic.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Gained better clarity on how machine learning models behave with different inputs. Improved understanding of prediction flow, data handling, and output verification. Strengthened practical skills in executing and debugging ML code.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-05-03T05:43:07.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4610007,
+    "date": "2026-04-06",
+    "description": "Continued working on machine learning implementation using Python in a Jupyter Notebook. Focused on improving model performance, refining preprocessing steps, and testing different inputs on trained models. Analyzed results and verified prediction accuracy.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Strengthened understanding of machine learning workflows and model behavior. Learned how small changes in preprocessing and input data can impact prediction accuracy. Improved practical skills in handling datasets and evaluating model outputs.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-03T05:40:55.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4614898,
+    "date": "2026-04-05",
+    "description": "Dedicated the day to self-learning and revising core concepts related to Data Science Internship – Learn, Build & Launch Your Career. Studied advanced topics, explored new libraries, and worked on improving practical implementation skills through independent research and practice.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Gained deeper insights into Data Science Internship – Learn, Build & Launch Your Career workflows and refined problem-solving techniques. Learned about new tools and methodologies through self-paced learning and revision of key concepts.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-05T10:00:00.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4609676,
+    "date": "2026-04-04",
+    "description": "Dedicated the day to self-learning and revising core concepts related to Data Science Internship – Learn, Build & Launch Your Career. Studied advanced topics, explored new libraries, and worked on improving practical implementation skills through independent research and practice.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Gained deeper insights into Data Science Internship – Learn, Build & Launch Your Career workflows and refined problem-solving techniques. Learned about new tools and methodologies through self-paced learning and revision of key concepts.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-03T05:36:49.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4609477,
+    "date": "2026-04-03",
+    "description": "Worked on implementing machine learning workflows in a Jupyter Notebook environment. Performed data loading, preprocessing, and applied classification techniques using Scikit-learn. Focused on experimenting with model training and analyzing prediction results.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Gained practical understanding of applying machine learning models on datasets using Python. Improved knowledge of preprocessing steps, model training, and evaluation techniques. Learned how to interpret model outputs and refine results through experimentation.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-03T05:33:55.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4609360,
+    "date": "2026-04-02",
+    "description": "Worked on two machine learning tasks using Python. Implemented a churn prediction model using supervised learning techniques and performed customer segmentation using unsupervised learning (clustering). Handled dataset preprocessing, feature selection, and applied Scikit-learn algorithms to analyze customer behavior patterns.",
+    "hours": 4,
+    "links": null,
+    "blockers": null,
+    "learnings": "Learned the difference between supervised and unsupervised learning approaches. Gained hands-on experience in building a churn prediction model and performing customer segmentation using clustering techniques. Improved understanding of how machine learning can be applied to real-world business problems like customer retention and marketing.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-05-03T05:32:10.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4614897,
+    "date": "2026-04-01",
+    "description": "Worked on implementing and testing various machine learning modules. Focused on data preprocessing, model execution, and validating results to ensure accuracy and consistency.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Improved understanding of data science workflows and model performance validation. Learned how to handle datasets effectively and interpret model outputs for better decision making.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-04-01T10:00:00.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4608962,
+    "date": "2026-03-31",
+    "description": "Worked on machine learning tasks using Python and Scikit-learn. Loaded and explored datasets such as breast cancer and iris datasets. Implemented and trained models like K-Nearest Neighbors (KNN), and studied concepts of classification algorithms including decision trees. Focused on data handling, model training, and understanding prediction",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Learned how to work with real-world datasets using Scikit-learn and perform data analysis. Understood machine learning concepts such as classification, KNN algorithm, and decision tree structures. Gained knowledge about overfitting and methods like random forest to improve model performance.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-05-03T05:25:48.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4608804,
+    "date": "2026-03-30",
+    "description": "Worked on developing and improving an AI-based chatbot application. Integrated backend logic, handled API connections, and tested model responses. Focused on improving response accuracy, debugging errors, and ensuring smooth interaction between frontend and backend components.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Learned how to build and integrate AI chatbot systems using modern tools and APIs. Gained hands-on experience with backend development, debugging, and handling real-time data flow. Improved understanding of cloud-based AI services, prompt handling, and system design for scalable applications.",
+    "mood_slider": 5,
+    "status": 1,
+    "created_at": "2026-05-03T05:23:07.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 2655821,
+    "date": "2026-03-29",
+    "description": "Dedicated the day to self-learning and revising core concepts related to Data Science Internship – Learn, Build & Launch Your Career. Studied advanced topics, explored new libraries, and worked on improving practical implementation skills through independent research and practice.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Gained deeper insights into Data Science Internship – Learn, Build & Launch Your Career workflows and refined problem-solving techniques. Learned about new tools and methodologies through self-paced learning and revision of key concepts.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-29T17:25:28.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 2655762,
+    "date": "2026-03-28",
+    "description": "Dedicated the day to self-learning and revising core concepts related to Data Science Internship – Learn, Build & Launch Your Career. Studied advanced topics, explored new libraries, and worked on improving practical implementation skills through independent research and practice.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Gained deeper insights into Data Science Internship – Learn, Build & Launch Your Career workflows and refined problem-solving techniques. Learned about new tools and methodologies through self-paced learning and revision of key concepts.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-29T17:24:12.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 2651695,
+    "date": "2026-03-27",
+    "description": "On this day, I worked on data visualization and dashboard development using Power BI. The task involved loading the dataset, performing data cleaning, and preparing it for analysis. I created multiple visualizations such as bar charts, line graphs, and pie charts to represent key insights. Filters and slicers were implemented to make the dashboard interactive. The work also included identifying trends and patterns in the dataset and organizing the visuals in a structured dashboard layout for better understanding.",
+    "hours": 3,
+    "links": null,
+    "blockers": null,
+    "learnings": "Understood the process of data preprocessing and cleaning before visualization\nLearned how to create interactive dashboards in Power BI\nGained knowledge of different visualization techniques for representing data\nImproved understanding of identifying trends and patterns in datasets\nLearned how to use filters, slicers, and report-level interactions",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-29T15:56:59.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 2651582,
+    "date": "2026-03-26",
+    "description": "Worked on Exploratory Data Analysis (EDA) for a real-world problem. Understood the business requirement of a flower export company and performed data collection, data preparation, and data cleaning. Conducted exploratory analysis to identify patterns, trends, and insights from the dataset.",
+    "hours": 3,
+    "links": null,
+    "blockers": null,
+    "learnings": "Understood the complete workflow of Exploratory Data Analysis (EDA)\nLearned how to translate business problems into data problems\nGained knowledge in data preprocessing and cleaning techniques\nLearned how to analyze datasets to extract meaningful insights\nImproved understanding of data-driven decision making",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-29T15:54:46.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 2651463,
+    "date": "2026-03-25",
+    "description": "The Dash framework is used to build interactive dashboards that are production-ready for industry use. It allows users to create UI components like buttons, dropdowns, and sliders, and connect easily with databases and APIs. When a user interacts with one visualization, all related components in the dashboard update dynamically.",
+    "hours": 3,
+    "links": null,
+    "blockers": null,
+    "learnings": "The Dash framework is used to build interactive dashboards that are production-ready for industry use. It allows users to create UI components like buttons, dropdowns, and sliders, and connect easily with databases and APIs. When a user interacts with one visualization, all related components in the dashboard update dynamically.py",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-29T15:52:17.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 2650620,
+    "date": "2026-03-24",
+    "description": "I studied different Python libraries and their roles:\n\nNumPy → used for mathematical calculations\nPandas → used for data manipulation\nMatplotlib → used for basic data visualization\nSeaborn → used for statistical data visualization\nPlotly → used for interactive data visualization\n\nPlotly is an advanced visualization library that allows:\n\nZooming, panning, and clicking on graphs\nBuilding dashboards\nCreating web-based visualizations\nGenerating 3D plots and interactive charts\nIntegration with NumPy and Pandas",
+    "hours": 3,
+    "links": null,
+    "blockers": null,
+    "learnings": "Learned how Plotly creates interactive visualizations\nUnderstood different types of plots and their real-world usage\nLearned how to build dashboards and web-based visualizations\nGained knowledge of differences between visualization libraries",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-29T15:33:35.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 2650403,
+    "date": "2026-03-23",
+    "description": "Studied the fundamentals of Machine Learning as a part of data analytics training. Learned about the concept of Machine Learning and its importance in predicting future outcomes using historical data. Explored different types of Machine Learning including supervised and unsupervised learning. Understood how these techniques are used in real-world applications for data-driven decision making.",
+    "hours": 3,
+    "links": null,
+    "blockers": null,
+    "learnings": "Understood the concept of Machine Learning and its role in Artificial Intelligence\nLearned how past data is used to predict future values\nGained knowledge about types of Machine Learning:\nSupervised Learning\nUnsupervised Learning\nDeveloped understanding of how ML is applied in real-world scenarios",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-29T15:27:39.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 2655379,
+    "date": "2026-03-22",
+    "description": "Dedicated the day to self-learning and revising core concepts related to Data Science Internship – Learn, Build & Launch Your Career. Studied advanced topics, explored new libraries, and worked on improving practical implementation skills through independent research and practice.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Gained deeper insights into Data Science Internship – Learn, Build & Launch Your Career workflows and refined problem-solving techniques. Learned about new tools and methodologies through self-paced learning and revision of key concepts.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-29T17:16:09.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4614896,
+    "date": "2026-03-21",
+    "description": "Dedicated the day to self-learning and revising core concepts related to Data Science Internship – Learn, Build & Launch Your Career. Studied advanced topics, explored new libraries, and worked on improving practical implementation skills through independent research and practice.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Gained deeper insights into Data Science Internship – Learn, Build & Launch Your Career workflows and refined problem-solving techniques. Learned about new tools and methodologies through self-paced learning and revision of key concepts.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-21T10:00:00.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 2655111,
+    "date": "2026-03-20",
+    "description": "Studied the fundamentals of Machine Learning including its definition, importance, and real-world applications. Learned different types of Machine Learning such as supervised, unsupervised, and reinforcement learning. Understood key concepts like regression, classification, clustering, and association rule learning.\n\nWorked on the Machine Learning life cycle including problem definition, data collection, data cleaning, preprocessing, exploratory data analysis (EDA), feature engineering, model selection, training, evaluation, and deployment.\n\nAlso explored data preprocessing techniques like handling missing values, removing duplicates, scaling data, and encoding categorical variables. Gained understanding of how machine learning is applied in industries like healthcare, banking, e-commerce, and social media.",
+    "hours": 3,
+    "links": null,
+    "blockers": null,
+    "learnings": "Understood core concepts of Machine Learning and its importance\nLearned different types of ML algorithms and their use cases\nGained knowledge of data preprocessing and its advantages\nUnderstood the complete Machine Learning life cycle\nLearned how models are trained, evaluated, and deployed\nIdentified real-world applications of ML in various domains",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-29T17:10:12.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4614895,
+    "date": "2026-03-19",
+    "description": "Worked on implementing and testing various machine learning modules. Focused on data preprocessing, model execution, and validating results to ensure accuracy and consistency.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Improved understanding of data science workflows and model performance validation. Learned how to handle datasets effectively and interpret model outputs for better decision making.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-19T10:00:00.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 2655040,
+    "date": "2026-03-18",
+    "description": "Collected and analyzed pizza sales dataset using Power BI.\nCleaned and transformed raw data (handled null values, formatted columns).\nCreated calculated columns and measures (Total Revenue, Average Order Value, Total Orders).\nBuilt interactive dashboard with KPIs, bar charts, line charts, and pie charts.\nDesigned filters (date range, pizza category) for dynamic analysis.\nVisualized trends like daily sales, monthly performance, and category-wise sales.\nIdentified business insights such as busiest days, top-selling categories, and size preferences",
+    "hours": 3,
+    "links": null,
+    "blockers": null,
+    "learnings": "Understood complete data analysis workflow (data cleaning → modeling → visualization).\nLearned how to use Power BI tools like Power Query and DAX.\nGained knowledge of dashboard design principles.\nLearned to interpret business data and extract meaningful insights.\nImproved ability to present data in a clear and interactive format.\nUnderstood real-world application of Business Intelligence (BI).",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-29T17:08:33.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 2654957,
+    "date": "2026-03-17",
+    "description": "Worked on analyzing a pizza sales dataset using SQL queries. Extracted key business insights such as total revenue, total orders, total pizzas sold, and average order value. Performed trend analysis including daily and monthly order patterns. Conducted category-wise and size-wise revenue distribution analysis. Identified top 5 and bottom 5 pizzas based on revenue, quantity sold, and number of orders.",
+    "hours": 3,
+    "links": null,
+    "blockers": null,
+    "learnings": "Understood how to analyze real-world sales data using SQL\nLearned to calculate key performance indicators (KPIs) like revenue, orders, and averages\nGained knowledge of trend analysis (daily and monthly patterns)\nLearned how to evaluate product performance (best and worst sellers)\nDeveloped ability to interpret business insights from raw data",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-29T17:06:50.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 2654906,
+    "date": "2026-03-16",
+    "description": "Worked on a Pizza Sales Data Analysis project using Python. The dataset was processed and analyzed to extract meaningful business insights. Tasks included data cleaning, transformation, and visualization. Various analytical techniques were applied to understand sales trends, customer preferences, and product performance",
+    "hours": 3,
+    "links": null,
+    "blockers": null,
+    "learnings": "Understood how to handle real-world datasets\nLearned data cleaning and preprocessing techniques\nGained knowledge of exploratory data analysis (EDA)\nLearned to identify sales patterns and trends\nImproved ability to interpret business data for decision-making\nUnderstood how visualizations help in insights",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-29T17:05:28.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4614894,
+    "date": "2026-03-15",
+    "description": "Dedicated the day to self-learning and revising core concepts related to Data Science Internship – Learn, Build & Launch Your Career. Studied advanced topics, explored new libraries, and worked on improving practical implementation skills through independent research and practice.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Gained deeper insights into Data Science Internship – Learn, Build & Launch Your Career workflows and refined problem-solving techniques. Learned about new tools and methodologies through self-paced learning and revision of key concepts.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-15T10:00:00.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 2654830,
+    "date": "2026-03-14",
+    "description": "Dedicated the day to self-learning and revising core concepts related to Data Science Internship – Learn, Build & Launch Your Career. Studied advanced topics, explored new libraries, and worked on improving practical implementation skills through independent research and practice.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Gained deeper insights into Data Science Internship – Learn, Build & Launch Your Career workflows and refined problem-solving techniques. Learned about new tools and methodologies through self-paced learning and revision of key concepts.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-29T17:03:48.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 2654756,
+    "date": "2026-03-13",
+    "description": "During the internship, I worked on data visualization and dashboard creation using Power BI. I collected and imported datasets (Excel/CSV), performed data cleaning and transformation using Power Query, and built interactive dashboards. I created charts such as bar graphs, pie charts, line charts, and KPI cards to represent business insights. I also implemented filters, slicers, and drill-through features to improve user interaction and data analysis.",
+    "hours": 3,
+    "links": null,
+    "blockers": null,
+    "learnings": "Understood the complete data analysis workflow: data collection, cleaning, transformation, and visualization\nLearned how to use Power BI tools like Power Query and DAX for data manipulation\nGained knowledge in creating interactive and dynamic dashboards\nDeveloped ability to analyze large datasets and extract meaningful insights\nImproved understanding of business intelligence concepts and decision-making support",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-29T17:01:47.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 2654664,
+    "date": "2026-03-12",
+    "description": "Collected and analyzed datasets related to business and customer behavior.\nPerformed data cleaning and preprocessing using Power BI Query Editor.\nCreated interactive dashboards using Power BI tools like charts, slicers, and filters.\nBuilt data models by establishing relationships between tables.\nUsed DAX (Data Analysis Expressions) to create calculated columns and measures.\nVisualized key insights such as sales trends, customer segmentation, and performance metrics.\nGenerated reports for decision-making and business analysis.",
+    "hours": 3,
+    "links": null,
+    "blockers": null,
+    "learnings": "Learned how to clean and transform data efficiently.\nGained knowledge of creating dashboards and reports in Power BI.\nDeveloped skills in DAX for calculations and data analysis.\nImproved ability to interpret data and identify patterns and trends.\nLearned how to present data in a meaningful and interactive way.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-29T16:59:42.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 2654422,
+    "date": "2026-03-11",
+    "description": "Studied the fundamentals of Power BI, a business intelligence tool developed by Microsoft. Learned how Power BI is used to analyze large datasets and create interactive dashboards for data-driven decision making. Explored different data sources such as Excel, CSV, SQL, and cloud platforms like Azure. Understood the components of Power BI including Power BI Desktop, Service, Mobile, and Gateway. Practiced creating basic visualizations such as bar charts, pie charts, line charts, KPI cards, and tables. Also learned about real-time dashboards, data transformation using Power Query, and data modeling concepts",
+    "hours": 3,
+    "links": null,
+    "blockers": null,
+    "learnings": "Understood the concept of Business Intelligence (BI) tools\nLearned how to analyze large datasets efficiently\nGained knowledge of interactive dashboard creation\nUnderstood data-driven decision making in business\nLearned about Power BI components and architecture\nGained basic understanding of data transformation and modeling\nIdentified real-world applications in domains like e-commerce, healthcare, and finance",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-29T16:53:43.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 2654252,
+    "date": "2026-03-10",
+    "description": "During the internship, I worked on database management and data analysis concepts. I practiced writing SQL queries using subqueries to retrieve meaningful data such as employees with salaries above average, customers who placed orders, and products based on pricing conditions.\n\nI also worked on creating and managing database objects like tables, stored procedures, and triggers. I implemented different types of triggers such as AFTER INSERT, AFTER UPDATE, and INSTEAD OF INSERT to automate tasks like updating timestamps and maintaining logs",
+    "hours": 3,
+    "links": null,
+    "blockers": null,
+    "learnings": "Understood the concept and implementation of SQL subqueries\nGained knowledge of relational database design and normalization techniques\nLearned how to create and execute stored procedures\nDeveloped understanding of database triggers and their real-time applications\nLearned basic performance tuning techniques for databases\nGained exposure to data handling using Python and Seaborn\nUnderstood how to convert datasets into CSV format for further analysis",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-29T16:49:46.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4614893,
+    "date": "2026-03-09",
+    "description": "Worked on implementing and testing various machine learning modules. Focused on data preprocessing, model execution, and validating results to ensure accuracy and consistency.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Improved understanding of data science workflows and model performance validation. Learned how to handle datasets effectively and interpret model outputs for better decision making.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-09T10:00:00.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4614892,
+    "date": "2026-03-08",
+    "description": "Dedicated the day to self-learning and revising core concepts related to Data Science Internship – Learn, Build & Launch Your Career. Studied advanced topics, explored new libraries, and worked on improving practical implementation skills through independent research and practice.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Gained deeper insights into Data Science Internship – Learn, Build & Launch Your Career workflows and refined problem-solving techniques. Learned about new tools and methodologies through self-paced learning and revision of key concepts.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-08T10:00:00.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 2653280,
+    "date": "2026-03-07",
+    "description": "Dedicated the day to self-learning and revising core concepts related to Data Science Internship – Learn, Build & Launch Your Career. Studied advanced topics, explored new libraries, and worked on improving practical implementation skills through independent research and practice.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Gained deeper insights into Data Science Internship – Learn, Build & Launch Your Career workflows and refined problem-solving techniques. Learned about new tools and methodologies through self-paced learning and revision of key concepts.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-29T16:29:37.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 2652565,
+    "date": "2026-03-06",
+    "description": "During the internship, I worked extensively on database management and data analysis using SQL. I learned how to create and manage views, which are virtual tables generated using SELECT queries to simplify complex data retrieval and improve data clarity.\n\nI practiced writing queries for aggregate functions such as COUNT, SUM, MIN, MAX, and AVG to analyze datasets efficiently. I also implemented GROUP BY and HAVING clauses to organize and filter grouped data.\n\nAdditionally, I worked on real-world datasets like e-commerce (Amazon data) to perform business analysis, including calculating total sales, customer behavior, and category-wise performance.\n\nI also explored numerical functions like CEIL, ROUND, ABS, SQRT, POWER, and MOD to perform mathematical operations within SQL queries.\n\nOverall, the internship involved hands-on practice in data querying, database structuring, and analytical problem-solving",
+    "hours": 3,
+    "links": null,
+    "blockers": null,
+    "learnings": "Understood the concept and implementation of SQL Views for simplifying complex queries\nGained knowledge of aggregate functions and their real-world applications\nLearned how to use GROUP BY and HAVING for data grouping and filtering\nDeveloped skills in analyzing e-commerce datasets for business insights\nAcquired understanding of numerical functions in SQL\nImproved ability to write optimized and structured SQL queries\nLearned how to derive meaningful insights from raw data",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-29T16:13:27.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 2652231,
+    "date": "2026-03-05",
+    "description": "On this day, I worked on Structured Query Language (SQL) concepts and practiced different types of SQL commands. I learned about the classification of SQL into DDL, DML, DCL, DQL, and TCL.\n\nI performed practical exercises including:\n\nCreating a database and tables\nDesigning a Departments table with attributes like dept_id, name, count_emp_dept, and dept_mail_id\nInserting multiple records (10–15 rows)\nExecuting various SQL commands such as ALTER, INSERT, CREATE, DROP, TRUNCATE, SELECT, UPDATE, DELETE\nApplying conditions using WHERE clause, logical operators (AND, OR), and comparison operators\nSorting data using ORDER BY\n\nThis helped me understand how databases are structured and manipulated in real-world applications.",
+    "hours": 3,
+    "links": null,
+    "blockers": null,
+    "learnings": "Understood the different types of SQL commands and their purposes\nLearned how to create and manage databases and tables\nGained knowledge of inserting, updating, and deleting data\nPracticed filtering and sorting data using SQL queries\nDeveloped understanding of logical and comparison operators in queries\nImproved ability to handle structured data efficiently",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-29T16:06:45.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 2652143,
+    "date": "2026-03-04",
+    "description": "Studied and practiced concepts of SQL (Structured Query Language) for database management. Learned different types of SQL commands such as DDL, DML, DCL, TCL, and DQL. Performed operations like creating databases, creating tables, inserting, updating, and deleting data. Explored database components like tables, views, joins, and constraints. Also understood SQL data types, operators, and query execution process.",
+    "hours": 3,
+    "links": null,
+    "blockers": null,
+    "learnings": "Understood the role of SQL in managing and manipulating databases\nLearned different SQL command categories (DDL, DML, DCL, TCL, DQL)\nGained knowledge of database structure (tables, rows, columns)\nLearned how to create, use, and delete databases and tables\nUnderstood SQL queries like SELECT, GROUP BY, HAVING, ORDER BY\nLearned about joins, constraints, and views\nUnderstood different data types and operators in SQL\nGained basic understanding of DBMS and ER models\nLearned how SQL processes queries (input → optimization → execution → output)",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-29T16:05:08.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 2652024,
+    "date": "2026-03-03",
+    "description": "Worked on data analysis using Python. Imported datasets and performed preprocessing operations such as handling missing values and exploring unique values. Applied statistical methods to compute averages and distributions of different features.\n\nUsed pandas functions like groupby(), mean(), and value_counts() to analyze data based on categories such as species and gender. Generated insights by comparing feature values across different groups.\n\nExecuted multiple programs in Jupyter Notebook to understand data patterns and improve analytical skills.",
+    "hours": 3,
+    "links": null,
+    "blockers": null,
+    "learnings": "Understood how to use Python for data analysis\nLearned working with pandas library\nGained knowledge of data preprocessing techniques\nLearned grouping of data using groupby() function\nUnderstood calculation of statistical values like mean and percentage\nLearned how to extract meaningful insights from raw data\nImproved logical thinking in analyzing datasets",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-29T16:03:06.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 2651850,
+    "date": "2026-03-02",
+    "description": "Worked on data analysis using Python libraries. Loaded dataset and performed preprocessing steps such as checking data types, handling missing values, and exploring dataset structure. Conducted statistical analysis using functions like describe() to understand data distribution. Visualized data using plotting techniques to identify patterns and relationships between variables. Executed exploratory data analysis (EDA) to extract meaningful insights.",
+    "hours": 3,
+    "links": null,
+    "blockers": null,
+    "learnings": "Understood how to load and explore datasets using Pandas\nLearned to identify data types and perform data preprocessing\nGained knowledge of descriptive statistics and data summarization\nDeveloped skills in data visualization techniques\nLearned how to interpret data patterns and insights\nImproved understanding of exploratory data analysis (EDA)\nEnhanced problem-solving ability using real datasets",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-29T15:59:59.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4614891,
+    "date": "2026-03-01",
+    "description": "Dedicated the day to self-learning and revising core concepts related to Data Science Internship – Learn, Build & Launch Your Career. Studied advanced topics, explored new libraries, and worked on improving practical implementation skills through independent research and practice.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Gained deeper insights into Data Science Internship – Learn, Build & Launch Your Career workflows and refined problem-solving techniques. Learned about new tools and methodologies through self-paced learning and revision of key concepts.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-03-01T10:00:00.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4614890,
+    "date": "2026-02-28",
+    "description": "Dedicated the day to self-learning and revising core concepts related to Data Science Internship – Learn, Build & Launch Your Career. Studied advanced topics, explored new libraries, and worked on improving practical implementation skills through independent research and practice.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Gained deeper insights into Data Science Internship – Learn, Build & Launch Your Career workflows and refined problem-solving techniques. Learned about new tools and methodologies through self-paced learning and revision of key concepts.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-28T10:00:00.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4614889,
+    "date": "2026-02-27",
+    "description": "Worked on implementing and testing various machine learning modules. Focused on data preprocessing, model execution, and validating results to ensure accuracy and consistency.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Improved understanding of data science workflows and model performance validation. Learned how to handle datasets effectively and interpret model outputs for better decision making.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-27T10:00:00.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4614888,
+    "date": "2026-02-26",
+    "description": "Worked on implementing and testing various machine learning modules. Focused on data preprocessing, model execution, and validating results to ensure accuracy and consistency.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Improved understanding of data science workflows and model performance validation. Learned how to handle datasets effectively and interpret model outputs for better decision making.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-26T10:00:00.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4614887,
+    "date": "2026-02-25",
+    "description": "Worked on implementing and testing various machine learning modules. Focused on data preprocessing, model execution, and validating results to ensure accuracy and consistency.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Improved understanding of data science workflows and model performance validation. Learned how to handle datasets effectively and interpret model outputs for better decision making.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-25T10:00:00.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4614886,
+    "date": "2026-02-24",
+    "description": "Worked on implementing and testing various machine learning modules. Focused on data preprocessing, model execution, and validating results to ensure accuracy and consistency.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Improved understanding of data science workflows and model performance validation. Learned how to handle datasets effectively and interpret model outputs for better decision making.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-24T10:00:00.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4614885,
+    "date": "2026-02-23",
+    "description": "Worked on implementing and testing various machine learning modules. Focused on data preprocessing, model execution, and validating results to ensure accuracy and consistency.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Improved understanding of data science workflows and model performance validation. Learned how to handle datasets effectively and interpret model outputs for better decision making.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-23T10:00:00.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4614884,
+    "date": "2026-02-22",
+    "description": "Dedicated the day to self-learning and revising core concepts related to Data Science Internship – Learn, Build & Launch Your Career. Studied advanced topics, explored new libraries, and worked on improving practical implementation skills through independent research and practice.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Gained deeper insights into Data Science Internship – Learn, Build & Launch Your Career workflows and refined problem-solving techniques. Learned about new tools and methodologies through self-paced learning and revision of key concepts.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-22T10:00:00.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 1047061,
+    "date": "2026-02-21",
+    "description": "Dedicated the day to self-learning and revising core concepts related to Data Science Internship – Learn, Build & Launch Your Career. Studied advanced topics, explored new libraries, and worked on improving practical implementation skills through independent research and practice.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Gained deeper insights into Data Science Internship – Learn, Build & Launch Your Career workflows and refined problem-solving techniques. Learned about new tools and methodologies through self-paced learning and revision of key concepts.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-23T14:32:59.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 1045646,
+    "date": "2026-02-20",
+    "description": "worked on a Python-based data analysis task using Jupyter Notebook. I practiced creating and manipulating datasets using Pandas and applied different data operations such as filtering, grouping, and calculating summary statistics.\n\nI also worked on handling errors, debugging code, and improving the structure of my program for better readability. This helped me understand how real-world datasets are processed and analyzed step by step.",
+    "hours": 3,
+    "links": null,
+    "blockers": null,
+    "learnings": "Improved understanding of Pandas DataFrame operations\n\nLearned how to filter and group data effectively\n\nPracticed debugging and fixing runtime errors\n\nGained confidence in using Jupyter Notebook for data tasks\n\nUnderstood how structured data analysis is performed in real projects",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-23T14:14:47.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 1045434,
+    "date": "2026-02-19",
+    "description": "Today I practiced organizing raw data and converting it into meaningful insights using Excel. I created Pivot Tables to calculate total sales, average values, and counts. I applied sorting (highest to lowest), filtering, and used slicers to make the dashboard more interactive. I also worked on grouping date data into months and years to analyze trends clearly.",
+    "hours": 3,
+    "links": null,
+    "blockers": null,
+    "learnings": "Improved understanding of Pivot Tables and slicers\n\nLearned how to group date data by month and year\n\nPracticed converting raw data into structured insights\n\nImproved confidence in data interpretation\n\nStrengthened Excel dashboard skills",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-23T14:12:24.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 1045297,
+    "date": "2026-02-18",
+    "description": "worked on analyzing a dataset related to sales and customer information. I cleaned the data by removing inconsistencies and formatting columns properly. I used Pivot Tables to summarize key metrics such as total revenue, average sales, and category-wise performance.\n\nI also practiced grouping dates by month and year, applied filters and slicers to make the report interactive, and sorted data to identify top-performing products. Additionally, I revised basic probability and statistics concepts required for data analysis.",
+    "hours": 3,
+    "links": null,
+    "blockers": null,
+    "learnings": "Improved understanding of Pivot Tables (Sum, Average, Count functions)\n\nLearned how to use filters and slicers effectively\n\nPracticed date grouping (month/year) in Excel\n\nStrengthened knowledge of data cleaning techniques\n\nUnderstood how to extract business insights from structured datasets",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-23T14:10:44.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 1044866,
+    "date": "2026-02-17",
+    "description": "worked on analyzing the Iris dataset using Python. I explored the dataset structure, converted it into a NumPy array, and examined different flower species such as Iris-setosa, Iris-versicolor, and Iris-virginica. I practiced extracting dataset values using the .values function and understood how features like sepal length, sepal width, petal length, and petal width vary across species. This helped me improve my understanding of data preprocessing and dataset handling for machine learning task",
+    "hours": 3,
+    "links": null,
+    "blockers": null,
+    "learnings": "Today I learned how to handle structured datasets in Python using Pandas and NumPy. I understood how to extract raw data from a DataFrame and analyze feature differences between categories. I also improved my ability to interpret dataset outputs and identify patterns useful for classification problems.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-23T14:05:12.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 1044589,
+    "date": "2026-02-16",
+    "description": "Imported dataset into pandas DataFrame\n\nDisplayed and inspected dataset structure\n\nPracticed handling large datasets efficiently\n\nStudied memory optimization techniques in pandas\n\nPracticed GroupBy operations\n\nLearned difference between loc and iloc\n\nConnected Excel file to pandas\n\nExplored dataset integration concepts (SQL & Kaggle)",
+    "hours": 3,
+    "links": null,
+    "blockers": null,
+    "learnings": "Understood how to load and inspect datasets using pandas\n\nLearned how to handle large datasets efficiently\n\nStudied memory optimization techniques\n\nGained clarity on GroupBy method\n\nUnderstood difference between loc and iloc\n\nLearned how to connect external data sources (Excel, SQL",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-23T14:01:51.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4614883,
+    "date": "2026-02-15",
+    "description": "Dedicated the day to self-learning and revising core concepts related to Data Science Internship – Learn, Build & Launch Your Career. Studied advanced topics, explored new libraries, and worked on improving practical implementation skills through independent research and practice.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Gained deeper insights into Data Science Internship – Learn, Build & Launch Your Career workflows and refined problem-solving techniques. Learned about new tools and methodologies through self-paced learning and revision of key concepts.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-15T10:00:00.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 1044275,
+    "date": "2026-02-14",
+    "description": "Dedicated the day to self-learning and revising core concepts related to Data Science Internship – Learn, Build & Launch Your Career. Studied advanced topics, explored new libraries, and worked on improving practical implementation skills through independent research and practice.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Gained deeper insights into Data Science Internship – Learn, Build & Launch Your Career workflows and refined problem-solving techniques. Learned about new tools and methodologies through self-paced learning and revision of key concepts.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-23T13:57:59.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 1044062,
+    "date": "2026-02-13",
+    "description": "worked on NumPy random number generation functions in Python using Jupyter Notebook. I practiced generating random float values using np.random.rand() and random integer values using np.random.randint(). I executed multiple examples to understand how range and size parameters work. I analyzed the generated arrays and observed how NumPy produces random values for simulations and testing purposes.",
+    "hours": 3,
+    "links": null,
+    "blockers": null,
+    "learnings": "Understood the difference between rand() and randint()\n\nLearned how to generate random float and integer values\n\nPracticed executing Python code in Jupyter Notebook\n\nImproved understanding of NumPy library functions\n\nGained clarity on array outputs and random value generation",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-23T13:55:28.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4614882,
+    "date": "2026-02-12",
+    "description": "Worked on implementing and testing various machine learning modules. Focused on data preprocessing, model execution, and validating results to ensure accuracy and consistency.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Improved understanding of data science workflows and model performance validation. Learned how to handle datasets effectively and interpret model outputs for better decision making.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-12T10:00:00.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 563651,
+    "date": "2026-02-11",
+    "description": "Today, I focused on understanding the basics of data science workflow and explored the project structure provided by the organization. I reviewed datasets, practiced data preprocessing techniques such as handling missing values and formatting data, and executed initial Python notebooks in Google Colab. I also studied the role of libraries like NumPy, Pandas, and Matplotlib in data analysis and visualization. This helped me gain clarity on how raw data is converted into meaningful insight",
+    "hours": 3,
+    "links": null,
+    "blockers": null,
+    "learnings": "I learned the overall workflow of a data science project, including data collection, preprocessing, analysis, and visualization. I understood how Python libraries such as Pandas and NumPy are used for data manipulation and how visualization tools help interpret patterns in datasets. I also became familiar with executing notebooks in Google Colab and organizing project files for future development.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-12T06:42:25.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 563422,
+    "date": "2026-02-10",
+    "description": "Today I focused on understanding the basics of the data science workflow and setting up the working environment. I explored Python libraries used for data analysis such as NumPy, Pandas, and Matplotlib, and practiced loading datasets, performing basic preprocessing, and visualizing simple patterns. I also reviewed introductory concepts of machine learning and understood how data cleaning and feature preparation impact model performance",
+    "hours": 3,
+    "links": null,
+    "blockers": null,
+    "learnings": "Today I learned the importance of data preprocessing and visualization in the data science pipeline. I gained hands-on experience working with Python libraries for handling datasets and generating insights. I also understood the overall flow from raw data collection to preparing data for machine learning models",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-12T06:36:45.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4614881,
+    "date": "2026-02-09",
+    "description": "Worked on implementing and testing various machine learning modules. Focused on data preprocessing, model execution, and validating results to ensure accuracy and consistency.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Improved understanding of data science workflows and model performance validation. Learned how to handle datasets effectively and interpret model outputs for better decision making.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-09T10:00:00.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4614880,
+    "date": "2026-02-08",
+    "description": "Dedicated the day to self-learning and revising core concepts related to Data Science Internship – Learn, Build & Launch Your Career. Studied advanced topics, explored new libraries, and worked on improving practical implementation skills through independent research and practice.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Gained deeper insights into Data Science Internship – Learn, Build & Launch Your Career workflows and refined problem-solving techniques. Learned about new tools and methodologies through self-paced learning and revision of key concepts.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-08T10:00:00.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 4614879,
+    "date": "2026-02-07",
+    "description": "Dedicated the day to self-learning and revising core concepts related to Data Science Internship – Learn, Build & Launch Your Career. Studied advanced topics, explored new libraries, and worked on improving practical implementation skills through independent research and practice.",
+    "hours": 3.5,
+    "links": null,
+    "blockers": null,
+    "learnings": "Gained deeper insights into Data Science Internship – Learn, Build & Launch Your Career workflows and refined problem-solving techniques. Learned about new tools and methodologies through self-paced learning and revision of key concepts.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-07T10:00:00.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 563116,
+    "date": "2026-02-06",
+    "description": "Worked on understanding the project requirements and explored the dataset used for analysis.\nPerformed initial data preprocessing such as handling missing values, removing duplicates, and checking data types.\nPracticed basic data visualization techniques using Python libraries to understand patterns and trends in the dataset.\nAlso reviewed core concepts of machine learning workflow including data cleaning, feature selection, and model preparation",
+    "hours": 2,
+    "links": null,
+    "blockers": null,
+    "learnings": "Learned the importance of data preprocessing before building any machine learning model.\nImproved understanding of Python libraries like NumPy, Pandas, and Matplotlib for data analysis and visualization.\nGained clarity on how real-world datasets contain noise and missing values that must be handled carefully.\nUnderstood the step-by-step workflow followed in a data science project",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-12T06:29:55.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 562992,
+    "date": "2026-02-05",
+    "description": "Worked on understanding the project requirements and explored the dataset used for analysis.\nPerformed initial data preprocessing such as handling missing values, removing duplicates, and checking data types.\nPracticed basic data visualization techniques using Python libraries to understand patterns and trends in the dataset.\nAlso reviewed core concepts of machine learning workflow including data cleaning, feature selection, and model preparation.",
+    "hours": 3,
+    "links": null,
+    "blockers": null,
+    "learnings": "Learned the importance of data preprocessing before building any machine learning model.\nImproved understanding of Python libraries like NumPy, Pandas, and Matplotlib for data analysis and visualization.\nGained clarity on how real-world datasets contain noise and missing values that must be handled carefully.\nUnderstood the step-by-step workflow followed in a data science project",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-12T06:27:00.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 562844,
+    "date": "2026-02-04",
+    "description": "Practiced Python programming concepts including string–integer type errors, list index errors, and exception handling.\nImplemented file handling using CSV to read dataset values and filter rows based on conditions.\nAlso explored dictionary usage and data analysis by identifying records with the highest salary from a dataset.",
+    "hours": 3,
+    "links": null,
+    "blockers": null,
+    "learnings": "Learned how Python handles type mismatch errors and index errors.\nUnderstood exception handling using try–except blocks.\nPracticed reading CSV files and filtering data.\nGained experience in basic data analysis such as finding highest salary records",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-12T06:23:51.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 204561,
+    "date": "2026-02-03",
+    "description": "Concepts Covered: Python control flow structures including nested conditions and dictionary iteration.\n• Practical Implementation:\n• Developed a User Login Access Control system using conditional logic.\n• Built a Product Inventory Checker that iterates through a dictionary to identify out-of-stock items (e.g., Identifying that \"mouse\" is unavailable when stock \\le 0).\n• Created an E-commerce Discount Engine to calculate total cart values and apply membership-based discounts.\n• Implemented an Internship Shortlisting System to filter students based on CGPA criteria using loops and lists.",
+    "hours": 3,
+    "links": null,
+    "blockers": null,
+    "learnings": "Understood the practical application of Comparison and Logical Operators in decision-making.\n• Mastered Conditional Statements (if, elif, else) to control program flow.\n• Learned to automate repetitive tasks using for loops and iterate through Python collections like Lists and Dictionaries.\n• Explored the use of Membership Operators (in, not in) for data valid",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-03T15:17:05.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  },
+  {
+    "id": 203812,
+    "date": "2026-02-02",
+    "description": "Theory: Discussed the role of Generative AI and modern frameworks like LangChain and RAG.\n• Practical: Performed initial data handling in Python.\n• Tasks: Practiced data cleaning and exported processed data using df.to_csv(\"cleaned_raw_logs.csv\").\n• Exploration: Reviewed various roles in the industry (Data Scientist, ML Engineer, etc.) and their specific skill sets.",
+    "hours": 3,
+    "links": null,
+    "blockers": null,
+    "learnings": "Focus on the \"What.\" Based on your notes, you learned the fundamental pillars of modern data technology:\n• Understanding the differences between Data Science, AI, ML, and Deep Learning.\n• Identifying the types of Data Analysis: Descriptive, Diagnostic, Predictive, and Prescriptive.\n• The Project Life Cycle: From business understanding to deployment.",
+    "mood_slider": 5,
+    "status": 2,
+    "created_at": "2026-02-03T15:06:50.000000Z",
+    "internship": {
+      "name": "Data Science Internship – Learn, Build & Launch Your Career"
+    }
+  }
+]
