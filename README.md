@@ -12,6 +12,7 @@ Welcome to my digital garden of knowledge! This repository is a living archive o
 - 🔒 `encrypt-decrypt-app/`: A secure app for encrypting and decrypting text.
 - 🎨 `html-css-experiments/`: The canvas where I paint with HTML and CSS.
 - 🎨 `html-css-experiments-old/`: The canvas where I had painted with HTML and CSS.
+- 📷`image-gen-utils/`: Reusable image-generation helpers powered by Google’s Nano Banana Pro
 - ⚛️ `learn-AZURE/`,`learn-CARDANO`, `learn-LARAVEL/`, `learn-NEXT/`, `learn-REACT/`: My journey through modern web frameworks & DevOps.
 - ✨ `leetcode/`: My journey in solving leetcode based problems using.
 - 📊 `M.E.R.N-Workshop-Materials/`: Unveiling the world of MERN for developer enthusiasts.

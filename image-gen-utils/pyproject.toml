@@ -1,0 +1,9 @@
+[project]
+name = "brink-image-gen-utils"
+version = "0.1.0"
+description = "General-purpose image generation utilities using Nano Banana Pro."
+requires-python = ">=3.10"
+dependencies = [
+  "google-genai",
+  "pillow",
+]
